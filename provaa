@@ -1,0 +1,35 @@
+\score{<< % Apre Canto
+\new Staff="Canto"
+ 
+\relative c' {
+  \clef treble  
+  \key g \major 
+  \time 2/4
+  \tempo 4=108
+  %rigo canto 1.1
+  \partial 8 d'8 ^\markup{\bold "Moderato"}|
+  d8. e16 fis8. g16|
+  fis4 fis8. e16|
+  c8. d16 e8.c16|
+  d4~d8 r|
+  \break
+  %rigo canto 1.2
+  \tupletUp \tuplet 3/2 {d8 d d} e8. b16
+d4 c|
+\tupletUp \tuplet 3/2 {e8 e e} fis8. c16|
+d4 r8 d|
+d8. e16 fis8. g16|
+\break
+  %rigo canto 1.3
+
+  
+  
+     }%Chiude relative Canto 
+   \addlyrics { No pian zer mia Ni ne ta se va do mi li tar,
+   va do ser vir la pa tria e spe ro de tor nar El gior no che ri
+     
+   }%Chiude lyrics1
+   
+   
+>> %Chiude Canto
+}
