@@ -10,6 +10,7 @@
 \new Staff 
 << %Apre aggancio lyrics al Canto
 \relative c'{ 
+\override Staff.Rest.style = #'classical
   \clef treble
   \key d \major
   \time 6/8
@@ -32,7 +33,7 @@
  \stemDown b4.^\< cis\!
  \break
  %rigo canto 2.4
-d'4 \stemUp fis,8 \stemDown b4 a8|
+d4 \stemUp fis,8 \stemDown b4 a8|
 \stemUp g4 a8 g4 a8|
 \stemUp fis4. fis8 r r|
  \stemDown d'4. cis4 cis8
@@ -58,14 +59,18 @@ f4^\( e8\) f4^\( e8\)|
 ees4^( d8) ees 4 d8|
 \break
 %rigo Canto 3.8
-ees'4^\(d8\) ees4^\(d8\)|
+ees4^\(d8\) ees4^\(d8\)|
 des4^\( ^\markup{\italic "poco rit."} c8\) des4 ^\(c8\)|
 b2.^\( f'2\) r8 f8|
 e4.~e4 dis16[ e]|
 \break
 %rigo canto 3.9
-
-    }%Chiude relative Canto
+f4.~f4 e8|
+a,4 r8 r4 r8|
+r4 r8 \stemUp a ^\markup{\italic "rit. a piacere"} a ais
+\stemDown b2.^\(|
+b8) r r b^\markup{\italic "rit:....."} b bis|
+   }%Chiude relative Canto
  \addlyrics {
  Io ri -- do sem -- pre! io
  ri -- do sempre e co -- me pe -- sce_o -- gno -- ra son fe-
@@ -74,6 +79,7 @@ e4.~e4 dis16[ e]|
  let -- to e non ho ma -- lin -- co -- ni -- a
  pian -- ga chi vuo -- _ le e si mar -- tel -- li_il cuo -- _ re _ col -- le pas-
  -sio -- _ni _ e con il mal d'a -- mo -- re e con il
+ mal d'a -- mor! al mal d'a -- mo -- re? al mal d'a-
 
    }%Chiude new staff canto
 >> %Chiude aggancio a lyrics 
@@ -124,7 +130,7 @@ e4.~e4 dis16[ e]|
     r8 r <b g e> r r <cis g e>
     \break
     %rigo 2.4
-    r8 r \stemUp <d' fis, d> r r <b g d>|
+    r8 r \stemUp <d fis, d> r r <b g d>|
     r8 r <a g cis> r8 r <a g cis>|
     r8 r <a fis d> r8 r <a fis d>|
     <<{d4.^^ cis^^
@@ -207,7 +213,7 @@ e4.~e4 dis16[ e]|
     cis4. a
     \break
     %rigo Down 2.4
-    b'4. e,|
+    b4. e,|
     a4. \stemUp a,4.|
     b4. d4.|
     b4. cis|
@@ -233,7 +239,7 @@ e4.~e4 dis16[ e]|
     g4^( fis!8) g4^( fis8)
     \break
     %rigo Down 3.8
-    g'4^( fis!8) g4^( fis!8)|
+    g4^( fis!8) g4^( fis!8)|
     <<{<des' bes g!>4^( ^\markup {\italic "col canto."} <c bes g>8) <des bes g>4^( <c bes g>8)|
     <b! a fis! dis>2.^(
     <<{\change Staff= "Up" f' 2.)}\\{\change Staff ="Down"  \override Stem.length = #14.0 
