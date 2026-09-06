@@ -97,6 +97,31 @@ e4.~ e4 \stemUp fis,8_\(|
 \stemDown e'4\) \stemUp fis,8_\( ^\markup{\italic "strisciato"}\stemDown e'4\) \stemUp fis,8|
 \break
 %rigo canto 4.14
+\stemDown e'4.^\( d4\) r8|
+cis4.^\markup{\italic "A Tempo"} c4 c8|
+b4. bes8 r bes|
+a4 ais8 b4 cis8|
+\break
+%rigo canto 4.15
+d4 r8 r4 d8|
+e4~e16[ fis] e4~e16[ fis]|
+e4.~e4 \stemUp fis,8_\(|
+\stemDown e'4\) a,8 c4 fis8|
+\break
+%rigo canto 5.16
+e4.^\(d8\) r8 r|
+d4.^~d8^\< cis d|
+fis4.^\(a8\)r8^\fermata^\markup{"pausa"} a,8|
+ais4 b8 bis4 cis8|
+\break
+%rigo canto 5.17
+fis4.^( f4) ^\markup{\dynamic f \italic "ten."} e8^>|
+d4^>r8 r4 r8|
+r4 r8 r4 ^\markup{\italic "smorfioso a piacere"} ees8|
+ees4. ees|
+d4 r8 r4 r8|
+\break
+%rigo canto 5.18
    }%Chiude relative Canto
  \addlyrics {
  Io ri -- do sem -- pre! io
@@ -111,7 +136,10 @@ e4.~ e4 \stemUp fis,8_\(|
  mal d'a -- mo -- _ re ohi -- bò più non vi pen -- so...
  vi -- vo ri -- den -- do e con pia -- ce -- re im -- men-
  so! pian -- ga chi vuol e si mar -- tel -- li_il
- cuor
+ cuo -- re col -- le pas --sio -- ni e con il mal d'a-
+ mor al mal d'a -- mor ohi -- bò più non vi
+ pen -- so vi -- vo ri -- den -- do e con pia -- ce -- re_im-
+ men -- _ so al mal d'a -- mor
    }%Chiude new staff canto
 >> %Chiude aggancio a lyrics 
 
@@ -238,6 +266,29 @@ e4.~ e4 \stemUp fis,8_\(|
     <fis, cis g!>4. <e a, g>|
     \break
     %rigo Up 4.13
+    r8 r <<{d d4 d8}\\{\change Staff="Down" \stemUp \override Stem.length = #14.0 <a fis><a fis>4 <a fis>8}>>|
+    \change Staff ="Up" e'4_\p ^\markup{\italic "Animato"}~ e16 fis e4~e16 fis|
+    e4.~e4 r8|e4._.__ _\markup{\italic "col canto"}e4._.__
+    \break
+    %rigo up 4.14
+    e4._( d4) r8|
+    cis4.^^ c^^|
+    b4. bes|
+    a4 ais8 b4 cis8
+    \break
+    %rigo up 4.15
+    d4 r8 r4 d8|
+    e4~e16 fis e4~e16 fis|
+    e4.e4~ r8|
+    e4 a,8 c4 fis8|
+    \break
+    %rigo up 5.16
+    e4._(d8) r r|
+    d4.~ d8 cis d|
+    <fis d>4 r8 <a fis dis a>8^> r8^\fermata _\markup{"pausa"}a,8|
+    ais4 b8 bis4_\< cis8\!|
+    \break
+    %rigo up 5.17
 
    } %Chiude relative Up
      
@@ -347,6 +398,31 @@ e4.~ e4 \stemUp fis,8_\(|
     \stemUp <e a,>4. a,|
     \break
     %rigo Down 4.13
+    <d d,>4 a8\rest a4\rest a8\rest|
+    \stemDown <a' fis d c>4 <a fis d c>8 <a fis d c>4 <a fis d c>8|
+    <a fis d c>4 <a fis d c>8 <a fis d c>4 <a fis d c>8|
+    <a fis d c>4 <a fis d c>8 <a fis d c>4 <a fis d c>8|
+    \break
+    %rigo Down 4.14
+    <g d b>4 <g d b>8 <g d b>4 <g d b>8|
+    <g e a,>4 <g e a,>8 \stemUp <fis d a>4 <fis d a>8|
+    \stemDown <g d g,>4<g d g,>8<g e g,>4<g e g,>8|
+    <g e a,>4 <g e a,>8 <g e a,>4 <g e a,>8|
+    \break
+    %rigo Down 4.15
+    <fis d>4 <a fis d>8 <a fis d>4 <a fis d>8|
+    <a fis d c>4 <a fis d c>8 <a fis d c>4 <a fis d c>8 |
+    <a fis d c>4 <a fis d c>8 <a fis d c>4 <a fis d c>8 |
+    <a fis d c>4 <a fis d c>8 <a fis d c>4 <a fis d c>8 |
+    \break
+    %rigo Down 5.16
+    <g d b>4<g d b>8<g d b>4<g d b>8|
+    <gis f d>4 <gis f d>8 <gis f d>4 <gis f d>8|
+    <a fis d a>4 r8 ^\ff <f dis a>8 r8^\fermata r8 ^\pp|
+    <g e a,>4 <g e a,>8<g e a,>4 <g e a,>8|
+    \break
+    %rigo Down 5.17
+
       } %Chiude relative low
              
 }%Chiude Staff low
