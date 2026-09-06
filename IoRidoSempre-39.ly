@@ -87,7 +87,7 @@ fis4._\( a8\) r r|
 %rigo canto 4.12
 \stemDown b4. cis4 cis8|
 d4.^\( ^\< fis8\)~[ fis16] \! r16^\fermata fis8|
-fis4 ^\< \stemUp gis,8 \stemDown b4 d8|
+fis4 \stemUp gis,8 \stemDown b4 d8|
 fis4. e8[ b cis]|
 \break
 %rigo canto 4.13
@@ -95,7 +95,8 @@ d4 r8 r4 r8|
 e4~ ^\markup{\dynamic p \italic "Animato"} e16[ fis]  e4~ e16 fis|
 e4.~ e4 \stemUp fis,8_\(|
 \stemDown e'4\) \stemUp fis,8_\( ^\markup{\italic "strisciato"}\stemDown e'4\) \stemUp fis,8|
-
+\break
+%rigo canto 4.14
    }%Chiude relative Canto
  \addlyrics {
  Io ri -- do sem -- pre! io
@@ -344,6 +345,8 @@ e4.~ e4 \stemUp fis,8_\(|
     b4.^(^\<gis8)~ [gis16] \! r16^\fermata r8|
     <g e>2.|
     \stemUp <e a,>4. a,|
+    \break
+    %rigo Down 4.13
       } %Chiude relative low
              
 }%Chiude Staff low
