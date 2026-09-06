@@ -29,7 +29,7 @@
  b4.^\< cis|
  d4 \!fis,8 b4 \stemDown a8|
  \stemUp g4.~g4 a8|
- fis4._\(a8 \!r r|
+ fis4._\(a8\) \!r r|
  \stemDown b4.^\< cis\!
  \break
  %rigo canto 2.4
@@ -86,7 +86,7 @@ fis4._\( a8\) r r|
 \break
 %rigo canto 4.12
 \stemDown b4. cis4 cis8|
-d4.^\(^\< fis8\)~[ fis16] r16^\fermata \!fis8|
+d4.^\( ^\< fis8\)~[ fis16] \! r16^\fermata fis8|
 fis4 ^\< \stemUp gis,8 \stemDown b4 d8|
 fis4. e8[ b cis]|
 \break
@@ -94,7 +94,7 @@ fis4. e8[ b cis]|
 d4 r8 r4 r8|
 e4~ ^\markup{\dynamic p \italic "Animato"} e16[ fis]  e4~ e16 fis|
 e4.~ e4 \stemUp fis,8_\(|
-\stemDown e'4\) \stemUp fis,8_\( \stemDown e'4\) \stemUp fis,8|
+\stemDown e'4\) \stemUp fis,8_\( ^\markup{\italic "strisciato"}\stemDown e'4\) \stemUp fis,8|
 
    }%Chiude relative Canto
  \addlyrics {
@@ -341,7 +341,7 @@ e4.~ e4 \stemUp fis,8_\(|
     \break
     %rigo Down 4.12
     cis4.  a ^\markup{\italic "cres."}|
-    b4.^(gis8)~ [gis16] r16^\fermata r8|
+    b4.^(^\<gis8)~ [gis16] \! r16^\fermata r8|
     <g e>2.|
     \stemUp <e a,>4. a,|
       } %Chiude relative low
