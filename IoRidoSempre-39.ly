@@ -318,10 +318,19 @@ d,4\) r8 r4 r8 \bar "|."
     r8  \change Staff="Down"<a, fis>8 \change Staff="Up" d8 r8 \change Staff="Down" <bes g>8 \change Staff="Up" ees8|
      \break
      %rigo Up 5.19
-     % Resta in attesa delle note provenienti dal rigo inferiore
-    <<{e2.\fermata}
+    <<{e2.\fermata|
+    d2.^~|
+    d4 r8 r4 ^\markup{\italic "deciso."}r8|
+    <e d>4.^^ <e cis>^^|
+     d8 r r \stemDown<d'' a fis d>4^^ r8
+    }
     \\
-  { \change Staff = "Down" \override Stem.length = #14.0 \stemUp <b g>2. _\fermata}
+  { \change Staff = "Down" \override Stem.length = #14.0 \stemUp <b,, g>2. _\fermata|
+    <a fis>2.^~_~|
+    <a fis>4 r8 r4 r8^\fff|
+    <a g>4. <a g>|
+    <a fis>8 r r \stemDown <d a>4^^ r8 
+  }
   >>
       } %Chiude relative Up
      
@@ -487,7 +496,11 @@ d,4\) r8 r4 r8 \bar "|."
     >>
     \break
     %rigo Down 5.19
-    <g g,>2.
+    <g g,>2.|
+    <a a,>2.^~_~|
+    <a a,>4 s8 s4 s8|
+    <a a,>4._^ <a a,>_^|
+    <d d,>8 s8 s8 <fis d>4
       } %Chiude relative low
              
 }%Chiude Staff low
