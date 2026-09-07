@@ -122,6 +122,17 @@ ees4. ees|
 d4 r8 r4 r8|
 \break
 %rigo canto 5.18
+r4 r8 r4 ees8|
+ees4. ees8 ees ees|
+ees8 d8 r8 r4 r8|
+R1*6/8|
+\break
+%rigo canto 5.19
+r4 r8^\fermata e8 e e |
+d2.^\(^\markup{"a Tempo."}|
+\stemUp a8\) r r a ^\markup{"deciso."} \stemDown d fis|
+e4. a^^ ^\(|
+d,4\) r8 r4 r8 \bar "|."
    }%Chiude relative Canto
  \addlyrics {
  Io ri -- do sem -- pre! io
@@ -140,6 +151,8 @@ d4 r8 r4 r8|
  mor al mal d'a -- mor ohi -- bò più non vi
  pen -- so vi -- vo ri -- den -- do e con pia -- ce -- re_im-
  men -- _ so al mal d'a -- mor
+ ohi -- bò più non vi pen -- so
+ io ri -- do sem -- pre io ri -- do sem -- _ pre.
    }%Chiude new staff canto
 >> %Chiude aggancio a lyrics 
 
@@ -289,8 +302,28 @@ d4 r8 r4 r8|
     ais4 b8 bis4_\< cis8\!|
     \break
     %rigo up 5.17
-
-   } %Chiude relative Up
+    <<{fis4.~^\markup{\italic "ten."}fis4 fis8^^}
+    \\
+    {\change Staff="Down" ^\f \stemUp <cis a g>4.~<cis a g>4~ <cis a g>8^\ff}
+    >>
+    r8 ^\markup{\italic "a Tempo."}_\p \change Staff="Down" <a fis>8 \change Staff="Up" d8 r8 \change Staff="Down" <bes g>8 \change Staff="Up" ees8|
+    r8  \change Staff="Down"<a, fis>8 \change Staff="Up" d8 r8 \change Staff="Down" <bes g>8 \change Staff="Up" ees8|  
+    R1*6/8 _\markup{\italic "col canto."}|
+    r8^\markup{\italic "a Tempo."}_\p \change Staff = Down <a, fis>8 \change Staff = Up d8 r8 \change Staff = Down <bes g>8 \change Staff = Up ees8 |
+    \break
+    %rigo Up 5.18
+    r8^\markup{\italic "a Tempo."}_\p \change Staff = Down <a, fis>8 \change Staff = Up d8 r8 \change Staff = Down <bes g>8 \change Staff = Up ees8 |
+    R1*6/8|
+    r8  \change Staff="Down"<a, fis>8 \change Staff="Up" d8 r8 \change Staff="Down" <bes g>8 \change Staff="Up" ees8|
+    r8  \change Staff="Down"<a, fis>8 \change Staff="Up" d8 r8 \change Staff="Down" <bes g>8 \change Staff="Up" ees8|
+     \break
+     %rigo Up 5.19
+     % Resta in attesa delle note provenienti dal rigo inferiore
+    <<{e2.\fermata}
+    \\
+  { \change Staff = "Down" \override Stem.length = #14.0 \stemUp <b g>2. _\fermata}
+  >>
+      } %Chiude relative Up
      
 }%Chiude New Staff Up
     \new Staff="Down" { 
@@ -422,7 +455,39 @@ d4 r8 r4 r8|
     <g e a,>4 <g e a,>8<g e a,>4 <g e a,>8|
     \break
     %rigo Down 5.17
-
+    a,4.~a4 a8_^|
+    <<{s1*6/8|s1*6/8}
+    \\
+    {<d d,>8 r r <cis! cis,!> r r|
+    <d d,>8 r r <cis! cis,!> r r|
+    }
+    >>
+    s1*6/8|
+    <d d,>8 r r <cis! cis,!> r r|
+    \break
+    %rigo Down 5.18
+    <<
+    \new Voice = "prima" \relative {
+    \voiceOne
+    % Le note qui avranno i gambi in SU
+    s1*6/8|
+  }
+  \new Voice = "seconda" \relative {
+    \voiceTwo
+    % Le note qui avranno i gambi in GIÙ
+    <d d,>8 r r <cis! cis,!> r r|
+  }
+  >>
+  R1*6/8|
+   <<{s1*6/8|s1*6/8}
+    \\
+    {<d d,>8 r r <cis cis,> r r|
+    <d d,>8 r r <cis cis,> r r|
+    }
+    >>
+    \break
+    %rigo Down 5.19
+    <g g,>2.
       } %Chiude relative low
              
 }%Chiude Staff low
@@ -432,6 +497,10 @@ d4 r8 r4 r8|
 
 \midi { }
 \layout {
+\context {
+    \PianoStaff
+    \consists "Span_stem_engraver"
+  }
     
     %ragged-right = ##t
     %indent = 3\cm
