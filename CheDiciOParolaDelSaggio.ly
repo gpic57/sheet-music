@@ -68,7 +68,14 @@
   %rigo up 1.3a
   b4\arpeggio ^\( ^\markup{\italic "Poco più"} a8 g fis4 g8 d|
   fis4\arpeggio  e2\) ^\< b'4^\(|
-  b4\arpeggio a8\! g fis4 g8 dis s16\)|
+  b4\arpeggio a8\! g fis4 g8 dis|
+  \break
+  %rigo up 2.1a
+  fis,4 e2\) e4|
+  g4 fis8 e e4 dis8 e|
+  fis2~fis8 a8\rest a4\rest|
+  \break
+  %rigo up 2.2a
   }
   \\
   %rigo up 1.1b
@@ -82,9 +89,17 @@
   <fis dis>1\!|
 \break
   %rigo up 1.3b
-  <dis, b>1\arpeggio|
+  <dis b>1\arpeggio|
   b1\arpeggio|
-  <dis b>1\arpeggio
+  <dis b>1^\arpeggio|
+\break
+  %rigo 2.1b
+  c1|
+  ais1|
+  <dis b>2~<dis b>8 s8 s4|
+\break
+  %rigo 2.2b
+  
   }
   >> 
    } %Chiude relative Up
@@ -106,7 +121,14 @@
    %rigo down 1.3
   <a^( b,>1\arpeggio|
   <g) b,>1\arpeggio|
-  <a b,>1 ^\(\arpeggio s16\)
+  <a b,>1 ^\(\arpeggio
+  \break
+   %rigo down 2.1
+   <g c,>1|
+   c,2 _(fis,2|
+   b2)~b8 r8 r4|
+   \break
+   %rigo down 2.2
       } %Chiude relative low
              
 }%Chiude Staff low
