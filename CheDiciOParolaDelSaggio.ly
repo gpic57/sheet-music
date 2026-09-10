@@ -42,11 +42,16 @@
     b4 a8 g \stemDown a4^( c)|
     \break
     %rigo canto 2.3
-    b4 \breathe ^\markup{\italic "poco rit:...................... a tempo"}b b \stemUp a8 g|
+    \stemDown b4 \breathe ^\markup{\italic "poco rit:...................... a tempo"}b b \stemUp a8 g|
     fis4^\< e r4 \stemDown b'\!|
     d2 b4 \breathe c8 d|
     \break
     %rigo canto 2.4
+    c4 b8 a c4 b8 a|
+    \stemUp g4 ^\>fis8 e8 e4 dis8 e|
+    g4 fis4_~fis8\! r b4|
+    \break 
+    %rigo canto 3.5
 
   }%Chiude relative Canto
  \addlyrics {
@@ -55,6 +60,8 @@
  vag -- gio,............ tra -- scor -- ra le fon -- ti_o -- ve be -- ve!,.......
  Io so  che_il van pian -- to mi gua -- sta le ci --
  glia dal -- l'om -- bra sì lun -- ga... O vi -- ta, e_u_ -- na
+  la __  cri -- ma ba -- sta a spe -- gner la fa -- ce con -- sun -- ta!....... Ben
+
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -96,13 +103,19 @@
   %rigo up 2.3a
   r8^\( <g e>4 <g e>8 r <fis dis b>4 <fis dis b>8|
   r8\) ^\<\( \stemUp <e b>4 <e b g> <e b g> <e b g>8\)\!|
-  r8 ^\(<b' e,>4 <b e,>8 r <b gis e>4 <b gis e>8\)|
+  r8 ^\(<b' e,>4 <b e,>8 r <b gis e>4 <b gis e>8|
+  \break
+  %rigo up 2.4a
+  r8 <a, e>4 <a e c> <a e c> <a e c>8\)|
+  b1^\(|
+  g4 fis~fis8\) r8 r4|
+  %rigo up 3.5a
 
   }
   \\
   {
   %rigo up 1.1b
-  <e, b>2 _\pp<e c>|
+  <e b>2 _\pp<e c>|
   <e b>2 <e c>|
   <e b>2 <e c>|
   \break
@@ -127,11 +140,16 @@
   b,2\) c2|
   b2 c2|
   \break
-  %rigo 2.3b
+  %rigo up 2.3b
   b2 a2|
-  g,4 s2.|
+  g4 s2.|
   d'2 d|
-  
+  \break
+  %rigo up 2.4b
+  c4 s8 s2 s8|
+  r8 <e c g>4 <e c g> <e c g> <e c g>8|
+  r8 <dis b a>4 <dis b a><dis b a><dis b a>8
+
   }
   >> 
    } %Chiude relative Up
@@ -174,7 +192,7 @@
    >>
    gis'2^( e2|
    \break
-   %rigo down 2.4
+   
       } %Chiude relative low
              
 }%Chiude Staff low
