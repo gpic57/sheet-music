@@ -39,16 +39,22 @@
     \tempo 4 = 92
     r2 r4 b'^\p^\markup{\italic "Moderato"}|
     b4 a8 g a4 b8 c|
-    b4 a8 g \stemDown a4^\( c\)|
+    b4 a8 g \stemDown a4^( c)|
     \break
     %rigo canto 2.3
+    b4 \breathe ^\markup{\italic "poco rit:...................... a tempo"}b b \stemUp a8 g|
+    fis4^\< e r4 \stemDown b'\!|
+    d2 b4 \breathe c8 d|
+    \break
+    %rigo canto 2.4
+
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
  vie -- ne che l'a -- ni -- ma lie -- ve,..... so -- rel -- la del ven -- to sel-
  vag -- gio,............ tra -- scor -- ra le fon -- ti_o -- ve be -- ve!,.......
  Io so  che_il van pian -- to mi gua -- sta le ci --
- glia dal -- l'om -- bra sì lun -- ga... O vi -- ta, e u -- na
+ glia dal -- l'om -- bra sì lun -- ga... O vi -- ta, e_u_ -- na
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -62,7 +68,7 @@
   \time 4/4
   \relative c' {
   %rigo up 1.1a
-  <<{b''2^\( a4.^\< c8|
+  <<{b'2^\( a4.^\< c8|
   b2 a4~a16 b c8\! ^\>|
   b2 a4~a16 b c8\!|
   \break
@@ -84,14 +90,18 @@
   %rigo up 2.2a
   \tempo 4 = 92
   s1|
-  b8\rest^( <g e>4 <g e>8 b8\rest <fis dis b>4 <fis dis b>8)|
+  b'8\rest^( <g e>4 <g e>8 b8\rest <fis e>4 <fis e>8)|
   b8\rest <g e>4 <g e>8 b8\rest <fis e>4 <fis e>8
    \break
   %rigo up 2.3a
+  r8^\( <g e>4 <g e>8 r <fis dis b>4 <fis dis b>8|
+  r8\) ^\<\( \stemUp <e b>4 <e b g> <e b g> <e b g>8\)\!|
+  r8 ^\(<b' e,>4 <b e,>8 r <b gis e>4 <b gis e>8\)|
   }
   \\
-  {%rigo up 1.1b
-  <e b>2 _\pp<e c>|
+  {
+  %rigo up 1.1b
+  <e' b>2 _\pp<e c>|
   <e b>2 <e c>|
   <e b>2 <e c>|
   \break
@@ -113,8 +123,14 @@
   %rigo up 2.2b
   \tempo 4 = 92
   b'1 ^\markup{\dynamic p \italic "Moderato"}^> ^\(|
-  b,2\) c|
-  b c|
+  b,2\) c2|
+  b2 c2|
+  \break
+  %rigo 2.3b
+  b2 a2|
+  g,4 s2.|
+  d2 d|
+  
   }
   >> 
    } %Chiude relative Up
