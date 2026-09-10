@@ -36,13 +36,19 @@
     fis4 b,4~b8 r r4|
     \break
     %rigo canto 2.2
-    
-
+    \tempo 4 = 92
+    r2 r4 b'^\p^\markup{\italic "Moderato"}|
+    b4 a8 g a4 b8 c|
+    b4 a8 g \stemDown a4^\( c\)|
+    \break
+    %rigo canto 2.3
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
  vie -- ne che l'a -- ni -- ma lie -- ve,..... so -- rel -- la del ven -- to sel-
  vag -- gio,............ tra -- scor -- ra le fon -- ti_o -- ve be -- ve!,.......
+ Io so  che_il van pian -- to mi gua -- sta le ci --
+ glia dal -- l'om -- bra sì lun -- ga... O vi -- ta, e u -- na
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -76,10 +82,16 @@
   fis2~fis8 a8\rest a4\rest|
   \break
   %rigo up 2.2a
+  \tempo 4 = 92
+  s1|
+  b8\rest^( <g e>4 <g e>8 b8\rest <fis dis b>4 <fis dis b>8)|
+  b8\rest <g e>4 <g e>8 b8\rest <fis e>4 <fis e>8
+   \break
+  %rigo up 2.3a
   }
   \\
-  %rigo up 1.1b
-  {<e b>2 _\pp<e c>|
+  {%rigo up 1.1b
+  <e b>2 _\pp<e c>|
   <e b>2 <e c>|
   <e b>2 <e c>|
   \break
@@ -93,17 +105,20 @@
   b1\arpeggio|
   <dis b>1^\arpeggio|
 \break
-  %rigo 2.1b
+  %rigo up 2.1b
   c1|
   ais1|
   <dis b>2~<dis b>8 s8 s4|
 \break
-  %rigo 2.2b
-  
+  %rigo up 2.2b
+  \tempo 4 = 92
+  b'1 ^\markup{\dynamic p \italic "Moderato"}^> ^\(|
+  b,2\) c|
+  b c|
   }
   >> 
    } %Chiude relative Up
-}%Chiude New Staff Down
+}%Chiude New Staff Up
     \new Staff = "down" { 
     \clef bass
     \key g \major
@@ -129,6 +144,7 @@
    b2)~b8 r8 r4|
    \break
    %rigo down 2.2
+   R1*4/4*3
       } %Chiude relative low
              
 }%Chiude Staff low
