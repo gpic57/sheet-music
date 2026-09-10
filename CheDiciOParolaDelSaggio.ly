@@ -68,7 +68,7 @@
   \time 4/4
   \relative c' {
   %rigo up 1.1a
-  <<{b'2^\( a4.^\< c8|
+  <<{b''2^\( a4.^\< c8|
   b2 a4~a16 b c8\! ^\>|
   b2 a4~a16 b c8\!|
   \break
@@ -97,11 +97,12 @@
   r8^\( <g e>4 <g e>8 r <fis dis b>4 <fis dis b>8|
   r8\) ^\<\( \stemUp <e b>4 <e b g> <e b g> <e b g>8\)\!|
   r8 ^\(<b' e,>4 <b e,>8 r <b gis e>4 <b gis e>8\)|
+
   }
   \\
   {
   %rigo up 1.1b
-  <e' b>2 _\pp<e c>|
+  <e, b>2 _\pp<e c>|
   <e b>2 <e c>|
   <e b>2 <e c>|
   \break
@@ -129,7 +130,7 @@
   %rigo 2.3b
   b2 a2|
   g,4 s2.|
-  d2 d|
+  d'2 d|
   
   }
   >> 
@@ -161,6 +162,19 @@
    \break
    %rigo down 2.2
    R1*4/4*3
+   \break
+   %rigo down 2.3
+   <<{d2\rest b2^>^~|
+   b4^~b8 r8 r2|
+   }
+   \\
+   {s2 b2_\(|
+   e,4~e8 s8 s2
+   }
+   >>
+   gis'2^( e2|
+   \break
+   %rigo down 2.4
       } %Chiude relative low
              
 }%Chiude Staff low
