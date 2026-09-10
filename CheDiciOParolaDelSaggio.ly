@@ -149,7 +149,6 @@
   c4 s8 s2 s8|
   r8 <e c g>4 <e c g> <e c g> <e c g>8|
   r8 <dis b a>4 <dis b a><dis b a><dis b a>8
-
   }
   >> 
    } %Chiude relative Up
@@ -192,7 +191,10 @@
    >>
    gis'2^( e2|
    \break
-   
+   %rigo down 2.4
+   a,1\)|
+    ais1_\(|
+    b\)
       } %Chiude relative low
              
 }%Chiude Staff low
