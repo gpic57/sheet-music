@@ -81,6 +81,7 @@
  la __  cri -- ma ba -- sta a spe -- gner la fa -- ce con -- sun -- ta!....... Ben
  so che nel -- l'an -- sia mor -- ta -- le si sfa la mia boc -- ca ri-
  ar -- sa E_un a -- li -- to, o Vi -- ta, va -- le a
+ sper -- der la ce -- ne -- re scar -- sa!........ 
  Tu
    }%Chiude new staff canto
    
