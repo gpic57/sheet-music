@@ -71,6 +71,11 @@
     r2 r4 ^\markup{\italic "I° Tempo"}fis4
     \break
     %rigo canto 4.12
+    \autoBeamOff a4^\< a4~a8 r a a\!|
+    c2 c4 r8^\markup{\italic "Poco più"} b|
+    b4 a8 g fis4 g8 dis8|
+    \break
+    %rigo canto 4.13
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -83,6 +88,9 @@
  ar -- sa E_un a -- li -- to, o Vi -- ta, va -- le a
  sper -- der la ce -- ne -- re scar -- sa!........ 
  Tu
+ di -- ci:....... “Alza il ca -- po; rac -- co -- gli con gra -- zia i ca --
+ pel -- li in un no -- do; e so -- pra le ro -- se che sfo -- gli ri -- den -- do va in-„
+
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -260,7 +268,7 @@
     ais1_\(|
     b\)
     \break
-    %rigo down 3.8
+    %rigo down 3.8a
     e2^( f|
     g2) a!^>^(|
     b2 b|
@@ -283,7 +291,8 @@
     %rigo down 4.12a
     }
     \\
-    {e2 e_\< \override Hairpin.to-barline = ##t | \!
+    { %rigo down 3.8b
+    e2 e_\< \override Hairpin.to-barline = ##t | \!
     \break
     %rigo down 3.11b
     e2 e|
