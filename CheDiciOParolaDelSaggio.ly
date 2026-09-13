@@ -67,7 +67,8 @@
     R1*4/4|
     \break
     %rigo canto 3.11
-
+    R1*4/4*2|
+    r2 r4 ^\markup{\italic "I° Tempo"}fis4
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -78,7 +79,7 @@
  la __  cri -- ma ba -- sta a spe -- gner la fa -- ce con -- sun -- ta!....... Ben
  so che nel -- l'an -- sia mor -- ta -- le si sfa la mia boc -- ca ri-
  ar -- sa E_un a -- li -- to, o Vi -- ta, va -- le a
-
+ Tu
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -184,6 +185,9 @@
  b'2 a4~a8 c|
  \break
   %rigo up 3.11a
+  b2^\< ^\(a4~a16 b c8\!|
+  b2^\> ^\markup{\italic "ritenuto"} a4~a16 b c8\!|
+  fis,2~fis8\) r r4|
   }
   \\
   {r8 <g e>4 <g e>8|
@@ -199,9 +203,10 @@
   r8 _\p \stemDown <e b>4 <e b>8 r <e c>4.
   \break
   %rigo up 3.11b
+  r8 <e b>4 <e b>8 r <e c>4.|
+  r8 <e b>4 <e b>8 r <e c>4.|
+  b2_~b8 s4.
   }
-
-
   >>
    } %Chiude relative Up
 }%Chiude New Staff Up
@@ -264,12 +269,21 @@
     <<{r8 g4 g8 r fis4.
     \break
     %rigo down 3.11a
+    r8_\< g4 g8 r fis4.\!|
+    r8_\> g4 g8 r fis4.\!|
+    fis2~fis8 r r4|
+    \break
+    %rigo down 4.12a
     }
     \\
     {e2 e_\< \override Hairpin.to-barline = ##t | \!
     \break
     %rigo down 3.11b
-
+    e2 e|
+    e2 e|
+    d2~d8 s4.
+    \break
+    %rigo down 4.12b
     }
     >>
       } %Chiude relative low
