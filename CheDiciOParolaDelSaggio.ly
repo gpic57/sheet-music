@@ -30,28 +30,38 @@
     fis4 ^\<e4_~e8 r b'4|
     b4 a8 g\! fis4 g8 dis8|
     \break
-    %rigo canto 2.1
+    %rigo canto 2.4
     fis4 e~e8 r e4|
     g4^\> fis8 e e4 dis8 e\!|
     fis4 b,4~b8 r r4|
     \break
-    %rigo canto 2.2
+    %rigo canto 2.5
     \tempo 4 = 92
     r2 r4 b'^\p^\markup{\italic "Moderato"}|
     b4 a8 g a4 b8 c|
     b4 a8 g \stemDown a4^( c)|
     \break
-    %rigo canto 2.3
+    %rigo canto 2.6
     \stemDown b4 \breathe ^\markup{\italic "poco rit:...................... a tempo"}b b \stemUp a8 g|
     fis4^\< e r4 \stemDown b'\!|
     d2 b4 \breathe c8 d|
     \break
-    %rigo canto 2.4
+    %rigo canto 2.7
     c4 b8 a c4 b8 a|
     \stemUp g4 ^\>fis8 e8 e4 dis8 e|
     g4 fis4_~fis8\! r b4|
     \break 
-    %rigo canto 3.5
+    %rigo canto 3.8
+    \stemDown b4^\markup{\italic "poco affrett."} \stemUp a8 g a4 \stemDown b8^\< c|
+    b8 b4 \breathe b8 cis4\! bis8 cis|
+    cis2 e4 ^\< d!|
+    \break
+    %rigo canto 3.9
+    c4 b~b8 r b4\!|
+    f'2^\markup{\italic "con anima"} e4 d|
+    d4 c8 \breathe c8 c4 d8 c|
+    \break
+    %rigo canto 3.10
 
   }%Chiude relative Canto
  \addlyrics {
@@ -60,7 +70,9 @@
  vag -- gio,............ tra -- scor -- ra le fon -- ti_o -- ve be -- ve!,.......
  Io so  che_il van pian -- to mi gua -- sta le ci --
  glia dal -- l'om -- bra sì lun -- ga... O vi -- ta, e_u_ -- na
-  la __  cri -- ma ba -- sta a spe -- gner la fa -- ce con -- sun -- ta!....... Ben
+ la __  cri -- ma ba -- sta a spe -- gner la fa -- ce con -- sun -- ta!....... Ben
+ so che nel -- l'an -- sia mor -- ta -- le si sfa la mia boc -- ca ri-
+ ar -- sa E_un a -- li -- to, o Vi -- ta, va -- le a
 
    }%Chiude new staff canto
    
@@ -89,28 +101,26 @@
   fis4\arpeggio  e2\) ^\< b'4^\(|
   b4\arpeggio a8\! g fis4 g8 dis|
   \break
-  %rigo up 2.1a
+  %rigo up 2.4a
   fis,4 e2\) e4|
   g4 fis8 e e4 dis8 e|
   fis2~fis8 a8\rest a4\rest|
   \break
-  %rigo up 2.2a
+  %rigo up 2.5a
   \tempo 4 = 92
   s1|
   b'8\rest^( <g e>4 <g e>8 b8\rest <fis e>4 <fis e>8)|
   b8\rest <g e>4 <g e>8 b8\rest <fis e>4 <fis e>8
    \break
-  %rigo up 2.3a
+  %rigo up 2.6a
   r8^\( <g e>4 <g e>8 r <fis dis b>4 <fis dis b>8|
   r8\) ^\<\( \stemUp <e b>4 <e b g> <e b g> <e b g>8\)\!|
   r8 ^\(<b' e,>4 <b e,>8 r <b gis e>4 <b gis e>8|
   \break
-  %rigo up 2.4a
+  %rigo up 2.7a
   r8 <a, e>4 <a e c> <a e c> <a e c>8\)|
   b1^\(|
   g4 fis~fis8\) r8 r4|
-  %rigo up 3.5a
-
   }
   \\
   {
@@ -129,28 +139,55 @@
   b1\arpeggio|
   <dis b>1^\arpeggio|
 \break
-  %rigo up 2.1b
+  %rigo up 2.4b
   c1|
   ais1|
   <dis b>2~<dis b>8 s8 s4|
 \break
-  %rigo up 2.2b
+  %rigo up 2.5b
   \tempo 4 = 92
   b'1 ^\markup{\dynamic p \italic "Moderato"}^> ^\(|
   b,2\) c2|
   b2 c2|
   \break
-  %rigo up 2.3b
+  %rigo up 2.6b
   b2 a2|
   g4 s2.|
   d'2 d|
   \break
-  %rigo up 2.4b
+  %rigo up 2.7b
   c4 s8 s2 s8|
   r8 <e c g>4 <e c g> <e c g> <e c g>8|
-  r8 <dis b a>4 <dis b a><dis b a><dis b a>8
+  r8 <dis b a>4 <dis b a><dis b a><dis b a>8|
   }
-  >> 
+  >>
+  \break
+  %rigo up 3.8
+  r8 ^\markup{\italic "poco affrett."}^\(<e b g>4 <e b g>8 r <a d, c>4 <a d, c>8\)| 
+  r8^( ^\< <b d, b>4 <b d, b>8 r <cis fis,e>4 <cis fis, e>8)\!|
+  r8 <dis fis, dis>4 <dis fis, dis>8
+  <<{e4^( d| 
+  \break
+  %rigo up 3.9a
+  c4 b2) b4^(|
+  f'2 e4 d?|
+  d4 c2.\!)|
+  \break
+ %rigo up 3.10a
+  }
+  \\
+  {r8 <g e>4 <g e>8|
+  \break
+  %rigo up 3.9b
+  r8 <fis dis>4 <fis dis> <fis dis> <fis dis>8|
+  r8 <b f!>4 <b f>8 r8 <gis e>4<gis d>8|
+  r8 <e d>4 <e cis>4 <e cis> <e cis>8|
+  \break
+  %rigo up 3.10b
+  }
+
+
+  >>
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -172,15 +209,15 @@
   <g) b,>1\arpeggio|
   <a b,>1 ^\(\arpeggio
   \break
-   %rigo down 2.1
+   %rigo down 2.4
    <g c,>1|
    c,2 _(fis,2|
    b2)~b8 r8 r4|
    \break
-   %rigo down 2.2
+   %rigo down 2.5
    R1*4/4*3
    \break
-   %rigo down 2.3
+   %rigo down 2.6
    <<{d2\rest b2^>^~|
    b4^~b8 r8 r2|
    }
@@ -191,10 +228,22 @@
    >>
    gis'2^( e2|
    \break
-   %rigo down 2.4
+   %rigo down 2.7
    a,1\)|
     ais1_\(|
     b\)
+    \break
+    %rigo down 3.8
+    e2^( f|
+    g2) a!^>^(|
+    b2 b|
+    \break
+    %rigo down 3.9
+    a1)|
+    gis2^(^\markup{\italic "col canto"} e|
+    a2) fis|
+    \break
+    %rigo down 3.10
       } %Chiude relative low
              
 }%Chiude Staff low
