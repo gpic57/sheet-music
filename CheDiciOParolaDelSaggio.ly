@@ -62,6 +62,11 @@
     d4 c8 \breathe c8 c4 d8 c|
     \break
     %rigo canto 3.10
+    b4 ^\markup{\italic "poco rit."} \stemUp a8 ^\> \breathe g a4 g8 fis|
+    e4\!  e4~e8 r8 r4|
+    R1*4/4|
+    \break
+    %rigo canto 3.11
 
   }%Chiude relative Canto
  \addlyrics {
@@ -109,7 +114,7 @@
   %rigo up 2.5a
   \tempo 4 = 92
   s1|
-  b'8\rest^( <g e>4 <g e>8 b8\rest <fis e>4 <fis e>8)|
+  b'8\rest ^\( <g e>4 <g e>8 b8\rest <fis e>4 <fis e>8\)|
   b8\rest <g e>4 <g e>8 b8\rest <fis e>4 <fis e>8
    \break
   %rigo up 2.6a
@@ -119,8 +124,8 @@
   \break
   %rigo up 2.7a
   r8 <a, e>4 <a e c> <a e c> <a e c>8\)|
-  b1^\(|
-  g4 fis~fis8\) r8 r4|
+  b1^\( ^\>|
+  g4 fis~fis8\)\! r8 r4|
   }
   \\
   {
@@ -166,12 +171,12 @@
   r8 ^\markup{\italic "poco affrett."}^\(<e b g>4 <e b g>8 r <a d, c>4 <a d, c>8\)| 
   r8^( ^\< <b d, b>4 <b d, b>8 r <cis fis,e>4 <cis fis, e>8)\!|
   r8 <dis fis, dis>4 <dis fis, dis>8
-  <<{e4^( d| 
+  <<{e4^\( d| 
   \break
   %rigo up 3.9a
-  c4 b2) b4^(|
+  c4 b2\) b4^\(|
   f'2 e4 d?|
-  d4 c2.\!)|
+  d4 c2.\)|
   \break
  %rigo up 3.10a
   }
@@ -207,7 +212,7 @@
    %rigo down 1.3
   <a^( b,>1\arpeggio|
   <g) b,>1\arpeggio|
-  <a b,>1 ^\(\arpeggio
+  <a b,>1\arpeggio
   \break
    %rigo down 2.4
    <g c,>1|
@@ -226,7 +231,7 @@
    e,4~e8 s8 s2
    }
    >>
-   gis'2^( e2|
+   gis'2^\( e2|
    \break
    %rigo down 2.7
    a,1\)|
