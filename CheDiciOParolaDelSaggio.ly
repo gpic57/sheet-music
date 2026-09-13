@@ -179,6 +179,11 @@
   d4 c2.\)|
   \break
  %rigo up 3.10a
+ g2^\( a4 g8 fis|
+ e8\)^\( b4 b b b8\)|
+ b'2 a4~a8 c|
+ \break
+  %rigo up 3.11a
   }
   \\
   {r8 <g e>4 <g e>8|
@@ -189,6 +194,11 @@
   r8 <e d>4 <e cis>4 <e cis> <e cis>8|
   \break
   %rigo up 3.10b
+  r8 <g e>4 <g e >8 \stemUp<d cis>4 \autoBeamOff <d b>8 <d a>|
+  <b g> <b g>4 <b g> <b g><b g>8|
+  r8 _\p \stemDown <e b>4 <e b>8 r <e c>4.
+  \break
+  %rigo up 3.11b
   }
 
 
@@ -249,6 +259,19 @@
     a2) fis|
     \break
     %rigo down 3.10
+    b2 b,|
+    e2~e8 r r4|
+    <<{r8 g4 g8 r fis4.
+    \break
+    %rigo down 3.11a
+    }
+    \\
+    {e2 e_\< \override Hairpin.to-barline = ##t | \!
+    \break
+    %rigo down 3.11b
+
+    }
+    >>
       } %Chiude relative low
              
 }%Chiude Staff low
