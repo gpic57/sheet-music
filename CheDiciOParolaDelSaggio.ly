@@ -91,7 +91,13 @@
     r4 a c b8 a|
     \break
     %rigo canto 5.16
-
+    c2^\markup{"......................."} \stemUp g4 r4|
+    r4 g8 g g4 fis8 ^\markup{\italic "dim:........."} e \bar "||"
+    \once \override Staff.TimeSignature.style = #'single-number 
+    \time 2/4
+    \tuplet 3/2 {g4 fis e} \tuplet 3/2 {g4 fis e} \bar "||"\time 4/4
+    \break
+    %rigo canto 5.17
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -108,6 +114,7 @@
  -pel -- li_in un no -- do; e so -- pra le ro -- se che sfo -- gli ri -- den -- do va_-in-
  -con -- tro all'i -- gno -- to. L'a -- man -- te da -- gli_oc -- chi di sfin -- ge mu-
  -te -- vo -- le, a cui sei pro -- mes -- sa, ha no -- me Do-
+ -ma -- ni; e ti cin -- ge con u -- na ghir -- lan -- da più
  „
 
    }%Chiude new staff canto
