@@ -68,7 +68,7 @@
     \break
     %rigo canto 3.11
     R1*4/4*2|
-    r2 r4 ^\markup{\italic "I° Tempo"}fis4
+    r2 r4 ^\markup{\italic "I° Tempo"} fis4
     \break
     %rigo canto 4.12
     \autoBeamOff a4^\< a4~a8 r a a\!|
@@ -76,6 +76,9 @@
     b4 a8 g fis4 g8 dis8|
     \break
     %rigo canto 4.13
+    fis4 e8 dis e e r8 \stemDown b'|
+    b4 \stemUp a8 g fis4 g8 dis|
+    fis4 ^\markup{\italic "cres. e affrett."} \< e8 e a4 \! a8 a|
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -88,8 +91,11 @@
  ar -- sa E_un a -- li -- to, o Vi -- ta, va -- le a
  sper -- der la ce -- ne -- re scar -- sa!........ 
  Tu
- di -- ci:....... “Alza il ca -- po; rac -- co -- gli con gra -- zia i ca --
- pel -- li in un no -- do; e so -- pra le ro -- se che sfo -- gli ri -- den -- do va in-„
+ di -- ci:....... “Alza il ca -- po; rac -- co -- gli con gra -- zia_i ca-
+ -pel -- li_in un no -- do; e so -- pra le ro -- se che sfo -- gli ri -- den -- do va_-in-
+ - con -- tro all'i -- gno -- to- L'a -- man -- te da -- gli oc -- chi di sfin -- ge mu-
+ -te -- vo -- le, a cui sei pro -- mes -- sa, ha no -- me Do-
+ „
 
    }%Chiude new staff canto
    
@@ -202,22 +208,25 @@
   \break
   %rigo up 4.12a
   a1^\(|
-  c2.~c8\) b|
+  c2.~c8\) b^\(|
   b4\arpeggio a8 g fis4 g8 dis|
   \break
   %rigo up 4.13a
+  fis4 e2\) b'4^\(
+  b4\arpeggio a8 g fis4 g8 dis|
+  fis4 e\)
   }
   \\
   %rigo up 3.8a
   {r8 <g e>4 <g e>8|
   \break
   %rigo up 3.9b
-  r8 <fis dis>4 <fis dis> <fis dis> <fis dis>8|
+  r8 <fis' dis>4 <fis dis> <fis dis> <fis dis>8|
   r8 <b f!>4 <b f>8 r8 <gis e>4<gis d>8|
   r8 <e d>4 <e cis>4 <e cis> <e cis>8|
   \break
   %rigo up 3.10b
-  r8 <g e>4 <g e >8 \stemUp<d cis>4 \autoBeamOff <d b>8 <d a>|
+  r8 <g, e>4 <g e >8 \stemUp<d cis>4 \autoBeamOff <d b>8 <d a>|
   <b g> <b g>4 <b g> <b g><b g>8|
   r8 _\p \stemDown <e b>4 <e b>8 r <e c>4.
   \break
@@ -232,8 +241,14 @@
   <dis b>1\arpeggio|
   \break
   %rigo up 4.13b
+  b1|
+  <dis b>1\arpeggio|
+  c2
   }
   >>
+  <a' e a,>2^> ^\markup{\italic "cres. e affrett."}|
+  \break
+  %rigo up 4.14
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -313,9 +328,12 @@
     %rigo down 4.12
     fis1^\(|
     a1\) |
-    <a b,>1^\(\arpeggio|
+    <a b,>1^\(\arpeggio ^\(|
     \break
     %rigo down 4.13
+    <g b,>1\)|
+    <a b,>1^\(|
+    <g c,>2\) \stemDown cis,2
       } %Chiude relative low
              
 }%Chiude Staff low
