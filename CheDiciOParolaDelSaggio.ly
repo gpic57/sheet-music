@@ -86,6 +86,11 @@
     \stemUp a4 gis8 a \stemDown d4 cis8 d|
     \break
     %rigo canto 4.15
+    b4 b8 b r4 e4^\markup{\italic "ritenuto............................................................................"}|
+    e4 d8 c d4 b|
+    r4 a c b8 a|
+    \break
+    %rigo canto 5.16
 
   }%Chiude relative Canto
  \addlyrics {
@@ -262,7 +267,19 @@
   <a f c>2\) <d a d,>^\(\!|
   \break
   %rigo up 4.15
-
+   <d b fis>2\)<g b e>2^\(|
+   <<{<e c>4 <d b>8 <c a> d4 b|
+   a1\)|
+   \break
+   %rigo up 5.16a
+   }
+   \\
+   {e2 <gis d>2|
+   c,1|
+    \break
+   %rigo up 5.16b
+   }
+   >>
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -355,7 +372,12 @@
     f2\) fis^\(|
     \break
     %rigo down 4.15
-    e2\)
+    g2\) gis^\(^\markup{\italic "ritenuto............................................................................................"}|
+    a2 e|
+    f1\)|
+    \break
+    %rigo down 5.16
+
       } %Chiude relative low
              
 }%Chiude Staff low
