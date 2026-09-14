@@ -267,14 +267,15 @@
   <a f c>2\) <d a d,>^\(\!|
   \break
   %rigo up 4.15
-   <d b fis>2\)<g b e>2^\(|
-   <<{<e c>4 <d b>8 <c a> d4 b|
+   <d b fis>2\)<<{<e b>2^\(|
+   <e c>4 <d b>8 <c a> d4 b|
    a1\)|
    \break
    %rigo up 5.16a
-   }
+ }
    \\
-   {e2 <gis d>2|
+   {\stemUp e2|
+   e2 <gis d>2|
    c,1|
     \break
    %rigo up 5.16b
