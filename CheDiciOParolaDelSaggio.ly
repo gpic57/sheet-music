@@ -79,6 +79,14 @@
     fis4 e8 dis e e r8 \stemDown b'|
     b4 \stemUp a8 g fis4 g8 dis|
     fis4 ^\markup{\italic "cres. e affrett."} \< e8 e a4 \! a8 a|
+    \break
+    %rigo canto 4.14
+    fis4 fis8 fis \stemDown b4 b|
+    r4 \stemUp g4 \stemDown c4 c8 c| 
+    \stemUp a4 gis8 a \stemDown d4 cis8 d|
+    \break
+    %rigo canto 4.15
+
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -93,7 +101,7 @@
  Tu
  di -- ci:....... “Alza il ca -- po; rac -- co -- gli con gra -- zia_i ca-
  -pel -- li_in un no -- do; e so -- pra le ro -- se che sfo -- gli ri -- den -- do va_-in-
- - con -- tro all'i -- gno -- to- L'a -- man -- te da -- gli oc -- chi di sfin -- ge mu-
+ -con -- tro all'i -- gno -- to. L'a -- man -- te da -- gli_oc -- chi di sfin -- ge mu-
  -te -- vo -- le, a cui sei pro -- mes -- sa, ha no -- me Do-
  „
 
@@ -246,9 +254,15 @@
   c2
   }
   >>
-  <a' e a,>2^> ^\markup{\italic "cres. e affrett."}|
+  <a' e a,>2^>^\( ^\markup{\italic "cres. e affrett."}|
   \break
   %rigo up 4.14
+  <fis d a>2\) <b fis b,>^\(|
+  <g e b>2\)_\< <c g c,>^\(|
+  <a f c>2\) <d a d,>^\(\!|
+  \break
+  %rigo up 4.15
+
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -333,7 +347,15 @@
     %rigo down 4.13
     <g b,>1\)|
     <a b,>1^\(|
-    <g c,>2\) \stemDown cis,2
+    <g c,>2\) \stemDown cis,2_\(|
+    \break
+    %rigo down 4.14
+    d2\) dis^\(|
+    e2\) e2^\(|
+    f2\) fis^\(|
+    \break
+    %rigo down 4.15
+    e2\)
       } %Chiude relative low
              
 }%Chiude Staff low
