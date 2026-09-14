@@ -199,7 +199,13 @@
   b2^\< ^\(a4~a16 b c8\!|
   b2^\> ^\markup{\italic "ritenuto"} a4~a16 b c8\!|
   fis,2~fis8\) r r4|
+  \break
   %rigo up 4.12a
+  a1^\(|
+  c2.~c8\) b|
+  b4\arpeggio a8 g fis4 g8 dis|
+  \break
+  %rigo up 4.13a
   }
   \\
   %rigo up 3.8a
@@ -221,6 +227,11 @@
   b2_~b8 s4.
   \break
   %rigo up 4.12 b
+  <e c>1 _\p _\<|\!
+  <fis dis>1|
+  <dis b>1\arpeggio|
+  \break
+  %rigo up 4.13b
   }
   >>
    } %Chiude relative Up
@@ -288,7 +299,6 @@
     r8_\> g4 g8 r fis4.\!|
     fis2~fis8 r r4|
     \break
-    %rigo down 4.12a
     }
     \\
     { %rigo down 3.8b
@@ -298,10 +308,14 @@
     e2 e|
     e2 e|
     d2~d8 s4.
-    \break
-    %rigo down 4.12b
     }
     >>
+    %rigo down 4.12
+    fis1^\(|
+    a1\)
+    a1^\(|
+    \break
+    %rigo down 4.13
       } %Chiude relative low
              
 }%Chiude Staff low
