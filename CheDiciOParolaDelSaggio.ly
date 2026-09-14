@@ -312,8 +312,8 @@
     >>
     %rigo down 4.12
     fis1^\(|
-    a1\)
-    a1^\(|
+    a1\) |
+    <a b,>1^\(\arpeggio|
     \break
     %rigo down 4.13
       } %Chiude relative low
