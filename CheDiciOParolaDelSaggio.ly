@@ -104,6 +104,9 @@
     b4 b r8 a c4|
     \break
     %rigo canto 5.18
+    r4 b8^\< b a4 b8 c\!|
+    b4 b8 b b4^\> \stemUp a8 g\!|
+    fis4 e4~e8 r r \stemDown b'|
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -122,6 +125,7 @@
  -te -- vo -- le, a cui sei pro -- mes -- sa, ha no -- me Do-
  -ma -- ni; e ti cin -- ge con u -- na ghir -- lan -- da più
  fre -- sca.„.... M'at -- ten -- de: lo so.
+ Ma il_da -- to -- re di gio -- ia non ha più ghir -- lan -- de:............... ha
 
    }%Chiude new staff canto
    
@@ -314,7 +318,7 @@
     c'8\rest ^\( ^\< \stemUp <g e>4<g e>8 \! c8\rest <fis, e>4 <fis e>8\)
     }
     >>
-    
+   
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
