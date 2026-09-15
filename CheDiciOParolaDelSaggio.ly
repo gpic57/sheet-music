@@ -106,7 +106,7 @@
     %rigo canto 5.18
     r4 b8^\< b a4 b8 c\!|
     b4 b8 b b4^\> \stemUp a8 g\!|
-    fis4 e4~e8 r r \stemDown b'|
+    fis4 e4~e8 r^\markup{\italic "cres:.........."} r \stemDown b'|
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
