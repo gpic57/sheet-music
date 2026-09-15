@@ -86,18 +86,24 @@
     \stemUp a4 gis8 a \stemDown d4 cis8 d|
     \break
     %rigo canto 4.15
-    b4 b8 b r4 e4^\markup{\italic "ritenuto............................................................................"}|
+    b4 b8 b r4 e4^\markup{\italic "ritenuto.............................................................................."}|
     e4 d8 c d4 b|
     r4 a c b8 a|
     \break
     %rigo canto 5.16
-    c2^\markup{"......................."} \stemUp g4 r4|
+    c2^\markup{"............................................."} \stemUp g4 r4|
     r4 g8 g g4 fis8 ^\markup{\italic "dim:........."} e \bar "||"
     \once \override Staff.TimeSignature.style = #'single-number 
     \time 2/4
     \tuplet 3/2 {g4 fis e} \tuplet 3/2 {g4 fis e} \bar "||"\time 4/4
     \break
     %rigo canto 5.17
+    g4 fis4~fis8 r8 r4|
+    R1*4/4 ^\markup{\italic "Moderato"}|
+    r2 r4 r8 \stemDown b ^\p|
+    b4 b r8 a c4|
+    \break
+    %rigo canto 5.18
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -115,7 +121,7 @@
  -con -- tro all'i -- gno -- to. L'a -- man -- te da -- gli_oc -- chi di sfin -- ge mu-
  -te -- vo -- le, a cui sei pro -- mes -- sa, ha no -- me Do-
  -ma -- ni; e ti cin -- ge con u -- na ghir -- lan -- da più
- „
+ fre -- sca.„.... M'at -- ten -- de: lo so.
 
    }%Chiude new staff canto
    
@@ -294,6 +300,21 @@
    >>
    \once \override Staff.TimeSignature.style = #'single-number 
     \time 2/4
+    <<{<g' e ais,>1^>_\> ^\( \bar "||"\!
+    g4 fis~fis8\) b8\rest b4\rest|
+    ^\markup{\italic "Moderato"} b1^^~ ^\>|
+    b^\(|\!
+    \stemDown b,2\)_> c2_>|
+    }
+    \\
+    {s1|
+    <dis b>2~<dis b>8 s4.|
+    s1*4/4|
+    s1*4/4|
+    c'8\rest ^\( ^\< \stemUp <g e>4<g e>8 \! c8\rest <fis, e>4 <fis e>8\)
+    }
+    >>
+    
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -391,6 +412,17 @@
     f1\)|
     \break
     %rigo down 5.16
+    e1^\(^\markup{"............................................."}|
+    e4\) r4 r2 \bar "||"
+    \once \override Staff.TimeSignature.style = #'single-number 
+    \time 2/4
+    c1_>_\(|
+    \break
+    %rigo down 5.17
+    \stemUp b2\)~b8 r r4|
+    R1*4/4*3|
+    \break
+    %rigo down 5.18
 
       } %Chiude relative low
              
