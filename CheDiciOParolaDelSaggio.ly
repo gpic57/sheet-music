@@ -279,6 +279,8 @@
    a1\)|
    \break
    %rigo up 5.16a
+   g1~|
+   g4 a4\rest a2\rest \bar "||"
  }
    \\
    {\stemUp e2|
@@ -286,8 +288,12 @@
    c,1|
     \break
    %rigo up 5.16b
+   c1~|
+   c4 s2.\bar "||"
    }
    >>
+   \once \override Staff.TimeSignature.style = #'single-number 
+    \time 2/4
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
