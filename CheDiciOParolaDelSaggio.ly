@@ -305,18 +305,37 @@
    \once \override Staff.TimeSignature.style = #'single-number 
     \time 2/4
     <<{<g' e ais,>1^>_\> ^\( \bar "||"\!
+    \break
+    %rigo up 5.17a
     g4 fis~fis8\) b8\rest b4\rest|
     ^\markup{\italic "Moderato"} b1^^~ ^\>|
     b^\(|\!
     \stemDown b,2\)_> c2_>|
+     \break
+   %rigo up 5.18a
+    c'8\rest^\( \stemUp<g e>4 <g e>8 c8\rest <fis, e>4 <fis e>8
+    c'8\rest <g e>4<g e>8 c8\rest <fis, dis b>4 <fis dis b>8|
+    c'8\rest \)<e, b>4 <e b g>4 <e b g> <e b g>8|
+    \break
+    %rigo up 5.19a
     }
     \\
     {s1|
+     \break
+   %rigo up 5.17b
     <dis b>2~<dis b>8 s4.|
     s1*4/4|
     s1*4/4|
-    c'8\rest ^\( ^\< \stemUp <g e>4<g e>8 \! c8\rest <fis, e>4 <fis e>8\)
-    }
+    c'8\rest ^\( ^\< \stemUp <g e>4<g e>8 \! c8\rest <fis, e>4 <fis e>8\)|
+    \break
+   %rigo up 5.18b
+   b,2_> c_>|
+   \stemDown b2_> _\(a
+   g4\) s2 s4.|
+   \break
+   %rigo 5.19b
+
+   }
     >>
    
    } %Chiude relative Up
@@ -427,7 +446,9 @@
     R1*4/4*3|
     \break
     %rigo down 5.18
-
+    R1*4/4|
+    r2 <b b,>2^>^\(|
+    <e, e,>4\)~ <e e,>8 r r2
       } %Chiude relative low
              
 }%Chiude Staff low
