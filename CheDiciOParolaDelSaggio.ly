@@ -107,6 +107,9 @@
     r4 b8^\< b a4 b8 c\!|
     b4 b8 b b4^\> \stemUp a8 g\!|
     fis4 e4~e8 r^\markup{\italic "cres:.........."} r \stemDown b'|
+    \break
+    %rigo canto 5.19
+    d4 c8 b d4 c8 b|
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -313,11 +316,13 @@
     \stemDown b,2\)_> c2_>|
      \break
    %rigo up 5.18a
-    c'8\rest^\( \stemUp<g e>4 <g e>8 c8\rest <fis, e>4 <fis e>8
-    c'8\rest <g e>4<g e>8 c8\rest <fis, dis b>4 <fis dis b>8|
+    c'8\rest^\( ^\< \stemUp<g e>4 <g e>8 \! c8\rest <fis, e>4 <fis e>8
+    c'8\rest <g e>4<g e>8 c8\rest ^\> <fis, dis b>4 <fis dis b>8 \!|
     c'8\rest \)<e, b>4 <e b g>4 <e b g> <e b g>8|
     \break
     %rigo up 5.19a
+    
+
     }
     \\
     {s1|
@@ -331,7 +336,7 @@
    %rigo up 5.18b
    b,2_> c_>|
    \stemDown b2_> _\(a
-   g4\) s2 s4.|
+   g4\) s2 s4|
    \break
    %rigo 5.19b
 
