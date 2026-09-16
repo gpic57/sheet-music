@@ -110,6 +110,8 @@
     \break
     %rigo canto 5.19
     d4 c8 b d4 c8 b|
+    d4 d2 \breathe \stemUp e,4|
+    g4 ^\< fis8 e e4\! dis8 e|
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -129,7 +131,7 @@
  -ma -- ni; e ti cin -- ge con u -- na ghir -- lan -- da più
  fre -- sca.„.... M'at -- ten -- de: lo so.
  Ma il_da -- to -- re di gio -- ia non ha più ghir -- lan -- de:............... ha
-
+ da -- to_il ci -- pres -- so all'A -- mo -- re e_il mir -- to_a Co -- lei ch'è più
    }%Chiude new staff canto
    
  \new PianoStaff  
