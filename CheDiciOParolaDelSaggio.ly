@@ -112,6 +112,8 @@
     d4 c8 b d4 c8 b|
     d4 d2 \breathe \stemUp e,4|
     g4 ^\< fis8 e e4\! dis8 e|
+    \break
+    %rigo canto 6.20
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -327,7 +329,7 @@
     r8 <a e>4 <a e> <a e c>4 <a e c>8
     g1^\<|\!
     \break
-    %rigo up 5.20a
+    %rigo up 6.20a
     }
     \\
     {s1|
@@ -347,7 +349,8 @@
    d'2 d|
    d4 c~ c8 r8 r4|
    r8 <e c g>4 <e c g> <e c g> <e c g>8|
-
+  \break
+  %rigo up 6.20b
    }
     >>
    
@@ -467,6 +470,8 @@
     \stemDown gis'2^>^\( e|
     a,1\)|
     <ais ais,>1
+    \break
+    %rigo down 6.20
       } %Chiude relative low
              
 }%Chiude Staff low
