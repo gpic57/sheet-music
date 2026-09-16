@@ -323,8 +323,11 @@
     c'8\rest \)<e, b>4 <e b g>4 <e b g> <e b g>8|
     \break
     %rigo up 5.19a
-    
-
+    r8 <g e>4 <g e>8 r <b gis e>4 <b gis e>8|
+    r8 <a e>4 <a e> <a e c>4 <a e c>8
+    g1^\<|\!
+    \break
+    %rigo up 5.20a
     }
     \\
     {s1|
@@ -341,6 +344,9 @@
    g4\) s2 s4|
    \break
    %rigo 5.19b
+   d'2 d|
+   d4 c~ c8 r8 r4|
+   r8 <e c g>4 <e c g> <e c g> <e c g>8|
 
    }
     >>
@@ -456,6 +462,11 @@
     R1*4/4|
     r2 <b b,>2^>^\(|
     <e, e,>4\)~ <e e,>8 r r2
+    \break
+    %rigo down 5.19
+    \stemDown gis'2^>^\( e|
+    a,1\)|
+    <ais ais,>1
       } %Chiude relative low
              
 }%Chiude Staff low
