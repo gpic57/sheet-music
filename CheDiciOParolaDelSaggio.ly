@@ -139,6 +139,7 @@
  fre -- sca.„.... M'at -- ten -- de: lo so.
  Ma il_da -- to -- re di gio -- ia non ha più ghir -- lan -- de:............... ha
  da -- to_il ci -- pres -- so all'A -- mo -- re e_il mir -- to_a Co -- lei ch'è più
+  gran -- de,....... il mir -- to alla Mor -- te che o -- do rom -- bar sul mio
    }%Chiude new staff canto
    
  \new PianoStaff  
