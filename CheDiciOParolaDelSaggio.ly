@@ -114,11 +114,17 @@
     g4 ^\< fis8 e e4\! dis8 e|
     \break
     %rigo canto 6.20
-  g4^\> fis~fis8\! r \stemDown b4 ^\markup{\italic "poco affrett:................................."}|
-  b4 \stemUp a8 g a4 \stemDown b8^\< c|
-  b4 b8 b  cis4 \breathe bis8 cis\!|
-  \break
-  %rigo canto 6.21
+    g4^\> fis~fis8\! r \stemDown b4 ^\markup{\italic "poco affrett:................................."}|
+    b4 \stemUp a8 g a4 \stemDown b8^\< c|
+    b4 b8 b  cis4 \breathe bis8 cis\!|
+    \break
+    %rigo canto 6.21
+    dis2 e4 d4|
+    c4 b4~b8 r^\markup{\italic "cres."} b4|
+    f'2^\markup{\italic "rit:......"} e8 r ^\markup{\italic "a tempo"} d d|
+    \break
+    %rigo canto 6.22
+
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -363,7 +369,9 @@
     >>
    r8^\( <e b g>4 <e b g>8 r <a d,! c>4_\< <a d, c>8\)|
    r8^\( <b d, b>4 <b d, b>8 r <cis fis, e>4 <cis fis, e>8\)\!|
-   } %Chiude relative Up
+   \break
+    %rigo up 6.21
+    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
     \clef bass
@@ -478,9 +486,14 @@
     %rigo down 5.19
     \stemDown gis'2^>^\( e|
     a,1\)|
-    <ais ais,>1
+    <ais ais,>1^\(
     \break
     %rigo down 6.20
+    <b b,>2\)~<b b,>8 r8 r4|
+    e2^\( fis|
+    g2\) ais2^>|
+    \break
+    %rigo down 6.21
       } %Chiude relative low
              
 }%Chiude Staff low
