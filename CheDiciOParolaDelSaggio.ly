@@ -377,19 +377,28 @@
     %rigo up 6.21a
     <<{r8^\( dis4 dis8 e4 d|
     c4 b2\) b4^\(|
-    f'2 e4 d?\)
+    f'2 e4 d?
     \break
     %rigo up 6.22a
+    d4 c2.\)|
+    b2 a4 g8 fis|
+    \break
+    %rigo up 7.23a
     }
     \\
     {
     \break
     %rigo up 6.21b
-    s8 \stemUp <fis, dis>4 <fis dis>8 r \stemDown <g e>4 <g e>8|
+    s8 \stemUp <fis dis>4 <fis dis>8 r \stemDown <g e>4 <g e>8|
     r8 <fis dis>4 <fis dis> <fis dis> _\markup{\italic "cres."} <fis dis>8|
-    r8 <b f>4 _\markup{\italic "col canto"} <b f>8 r <gis e>4 <gis e>8
+    r8 <b f>4 _\markup{\italic "col canto"} <b f>8 r <gis e>4 <gis e>8 
     \break
     %rigo up 6.22b
+    r8 <e d>4 <e c><e c><e c>8|
+    r8_\markup{\italic "poco rit:.........................."} <g e>4 <g e>8 \stemUp <dis c>4 \autoBeamOff<dis b>8 <dis b>|
+    \key e \major 
+    \break
+  %rigo up 7.23b
     }
     >>
     } %Chiude relative Up
@@ -517,10 +526,14 @@
     %rigo down 6.21
     b2\) b^\(|
     a1\)|
-    gis2 e|
+    gis2^\( e|
     \break
     %rigo down 6.22
-
+    a2\) fis^\(|
+    b\) g|
+    \key e \major
+    \break
+    %rigo down 7.23
       } %Chiude relative low
              
 }%Chiude Staff low
