@@ -124,7 +124,9 @@
     f'2^\markup{\italic "rit:......"} e8 r ^\markup{\italic "a tempo"} d d|
     \break
     %rigo canto 6.22
-
+    d4 c8 c c4 d8 c|
+    b4^\markup{\italic "poco rit:................................"} \stemUp a8 \breathe g a4 g8 fis\bar "||"
+    \key e \major
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -145,7 +147,9 @@
  fre -- sca.„.... M'at -- ten -- de: lo so.
  Ma il_da -- to -- re di gio -- ia non ha più ghir -- lan -- de:............... ha
  da -- to_il ci -- pres -- so all'A -- mo -- re e_il mir -- to_a Co -- lei ch'è più
-  gran -- de,....... il mir -- to alla Mor -- te che o -- do rom -- bar sul mio
+ gran -- de,....... il mir -- to alla Mor -- te che o -- do rom -- bar sul mio
+ ca -- po scon -- vol -- to........ Non tre -- mo. I ca-
+ -pel -- li_in un no -- do se -- gre -- to per sem -- pre_ho rac-
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -370,7 +374,24 @@
    r8^\( <e b g>4 <e b g>8 r <a d,! c>4_\< <a d, c>8\)|
    r8^\( <b d, b>4 <b d, b>8 r <cis fis, e>4 <cis fis, e>8\)\!|
    \break
-    %rigo up 6.21
+    %rigo up 6.21a
+    <<{r8^\( dis4 dis8 e4 d|
+    c4 b2\) b4^\(|
+    f'2 e4 d?\)
+    \break
+    %rigo up 6.22a
+    }
+    \\
+    {
+    \break
+    %rigo up 6.21b
+    s8 \stemUp <fis, dis>4 <fis dis>8 r \stemDown <g e>4 <g e>8|
+    r8 <fis dis>4 <fis dis> <fis dis> _\markup{\italic "cres."} <fis dis>8|
+    r8 <b f>4 _\markup{\italic "col canto"} <b f>8 r <gis e>4 <gis e>8
+    \break
+    %rigo up 6.22b
+    }
+    >>
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -491,9 +512,15 @@
     %rigo down 6.20
     <b b,>2\)~<b b,>8 r8 r4|
     e2^\( fis|
-    g2\) ais2^>|
+    g2\) ais2^>^\(|
     \break
     %rigo down 6.21
+    b2\) b^\(|
+    a1\)|
+    gis2 e|
+    \break
+    %rigo down 6.22
+
       } %Chiude relative low
              
 }%Chiude Staff low
