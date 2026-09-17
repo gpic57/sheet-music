@@ -114,7 +114,7 @@
     g4 ^\< fis8 e e4\! dis8 e|
     \break
     %rigo canto 6.20
-  g4^\> fis~fis8\! r \stemDown b4 ^\markup{\italic "Poco affrett:................................."}|
+  g4^\> fis~fis8\! r \stemDown b4 ^\markup{\italic "poco affrett:................................."}|
   b4 \stemUp a8 g a4 \stemDown b8^\< c|
   b4 b8 b  cis4 \breathe bis8 cis\!|
   \break
@@ -278,7 +278,7 @@
   r8 <e b>4 <e b>8 r <e c>4.|
   b2_~b8 s4.
   \break
-  %rigo up 4.12 b
+  %rigo up 4.12b
   <e c>1 _\p _\<|\!
   <fis dis>1|
   <dis b>1\arpeggio|
@@ -333,9 +333,10 @@
     %rigo up 5.19a
     r8 <g e>4 <g e>8 r <b gis e>4 <b gis e>8|
     r8 <a e>4 <a e> <a e c>4 <a e c>8
-    g1^\<|\!
+    g1^\<^\(|\!
     \break
     %rigo up 6.20a
+    g4^\> fis~fis8\) \!r8 r4 ^\markup{\italic "poco affrett."}|
     }
     \\
     {s1|
@@ -357,9 +358,11 @@
    r8 <e c g>4 <e c g> <e c g> <e c g>8|
   \break
   %rigo up 6.20b
+  r8 <dis b a>4 <dis b a> <dis b a> <dis b a>8|
    }
     >>
-   
+   r8^\( <e b g>4 <e b g>8 r <a d,! c>4_\< <a d, c>8\)|
+   r8^\( <b d, b>4 <b d, b>8 r <cis fis, e>4 <cis fis, e>8\)\!|
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
