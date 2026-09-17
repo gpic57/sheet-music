@@ -114,6 +114,11 @@
     g4 ^\< fis8 e e4\! dis8 e|
     \break
     %rigo canto 6.20
+  g4^\> fis~fis8\! r \stemDown b4 ^\markup{\italic "Poco affrett:................................."}|
+  b4 \stemUp a8 g a4 \stemDown b8^\< c|
+  b4 b8 b  cis4 \breathe bis8 cis\!|
+  \break
+  %rigo canto 6.21
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
