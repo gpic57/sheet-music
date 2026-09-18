@@ -134,7 +134,7 @@
     b4 a2 gis4^\<|\!
     \break
     %rigo canto 7.24
-    gis4 fis8 eis fis4 gis8 a|
+    ^\< gis4 fis8 \!eis fis4 gis8 a|
     \stemDown b4 b~b8 r b4^\markup{\italic "cres."}|
     e4 fis8 gis e4 dis8 cis|
     \break
@@ -404,7 +404,7 @@
     <gis e b gis>8^\(_\p<gis e b gis><gis e b gis><gis e b gis><gis e b gis><gis e b gis><gis e b gis><gis e b gis>\)|
     <b fis cis b>8^\(<b fis cis b><a fis cis a><a fis cis a><a fis cis a><a fis cis a>_\< <gis e cis gis><gis e cis gis>\!\)|
     \break
-    %rigo up 7.24
+    
     }
     \\
     {
@@ -423,6 +423,9 @@
     s1*4/4
     }
     >>
+    %rigo up 7.24
+    <gis dis b a?>8_\< ^\(<gis dis b a><fis dis b a>\!<gis! fis b, a>|
+    <fis dis b>8  <fis dis b><gis dis b><a dis, b>\)|
 
     } %Chiude relative Up
 }%Chiude New Staff Up
