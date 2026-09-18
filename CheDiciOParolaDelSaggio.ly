@@ -127,6 +127,11 @@
     d4 c8 c c4 d8 c|
     b4^\markup{\italic "poco rit:................................"} \stemUp a8 \breathe g a4 g8 fis\bar "||"
     \key e \major
+     \break
+    %rigo canto 7.23
+    e4^\markup{\italic "LENTAMENTE"} e4~e8 r^\p gis4^\markup{\italic "triste e sostenuto"}
+    b4 b8 gis8 cis4 c8 gis|
+    b4 a2 gis4^\<|\!
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -150,6 +155,8 @@
  gran -- de,....... il mir -- to alla Mor -- te che o -- do rom -- bar sul mio
  ca -- po scon -- vol -- to........ Non tre -- mo. I ca-
  -pel -- li_in un no -- do se -- gre -- to per sem -- pre_ho rac-
+ col -- to.......... Ho tere -- so con am -- be le ma -- ni l'e-
+
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -374,12 +381,12 @@
    r8^\( <e b g>4 <e b g>8 r <a d,! c>4_\< <a d, c>8\)|
    r8^\( <b d, b>4 <b d, b>8 r <cis fis, e>4 <cis fis, e>8\)\!|
    \break
-    %rigo up 6.21a
+    %rigo up 6.21
     <<{r8^\( dis4 dis8 e4 d|
     c4 b2\) b4^\(|
     f'2 e4 d?
     \break
-    %rigo up 6.22a
+    %rigo up 6.22
     d4 c2.\)|
     b2 a4 g8 fis|
     \break
@@ -530,7 +537,7 @@
     \break
     %rigo down 6.22
     a2\) fis^\(|
-    b\) g|
+    b\) \stemUp b,|
     \key e \major
     \break
     %rigo down 7.23
