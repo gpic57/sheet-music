@@ -139,7 +139,9 @@
     e4 fis8 gis e4 dis8 cis|
     \break
     %rigo canto 7.25
-
+    dis2 \stemUp gis,4^\> gis\!|
+    \stemDown cis4^\p dis8 e cis4 b8 \stemUp a|
+    \stemDown b2 b4 r8 \stemDown b
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -165,6 +167,7 @@
  -pel -- li_in un no -- do se -- gre -- to per sem -- pre_ho rac-
  col -- to.......... Ho tere -- so con am -- be le ma -- ni l'e-
  -stre -- me tue la -_ crime,o Vi -- ta....... L'a -- man -- te che_ha no -- me Do-
+ -ma -- ni m'at -- ten -- de nell'om -- bra in -- fi -- ni -- ta. L'a-
 
    }%Chiude new staff canto
    
