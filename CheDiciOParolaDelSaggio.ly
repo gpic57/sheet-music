@@ -586,6 +586,8 @@
     <b gis b,>8^\(<b gis b,><b gis b,><b gis b,><b gis b,><b gis b,><b gis b,><b gis b,>\)|
     <a e a,>8^\(<a e a,><a e a,><a e a,><a e a,><a e a,><a e a,><a e a,>\)|
     <gis e gis,>8^\(<gis e gis,><gis e gis,><gis e gis,><gis e gis,><gis e gis,><gis e gis,><gis e gis,>\)|
+    \break
+    %rigo down 8.26 
       } %Chiude relative low
              
 }%Chiude Staff low
