@@ -424,8 +424,11 @@
     }
     >>
     %rigo up 7.24
-    <gis dis b a?>8_\< ^\(<gis dis b a><fis dis b a>\!<gis! fis b, a>|
-    <fis dis b>8  <fis dis b><gis dis b><a dis, b>\)|
+    <gis dis b a?>8_\< ^\(<gis dis b a><fis dis b a>\!<gis! fis b, a><fis dis b>8  <fis dis b><gis dis b><a dis, b>\)|
+    <b e, b>8^\(<b e, b><b e, b><b e, b><b gis e b><b gis e b>_\markup{\italic "cres."}<b gis e b><b gis e b>\)|
+    \stemUp <e cis gis e>8^\( <e cis gis e><fis cis fis,>_\markup{\italic "col canto"}<gis cis, gis><e cis gis e><e cis gis e><e cis gis e><e cis gis e>\)|
+    \break
+    %rigo up 7.25
 
     } %Chiude relative Up
 }%Chiude New Staff Up
@@ -564,8 +567,11 @@
     R1*4/4|
     \stemDown fis'2.^\( \stemUp ais,4
     \break
-    %rigo down 7.23
-    b2\)
+    %rigo down 7.24
+    b2\) \stemDown a'?^\(|
+    gis1\)|
+    <cis gis cis,>8^\(<cis gis cis,><cis gis cis,><cis gis cis,><cis gis cis,><cis gis cis,><cis gis cis,><cis gis cis,>\)|
+    
       } %Chiude relative low
              
 }%Chiude Staff low
