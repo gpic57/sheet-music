@@ -127,11 +127,19 @@
     d4 c8 c c4 d8 c|
     b4^\markup{\italic "poco rit:................................"} \stemUp a8 \breathe g a4 g8 fis\bar "||"
     \key e \major
-     \break
+    \break
     %rigo canto 7.23
     e4^\markup{\italic "LENTAMENTE"} e4~e8 r^\p gis4^\markup{\italic "triste e sostenuto"}
     b4 b8 gis8 cis4 c8 gis|
     b4 a2 gis4^\<|\!
+    \break
+    %rigo canto 7.24
+    gis4 fis8 eis fis4 gis8 a|
+    \stemDown b4 b~b8 r b4^\markup{\italic "cres."}|
+    e4 fis8 gis e4 dis8 cis|
+    \break
+    %rigo canto 7.25
+
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -156,6 +164,7 @@
  ca -- po scon -- vol -- to........ Non tre -- mo. I ca-
  -pel -- li_in un no -- do se -- gre -- to per sem -- pre_ho rac-
  col -- to.......... Ho tere -- so con am -- be le ma -- ni l'e-
+ -stre -- me tue la -_ crime,o Vi -- ta....... L'a -- man -- te che_ha no -- me Do-
 
    }%Chiude new staff canto
    
@@ -388,9 +397,14 @@
     \break
     %rigo up 6.22
     d4 c2.\)|
-    b2 a4 g8 fis|
+    b2^\( a4 g8 fis|
     \break
-    %rigo up 7.23a
+    %rigo up 7.23
+    <e b gis>8^\markup{\italic "LENTAMENTE"}_\< <gis e b gis><gis e b gis><gis e b gis>\!_\> <gis e b gis><gis e b gis><gis e b gis><gis e b gis>\!\)|
+    <gis e b gis>8^\(_\p<gis e b gis><gis e b gis><gis e b gis><gis e b gis><gis e b gis><gis e b gis><gis e b gis>\)|
+    <b fis cis b>8^\(<b fis cis b><a fis cis a><a fis cis a><a fis cis a><a fis cis a>_\< <gis e cis gis><gis e cis gis>\!\)|
+    \break
+    %rigo up 7.24
     }
     \\
     {
@@ -405,9 +419,11 @@
     r8_\markup{\italic "poco rit:.........................."} <g e>4 <g e>8 \stemUp <dis c>4 \autoBeamOff<dis b>8 <dis b>|
     \key e \major 
     \break
-  %rigo up 7.23b
+    %rigo up 7.23b
+    s1*4/4
     }
     >>
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -537,10 +553,16 @@
     \break
     %rigo down 6.22
     a2\) fis^\(|
-    b\) \stemUp b,|
+    b\) \stemUp b,_\(|
     \key e \major
     \break
     %rigo down 7.23
+    e,2\)~e8 r r4|
+    R1*4/4|
+    \stemDown fis'2.^\( \stemUp ais,4
+    \break
+    %rigo down 7.23
+    b2\)
       } %Chiude relative low
              
 }%Chiude Staff low
