@@ -141,7 +141,10 @@
     %rigo canto 7.25
     dis2 \stemUp gis,4^\> gis\!|
     \stemDown cis4^\p dis8 e cis4 b8 \stemUp a|
-    \stemDown b2 b4 r8 \stemDown b
+    \stemDown b2 b4 r8 \stemDown b|
+    \break
+    %rigo canto 8.26
+
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -407,7 +410,6 @@
     <gis e b gis>8^\(_\p<gis e b gis><gis e b gis><gis e b gis><gis e b gis><gis e b gis><gis e b gis><gis e b gis>\)|
     <b fis cis b>8^\(<b fis cis b><a fis cis a><a fis cis a><a fis cis a><a fis cis a>_\< <gis e cis gis><gis e cis gis>\!\)|
     \break
-    
     }
     \\
     {
@@ -432,6 +434,11 @@
     \stemUp <e cis gis e>8^\( <e cis gis e><fis cis fis,>_\markup{\italic "col canto"}<gis cis, gis><e cis gis e><e cis gis e><e cis gis e><e cis gis e>\)|
     \break
     %rigo up 7.25
+    <dis gis, dis>8^\(<dis gis, dis><dis gis, dis>_\><dis gis, dis><dis gis, dis><dis gis, dis><dis gis, dis><dis gis, dis>\)
+    <cis a e cis>8_\p <cis a e cis>8^\(<dis a dis,><e a, e><cis a e cis><cis a e cis><cis a e cis><cis a e cis>\)|
+    <b e, b>8^\(<b e, b><b e, b><b e, b><b e, b><b e, b><b e, b><b e, b>\)|
+    \break
+    %rigo up 8.26
 
     } %Chiude relative Up
 }%Chiude New Staff Up
@@ -576,7 +583,9 @@
     <cis gis cis,>8^\(<cis gis cis,><cis gis cis,><cis gis cis,><cis gis cis,><cis gis cis,><cis gis cis,><cis gis cis,>\)|
     \break
     %rigo down 7.25
-    
+    <b gis b,>8^\(<b gis b,><b gis b,><b gis b,><b gis b,><b gis b,><b gis b,><b gis b,>\)|
+    <a e a,>8^\(<a e a,><a e a,><a e a,><a e a,><a e a,><a e a,><a e a,>\)|
+    <gis e gis,>8^\(<gis e gis,><gis e gis,><gis e gis,><gis e gis,><gis e gis,><gis e gis,><gis e gis,>\)|
       } %Chiude relative low
              
 }%Chiude Staff low
