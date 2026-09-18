@@ -571,6 +571,8 @@
     b2\) \stemDown a'?^\(|
     gis1\)|
     <cis gis cis,>8^\(<cis gis cis,><cis gis cis,><cis gis cis,><cis gis cis,><cis gis cis,><cis gis cis,><cis gis cis,>\)|
+    \break
+    %rigo down 7.25
     
       } %Chiude relative low
              
