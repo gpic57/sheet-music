@@ -153,6 +153,7 @@
     R1*4/4*2|
     \break
     %rigo canto 8.28
+    R1*4/4*3|
 
   }%Chiude relative Canto
  \addlyrics {
@@ -453,20 +454,31 @@
     <b' fis cis b>8^\([<b fis cis b>]<a fis cis a>[<a fis cis a><a fis cis a><a fis cis a>][<a fis cis a><a fis cis a>]\)|
     <gis e b gis>8^\([ <gis e b gis>]<gis e b gis>2 <fis dis b a>4 ^\markup{\italic "ten."}\)|
     \break
-    %rigo up 8.27
+    %rigo up 8.27a
     <<{b2^\markup{\italic "a tempo"}^\(a4~a8 cis|
     b2\) a4^\(~a16 b cis8|
     b4~b16 cis dis8 e4~e16 dis e8\)|
-    }
+    \break
+    %rigo up 8.28a
+    <gis e cis>2 <fis cis>4^\( <cis ais>|
+    <e b>4 <dis b> <cis a> <c a>|
+    b2\)^\p a4~a16 b cis8|
+    b4~b8 cis d4~d16 e fis8
+    } 
     \\
-    {<e, b>4 _\p <e b><e cis><e cis>|
+    {\break
+    %rigo up 8.27b
+    <e, b>4 _\p <e b><e cis><e cis>|
     <e b>4 <e b><e cis><e cis>|
     <e b>4 <e b><gis e><gis e>|
+    \break
+    %rigo up 8.28b
+    gis2 \stemUp fis4_\> <fis e>|
+    <a! e> a dis, dis\!|
+    \stemDown <e b> <e b> <e cis>_\<<e cis>|
+    <e b>4<e b> <gis e>\!<gis e>|
     }
     >>
-    \break
-    %rigo up 8.28
-
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
