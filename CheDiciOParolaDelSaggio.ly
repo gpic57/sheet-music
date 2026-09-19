@@ -455,14 +455,18 @@
     \break
     %rigo up 8.27
     <<{b2^\markup{\italic "a tempo"}^\(a4~a8 cis|
-    b2\) a4~a16 b cis8|
-    a4~a16 b cis8|
+    b2\) a4^\(~a16 b cis8|
+    b4~b16 cis dis8 e4~e16 dis e8\)|
     }
     \\
-    {<e, b>4 <e b><e cis><e cis>|
-
+    {<e, b>4 _\p <e b><e cis><e cis>|
+    <e b>4 <e b><e cis><e cis>|
+    <e b>4 <e b><gis e><gis e>|
     }
     >>
+    \break
+    %rigo up 8.28
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -614,7 +618,11 @@
     cis,1^>^\(|fis\)|\stemUp b,2. b,4^\markup{\italic "ten."}|
     \break
     %rigo down 8.27
-
+    \stemDown <gis'' e>4^\(<gis e><a fis e><a fis e>\)|
+    <gis e>4^\(<gis e><a fis e>^\< <a fis e>\)|
+    <gis e>4^\(<gis e><b e,>\!<b e,>\)|
+    \break
+    %rigo down 8.28
       } %Chiude relative low
              
 }%Chiude Staff low
