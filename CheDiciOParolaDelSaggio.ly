@@ -149,6 +149,10 @@
     gis4 gis8 \breathe \tuplet 3/2 {gis8 fis e} e16[_\( gis] ^\markup{\italic "ten."} fis4\)|
     \break
     %rigo canto 8.27
+    e4~e8 r r2|
+    R1*4/4*2|
+    \break
+    %rigo canto 8.28
 
   }%Chiude relative Canto
  \addlyrics {
@@ -177,6 +181,7 @@
  -stre -- me tue la -_ crime,o Vi -- ta....... L'a -- man -- te che_ha no -- me Do-
  -ma -- ni m'at -- ten -- de nell'om -- bra in -- fi -- ni -- ta. L'a-
  -man -- te_che ha no -- me Do -- ma -- ni....... m'at -- ten -- de_nel -- l'om -- bra infi -- _ ni-
+ ta!........ 
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -445,8 +450,19 @@
     \break
     %rigo up 8.26
     <b eis, cis b>8^\( _\markup{\italic "cres."} <b eis, cis b> _\< <cis, b><cis b><eis cis b><eis cis b><eis cis b><eis cis b>\)\!|
-    
-    
+    <b' fis cis b>8^\([<b fis cis b>]<a fis cis a>[<a fis cis a><a fis cis a><a fis cis a>][<a fis cis a><a fis cis a>]\)|
+    <gis e b gis>8^\([ <gis e b gis>]<gis e b gis>2 <fis dis b a>4 ^\markup{\italic "ten."}\)|
+    \break
+    %rigo up 8.27
+    <<{b2^\markup{\italic "a tempo"}^\(a4~a8 cis|
+    b2\) a4~a16 b cis8|
+    a4~a16 b cis8|
+    }
+    \\
+    {<e, b>4 <e b><e cis><e cis>|
+
+    }
+    >>
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -594,7 +610,11 @@
     <a e a,>8^\(<a e a,><a e a,><a e a,><a e a,><a e a,><a e a,><a e a,>\)|
     <gis e gis,>8^\(<gis e gis,><gis e gis,><gis e gis,><gis e gis,><gis e gis,><gis e gis,><gis e gis,>\)|
     \break
-    %rigo down 8.26 
+    %rigo down 8.26
+    cis,1^>^\(|fis\)|\stemUp b,2. b,4^\markup{\italic "ten."}|
+    \break
+    %rigo down 8.27
+
       } %Chiude relative low
              
 }%Chiude Staff low
