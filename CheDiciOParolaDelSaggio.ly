@@ -153,8 +153,9 @@
     R1*4/4*2|
     \break
     %rigo canto 8.28
-    R1*4/4*3|
-
+    R1*4/4*4|
+    %rigo canto 8.29
+    R1*4/4*4|
   }%Chiude relative Canto
  \addlyrics {
  Che di -- ci, o pa -- ro_la del Sag -- gio? "“Con-„"
@@ -463,7 +464,10 @@
     <gis e cis>2\) <fis cis>4^\( <cis ais>|
     <e b>4 <dis b> <cis a> <c a>|
     b2\)^\p a4~a16 b cis8|
-    b4~b8 cis d4~d16 e fis8
+    b4~b8 cis d4~d16 e fis8|
+    \break
+    %rigo up 8.29a
+    \stemDown cis'2^> ^\f
     } 
     \\
     {\break
@@ -477,6 +481,8 @@
     <a! e> a dis, dis\!|
     \stemDown <e b> <e b> <e cis>_\<<e cis>|
     <e b>4<e b> <gis e>\!<gis e>|
+    \break
+    %rigo up 8.29b
     }
     >>
     } %Chiude relative Up
@@ -635,7 +641,12 @@
     <gis e>4^\(<gis e><b e,>\!<b e,>\)|
     \break
     %rigo down 8.28
-
+    \stemUp <ais, ais,>4^> \stemDown <e'' cis gis>^\(<e cis fis,><cis fis,>\)|
+    \stemUp <b, b,>4^> \stemDown dis'4^\( cis c\)|
+    <gis e>4^\( <gis e><a fis e><a fis e>\)|
+    <gis e>4^\( <gis e><b gis><b gis>\)|
+    \break
+    %rigo down 8.29
       } %Chiude relative low
              
 }%Chiude Staff low
