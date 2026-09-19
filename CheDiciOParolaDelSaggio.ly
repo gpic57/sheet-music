@@ -457,10 +457,10 @@
     %rigo up 8.27a
     <<{b2^\markup{\italic "a tempo"}^\(a4~a8 cis|
     b2\) a4^\(~a16 b cis8|
-    b4~b16 cis dis8 e4~e16 dis e8\)|
+    b4~b16 cis dis8 e4~e16 dis e8|
     \break
     %rigo up 8.28a
-    <gis e cis>2 <fis cis>4^\( <cis ais>|
+    <gis e cis>2\) <fis cis>4^\( <cis ais>|
     <e b>4 <dis b> <cis a> <c a>|
     b2\)^\p a4~a16 b cis8|
     b4~b8 cis d4~d16 e fis8
@@ -635,6 +635,7 @@
     <gis e>4^\(<gis e><b e,>\!<b e,>\)|
     \break
     %rigo down 8.28
+
       } %Chiude relative low
              
 }%Chiude Staff low
