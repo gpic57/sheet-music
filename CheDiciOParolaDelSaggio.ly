@@ -144,6 +144,11 @@
     \stemDown b2 b4 r8 \stemDown b|
     \break
     %rigo canto 8.26
+    b4 ^\markup{\italic "cres."} \stemUp cis,8  dis eis4 \stemDown b'8 cis\!|
+    b4 \stemUp a~a8  r a4|
+    gis4 gis8 \breathe \tuplet 3/2 {gis8 fis e} e16[_\( gis] ^\markup{\italic "ten."} fis4\)|
+    \break
+    %rigo canto 8.27
 
   }%Chiude relative Canto
  \addlyrics {
@@ -171,7 +176,7 @@
  col -- to.......... Ho tere -- so con am -- be le ma -- ni l'e-
  -stre -- me tue la -_ crime,o Vi -- ta....... L'a -- man -- te che_ha no -- me Do-
  -ma -- ni m'at -- ten -- de nell'om -- bra in -- fi -- ni -- ta. L'a-
-
+ -man -- te_che ha no -- me Do -- ma -- ni....... m'at -- ten -- de_nel -- l'om -- bra infi -- _ ni-
    }%Chiude new staff canto
    
  \new PianoStaff  
