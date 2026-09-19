@@ -444,7 +444,9 @@
     <b e, b>8^\(<b e, b><b e, b><b e, b><b e, b><b e, b><b e, b><b e, b>\)|
     \break
     %rigo up 8.26
-
+    <b eis, cis b>8^\( _\markup{\italic "cres."} <b eis, cis b> _\< <cis, b><cis b><eis cis b><eis cis b><eis cis b><eis cis b>\)\!|
+    
+    
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
