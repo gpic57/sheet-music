@@ -475,7 +475,7 @@
     %rigo up 8.30a
      e2\)^\<fis\! |
     <gis e>4^~<gis e>8 r <e c>4 ^\p <e c>|
-    <e b gis>2 \change Staff = "down" \crossStaff{<gis,e>4 <gis e>}
+    <e b gis>2 \change Staff = "down" \override Stem.length = #18 \crossStaff{<gis,e>4 <gis e>}
     } 
     \\
     {\break
