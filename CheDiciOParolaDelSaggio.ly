@@ -480,7 +480,7 @@
     \\
     {\break
     %rigo up 8.27b
-    <e b>4 _\p <e b><e cis><e cis>|
+    <e' b>4 _\p <e b><e cis><e cis>|
     <e b>4 <e b><e cis><e cis>|
     <e b>4 <e b><gis e><gis e>|
     \break
