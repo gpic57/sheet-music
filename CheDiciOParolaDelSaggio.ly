@@ -474,8 +474,9 @@
     \break
     %rigo up 8.30a
      e2\)^\<fis\! |
-    <gis e>4^~<gis e>8 r <e c>4 ^\p <e c>|
-    <e b gis>2 \change Staff = "down" \override Stem.length = #18 \crossStaff{^\pp <gis,e>4 <gis e>}
+    <gis e>4^~<gis e>8 r <e c>4^\( ^\p <e c>|
+    <e b gis>2 \change Staff = "down" \override Stem.length = #18 \crossStaff{^\pp <gis,e>4 <gis e>}|
+    \override Stem.length = #18 \crossStaff{<gis e>4^~ }\crossStaff{<gis e>8\)r8 r2}  \bar "|."
     } 
     \\
     {\break
@@ -497,8 +498,7 @@
     \break
     %rigo up 8.30b
     \stemUp <b' gis>2 a4^\>~ a16 b c8|
-    gis4_~gis8\! s8 \change Staff="down" \crossStaff{ fis4 fis4}
-    
+    gis4_~gis8\! s8 \change Staff = "down" \override Stem.length = #18 \crossStaff{ fis,4 fis4}
     }
     >>
     } %Chiude relative Up
@@ -672,6 +672,7 @@
     \stemDown b,4\) b^\( c c |
     b4\) b^\( s2|
     e2\) b4 b|
+    b4_~b8 \change Staff ="up" r8 r2
     }
     \\
     {
@@ -685,7 +686,7 @@
     \stemDown e4_\< e\! e_\> e|
     e4 e\! a4 a16 b c8|
     s2 e,4 _\pp e|
-    
+    e4_~e8 s8 s2 \bar "|."
     }
     >>
       } %Chiude relative low
