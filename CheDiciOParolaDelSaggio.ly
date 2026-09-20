@@ -497,8 +497,8 @@
     s4 <b, a>2.^> _\<|\!
     \break
     %rigo up 8.30b
-    \stemUp <b' gis>2 a4^\>~ a16 b c8|
-    gis4_~gis8\! s8 \change Staff = "down" \override Stem.length = #18 \crossStaff{ fis,4 fis4}
+    \stemUp <b gis>2 a4^\>~ a16 b c8|
+    gis4_~gis8\! s8 \change Staff = "down" \override Stem.length = #18 \crossStaff{ fis4 fis4}
     }
     >>
     } %Chiude relative Up
@@ -684,7 +684,7 @@
     \break
     %rigo down 8.30b
     \stemDown e4_\< e\! e_\> e|
-    e4 e\! a4 a16 b c8|
+    e4 e\! a4_~ _\p a16 b c8|
     s2 e,4 _\pp e|
     e4_~e8 s8 s2 \bar "|."
     }
