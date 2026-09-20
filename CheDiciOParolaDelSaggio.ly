@@ -473,8 +473,9 @@
     b4\) cis!4^\( ^\< dis4 _\( <gis dis>\!|
     \break
     %rigo up 8.30a
-    ^\< e2\)\! fis|
-    <gis e>4^~<gis e>8 r \change Staff="down" <e c fis>4
+     e2\)^\<fis\! |
+    <gis e>4^~<gis e>8 r <e c>4 ^\p <e c>|
+    <e b gis>2 \change Staff = "down" \crossStaff{<gis,e>4 <gis e>}
     } 
     \\
     {\break
@@ -495,8 +496,9 @@
     s4 <b, a>2.^> _\<|\!
     \break
     %rigo up 8.30b
-    <b gis>2 a4~ a16 b c8|
-    gis4_~gis8
+    \stemUp <b' gis>2 a4^\>~ a16 b c8|
+    gis4_~gis8\! s8 \change Staff="down" \crossStaff{ fis4 fis4}
+    
     }
     >>
     } %Chiude relative Up
@@ -667,17 +669,23 @@
     s1*4/4|
     \break
     %rigo down 8.30a
-   
+    \stemDown b,4\) b^\( c c |
+    b4\) b^\( s2|
+    e2\) b4 b|
     }
     \\
     {
     %rigo down 8.29b
-    <a, e>2 <gis' ais,>2_>|
+    <a' e>2 <gis' ais,>2_>|
     <gis b,>2_> cis,4_> c_>|
     b4 r4 r2|
-    r4 \stemUp b2_> _\< b,4\!|
+    r4 \stemUp b,2_> _\< b,4\!|
     \break
     %rigo down 8.30b
+    \stemDown e4_\< e\! e_\> e|
+    e4 e\! a4 a16 b c8|
+    s2 e,4 e|
+    
     }
     >>
       } %Chiude relative low
