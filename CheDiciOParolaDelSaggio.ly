@@ -467,12 +467,17 @@
     b4~b8 cis d4~d16 e fis8|
     \break
     %rigo up 8.29a
-    \stemDown cis'2^> ^\f
+    \stemDown <cis' e, cis>2^> ^\(^\f <c e, c>^>|
+    <b e, b>2^> \stemUp <e, ais, fis e>2\)~|
+    \tuplet 3/2{e8.[_\(_\markup{\italic "dim."} fis16 gis8] } _\> \tuplet 3/2{e8.[ cis16 b8] }\tuplet 3/2{gis8.[ fis16 e8] }cis8^-[c^-]\!|
+    b4\) cis!4 ^\< dis4 _\( <gis dis\)>\!|
+    \break
+    %rigo up 8.30a
     } 
     \\
     {\break
     %rigo up 8.27b
-    <e, b>4 _\p <e b><e cis><e cis>|
+    <e b>4 _\p <e b><e cis><e cis>|
     <e b>4 <e b><e cis><e cis>|
     <e b>4 <e b><gis e><gis e>|
     \break
@@ -483,6 +488,12 @@
     <e b>4<e b> <gis e>\!<gis e>|
     \break
     %rigo up 8.29b
+    s1*4/4*2|
+    <b gis e>4 s2.|
+    s4 <b, a>2.^> _\<|\!
+    \break
+    %rigo up 8.30b
+
     }
     >>
     } %Chiude relative Up
@@ -646,7 +657,26 @@
     <gis e>4^\( <gis e><a fis e><a fis e>\)|
     <gis e>4^\( <gis e><b gis><b gis>\)|
     \break
-    %rigo down 8.29
+    %rigo down 8.29a
+    <<{r4 ^\f e4^> r4 e4^>|
+    r4 e cis c|
+    b4 s2.|
+    s1*4/4|
+    \break
+    %rigo down 8.30a
+
+    }
+    \\
+    {
+    %rigo down 8.29b
+    <a, e>2 <gis' ais,>2_>|
+    <gis' b,>2_> cis,4_> c_>|
+    b4 r4 r2|
+    r4 \stemUp b,2_> _\< b4\!|
+    \break
+    %rigo down 8.30b
+    }
+    >>
       } %Chiude relative low
              
 }%Chiude Staff low
