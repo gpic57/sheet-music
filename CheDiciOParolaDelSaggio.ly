@@ -352,10 +352,10 @@
    \\
    {\stemUp e2|
    e2 <gis d>2|
-   c,1|
+   c1|
     \break
    %rigo up 5.16b
-   c1~|
+   c,1~|
    c4 s2.\bar "||"
    }
    >>
