@@ -56,7 +56,7 @@
     c,2._>~|
     c2.^\fermata|
     a2.~|
-    a2.|
+    a2.^\fermata|
     r4 r8 <g''' e c a>8^>\arpeggio r8 r|
     <c, a f d>8^>\arpeggio r8 r|
     <f d b g>8^> r8 r|
