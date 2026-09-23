@@ -65,6 +65,14 @@
   d8 _\markup{\italic "dim."} \acciaccatura f8 e8_\( d e d e\)
   \break
   %rigo up 1.3
+  d8_\( e d e c e\)|
+  c8 e c e c e|
+  c8 e c b d b|
+  c e c d f d|
+  e g e d fis d|
+  <g b>8 d b d <g bes> <bes d,>|
+  \break
+  %rigo up 2.4
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -95,6 +103,14 @@
     >>
     \break
     %rigo down 1.3
+    f8^\( g f g e g\)|
+    e8 g e g^\markup{\dynamic p \italic "legato"} e g|
+    c4. d|
+    d4. b|
+    c4. d|
+    g4. g.|
+    \break
+    %rigo down 2.4
       } %Chiude relative low
              
 }%Chiude Staff low
