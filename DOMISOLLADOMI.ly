@@ -103,8 +103,8 @@
     >>
     \break
     %rigo down 1.3
-    f8^\( g f g e g\)|
-    e8 g e g^\markup{\dynamic p \italic "legato"} e g|
+    f8^\(^\< g f g\! e^\> g\)|
+    e8 g\! e g^\markup{\dynamic p \italic "legato"} e g|
     c,4. d|
     d4. b|
     c4. d|
