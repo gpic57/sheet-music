@@ -23,7 +23,7 @@
     
   }%Chiude relative Canto
  \addlyrics {
- Che di -- ci........ 
+ L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
    }%Chiude new staff canto
    
  \new PianoStaff  
