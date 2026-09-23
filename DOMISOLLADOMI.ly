@@ -18,7 +18,7 @@
     \time 6/8
     \tempo 4 = 66
     %rigo canto 1.1
-    R1*4/4*3
+    R1*4/4*6
     \break
     
   }%Chiude relative Canto
@@ -36,8 +36,15 @@
   \key c \major 
   \time 6/8
   \relative c' {
-  %rigo up 1.1a
-  c4
+  %rigo up 1.1
+  r4 \sustainOn r8 _\f e4._>|
+  <<{\stemUp g''2.^>^\fermata}\\{e,,2.}>>|
+  r4 r8 _\pp c4.|
+  <<{e''2.^\fermata}\\{c,,2.}>>|
+  r4 \sustainOff r8 _\f g'''16^. e^. c^. e^. c^. a^.|
+  c16^. a^. f^. a^. f^. d^. f^. d^. b^. d^. b^. g^.|
+  \break
+  %rigo up 1.2
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -45,7 +52,16 @@
     \key c \major
     \time 6/8
     \relative c{
-    c4
+    %rigo down 1.1
+    c,2._>~|
+    c2.^\fermata|
+    a2.~|
+    a2.|
+    r4 r8 <g''' e c a>8^>\arpeggio r8 r|
+    <c, a f d>8^>\arpeggio r8 r|
+    <f d b g>8^> r8 r|
+    \break
+    %rigo down 1.2
       } %Chiude relative low
              
 }%Chiude Staff low
