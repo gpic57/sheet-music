@@ -18,10 +18,10 @@
     \time 6/8
     \tempo 4 = 66
     %rigo canto 1.1
-    R1*4/4*6
+    R1*6/8*6
     \break
     %rigo canto 1.2
-    R1*4/4*6
+    R1*6/8*6
     \break
     %rigo canto 1.3
     R1*6/8|
@@ -105,10 +105,10 @@
     %rigo down 1.3
     f8^\( g f g e g\)|
     e8 g e g^\markup{\dynamic p \italic "legato"} e g|
-    c4. d|
+    c,4. d|
     d4. b|
     c4. d|
-    g4. g|
+    g4. g,|
     \break
     %rigo down 2.4
       } %Chiude relative low
