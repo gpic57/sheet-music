@@ -14,8 +14,8 @@
   \relative c' {
   
     \clef treble_8
-    \key g \major 
-    \time 4/4
+    \key c \major 
+    \time 6/8
     \tempo 4 = 66
     %rigo canto 1.1
     R1*4/4*3
@@ -27,14 +27,14 @@
    }%Chiude new staff canto
    
  \new PianoStaff  
-      \with { instrumentName = \markup{\bold "LENTO" }
+      \with { instrumentName = \markup{\bold "Allegretto" }
  }
 <<
   \new Staff="up" { 
     \set PianoStaff.connectArpeggios = ##t
   \clef treble  
-  \key g \major 
-  \time 4/4
+  \key c \major 
+  \time 6/8
   \relative c' {
   %rigo up 1.1a
   c4
@@ -42,8 +42,8 @@
 }%Chiude New Staff Up
     \new Staff = "down" { 
     \clef bass
-    \key g \major
-    \time 4/4
+    \key c \major
+    \time 6/8
     \relative c{
     c4
       } %Chiude relative low
