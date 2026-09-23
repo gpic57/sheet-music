@@ -68,9 +68,9 @@
   d8_\( e d e c e\)|
   c8 e c e c e|
   c8 e c b d b|
-  c e c d f d|
-  e g e d fis d|
-  <g b>8 d b d <g bes> <bes d,>|
+  c e c d f d_\<|
+  e g e\! d _\>fis d|
+  <g b,>8 d\! b d <g bes> <bes d,>|
   \break
   %rigo up 2.4
     } %Chiude relative Up
