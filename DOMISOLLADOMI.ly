@@ -27,10 +27,9 @@
     R1*6/8|
     r4 r8 r \autoBeamOff c8 ^\p e|
     g4 g8 g4 g8|
-    g4 g8 g4 g8|
-    g8_\([ a\)]|
-    b \acciaccatura d8 c4 b8|
-    g4 r8 r g8 bes|
+    g4 g8 g4 g8^\<|
+    g8_\([ a\)] b\! \acciaccatura d8^\> c4 b8|
+    g4 \! r8 r g8 bes|
     \break
     %rigo canto 1.4
 
