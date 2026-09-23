@@ -20,7 +20,11 @@
     %rigo canto 1.1
     R1*4/4*6
     \break
-    
+    %rigo canto 1.2
+    R1*4/4*6
+    \break
+    %rigo canto 1.3
+
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
@@ -45,6 +49,14 @@
   c16^. a^. f^. a^. f^. d^. f^. d^. b^. d^. b^. g^.|
   \break
   %rigo up 1.2
+  \stemUp  r8 r<c e,>8 d,16_( e f g a b)|
+  \stemDown c8^. r8 c^~ \stemUp c16 b_\( a g f e\)|
+  a16_\(g f e d c d e f g a b\)|
+  \stemDown c8^. r8 c^~ \stemUp c16 b_\( a g f e\)|
+  d2._~_>|
+  d8 _\markup{\italic "dim."} \acciaccatura f8 e8_\( d e d e\)
+  \break
+  %rigo up 1.3
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -62,6 +74,17 @@
     <f d b g>8^>\arpeggio r8 r|
     \break
     %rigo down 1.2
+    c,_. r <g' e>8^. g,8_. r <g' f>^.|
+    c,_. r <g' e>8^. g,8_. r <g' f>^.|
+    c,_. r <g' e>8^. g,8_. r <g' f>^.|
+    c,_. r <g' e>8^. g,8_. r <g' f>^.|
+    <<{\stemDown g2.^>~|
+    \stemUp g4 f8^\( g f g\)|
+    }
+    \\
+    {c,2.|
+    c2.}
+    >>
       } %Chiude relative low
              
 }%Chiude Staff low
