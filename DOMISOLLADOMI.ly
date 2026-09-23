@@ -108,7 +108,7 @@
     c4. d|
     d4. b|
     c4. d|
-    g4. g.|
+    g4. g|
     \break
     %rigo down 2.4
       } %Chiude relative low
