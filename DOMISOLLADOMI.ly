@@ -52,7 +52,8 @@
     \stemDown  c'4 \stemUp g8 e_\([ c]\) e|
     g4 g8 g4 g8|
     c,8 r r r4 r8|
-    R1*6/8|
+    R1*6/8*2|
+
     \break
     %rigo canto 3.7
 
@@ -114,9 +115,14 @@
   c2.|
   \break
   %rigo up 2.6
-  %c4_\p \stemUp a8 f[ d f]|
-  %c'4 g8 e8[ c e]|
-  % g4
+  \stemDown c'4_\p \stemUp a8 f[ d f]|
+  \stemDown c'4 \stemUp g8 e8[ c e]|
+  g4 f8 d[ b d]|
+  c8 r r d16_\( e f g a b\)|
+  \stemDown c8 r c^>~c16_\( b a g f e\)|
+  a16_\( g f e d c d e f g a b\)|
+  \break
+  %rigo up 3.7
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -171,6 +177,14 @@
     <a e a,>2.|
     \break
     %rigo  down 2.6
+    <c a f d>4. r4 r8|
+    <e c g>4. r4 r8|
+    \stemDown <g, d g,>4. r4 r8|
+    \stemUp c,8 r \stemDown <g' e>^. \stemUp g,_. r \stemDown <g' f>^.|
+    \stemUp c,8 r \stemDown <g' e>^. \stemUp g,_. r \stemDown <g' f>^.|
+    \stemUp c,8 r \stemDown <g' e>^. \stemUp g,_. r \stemDown <g' f>^.|
+    \break
+    %rigo down 3.7
 
       } %Chiude relative low
              
