@@ -31,11 +31,29 @@
     g8_\([ a\)] b\! \acciaccatura d8^\> c4 b8|
     g4 \! r8 r g8 bes|
     \break
-    %rigo canto 1.4
+    %rigo canto 2.4
+    d4 d8 d4 d8|
+    d4 d8 d4 d8|
+    d8^\(^\<[ e\)] fis\! g4^\> f8\!|
+    d4 r8 r d d|
+    d4 d8 c4 c8|
+    e4.^> f8 a,8 a|
+    \break
+    %rigo canto 2.5
+    a4 a8 g4 g8|
+    b4.^> c8 e, e|
+    e4 e8 d4 d8|
+    fis4.^> g8^\< g g|
+    a4 a8\! \acciaccatura c8 \stemUp b8_\([a\)] \stemDown b8|
+    c4. c4 c8|
+    \break
+    %rigo canto 2.6
 
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
+ so tra -- scri -- ver fi -- so nè col ver -- so nè col suon o -- ra_è bian -- ca ed_o -- ra_è bru -- na o -- ra
+ so -- le ed_o -- ra_è lu -- na o -- ra_è car -- me_ed o -- ra_è ru -- na la me -- lo -- di -- ca..... vi -- sion o -- ra_è
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -73,6 +91,15 @@
   <g b,>8 d\! b d <g bes> <bes d,>|
   \break
   %rigo up 2.4
+  g8 bes g fis a fis|
+  g8 bes g a c a|
+  bes8 d bes a cis a|
+  <d f,>8 a f d r r|
+  \stemDown d' f, d' c f, c'|
+  <<{e4. \stemDown f8 c\rest c\rest}\\{bes8 c bes a s4|}>>
+  \break
+  %rigo up 2.5
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -111,6 +138,15 @@
     g4. g,|
     \break
     %rigo down 2.4
+    g'4. a|
+    g4. fis|
+    g4. a|
+    d4.~d8 r r|
+    bes4. a|
+    g4. f8 r r|
+    \break
+    %rigo down 2.5
+
       } %Chiude relative low
              
 }%Chiude Staff low
