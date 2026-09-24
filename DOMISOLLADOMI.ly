@@ -99,6 +99,14 @@
   <<{e4. \stemDown f8 c\rest c\rest}\\{bes8 c bes a s4|}>>
   \break
   %rigo up 2.5
+  \stemUp a8 d, a' g c, g'|
+  <<{b4. c8 s4}\\{f,8_> g f \stemUp e r r}>>|
+  e8 a, e' d a d|
+  <<{fis4.<g b>8 d_\< b|e8 c e\! d f! d|}\\{c8_> d c s4.|s1*6/8}>>|
+  
+  c2.|
+  \break
+  %rigo up 2.6
 
     } %Chiude relative Up
 }%Chiude New Staff Up
