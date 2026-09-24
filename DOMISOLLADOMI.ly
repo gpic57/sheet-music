@@ -48,12 +48,20 @@
     c4. c4 c8|
     \break
     %rigo canto 2.6
+    c4^\p \stemUp a8 f8_\([ d\)] f8|
+    \stemDown  c'4 \stemUp g8 e_\([ c]\) e|
+    g4 g8 g4 g8|
+    c,8 r r r4 r8|
+    R1*6/8|
+    \break
+    %rigo canto 3.7
 
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
  so tra -- scri -- ver fi -- so nè col ver -- so nè col suon o -- ra_è bian -- ca ed_o -- ra_è bru -- na o -- ra
  so -- le ed_o -- ra_è lu -- na o -- ra_è car -- me_ed o -- ra_è ru -- na la me -- lo -- di -- ca..... vi -- sion o -- ra_è
+ bian -- ca_ed o -- ra_è bru -- na la...... me -- lo -- di -- ca vi -- sion.
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -103,11 +111,12 @@
   <<{b4. c8 s4}\\{f,8_> g f \stemUp e r r}>>|
   e8 a, e' d a d|
   <<{fis4.<g b>8 d_\< b|e8 c e\! d f! d|}\\{c8_> d c s4.|s1*6/8}>>|
-  
   c2.|
   \break
   %rigo up 2.6
-
+  %c4_\p \stemUp a8 f[ d f]|
+  %c'4 g8 e8[ c e]|
+  % g4
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -154,6 +163,14 @@
     g4. f8 r r|
     \break
     %rigo down 2.5
+    f4. e|
+    d4. c8 r r|
+    c4. b|
+    a4. g|
+    c4. g'|
+    <a e a,>2.|
+    \break
+    %rigo  down 2.6
 
       } %Chiude relative low
              
