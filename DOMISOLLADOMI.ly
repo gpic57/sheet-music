@@ -166,15 +166,19 @@
   <e d>4. <e, c>4 r8|
   <<{s1*6/8|
   \break
+  %rigo up 3.9a
   g''2.}
     \\
     {
     r4 r8_\markup{\italic "marc."} \stemUp e,,4._> _\(|
   \break
-  %rigo up 3.9
-  e2.\)}
-    >>
-  
+  %rigo up 3.9b
+  e2.\)
+  }
+  >>
+  c16_\( <e^\( c\)> <g e\) c>4 r4 r8^\fermata|
+  c16~[ <e^\( c>] \stemDown <g e\) c>4 r4 r8|
+  r4 r8 g,16^._\markup{\italic "gaiamente"} a^. bes^. c^. d^. e^.
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -257,7 +261,9 @@
     \stemUp c,2._>_\(
     \break
     %rigo down 3.9
-    c,2.\)
+    c,2.\)|
+    R1*6/8*2|
+    r4 r8 c'8_. r \stemDown <c' bes>^.
       } %Chiude relative low
              
 }%Chiude Staff low
