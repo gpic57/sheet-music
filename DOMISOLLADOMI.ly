@@ -77,10 +77,13 @@
    f4 f8^>^\(f16\) e d c bes \stemUp a|
    \stemUp d16^\([c\)] bes[_\(a g f]\) g a \stemDown bes c d e|
    f4 f8^> f16 e d c bes \stemUp a|
-   g2.|
+   g2._ \(|
    \break
    %rigo canto 4.11
-
+   g8\)[ \acciaccatura bes8 a8_\( g] a[ g a\)]|
+   f4 r8 r4 r8|
+   a16 \stemDown b! cis8^> d8^> \stemUp a16 g f8 e|
+   f16 g a8 bes^> f16 ees d8 c|
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
@@ -91,7 +94,8 @@
  come_un fio -- re di ci -- na -- bro e di -- sciogle al ri -- so il vol il......... vol en -- tro l'a -- ni -- ma mi scuo -- te
  co -- me_il toc -- co di tre no -- te Do, Mi, Sol. Do, Mi Sol..... ma voi sie -- te_an -- cor più
  lie -- ta.... voi sie -- te an -- cor più lie -- ta..... che l'ac -- cor -- do del po -- e -- ta che l'ac -- cor -- do del po -- e-
-
+ _ -- _ ta se nel vo -- str'oc -- chio pro -- fon -- do sen -- za mar -- go sen -- za fon -- do
+ 
    }%Chiude new staff canto
    
  \new PianoStaff  
