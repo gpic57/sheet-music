@@ -60,6 +60,21 @@
     %rigo canto 3.7
     R1*6/8*3|R1*6/8 ^\markup{\italic "Un po' più lento"}|
     \stemDown c'16^. d^. e^. r f^. r c^. bes^. \stemUp a^. r g^. r|
+   \break
+   %rigo canto 3.8%
+   a16 \stemDown b!16 cis r d r \stemUp a g f r e r|
+   f16 g a \stemDown b c d e4.^\(|
+   \stemUp e,4\)~e16_\([b'\)] a4 r8|
+   \stemDown c16 c c8 c c16 c c8 c|
+   \break
+   %rigo canto 3.9
+   c16 c c c c c c4^\fermata c8|
+   r4 r8 c16 e g4^\fermata|
+   r4 r8 \stemUp c,,16 e g4^\fermata~|
+   g4.^\markup{\italic "I° Tempo"}g16 a \stemDown bes c d e|
+   \break
+   %rigo canto 4.10
+
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
@@ -67,7 +82,9 @@
  so -- le ed_o -- ra_è lu -- na o -- ra_è car -- me_ed o -- ra_è ru -- na la me -- lo -- di -- ca..... vi -- sion o -- ra_è
  bian -- ca_ed o -- ra_è bru -- na la...... me -- lo -- di -- ca vi -- sion.
  Quan -- do sboc -- cia_il vo -- stro la -- bro
-co -- me un fio -- re di ci -- na -- bro
+ come_un fio -- re di ci -- na -- bro e di -- sciogle al ri -- so il vol il......... vol en -- tro l'a -- ni -- ma mi scuo -- te
+ co -- me_il toc -- co di tre no -- te Do, Mi, Sol. Do, Mi Sol..... ma voi sie -- te_an -- cor più
+ 
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -144,6 +161,20 @@ co -- me un fio -- re di ci -- na -- bro
   <c' a f>16[_. <d a f>_.<e a, f>_. r <f a, f>_.] r <c e, c>_.[<bes e, c>_.<a e c>_. r <g e c>]_. r|
   \break
   %rigo up 3.8
+  <f d>16-.[ <b! f> -.<cis f, d> -. r16 <d f, d>-.] r16| <a cis, a> <g cis, a>-. <f c a>-. r <e c a>-. r|
+  <f d>16_\< <g e> <a f> <b g> <c a> <d b>\! <e c a e>4.|
+  <e d>4. <e, c>4 r8|
+  <<{s1*6/8|
+  \break
+  g''2.}
+    \\
+    {
+    r4 r8_\markup{\italic "marc."} \stemUp e,,4._> _\(|
+  \break
+  %rigo up 3.9
+  e2.\)}
+    >>
+  
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -220,6 +251,13 @@ co -- me un fio -- re di ci -- na -- bro
     <c f,>8^. r8 <c a>16^. r <g c,>8^. r <g e>16 r|
     \break
     %rigo down 3.8
+    <a d,>8^. r <a f b,>16 r16 <a f>8 r <e cis>16 r16|
+    <b a f>4. <c a e>|
+    <gis' e>4. <a e a,>4 r8|
+    \stemUp c,2._>_\(
+    \break
+    %rigo down 3.9
+    c,2.\)
       } %Chiude relative low
              
 }%Chiude Staff low
