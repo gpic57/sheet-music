@@ -142,7 +142,8 @@ co -- me un fio -- re di ci -- na -- bro
   d8  \acciaccatura f8 e8_\( d e d e|
   c8^\markup{\italic "rall."} e c e c e\)|
   <c' a f>16[_. <d a f>_.<e a, f>_. r <f a, f>_.] r <c e, c>_.[<bes e, c>_.<a e c>_. r <g e c>]_. r|
-  
+  \break
+  %rigo up 3.8
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -205,7 +206,20 @@ co -- me un fio -- re di ci -- na -- bro
     \stemUp c,8 r \stemDown <g' e>^. \stemUp g,_. r \stemDown <g' f>^.|
     \break
     %rigo down 3.7
-
+    a8 r <g e> d r <g f>|
+    <<{g2.~|
+    f4 f8 g f g|
+    bes2.|
+    }
+    \\
+    {\stemUp c,2.|
+    \stemDown c2.
+    e8 g e g e g|
+    }
+    >>
+    <c f,>8^. r8 <c a>16^. r <g c,>8^. r <g e>16 r|
+    \break
+    %rigo down 3.8
       } %Chiude relative low
              
 }%Chiude Staff low
