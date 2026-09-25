@@ -300,6 +300,15 @@
     >>
     \break
     %rigo down 4.11
+    <<{c'4\) bes8 c bes c|
+    }
+    \\
+    {f,2.|
+    }
+    >>
+    \stemDown a8 f^\markup{\italic "rall."} a f a f|
+    <a d,>8 r <a f>^> \stemUp <e a,>8 r <e cis>8|
+    \stemDown <f bes,>8 r <f d>8^> <c f,>8 r <c a>|
     
       } %Chiude relative low
              
