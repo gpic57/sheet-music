@@ -137,6 +137,12 @@ co -- me un fio -- re di ci -- na -- bro
   a16_\( g f e d c d e f g a b\)|
   \break
   %rigo up 3.7
+  c8^. r c8^>~\stemUp c16_\( b a g f e\)|
+  d2.~|
+  d8  \acciaccatura f8 e8_\( d e d e|
+  c8^\markup{\italic "rall."} e c e c e\)|
+  <c' a f>16[_. <d a f>_.<e a, f>_. r <f a, f>_.] r <c e, c>_.[<bes e, c>_.<a e c>_. r <g e c>]_. r|
+  
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
