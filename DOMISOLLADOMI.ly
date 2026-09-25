@@ -79,7 +79,9 @@
   r4 \sustainOn r8 _\f e4._>|
   <<{\stemUp g''2.^>^\fermata}\\{e,,2.}>>|
   r4 r8 _\pp c4.|
-  <<{e''2.^\fermata}\\{c,,2. \sustainOff}>>|
+  <<{e''2.^\fermata}\\{% Sposta il sustainOff a destra di 1.5 spazi del rigo
+  \once \override Staff.SustainPedal.X-offset = #2 c,,2. 
+   \sustainOff}>>|
   r4 r8 _\f g'''16^. e^. c^. e^. c^. a^.|
   c16^. a^. f^. a^. f^. d^. f^. d^. b^. d^. b^. g^.|
   \break
