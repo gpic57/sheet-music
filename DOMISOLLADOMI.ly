@@ -90,7 +90,8 @@
    c,4_~c16 g' f4 r8|
    a16 a a8 a a16 a a8 a|
    a16 a a a a a a4^\fermata a8|
-
+   \break
+  %rigo canto 5.13
 
   }%Chiude relative Canto
  \addlyrics {
@@ -226,6 +227,8 @@
   c2.\)
   }
   >>
+  \break
+  %rigo up 5.13
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -339,7 +342,8 @@
     <e c>4. \stemUp <f c f,>4 r8|
     a,,2.~|
     a2.^\fermata|
-
+    \break
+    %rigo down 5.13
       } %Chiude relative low
              
 }%Chiude Staff low
