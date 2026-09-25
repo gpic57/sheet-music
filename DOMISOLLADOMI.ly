@@ -10,13 +10,13 @@
   \new Staff = "Canto" \with {     
     instrumentName = "Tenore "
     midiInstrument = "voice oohs"  % Suono vocale più dolce
-  % Imposta il volume massimo del coro molto alto
+  % Imposta il volume massimo del Tenore molto alto
       midiMaximumVolume = #0.9
       midiMinimumVolume = #0.8
       } 
   \relative c' {
   
-    \clef treble_8
+    \clef treble
     \key c \major 
     \time 6/8
     \tempo 4 = 66
@@ -58,13 +58,16 @@
     R1*6/8*2|
     \break
     %rigo canto 3.7
-    R1*6/8*4|c16
+    R1*6/8*4|
+    \stemDown c'16^. d^. e^. r f^. r c^. bes^. \stemUp a^. r g^. r|
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
  so tra -- scri -- ver fi -- so nè col ver -- so nè col suon o -- ra_è bian -- ca ed_o -- ra_è bru -- na o -- ra
  so -- le ed_o -- ra_è lu -- na o -- ra_è car -- me_ed o -- ra_è ru -- na la me -- lo -- di -- ca..... vi -- sion o -- ra_è
  bian -- ca_ed o -- ra_è bru -- na la...... me -- lo -- di -- ca vi -- sion.
+ Quan -- do sboc -- cia_il vo -- stro la -- bro
+co -- me un fio -- re di ci -- na -- bro
    }%Chiude new staff canto
    
  \new PianoStaff  
