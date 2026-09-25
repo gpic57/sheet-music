@@ -179,6 +179,8 @@
   c16_\( <e^\( c\)> <g e\) c>4 r4 r8^\fermata|
   c16~[ <e^\( c>] \stemDown <g e\) c>4 r4 r8|
   r4 r8 g,16^._\markup{\italic "gaiamente"} a^. bes^. c^. d^. e^.
+ \break
+ %rigo up 4.10
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -264,6 +266,8 @@
     c,2.\)|
     R1*6/8*2|
     r4 r8 c'8_. r \stemDown <c' bes>^.
+    \break
+    %rigo down 4.10
       } %Chiude relative low
              
 }%Chiude Staff low
