@@ -84,6 +84,9 @@
    f4 r8 r4 r8|
    a16 \stemDown b! cis8^> d8^> \stemUp a16 g f8 e|
    f16 g a8 bes^> f16 ees d8 c|
+   \break
+   %rigo canto 4.12
+   d16
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
@@ -202,6 +205,12 @@
   f a f a f a|
   <a f d>16_.[ <b f d>_. <cis f, d>8_. <d f, d> ]<a cis, a>16[ <g cis, a> <f cis a>8<e cis a>]
   <f d>16 <g d> <a d, bes>8 <bes d, bes>_>
+  <<{f16 ees d8 c}
+  \\
+  {\stemUp \change Staff="down" <a f>16<a f><a f>8<a f>}
+  >>
+  \break
+  %rigo up 4.12
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -309,7 +318,9 @@
     \stemDown a8 f^\markup{\italic "rall."} a f a f|
     <a d,>8 r <a f>^> \stemUp <e a,>8 r <e cis>8|
     \stemDown <f bes,>8 r <f d>8^> <c f,>8 r <c a>|
-    
+    \break
+    %rigo down 4.12
+
       } %Chiude relative low
              
 }%Chiude Staff low
