@@ -86,7 +86,12 @@
    f16 g a8 bes^> f16 ees d8 c|
    \break
    %rigo canto 4.12
-   d16
+   d16 ees f g a \stemDown bes \stemUp c4.|
+   c,4_~c16 g' f4 r8|
+   a16 a a8 a a16 a a8 a|
+   a16 a a a a a a4^\fermata a8|
+
+
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
@@ -98,7 +103,7 @@
  co -- me_il toc -- co di tre no -- te Do, Mi, Sol. Do, Mi Sol..... ma voi sie -- te_an -- cor più
  lie -- ta.... voi sie -- te an -- cor più lie -- ta..... che l'ac -- cor -- do del po -- e -- ta che l'ac -- cor -- do del po -- e-
  _ -- _ ta se nel vo -- str'oc -- chio pro -- fon -- do sen -- za mar -- go sen -- za fon -- do
- 
+ cer -- co il ri -- so che sva_nì che..... sva -- nì sul -- la ce -- gtra mi per -- co -- te co -- me l'au -- ra di tre no -- te
    }%Chiude new staff canto
    
  \new PianoStaff  
