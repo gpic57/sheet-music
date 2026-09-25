@@ -10,7 +10,10 @@
   \new Staff = "Canto" \with {     
     instrumentName = "Tenore "
     midiInstrument = "voice oohs"  % Suono vocale più dolce
-  } 
+  % Imposta il volume massimo del coro molto alto
+      midiMaximumVolume = #0.9
+      midiMinimumVolume = #0.8
+      } 
   \relative c' {
   
     \clef treble_8
