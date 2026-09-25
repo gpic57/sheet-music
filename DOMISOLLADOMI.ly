@@ -58,7 +58,7 @@
     R1*6/8*2|
     \break
     %rigo canto 3.7
-    R1*6/8*4|
+    R1*6/8*3|R1*6/8 ^\markup{\italic "Un po' più lento"}|
     \stemDown c'16^. d^. e^. r f^. r c^. bes^. \stemUp a^. r g^. r|
   }%Chiude relative Canto
  \addlyrics {
