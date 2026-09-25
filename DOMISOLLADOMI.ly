@@ -53,10 +53,9 @@
     g4 g8 g4 g8|
     c,8 r r r4 r8|
     R1*6/8*2|
-
     \break
     %rigo canto 3.7
-
+    R1*6/8*4|c16
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
@@ -76,12 +75,19 @@
   \time 6/8
   \relative c' {
   %rigo up 1.1
-  r4 \sustainOn r8 _\f e4._>|
-  <<{\stemUp g''2.^>^\fermata}\\{e,,2.}>>|
-  r4 r8 _\pp c4.|
-  <<{e''2.^\fermata}\\{% Sposta il sustainOff a destra di 1.5 spazi del rigo
-  \once \override Staff.SustainPedal.X-offset = #2.0 c,,2. 
-   \sustainOff}>>|
+  <<{r4 \sustainOn r8 _\f e4._>|
+  \stemUp g''2.^>^\fermata|
+  b,,4\rest b8\rest _\pp \stemUp c,4.|
+  \once \override Staff.SustainPedal.X-offset = #3.0  
+  e''2.^\fermata \sustainOff
+  }
+  \\
+  {s1*6/8|
+  e,,2.|
+  s1*6/8|
+  c2. 
+  }
+  >>
   r4 r8 _\f g'''16^. e^. c^. e^. c^. a^.|
   c16^. a^. f^. a^. f^. d^. f^. d^. b^. d^. b^. g^.|
   \break
