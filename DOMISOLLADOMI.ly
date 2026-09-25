@@ -195,10 +195,13 @@
   f8^. r f8^>^\(f16\)[ e d c bes a]|
   d16[ c bes a g f] g[a bes c d e]|
   f4 f8^>^\( f16\) e d c bes a|
-  \stemUp g2.|
+  \stemUp g2._\(|
   \break
   %rigo up 4.11
-
+  g8\) a g a g a|
+  f a f a f a|
+  <a f d>16_.[ <b f d>_. <cis f, d>8_. <d f, d> ]<a cis, a>16[ <g cis, a> <f cis a>8<e cis a>]
+  <f d>16 <g d> <a d, bes>8 <bes d, bes>_>
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
