@@ -74,6 +74,12 @@
    g4.^\markup{\italic "I° Tempo"}g16 a \stemDown bes c d e|
    \break
    %rigo canto 4.10
+   f4 f8^>^\(f16\) e d c bes \stemUp a|
+   \stemUp d16^\([c\)] bes[_\(a g f]\) g a \stemDown bes c d e|
+   f4 f8^> f16 e d c bes \stemUp a|
+   g2.|
+   \break
+   %rigo canto 4.11
 
   }%Chiude relative Canto
  \addlyrics {
@@ -84,7 +90,8 @@
  Quan -- do sboc -- cia_il vo -- stro la -- bro
  come_un fio -- re di ci -- na -- bro e di -- sciogle al ri -- so il vol il......... vol en -- tro l'a -- ni -- ma mi scuo -- te
  co -- me_il toc -- co di tre no -- te Do, Mi, Sol. Do, Mi Sol..... ma voi sie -- te_an -- cor più
- 
+ lie -- ta.... voi sie -- te an -- cor più lie -- ta..... che l'ac -- cor -- do del po -- e -- ta che l'ac -- cor -- do del po -- e-
+
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -179,8 +186,15 @@
   c16_\( <e^\( c\)> <g e\) c>4 r4 r8^\fermata|
   c16~[ <e^\( c>] \stemDown <g e\) c>4 r4 r8|
   r4 r8 g,16^._\markup{\italic "gaiamente"} a^. bes^. c^. d^. e^.
- \break
- %rigo up 4.10
+  \break
+  %rigo up 4.10
+  f8^. r f8^>^\(f16\)[ e d c bes a]|
+  d16[ c bes a g f] g[a bes c d e]|
+  f4 f8^>^\( f16\) e d c bes a|
+  \stemUp g2.|
+  \break
+  %rigo up 4.11
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -268,6 +282,18 @@
     r4 r8 c'8_. r \stemDown <c' bes>^.
     \break
     %rigo down 4.10
+    f,8^. r <c a>^. e^. r <c' bes>^.|
+    f,8 r <c' a> \stemUp c,8 r \stemDown <c' bes>|
+    f,8 r <c' a> \stemDown g8 r \stemDown <c bes>|
+    <<{\stemDown c2.~|
+    }
+    \\
+    {f,2.~|
+    }
+    >>
+    \break
+    %rigo down 4.11
+    
       } %Chiude relative low
              
 }%Chiude Staff low
