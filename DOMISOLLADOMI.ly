@@ -216,6 +216,16 @@
   >>
   \break
   %rigo up 4.12
+  <d bes>16 <e! c> <f d> <g e> <a f> <bes g> <c a f c>4.|
+  <c, bes>4. <c a>4 r8|
+  <<{s1*6/8|
+  e''2.^\fermata|
+  }
+  \\
+  {r4_\p r8 c,,4._\(| 
+  c2.\)
+  }
+  >>
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -325,6 +335,10 @@
     \stemDown <f bes,>8 r <f d>8^> <c f,>8 r <c a>|
     \break
     %rigo down 4.12
+    <g' f d>4. <a f c>|
+    <e c>4. \stemUp <f c f,>4 r8|
+    a,,2.~|
+    a2.^\fermata|
 
       } %Chiude relative low
              
