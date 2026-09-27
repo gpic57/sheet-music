@@ -237,6 +237,13 @@
   >>
   \break
   %rigo up 5.13
+  \stemDown a'16_\([ <c^\( a>\)~] <e\) c a>4 r4 r8^\fermata|
+  \stemUp a,,16_\([ <c^\( a>\)~] <e\) c a>4 r4 r8|
+  r4 r8 ^\markup{\italic "Più lento"} e16 f g a bes cis|
+  \stemDown d4 d8~d16 cis bes a g f
+  \break
+  %rigo up 5.14
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -352,6 +359,11 @@
     a2.^\fermata|
     \break
     %rigo down 5.13
+    R1*6/8*2|
+    r4 r8 a' r \stemDown <g' a>|
+    d8 r <a f> e' r8 <a g>|
+    \break
+    %rigo down 5.14
       } %Chiude relative low
              
 }%Chiude Staff low
