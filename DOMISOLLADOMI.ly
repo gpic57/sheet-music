@@ -104,6 +104,16 @@
   e8 \acciaccatura g8 f8_( e f e f)|
   d4 r8 r4 r8|
   \break
+  %rigo canto 5.15
+  r4 r8 r c e|
+  g4 g8 g4 g8|
+  g4 g8 g4 g8^\<|
+  g8_\([a\)] \stemDown b8\! ^\> \acciaccatura d8 c4 b8|
+  \stemUp g4 r8 \! r g8 \stemDown bes|
+  d4 d8 d4 d8|
+  d4 d8 d4 d8|
+  \break
+  %rigo canto 6.16
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
@@ -119,6 +129,8 @@
  La, Do Mi. La, Do, Mi............. _ Ma voi sie -- te_an -- cor_più te -- tra..... voi sie -- te an -- cor più
  te -- tra........ che l'ac -- cor -- do del -- la ce -- tra
  che l'ac -- cor -- do del -- la ce -- _ -- tra.
+ L'ar -- mo -- nia del vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon, che non so tra -- scri -- ver fi -- so nè col
+
     }%Chiude new staff canto
    
  \new PianoStaff  
