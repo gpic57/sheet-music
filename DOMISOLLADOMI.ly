@@ -92,6 +92,12 @@
    a16 a a a a a a4^\fermata a8|
    \break
   %rigo canto 5.13
+  r4 r8 a16 \stemDown c e4^\fermata|
+  r4 r8 a,16 \stemDown c e4^\fermata^\(|
+  \stemUp e,4.\)^\markup{\italic "Più lento"} e16 f g a \stemDown bes cis|
+  d4 d8~d16 cis bes \stemUp a g f
+  \break
+  %rigo canto 5.14
 
   }%Chiude relative Canto
  \addlyrics {
@@ -105,6 +111,8 @@
  lie -- ta.... voi sie -- te an -- cor più lie -- ta..... che l'ac -- cor -- do del po -- e -- ta che l'ac -- cor -- do del po -- e-
  _ -- _ ta se nel vo -- str'oc -- chio pro -- fon -- do sen -- za mar -- go sen -- za fon -- do
  cer -- co il ri -- so che sva_nì che..... sva -- nì sul -- la ce -- gtra mi per -- co -- te co -- me l'au -- ra di tre no -- te
+ La, Do Mi. La, Do, Mi............. _ Ma voi sie -- te_an -- cor_più te -- tra..... voi sie -- te an -- cor più
+ te -- tra........ che l'ac -- cor -- do
    }%Chiude new staff canto
    
  \new PianoStaff  
