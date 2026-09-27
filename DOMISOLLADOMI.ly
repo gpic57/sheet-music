@@ -98,7 +98,12 @@
   d4 d8~d16 cis bes \stemUp a g f
   \break
   %rigo canto 5.14
-
+  \stemUp bes16_\([a\)] g\) _\([ f e d\)] \autoBeamOff e f g a \stemDown bes cis|
+  d4 d8 d16 cis bes \stemUp a g f|
+  \stemUp e2.~|
+  e8 \acciaccatura g8 f8_( e f e f)|
+  d4 r8 r4 r8|
+  \break
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
@@ -112,8 +117,9 @@
  _ -- _ ta se nel vo -- str'oc -- chio pro -- fon -- do sen -- za mar -- go sen -- za fon -- do
  cer -- co il ri -- so che sva_nì che..... sva -- nì sul -- la ce -- gtra mi per -- co -- te co -- me l'au -- ra di tre no -- te
  La, Do Mi. La, Do, Mi............. _ Ma voi sie -- te_an -- cor_più te -- tra..... voi sie -- te an -- cor più
- te -- tra........ che l'ac -- cor -- do
-   }%Chiude new staff canto
+ te -- tra........ che l'ac -- cor -- do del -- la ce -- tra
+ che l'ac -- cor -- do del -- la ce -- _ -- tra.
+    }%Chiude new staff canto
    
  \new PianoStaff  
       \with { instrumentName = \markup{\bold "Allegretto" }
@@ -243,6 +249,8 @@
   \stemDown d4 d8~d16 cis bes a g f
   \break
   %rigo up 5.14
+  
+  %rigo up 5.15
 
     } %Chiude relative Up
 }%Chiude New Staff Up
@@ -364,6 +372,7 @@
     d8 r <a f> e' r8 <a g>|
     \break
     %rigo down 5.14
+
       } %Chiude relative low
              
 }%Chiude Staff low
