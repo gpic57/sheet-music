@@ -253,7 +253,7 @@
   \stemDown d4 d8~d16 cis bes a g f|
   e2.~|
   \stemUp e8 f e f e f|
-  d8
+  d8 \acciaccatura f8 e8 d e d e|
   %rigo up 5.15
 
     } %Chiude relative Up
@@ -380,12 +380,13 @@
     d,8 r <a' f> \stemDown e r \stemDown <a g>|
     <<{\stemDown a2.^~|
     \stemUp a4 g8 a g a|
-    \override Stem.length = #18 \crossStaff{f8}
+    \override Stem.length = #18 \crossStaff{f8 g f g f g}
     }
     \\
     {d2._~|
     d2.|
-    g,2.}
+    g,2._\markup{\italic "accell."}
+    }
     >>
       } %Chiude relative low
              
