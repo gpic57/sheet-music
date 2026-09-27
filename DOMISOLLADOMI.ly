@@ -266,7 +266,17 @@
   e2.~|
   \stemUp e8 f e f e f|
   d8 \acciaccatura f8 e8 d e d e|
+  \break
   %rigo up 5.15
+  c8 ^\markup{\italic "I° tempo"}_\( e c e c e\)|
+  c8_\( e c b d b\)|
+  c8 e c d e d_\<|
+  e g e\! d_\> fis d|
+  <g b,>8 d\! b d g bes|
+  g8 bes g fis a fis|
+  g bes g a c a|
+  \break
+  %rigo up 5.16
 
     } %Chiude relative Up
 }%Chiude New Staff Up
@@ -400,6 +410,17 @@
     g,2._\markup{\italic "accell."}
     }
     >>
+    \break
+    %rigo down 5.15
+    e'8 g e g e g|
+    e g e d f d|
+    e g e \stemUp b d b|
+    c8 e c \stemDown fis a fis|
+    g b g bes d g,|
+    bes d bes a c a|
+    bes d bes fis a fis
+    \break
+    %rigo down 6.16
       } %Chiude relative low
              
 }%Chiude Staff low
