@@ -249,7 +249,11 @@
   \stemDown d4 d8~d16 cis bes a g f
   \break
   %rigo up 5.14
-  
+  \stemUp bes16 a g f e d e f g a bes cis|
+  \stemDown d4 d8~d16 cis bes a g f|
+  e2.~|
+  \stemUp e8 f e f e f|
+
   %rigo up 5.15
 
     } %Chiude relative Up
@@ -372,7 +376,15 @@
     d8 r <a f> e' r8 <a g>|
     \break
     %rigo down 5.14
-
+    d8 r <a f> \stemUp a, r \stemDown <a' f>|
+    d,8 r <a' f> \stemDown e r \stemDown <a g>|
+    <<{\stemDown a2.^~|
+    \stemUp a4 g8 a g a|
+    }
+    \\
+    {d,2._~|
+    d2.}
+    >>
       } %Chiude relative low
              
 }%Chiude Staff low
