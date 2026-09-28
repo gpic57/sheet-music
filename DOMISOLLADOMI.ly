@@ -441,6 +441,15 @@
     bes d bes fis a fis
     \break
     %rigo down 6.16
+    g8 bes d cis e cis|
+    d8 f, a <a f d>8 r r|
+    bes4. a|
+    g4. f8 r r|
+    f4. e|
+    d4. c8 r r|
+    c4, b|
+    \break
+    %rigo down 6.17
       } %Chiude relative low
              
 }%Chiude Staff low
