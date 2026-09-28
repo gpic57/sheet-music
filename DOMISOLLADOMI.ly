@@ -114,6 +114,16 @@
   d4 d8 d4 d8|
   \break
   %rigo canto 6.16
+  d8^\([^\<e\)] fis\! ^\> g4 f8\!|
+  d4 r8 r d8 d|
+  d4 d8 c4 c8|
+  e4.^> f8 \stemUp f, f|
+  f4 f8 e4 e8|
+  \stemDown b'!4. c8 \stemUp e, e|
+  e4 e8 d4 d8|
+  \break
+  %rigo canto 6.17
+
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
@@ -130,7 +140,7 @@
  te -- tra........ che l'ac -- cor -- do del -- la ce -- tra
  che l'ac -- cor -- do del -- la ce -- _ -- tra.
  L'ar -- mo -- nia del vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon, che non so tra -- scri -- ver fi -- so nè col
-
+ ver -- so
     }%Chiude new staff canto
    
  \new PianoStaff  
@@ -276,7 +286,7 @@
   g8 bes g fis a fis|
   g bes g a c a|
   \break
-  %rigo up 5.16
+  %rigo up 6.16
 
     } %Chiude relative Up
 }%Chiude New Staff Up
