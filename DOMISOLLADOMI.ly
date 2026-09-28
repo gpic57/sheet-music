@@ -123,6 +123,15 @@
   e4 e8 d4 d8|
   \break
   %rigo canto 6.17
+  fis4. g8 g g|
+  a4 ^\< a8 \acciaccatura c8 b8_\([a\)] \stemDown b8\!|
+  c4. c4 c8|
+  c4 \stemUp a8 f_\([ d\)] f|
+  \stemDown c'4 \stemUp g8 e_\([ c\)] e|
+  g4 g8 g4 g8|
+  g4. \stemDown e'4 e8|
+  \break
+  %rigo canto 6.18
 
   }%Chiude relative Canto
  \addlyrics {
@@ -141,7 +150,8 @@
  che l'ac -- cor -- do del -- la ce -- _ -- tra.
  L'ar -- mo -- nia del vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon, che non so tra -- scri -- ver fi -- so nè col
  ver -- so nè col suon o -- ra_è car -- me_ed o -- ra_è ru -- na o_ra_è so -- le_ed o -- ra è lu -- na o -- ra_è bian -- ca ed_o -- ra_è
-
+ bru -- na la fan -- ta -- sti -- ca....vi -- sion o -- ra_è bian -- ca_ed o -- ra_è bru -- na la... fan -- ta -- sti -- ca _ vi -- sion o -- ra_è
+ 
     }%Chiude new staff canto
    
  \new PianoStaff  
@@ -297,7 +307,16 @@
   <e a>8 a, e' d g, d'|
   \break
   %rigo up 6.17
-  
+  <<{fis4. <g b,>8 d b}\\{c8_> d c s4.}>>|
+  e8_\< c e d f d\!|
+  c2.|
+  c4_\p a'8 f d f|
+  c4 g'8 e c e|
+  g4 f8 d b d|
+  c8 r r e4 e8|
+  \break
+  %rigo up 6.18
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -447,9 +466,19 @@
     g4. f8 r r|
     f4. e|
     d4. c8 r r|
-    c4, b|
+    \stemUp c4. b|
     \break
     %rigo down 6.17
+    a4. g|
+    c4. \stemDown g'|
+    <a e a,>2.|
+    <c a f d>4. r4 r8|
+    <e c g>4. r4 r8|
+    <g, c, g>4. r4 f8|
+    <g e c>8 r r r4 r8|
+    \break
+    %rigo down 6.18
+
       } %Chiude relative low
              
 }%Chiude Staff low
