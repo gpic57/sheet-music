@@ -155,7 +155,7 @@
  L'ar -- mo -- nia del vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon, che non so tra -- scri -- ver fi -- so nè col
  ver -- so nè col suon o -- ra_è car -- me_ed o -- ra_è ru -- na o_ra_è so -- le_ed o -- ra è lu -- na o -- ra_è bian -- ca ed_o -- ra_è
  bru -- na la fan -- ta -- sti -- ca....vi -- sion o -- ra_è bian -- ca_ed o -- ra_è bru -- na la... fan -- ta -- sti -- ca _ vi -- sion o -- ra_è
- 
+ bian -- ca_ed o -- ra_è bru -- na la................. vi -- sion.
     }%Chiude new staff canto
    
  \new PianoStaff  
@@ -320,7 +320,12 @@
   c8 r r e4 e8|
   \break
   %rigo up 6.18
-
+  \stemDown e'4 c8 \stemUp a fis a|
+  \stemDown e'4 c8 g c e|
+  <g d c g>8 _\f r r <g d b g>8 r r|
+  \stemUp <c, g e>8 r r \stemDown g''16^\( _\ff e c e c a\)|
+  c16^\( a f a f d\) f^\( d b d b g\)|
+  <c g e>8 r r r4^\fermata r8 \bar "|."
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -482,7 +487,13 @@
     <g e c>8 r r r4 r8|
     \break
     %rigo down 6.18
-
+    <e' c a f>4.^> r4 r8|
+    <e c g>4.^> r4 r8|
+    <d g,> r r \stemUp <g, d g,> r r|
+    \stemDown <g e c>8 r r|
+    <g' e c a>\arpeggio r r|
+    <c, a f d>\arpeggio r r <f d b g>8\arpeggio r r|
+    <g, c,>8 r r \stemUp c,,4.^\fermata \bar "|."
       } %Chiude relative low
              
 }%Chiude Staff low
