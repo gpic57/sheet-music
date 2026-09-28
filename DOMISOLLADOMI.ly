@@ -140,7 +140,8 @@
  te -- tra........ che l'ac -- cor -- do del -- la ce -- tra
  che l'ac -- cor -- do del -- la ce -- _ -- tra.
  L'ar -- mo -- nia del vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon, che non so tra -- scri -- ver fi -- so nè col
- ver -- so
+ ver -- so nè col suon o -- ra_è car -- me_ed o -- ra_è ru -- na o_ra_è so -- le_ed o -- ra è lu -- na o -- ra_è bian -- ca ed_o -- ra_è
+
     }%Chiude new staff canto
    
  \new PianoStaff  
@@ -287,7 +288,16 @@
   g bes g a c a|
   \break
   %rigo up 6.16
-
+  \stemDown bes8_\< d bes\! a_\> cis a\!|
+  \stemUp <d f,>8 a f d r r|
+  \stemDown d'8 f, d' c f, c'|
+  <<{e4. \stemDown f8 r r}\\{bes,8 c bes a8 s4}>>
+  \stemUp a8 d, a' g c, g'|
+  <<{b4. c8 r r}\\{f,8_> g f e s4}>>|
+  <e a>8 a, e' d g, d'|
+  \break
+  %rigo up 6.17
+  
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
