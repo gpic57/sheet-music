@@ -132,7 +132,11 @@
   g4. \stemDown e'4 e8|
   \break
   %rigo canto 6.18
-
+  e4 c8 \stemUp a8_\([ fis\)] a8|
+  \stemDown e'4 c8 g8^\([ c e\)]|
+  g4.~ g4 b,8|
+  c4 r8 r4 r8|
+  R1*6/8*2 \bar "|."
   }%Chiude relative Canto
  \addlyrics {
  L'ar -- mo --nia del  vo -- stro vi -- so mi ri -- pe -- te_u -- na can -- zon che non
