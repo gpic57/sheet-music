@@ -29,6 +29,22 @@
   %rigo up 1.2
   <bes des,>8_. <f aes,> <g bes,>_. <ees des>_.|
   \mark #1
+  <aes c,>8_. <ees aes,>_. <f aes,>_. <des aes>_.|
+  <c aes>8_. <c aes>8_. <f aes,>_. <g bes,>_.|
+  <aes c,>8_. <ees c>
+  <<{c8^\( d|
+  ees f g f| 
+  ees8 <ees c g>8|
+  }
+  \\
+  {c4_>|
+  c4_> <d b>4|
+  c8
+  }
+  >>
+  r8 <ees des! g,>8_.|
+  r8 <ees c aes>_. r <ees aes,>_.|
+  
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
