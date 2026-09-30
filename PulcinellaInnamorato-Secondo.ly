@@ -10,7 +10,7 @@
   
    
  \new PianoStaff  
-      \with { instrumentName = \markup{\bold "Allegretto" }
+      \with { instrumentName = \markup{\italic "ALL." \super "tto"" VIVACE ASSAI" }
  }
 <<
   \new Staff="up" { 
@@ -36,7 +36,14 @@
     \time 2/4
     \relative c{
     %rigo down 1.1
-    c4
+    <ees aes,>8^. aes^. <ees aes,>8^. aes^.|
+    <ees aes,>8^. aes^. <ees aes,>8^. aes^.|
+    <ees aes,>8^. aes^. <ees aes,>8^. aes^.|
+    <ees aes,>8^. aes^. <ees aes,>8^. aes^.|
+    <ees aes,>8_. r aes,8_. r|
+    \break
+    %rigo down 1.2
+
       } %Chiude relative low
              
 }%Chiude Staff low
@@ -61,7 +68,7 @@
   %\Voice 
   %\remove "Slur_engraver"
     } 
-    indent = 3\cm
+    indent = 4\cm
     %short-indent = 2\cm
     %ragged-right = ##f
     %ragged-last = ##f
