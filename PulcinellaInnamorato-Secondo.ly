@@ -27,7 +27,8 @@
   <g' des>8_. <ees g,>_. r8 <f ees aes,>_.|
   \break
   %rigo up 1.2
-
+  <bes des,>8_. <f aes,> <g bes,>_. <ees des>_.|
+  \mark #1
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -52,6 +53,7 @@
  >> %Chiude Canto e Piano
  
  \layout {
+ \set Score.rehearsalMarkFormatter = #format-mark-box-numbers
     \context {
     \Staff \RemoveAllEmptyStaves
   }
