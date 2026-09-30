@@ -20,7 +20,14 @@
   \time 2/4
   \relative c' {
   %rigo up 1.1
-  c4
+  <aes c>8_. _\markup{\dynamic f \italic "brillante e stacc."}<c ees>_. <aes c>8_.<c ees>_.|
+  <aes c>8_. _\> <c ees>_. <aes c>8_.<c ees>_.\!|
+  <aes c>8_. _\markup{\dynamic pp \italic "subito"} <c ees>_. <aes c>8_.<c ees>_.\!|
+  <aes c>8_. <c ees>_. <aes c>8_.<c ees>_.|
+  <g' des>8_. <ees g,>_. r8 <f ees aes,>_.|
+  \break
+  %rigo up 1.2
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
