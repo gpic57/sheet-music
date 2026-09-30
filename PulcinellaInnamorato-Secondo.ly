@@ -34,7 +34,7 @@
   <aes c,>8_. <ees c>
   <<{c8^\( d|
   ees f g f| 
-  ees8 <ees c g>8|
+  ees8 \)<ees c g>8|
   }
   \\
   {c4_>|
@@ -44,7 +44,8 @@
   >>
   r8 <ees des! g,>8_.|
   r8 <ees c aes>_. r <ees aes,>_.|
-  
+  \break
+  %rigo up
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
