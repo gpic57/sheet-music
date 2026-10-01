@@ -59,7 +59,7 @@
   r8_\< <ees aes,>_. r <f d aes>_.|
   r8 \!<f des aes>_. r <ees des g,>_.|
   <aes ees aes,>^^_\sf r8 r4 |
-  R1*2/4 \mark #1 #1|
+  R1*2/4 _\markup{\bold \fontsize #5 "1"}|
   g8_.[ _\markup{\dynamic pp \italic "cres."}<c a>_. <bes g>_.  <aes f>_. _\<]|
   <aes ees>8_. <bes ees, des>_. <aes ees c>_. \!r|
   \break
