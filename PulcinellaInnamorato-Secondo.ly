@@ -36,25 +36,24 @@
   <c ees,>8_. <g c,>_.<c ees,>8_. <g c,>_.|
   \break
   %rigo up 1.3
-
-  %<bes des,>8_. <f aes,> <g bes,>_. <ees des>_.|
-  %\mark #1
-  %<aes c,>8_. <ees aes,>_. <f aes,>_. <des aes>_.|
-  %<c aes>8_. <c aes>8_. <f aes,>_. <g bes,>_.|
-  %<aes c,>8_. <ees c>
-  %<<{c8^\( d|
-  %ees f g f| 
-  %ees8 \)<ees c g>8|
-  %}
-  %\\
-  %{c4_>|
-  %c4_> <d b>4|
-  %c8
-  %}
-  %>>
-  %r8 <ees des! g,>8_.|
-  %r8 <ees c aes>_. r <ees aes,>_.|
-  %\break
+  <bes des,>8_. <f aes,> <g bes,>_. <ees des>_.|
+  \mark #1
+  <aes c,>8_. <ees aes,>_. <f aes,>_. <des aes>_.|
+  <c aes>8_. <c aes>8_. <f aes,>_. <g bes,>_.|
+  <aes c,>8_. <ees c>
+  <<{c8^\( d|
+  ees f g f| 
+  ees8 \)<ees c g>8|
+  }
+  \\
+  {c4_>|
+  c4_> <d b>4|
+  c8
+  }
+  >>
+  r8 <ees des! g,>8_.|
+  r8 <ees c aes>_. r <ees aes,>_.|
+  \break
   %rigo up 1.4
 
     } %Chiude relative Up
@@ -69,13 +68,20 @@
     <ees aes,>8^. aes^. <ees aes,>8^. aes^.|
     <ees aes,>8^. aes^. <ees aes,>8^. aes^.|
     <ees aes,>8^. aes^. <ees aes,>8^. aes^.|
-    <ees aes,>8_. r aes,8_. r|
+    <ees aes,>8^. r aes,8_. r|
     \break
     %rigo down 1.2
-
+    aes8_. r aes_. r|
+    <ees' aes>8_. aes^.<ees aes>8_. aes^.|
+    <ees aes>8_. aes^. \stemDown <c, f,>^. f^.
+    \stemUp bes,,_. bes'8_. bes,_. r|
+    \stemDown ees'8^. r \stemUp ees,_. r|
+    ees8_. ees'_. ees,_. r|
+    ees8_. r \stemUp ees'^. r|
+    \break
     %rigo down 1.3
-    %aes ees'_. ees,_. r|
-
+    aes ees'_. ees,_. r|
+    
 
       } %Chiude relative low
              
