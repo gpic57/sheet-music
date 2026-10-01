@@ -64,6 +64,15 @@
   <aes ees>8_. <bes ees, des>_. <aes ees c>_. \!r|
   \break
   %rigo up 1.5
+  <des aes des,>8^^ r8 r4|
+  R1*2/4 _\markup{\bold \fontsize #5 "1"}|
+  r4 \pp <ces f,>8_. r|
+  <bes e>8_. r8 <aes! e> r8 |
+  <aes! des,>8 r8 r4|
+  <ees des bes>2^>\mark #2 _\f _\< |
+  <ees c aes>8_. \!  r r _\ff <ees bes g>_.
+  \key ees \major
+  \bar "||"
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -101,7 +110,8 @@
     bes4 ees,\)|
     <c' c,>8_^ r8 r4|
     R1*2/4*3|
-
+    \break
+    %rigo down 1.5
       } %Chiude relative low
              
 }%Chiude Staff low
