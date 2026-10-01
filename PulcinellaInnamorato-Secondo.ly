@@ -80,7 +80,7 @@
     ees8_. r \stemUp ees'^. r|
     \break
     %rigo down 1.3
-    aes ees'_. ees,_. r|
+    ees,_. ees'_. ees,_. r|
     
 
       } %Chiude relative low
