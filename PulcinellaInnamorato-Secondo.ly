@@ -27,25 +27,36 @@
   <g' des>8_. <ees g,>_. r8 <f ees aes,>_.|
   \break
   %rigo up 1.2
-  <bes des,>8_. <f aes,> <g bes,>_. <ees des>_.|
-  \mark #1
-  <aes c,>8_. <ees aes,>_. <f aes,>_. <des aes>_.|
-  <c aes>8_. <c aes>8_. <f aes,>_. <g bes,>_.|
-  <aes c,>8_. <ees c>
-  <<{c8^\( d|
-  ees f g f| 
-  ees8 \)<ees c g>8|
-  }
-  \\
-  {c4_>|
-  c4_> <d b>4|
-  c8
-  }
-  >>
-  r8 <ees des! g,>8_.|
-  r8 <ees c aes>_. r <ees aes,>_.|
+  r8 <f eis a,>_. r8 <g eis bes>_.|
+  <aes c,>_. _\<<c ees,>_.<aes c,>_.<c ees,>_.|
+  <aes c,>_.<c ees,>_.<aes c,>_.<c ees,>_.|
+  <g ees>_. <ees g,>_. <c aes>_.<d bes>_.|
+  <ees g,>_. <g bes,>_. <ees g,>_. <g bes,>_.\!|
+  <des'? f,>8_. _\markup{\dynamic pp \italic "subito"}<aes des,?>_. <des f,> <aes des,>_.|
+  <c ees,>8_. <g c,>_.<c ees,>8_. <g c,>_.|
   \break
-  %rigo up
+  %rigo up 1.3
+
+  %<bes des,>8_. <f aes,> <g bes,>_. <ees des>_.|
+  %\mark #1
+  %<aes c,>8_. <ees aes,>_. <f aes,>_. <des aes>_.|
+  %<c aes>8_. <c aes>8_. <f aes,>_. <g bes,>_.|
+  %<aes c,>8_. <ees c>
+  %<<{c8^\( d|
+  %ees f g f| 
+  %ees8 \)<ees c g>8|
+  %}
+  %\\
+  %{c4_>|
+  %c4_> <d b>4|
+  %c8
+  %}
+  %>>
+  %r8 <ees des! g,>8_.|
+  %r8 <ees c aes>_. r <ees aes,>_.|
+  %\break
+  %rigo up 1.4
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -61,6 +72,10 @@
     <ees aes,>8_. r aes,8_. r|
     \break
     %rigo down 1.2
+
+    %rigo down 1.3
+    %aes ees'_. ees,_. r|
+
 
       } %Chiude relative low
              
