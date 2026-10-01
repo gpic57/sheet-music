@@ -36,9 +36,9 @@
   <c ees,>8_. <g c,>_.<c ees,>8_. <g c,>_.|
   \break
   %rigo up 1.3
-  <bes des,>8_. <f aes,> <g bes,>_. <ees des>_.|
+  <bes des,>8_. _\><f aes,> <g bes,>_. <ees des>_.|
   \mark #1
-  <aes c,>8_. <ees aes,>_. <f aes,>_. <des aes>_.|
+  <aes c,>8_. <ees aes,>_.\! <f aes,>_. <des aes>_._\f|
   <c aes>8_. <c aes>8_. <f aes,>_. <g bes,>_.|
   <aes c,>8_. <ees c>
   <<{c8^\( d|
@@ -80,8 +80,9 @@
     ees8_. r \stemUp ees'^. r|
     \break
     %rigo down 1.3
-    ees,_. ees'_. ees,_. r|
-    
+    ees,8_. ees'_. ees,_. r|
+    aes8_. r aes4_>|
+    aes4_> \stemDown aes8^. aes'8^.
 
       } %Chiude relative low
              
