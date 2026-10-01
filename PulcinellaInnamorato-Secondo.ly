@@ -55,7 +55,15 @@
   r8 <ees c aes>_. r <ees aes,>_.|
   \break
   %rigo up 1.4
-
+  r8 <f des aes>_. r <ees des g,>|
+  r8_\< <ees aes,>_. r <f d aes>_.|
+  r8 \!<f des aes>_. r <ees des g,>_.|
+  <aes ees aes,>^^_\sf r8 r4 |
+  R1*2/4 \mark #1 #1|
+  g8_.[ _\markup{\dynamic pp \italic "cres."}<c a>_. <bes g>_.  <aes f>_. _\<]|
+  <aes ees>8_. <bes ees, des>_. <aes ees c>_. \!r|
+  \break
+  %rigo up 1.5
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -88,7 +96,12 @@
     c4_\( bes|aes\) c4_\(|
     \break
     %rigo down 1.4
-    g4 c\)|
+    g4 ees\)|
+    c'4_\( ces|
+    bes4 ees,\)|
+    <c' c,>8_^ r8 r4|
+    R1*2/4*3|
+
       } %Chiude relative low
              
 }%Chiude Staff low
