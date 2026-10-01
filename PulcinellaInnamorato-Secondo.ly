@@ -82,8 +82,13 @@
     %rigo down 1.3
     ees,8_. ees'_. ees,_. r|
     aes8_. r aes4_>|
-    aes4_> \stemDown aes8^. aes'8^.
-
+    aes4_> \stemDown aes8^. aes'8^.|
+    \stemUp aes,8_. r <f' f,>_. r|
+    <g g,>8 r g,_. r|
+    c4_\( bes|aes\) c4_\(|
+    \break
+    %rigo down 1.4
+    g4 c\)|
       } %Chiude relative low
              
 }%Chiude Staff low
