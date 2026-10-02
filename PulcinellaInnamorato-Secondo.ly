@@ -7,8 +7,6 @@
 
 \score {
 << % Apre Piano
-  
-   
  \new PianoStaff  
       \with { instrumentName = \markup{\italic "ALL." \super "tto"" VIVACE ASSAI" }
  }
@@ -18,6 +16,7 @@
   \clef treble  
   \key aes \major 
   \time 2/4
+  \tempo 4=100
   \relative c' {
   %rigo up 1.1
   <aes c>8_. _\markup{\dynamic f \italic "brillante e stacc."}<c ees>_. <aes c>8_.<c ees>_.|
