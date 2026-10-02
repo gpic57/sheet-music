@@ -56,15 +56,16 @@
   aes16^. bes^. c^. des^.\! ees^. _\f _\< f,^.^\( g^. aes^.\!|
   \break
   %rigo up 1.5
-  des8^.\) \autoBeamOff <c aes>^. <bes f>^. <aes ees>^.|
+  des8^.\) _\markup{\dynamic ppp \italic "subito"} \autoBeamOff <c aes>^. <bes f>^. <aes ees>^.|
   <g des>^. <f c>^. <ees bes>^. <des aes>^.|
   \autoBeamOn c8^. c'^. 
   \ottava #0 
   r8 f,^.|
   r8 e^. r ees^.|
-  d8^. aes'^. r aes,^>|
-  g16^. aes^. bes^. c^. des!^. ees^. f^. g^.|
-  \mark #2 aes8 r bes,8^. g^. \bar "||"
+  d8^. aes'^. r _\markup{\dynamic ppp \italic "e deciso"} aes,^>|
+  g16^. aes^. bes^.  c^. des!^. _\< ees^. f^. g^.|
+  \mark #2 
+  aes8\! _\markup{\dynamic ff \italic "molto"} r bes,8^. g^. \bar "||"
   \key ees \major
   \break
   %rigo up 2.6
@@ -93,7 +94,21 @@
     %rigo down 1.4
     R1*2/4|
     r4 d4^\(|
-    des!4\)
+    des!4\)~ des16 ees\( f g|
+    aes8-!\) \autoBeamOff bes^. aes^. g^.|
+    f8^. ees^. des^. c^.|
+    \autoBeamOn f8^. aes^. ees^. des^.|
+    c8^. r r16 aes'^\( bes c|
+    \break
+    %rigo down 1.5
+    des8\)-! \autoBeamOff ees^. des^. c^.|
+    bes8^. aes^. g^. f^.|
+    <g e>8^. r r f^.|
+    r8 e^. r ees^.|
+    f^. \autoBeamOn bes^. r8 \stemUp aes,8_>|
+    \stemDown g16^. aes^. bes^. c^. des^. ees^. f^. g^.|
+    aes8^. r ees-! bes-! \bar "||"
+    \key ees \major
       } %Chiude relative low
              
 }%Chiude Staff low
