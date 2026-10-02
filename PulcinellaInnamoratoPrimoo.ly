@@ -63,7 +63,13 @@
     %rigo down 1.3
     f4^\( ees8 des|
     c8\) r aes'^. f^.|
-
+    ees16^. g^. ees^. c^. des^. f^. des^. bes^.|
+    ees8 ^. aes,^. aes'^. f^.|
+    ees16^. g^. ees^. c^.b^. d^. b^. g^.|
+    c4^> des!~|des8 r r4|
+    \break
+    %rigo down 1.4
+    
       } %Chiude relative low
              
 }%Chiude Staff low
