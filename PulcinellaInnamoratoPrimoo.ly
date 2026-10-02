@@ -46,13 +46,14 @@
   \break
   %rigo up 1.4
   aes16\) g^\( f g ees8^.\) ees^\(|
-  aes8^.\) aes^.^\( f'^.\) f^.|
-  f16^\( ees\) f,^\( g\)|
-  ees16^.^\( ees' f g|
-  aes8-!\) \autoBeamOff <g des>^. <f c>^. <ees bes>^.|
+  aes8^.\) _\< aes^.^\( f'^.\) f^.|
+  f16^\( ees\)\! f,^\( g\)|
+  ees16^.^\( ees'_\< f g|
+  aes8-!\)  \autoBeamOff \! <g des>^.  <f c>^._\markup{\dynamic ppp \italic "subito"} <ees bes>^.|
   <des aes>8^. <c g>^. <bes f>^. <aes ees>^.|
-  \autoBeamOn g16^. aes^. bes^. c^. \ottava #1 des^. ees^. f^. g^.|
-  aes16^. bes^. c^. des^. ees^. f,^.^\( g^. aes^.|
+  \autoBeamOn g16^. _\markup{\italic "molto cres."} aes^. bes^. c^. \ottava #1 
+  des^. ees^. f^. g^._\<|
+  aes16^. bes^. c^. des^.\! ees^. _\f _\< f,^.^\( g^. aes^.\!|
   \break
   %rigo up 1.5
   des8^.\) \autoBeamOff <c aes>^. <bes f>^. <aes ees>^.|
@@ -65,6 +66,8 @@
   g16^. aes^. bes^. c^. des!^. ees^. f^. g^.|
   \mark #2 aes8 r bes,8^. g^. \bar "||"
   \key ees \major
+  \break
+  %rigo up 2.6
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -88,7 +91,9 @@
     c4^> des!~|des8 r r4|
     \break
     %rigo down 1.4
-    
+    R1*2/4|
+    r4 d4^\(|
+    des!4\)
       } %Chiude relative low
              
 }%Chiude Staff low
