@@ -24,7 +24,7 @@
   R1*2/4 _\markup{\bold \fontsize #5 "2"}|
   \ottava #1 aes'''16^. _\markup{ \dynamic pp \italic "leggiere e molto staccate"}  g^. f^. ees^. des^. c^. des^. ees^.|
   f16^. ees^. des^. c^. bes^. aes^. bes^. c^.|
-  d8^! r ees,_! r|
+  bes8^! r ees,_! r|
   ees'^! r8 ees'^! r|
   \break
   %rigo up 1.2
@@ -36,7 +36,8 @@
   g8^! r g'^! r \ottava #0 |
   \break
   %rigo up 1.3
-
+  des,16^. c^. bes^. aes^. g^. aes^. bes^. c^.|
+  
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
