@@ -33,7 +33,7 @@
   bes8^! r f'^! r|
   ees8^! r ees'^! r|
   aes,16^.\! _\markup {\dynamic pp \italic "subito"} g^. f^. ees^. des^. ees^. f^. aes^.|
-  g8^! r g'^! \ottava #0|
+  g8^! r g'^! r \ottava #0 |
   \break
   %rigo up 1.3
 
