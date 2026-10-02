@@ -49,7 +49,7 @@
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
-    \clef bass
+    \clef treble
     \key aes \major 
     \time 2/4
     \relative c{
@@ -58,9 +58,11 @@
     \break
     %rigo down 1.2
     R1*2/4*4|
-    aes'2^\( ees\)|
+    f''2^\( ees\)|
     \break
     %rigo down 1.3
+    f4^\( ees8 des|
+    c8\) r aes'^. f^.|
 
       } %Chiude relative low
              
