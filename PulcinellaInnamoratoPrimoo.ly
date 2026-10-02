@@ -45,7 +45,26 @@
   aes8^.\) aes4^> aes8^>^\(
   \break
   %rigo up 1.4
-  aes16\) g^\( f g ees8^.\) ees
+  aes16\) g^\( f g ees8^.\) ees^\(|
+  aes8^.\) aes^.^\( f'^.\) f^.|
+  f16^\( ees\) f,^\( g\)|
+  ees16^.^\( ees' f g|
+  aes8-!\) \autoBeamOff <g des>^. <f c>^. <ees bes>^.|
+  <des aes>8^. <c g>^. <bes f>^. <aes ees>^.|
+  \autoBeamOn g16^. aes^. bes^. c^. \ottava #1 des^. ees^. f^. g^.|
+  aes16^. bes^. c^. des^. ees^. f,^.^\( g^. aes^.|
+  \break
+  %rigo up 1.5
+  des8^.\) \autoBeamOff <c aes>^. <bes f>^. <aes ees>^.|
+  <g des>^. <f c>^. <ees bes>^. <des aes>^.|
+  \autoBeamOn c8^. c'^. 
+  \ottava #0 
+  r8 f,^.|
+  r8 e^. r ees^.|
+  d8^. aes'^. r aes,^>|
+  g16^. aes^. bes^. c^. des!^. ees^. f^. g^.|
+  \mark #2 aes8 r bes,8^. g^. \bar "||"
+  \key ees \major
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
