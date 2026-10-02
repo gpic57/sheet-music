@@ -36,8 +36,16 @@
   g8^! r g'^! r \ottava #0 |
   \break
   %rigo up 1.3
-  des,16^. c^. bes^. aes^. g^. aes^. bes^. c^.|
-  
+  des,16^._\> c^. bes^. aes^. g^. aes^. bes^. c^.|
+  aes8^.  \mark #1 r8 \! \ottava #1 aes'8^._\f f^.|
+  ees16^. g^. ees^. c^. des^. f^. des^. bes^.|
+  ees8 ^. aes,^. aes'^. f^.|
+  ees16^. g^. ees^. c^.b^. d^. b^. g^. \ottava #0 |
+  c8^> bes16^\( aes g f g ees|
+  aes8^.\) aes4^> aes8^>^\(
+  \break
+  %rigo up 1.4
+  aes16\) g^\( f g ees8^.\) ees
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
