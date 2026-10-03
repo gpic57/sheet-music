@@ -72,6 +72,18 @@
   <ees c aes>8_. \!  r r _\ff <ees bes g>_.
   \key ees \major
   \bar "||"
+  \break
+  %rigo up 2.6
+  r8 <ees c aes>_. r8 \clef bass <d bes f>^.|
+  r8 <d bes g>^. r8 <ees c g>^.|
+  r8 <ees c f,>^. r <d b aes>^.|
+  r8 <ees bes g>^. r <ees bes>^.|
+  r8 <ees c>^. r8 <bes aes>^.|
+  r8 <ees bes>^. r8 <c g ees>^.|
+  r8 <c aes ees> r8 <bes aes f>^.|
+  \break
+  %rigo up 2.7
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -120,6 +132,18 @@
     <ees aes>8_. r <ees ees,>_. r
     \key ees \major
     \bar "||"
+    \break
+    %rigo down 2.6
+    <aes, aes,>8_. r <bes bes,>_. r|
+    <g g,>8_. r <c c,>8_. r|
+    <f, f,>8_. r <bes bes,> r|
+    <bes ees,>8_. r g_. g'_.|
+    \stemDown aes,8^. aes'^. \stemUp f,_. f'_.|
+    g,8_. g'_. c,,_. c'_.|
+    aes,8_. aes'_. bes,_. bes'_.
+    \break
+    %rigo down 2.7
+    
       } %Chiude relative low
              
 }%Chiude Staff low
