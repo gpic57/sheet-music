@@ -177,7 +177,7 @@
     %rigo down 2.8
     \stemUp <aes, aes,>8_. r <des des,>8 r8|
     <ges, ges,>_. r \stemDown bes^. bes'^. |
-    beses!,^. beses!'^. aes,^. aes'^.|
+    beses,!^. beses'!^. aes,^. aes'^.|
     \stemUp ges,_. ges'^. ees,_. ees'_.|
     ces,8_. ces'_. des,_. des'_.|
     ges,_. f'_. \stemDown ees^. des^.|
