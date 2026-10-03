@@ -106,6 +106,7 @@
   \tuplet 3/2{ees16[( f ees)} des8]\!|
   \break
   %rigo up 2.9
+  
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
