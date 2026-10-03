@@ -94,7 +94,18 @@
   r8 <ges des bes>^. r8 <ees bes g>^.|
   \break
   %rigo up 2.8
-
+  r8 \stemDown <ees ces aes>8^. r <des ces aes f>^.|
+  r8 <des bes ges>^. r8 <ges des>|
+  r8 <ges c,!>^. r <f des ces>^.|
+  <ges des bes>^. f^. 
+  \tupletUp  
+  \override TupletBracket.bracket-visibility = ##f
+  \tuplet 3/2 {ees16[( f ees)} des8^.]|
+  r8 <ees ces ges>^. r <des ces aes>^.|
+  <ges bes,>_. f^. _\> 
+  \tuplet 3/2{ees16[( f ees)} des8]\!|
+  \break
+  %rigo up 2.9
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -163,17 +174,15 @@
     <ges, ges,>8_. r <ees' ees,>_. r|
     \break
     %rigo down 2.8
-    r8 \stemDown <ees' ces aes>8^. r <des ces aes f>^.|
-    r8 <des bes ges>^. r8 <ges des>|
-    r8 <ges c,!>^. r <f des ces>^.|
-     <ges des bes>^. f^. 
-     \tupletUp  
-     \override TupletBracket.bracket-visibility = ##f
-     \tuplet 3/2 {ees16[( f ees)} des8^.]|
-     r8 <ees ces ges>^. r <des ces aes>^.|
-     <ges bes,>_. f^. _\> 
-     \tuplet 3/2{ees16[( f ees)} des8]\!|
-
+    \stemUp <aes, aes,>8_. r <des des,>8 r8|
+    <ges, ges,>_. r \stemDown bes^. bes'^. |
+    beses!,^. beses!'^. aes,^. aes'^.|
+    \stemUp ges,_. ges'^. ees,_. ees'_.|
+    ces,8_. ces'_. des,_. des'_.|
+    ges,_. f'_. \stemDown ees^. des^.|
+    \break
+    %rigo down 2.9
+    
       } %Chiude relative low
              
 }%Chiude Staff low
