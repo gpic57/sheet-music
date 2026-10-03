@@ -163,6 +163,9 @@
     <ges, ges,>8_. r <ees' ees,>_. r|
     \break
     %rigo down 2.8
+    r8 \stemDown <ees' ces aes>8^. r <des ces aes f>^.|
+    r8 <des bes ges>^. r8 <ges des>|
+    r8 <ges c,!>^. r <f des ces>|
       
       } %Chiude relative low
              
