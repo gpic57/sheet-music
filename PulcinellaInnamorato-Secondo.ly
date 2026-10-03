@@ -94,6 +94,7 @@
   r8 <ges des bes>^. r8 <ees bes g>^.|
   \break
   %rigo up 2.8
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -153,7 +154,16 @@
     aes,8_. aes'_. bes,_. bes'_.
     \break
     %rigo down 2.7
-    
+    ees,8 r8 <c' c,>8_. <bes bes,>_.|
+    <aes aes,>8_.[ <g g,>_. <aes aes,>_. <bes bes,>_.]|
+    <c c,>8_.[<bes bes,>_. <aes aes,>_. <g g,>_.]|
+    <f f,>8_.[ <g g,>_. <aes aes,>_. <bes bes,>_.]|
+    <ees, ees,>8_. r <ees' ees,>_. r|
+    <aes, aes,>_. r <des des,> r|
+    <ges, ges,>8_. r <ees' ees,>_. r|
+    \break
+    %rigo down 2.8
+      
       } %Chiude relative low
              
 }%Chiude Staff low
