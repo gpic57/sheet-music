@@ -83,7 +83,17 @@
   r8 <c aes ees> r8 <bes aes f>^.|
   \break
   %rigo up 2.7
-
+  r8 <bes g ees>^. \autoBeamOn 
+  \override TupletBracket.bracket-visibility = ##f
+  \tupletUp \tuplet 3/2 {aes16( bes aes)} _\markup{\dynamic ppp \italic "sottovoce e staccato"} bes8^.
+  aes^.[ g^. aes^. bes^.]|
+  \tupletUp \tuplet 3/2 {aes16( bes aes)} g8^. aes^. g^.|
+  f8^.[ g^. aes^. bes^.]|
+  ees,8^. <ees' bes g>^. r8 _\ff <ees bes g>^.|
+  r8 <ees ces aes>^. r8 <f ces aes>^.|
+  r8 <ges des bes>^. r8 <ees bes g>^.|
+  \break
+  %rigo up 2.8
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
