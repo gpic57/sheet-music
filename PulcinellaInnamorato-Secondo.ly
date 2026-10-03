@@ -165,8 +165,15 @@
     %rigo down 2.8
     r8 \stemDown <ees' ces aes>8^. r <des ces aes f>^.|
     r8 <des bes ges>^. r8 <ges des>|
-    r8 <ges c,!>^. r <f des ces>|
-      
+    r8 <ges c,!>^. r <f des ces>^.|
+     <ges des bes>^. f^. 
+     \tupletUp  
+     \override TupletBracket.bracket-visibility = ##f
+     \tuplet 3/2 {ees16[( f ees)} des8^.]|
+     r8 <ees ces ges>^. r <des ces aes>^.|
+     <ges bes,>_. f^. _\> 
+     \tuplet 3/2{ees16[( f ees)} des8]\!|
+
       } %Chiude relative low
              
 }%Chiude Staff low
