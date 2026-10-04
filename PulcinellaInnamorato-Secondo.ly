@@ -106,7 +106,16 @@
   \tuplet 3/2{ees16[( f ees)} des8]\!|
   \break
   %rigo up 2.9
-  
+  \mark #3 r8 _\markup{\dynamic p \italic "leggiero"} <des bes>8^.[ ges^. <des bes>^.]|
+  r8 <ees c>^.[ ges^. <ees c>]|
+  \clef treble r8 \stemUp <f des>8[ <ges ees> <aes f>]|
+  <ges bes,>_. f \tupletDown \tuplet 3/2{ees16_([ f ees)} des8]_.|
+  r8 ges_.[ f_. ees_.]|
+  d!8_.[ _\<bes8_. c!_. cis_.]|
+  d8_.[ ees_. f_. d_.]\!|
+  \break
+  %rigo up 2.10
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -183,7 +192,16 @@
     ges,_. f'_. \stemDown ees^. des^.|
     \break
     %rigo down 2.9
-    
+    \stemUp ges,8_. r \stemDown des' r|
+    \stemUp aes8_. r \stemDown ees'^. r
+    des8 r8 r4|
+    \stemUp <des ges,>8_. r \stemDown <bes' ges> r|
+    ges,8^.[ bes'^. des,^. bes'^.]|
+    \stemUp f,8_. r <aes f>^. r|
+    bes,8_. r \stemDown <aes'' bes,>^. r|
+    \break
+    %rigo down 2.10
+
       } %Chiude relative low
              
 }%Chiude Staff low
