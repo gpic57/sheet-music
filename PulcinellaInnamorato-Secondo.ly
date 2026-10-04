@@ -128,6 +128,17 @@
   r8 <ees bes aes>^. r <ees bes aes>^.|
   \break
   %rigo up 2.11
+  r8 <ees bes g>^. r8 <ees bes g>^.|
+  r8 _\f <g ees>4^> <ees c>8^>~|
+  <ees c>8 <c aes>4^> <c aes>8^>|
+  r8 <c g ees>^. r <b g f>^.|
+  r8 <g ees>8^. <fis d>8 <g ees>^.|
+  \mark #4 
+  r8 <c g ees>^. r8 <c g ees>^.|
+  r8 <c aes f>^. r <c aes f>^.|
+  \break
+  %rigo up 2.12
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -223,7 +234,15 @@
     \stemUp bes,,8_. r bes'_. r|
     \break
     %rigo down 2.11
-
+    ees,8_. r \stemDown ees'^. r|
+    c'4^> aes^>|
+    f4^> ees8^\( d\)|
+    \stemUp g,8_. r g_. r|
+    c,_. r c' r|
+    ees,8 r ees r|
+    bes'8 r bes r|
+    \break
+    %rigo down 2.12
       } %Chiude relative low
              
 }%Chiude Staff low
