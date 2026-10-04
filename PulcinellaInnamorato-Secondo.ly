@@ -115,7 +115,19 @@
   d8_.[ ees_. f_. d_.]\!|
   \break
   %rigo up 2.10
-
+  <<{ees8^. d^. _\markup{\italic "cres."}  
+    \override TupletBracket.bracket-visibility = ##f
+    \tupletDown \tuplet 3/2{c16_\([ d c\)} bes8_.]}\\{g?2}>>|
+  \clef bass
+  \stemDown  <ees' g,>8^. _\< [ees,^. <ees' g,>8^. ees,^.]|
+  <ees' g,>8^. [ees,^. <ees' g,>8^. ees,^.]|
+  ees'8^.[ ees,^. ees'8^. ees,^.]\!|
+  r8 <ees' bes ees,>8^. r <ees bes ees,>^.|
+  r8 <ees c g>^. r <ees c g>^.|
+  r8 <ees c aes>^. r <ees c aes>^.|
+  r8 <ees bes aes>^. r <ees bes aes>^.|
+  \break
+  %rigo up 2.11
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -201,6 +213,16 @@
     bes,8_. r \stemDown <aes'' bes,>^. r|
     \break
     %rigo down 2.10
+    \stemUp <ees ees,>2|
+    <d? d,?>2|
+    <c c,>2|
+    <bes bes,>4_\( <aes aes,>|
+    <g g,>8_.\) r8 g_. r|
+    c8,_. r c'8_. r|
+    f,8_. r \stemDown f'^. r|
+    \stemUp bes,,8_. r bes'_. r|
+    \break
+    %rigo down 2.11
 
       } %Chiude relative low
              
