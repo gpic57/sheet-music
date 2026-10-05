@@ -70,8 +70,12 @@
   \break
   %rigo up 2.6
   c8^! _\markup{\italic "staccato e brillante"} aes^! f^! d^!|
-  ges8^! r16. \ottava #1
-  des''32^>^\(des,8..^>[\) des'32^>]|
+  bes'8^! g^! g^! ees^!|
+  aes8^! f^! d^! bes^!|
+  ees^! r16. \ottava #1 bes''32^>^\(bes,8..^>[\) bes'32^>^\(]|
+  c,8..^>[\) bes'32^>^\(]^\(d,8..^>[\) bes'32^>^\(]||  
+
+  %ges8^! r16. \ottava #1 des''32^>^\(des,8..^>[\) des'32^>]|
   
    } %Chiude relative Up
 }%Chiude New Staff Up
