@@ -78,8 +78,16 @@
   ees32^>]^\( g,8.. c32^>^\(  |
   \break
   %rigo up 2.7
-   f,8..\) aes32^>^\( d,8..\) bes'32^>^\(|
-   ees, r8 r48^.\)
+  f,8..\) aes32^>^\( d,8..\) bes'32^>^\(|
+  ees,8^.\) r8 r4|
+  R1*2/4 _\markup{\bold \fontsize #5 1}|
+  R1*2/4 _\markup{\bold \fontsize #5 2}|
+  R1*2/4 _\markup{\bold \fontsize #5 3}|
+  r4 bes'8^! _\markup{\dynamic ff \italic "staccato e brillante"} g^!|
+  ces8^! aes^! des^! aes^!|
+  ges'8^! des^! bes^! ges^!|
+  \break
+  %rigo up 2.8
 
   %ges8^! r16. \ottava #1 des''32^>^\(des,8..^>[\) des'32^>]|
   
@@ -125,7 +133,20 @@
     \key ees \major
     \break
     %rigo down 2.6
-
+    ees8^! c^! \stemUp bes_! f_!|
+    \stemDown d'8^! bes^! c^! g^!|
+    c^! aes^! \stemUp aes_! f_!|
+    g8_! r \stemDown bes4^\( c d ees\) \stemUp g,_\(|
+    \break
+    %rigo down 2.7
+    f4 aes g8\) r8 r4|
+    R1*2/4*3|
+    r4 \stemDown ees'8^! bes^!|
+    ees^! ces^! f^! des^!|
+    bes'8^! ges^! ees^! bes^!|
+    \break
+    %rigo down 2.8
+    
       } %Chiude relative low
              
 }%Chiude Staff low
