@@ -88,8 +88,10 @@
   ges'8^! des^! bes^! ges^!|
   \break
   %rigo up 2.8
-
-  %ges8^! r16. \ottava #1 des''32^>^\(des,8..^>[\) des'32^>]|
+  ces8^! aes^! f^! des^!|
+  ges8^! r16. 
+  \ottava #1 
+  des''32^>^\(des,8..^>[\) des'32^>]|
   
    } %Chiude relative Up
 }%Chiude New Staff Up
