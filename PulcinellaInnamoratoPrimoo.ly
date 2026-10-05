@@ -69,6 +69,7 @@
   \key ees \major
   \break
   %rigo up 2.6
+  c8^. aes^. f^. d^.|
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -109,6 +110,9 @@
     \stemDown g16^. aes^. bes^. c^. des^. ees^. f^. g^.|
     aes8^. r ees-! bes-! \bar "||"
     \key ees \major
+    \break
+    %rigo down 2.6
+
       } %Chiude relative low
              
 }%Chiude Staff low
