@@ -138,6 +138,17 @@
   r8 <c aes f>^. r <c aes f>^.|
   \break
   %rigo up 2.12
+  r8 <f b, g>^. r <f b, g>^.|
+  ees16^. d^. c^. bes!^. aes^. g^. fis^. g^.|
+  \clef treble
+  r8 \f \stemUp <bes' g>4^> <g ees>8^>~|
+  <g ees>8 <ees c>4^> <ees c>8|
+  \clef bass
+  r8 \stemDown <c aes>^. r <d bes aes>^.|
+  r8 <bes g>^. <a fis>^. <b g>8|
+  r8 <ees bes g>^. r <ees bes g>^.|
+  \break
+  %rigo up 2.13
 
     } %Chiude relative Up
 }%Chiude New Staff Up
@@ -242,6 +253,13 @@
     ees,8 r ees r|
     d8 r d r|
     \break
+    g8_. r g_. r|
+    c8_.[ g_. c_. ees_.]|
+    \stemDown ees'4^> c^>|
+    aes4^> g8^\( f\)|
+    \stemUp bes,8_. r bes_. r|
+    ees,8_. r \stemDown ees'^. r|
+    \stemUp g,8_. r g_. r|
     %rigo down 2.12
       } %Chiude relative low
              
