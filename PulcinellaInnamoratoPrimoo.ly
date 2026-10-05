@@ -69,7 +69,10 @@
   \key ees \major
   \break
   %rigo up 2.6
-  c8^. aes^. f^. d^.|
+  c8^! _\markup{\italic "staccato e brillante"} aes^! f^! d^!|
+  ges8^! r16. \ottava #1
+  des''32^>^\(des,8..^>[\) des'32^>]|
+  
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
