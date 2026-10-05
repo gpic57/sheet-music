@@ -240,7 +240,7 @@
     \stemUp g,8_. r g_. r|
     c,_. r c' r|
     ees,8 r ees r|
-    bes'8 r bes r|
+    d8 r d r|
     \break
     %rigo down 2.12
       } %Chiude relative low
