@@ -148,7 +148,7 @@
   r8 <bes g>^. <a fis>^. <b g>8|
   r8 <ees bes g>^. r <ees bes g>^.|
   \break
-  %rigo up 2.13
+  %rigo up 3.13
 
     } %Chiude relative Up
 }%Chiude New Staff Up
@@ -240,7 +240,7 @@
     <c c,>2|
     <bes bes,>4_\( <aes aes,>|
     <g g,>8_.\) r8 g_. r|
-    c8,_. r c'8_. r|
+    c,8_. r c'8_. r|
     f,8_. r \stemDown f'^. r|
     \stemUp bes,,8_. r bes'_. r|
     \break
@@ -253,6 +253,7 @@
     ees,8 r ees r|
     d8 r d r|
     \break
+    %rigo down 2.12
     g8_. r g_. r|
     c8_.[ g_. c_. ees_.]|
     \stemDown ees'4^> c^>|
@@ -260,7 +261,8 @@
     \stemUp bes,8_. r bes_. r|
     ees,8_. r \stemDown ees'^. r|
     \stemUp g,8_. r g_. r|
-    %rigo down 2.12
+    %rigo down 3.13
+
       } %Chiude relative low
              
 }%Chiude Staff low
