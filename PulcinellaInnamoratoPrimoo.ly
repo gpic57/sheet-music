@@ -75,7 +75,7 @@
   ees^! r16. \ottava #1 bes''32^>^\(bes,8..^>[\) bes'32^>^\(]|
   c,8..^>[\) bes'32^>^\(]^\(d,8..^>[\) bes'32^>^\(]|ees,8..\)[
   \ottava #0 
-  ees32^>]^\( g,8.. c32^>^\(  |
+  ees32^>]^\( g,8..\) c32^>^\(  |
   \break
   %rigo up 2.7
   f,8..\) aes32^>^\( d,8..\) bes'32^>^\(|
@@ -125,10 +125,10 @@
   ees4 d|
   c2\)|
   \mark #4 \ottava #1 c''16^. _\markup{\italic "brillante"} bes^. aes^. g^. f^. ees^. f^. g^.|
-  aes16^. g^. f^. ees^. d^. c^. b^.  c^. \ottava #0|
+  aes16^. g^. f^. ees^. d^. c^. b^.  \ottava #0 c^. |
   \break
   %rigo up 2.12
-  d'16^. c^. bes^. aes^. g^. f^. ees^. d^.|
+  d16^. c^. bes^. aes^. g^. f^. ees^. d^.|
   c8^. r r4|
   g''^>_\f ees^>|
   c^> bes8^\( aes|
@@ -137,6 +137,7 @@
   ees'16 _\markup{\italic "brillante"} d^. c^. bes^. aes^. g^. aes^. bes^.|
   \break
   %rigo up 3.13
+  
 
   } %Chiude relative Up
 }%Chiude New Staff Up
@@ -206,7 +207,7 @@
     %rigo down 2.10
     R1*2/4*5|
     r4 \stemUp aes4~|
-    aes4 bes4_(|
+    aes4 bes4_\(|
     g2\)|
     \break
     %rigo down 2.11
@@ -225,7 +226,7 @@
     R1*2/4
     \break
     %rigo down 3.13
-    
+
       } %Chiude relative low
              
 }%Chiude Staff low
