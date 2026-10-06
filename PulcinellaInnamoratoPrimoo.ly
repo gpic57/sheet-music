@@ -99,6 +99,9 @@
   aes,8..\) ces32^>\(|
   f,8..\) des'32^>\(|
   ges,8\) r r4|
+  \break
+  %rigo up 2.9
+
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -154,6 +157,14 @@
     bes'8^! ges^! ees^! bes^!|
     \break
     %rigo down 2.8
+    ees8^! ces^! ces^! aes^!|
+    bes8^! r des4^!^\(|
+    ees4 f|
+    ges4\) bes,4^\(|
+    \stemUp aes4 \stemDown ces|
+    bes8\) r r4|
+    \break
+    %rigo down 2.9
     
       } %Chiude relative low
              
