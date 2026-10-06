@@ -113,7 +113,7 @@
   %rigo up 2.10
   c4 d ees2\)|
   d4\!^\( c|
-  bes8\) des^\( ees f|
+  bes8\) _\markup{\italic "con eleganza"} d^\( ees f|
   fis8 g\) ees'8^\( c|
   bes8 aes\) c,^\( ees|
   f4 g|
@@ -185,7 +185,13 @@
     \break
     %rigo down 2.9
     R1*2/4*8|
-
+    R1*2/4*5|
+    r4 \stemUp aes4~|
+    aes4 bes4_(|
+    g2\)|
+    \break
+    %rigo down 2.10
+    
       } %Chiude relative low
              
 }%Chiude Staff low
