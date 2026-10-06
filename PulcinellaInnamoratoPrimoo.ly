@@ -121,15 +121,24 @@
   \break
   %rigo up 2.11
   \stemDown ees'4^> c^>|
-    aes4^> g8^\(f|
-    ees4 d|
-    c2\)|
-    \mark #4 \ottava #1 c''16^. _\markup{\italic "brillante"} bes^. aes^. g^. f^. ees^. f^. g^.|
-    aes16^. g^. f^. ees^. d^. c^. b^.  c^. \ottava #0|
-    \break
+  aes4^> g8^\(f|
+  ees4 d|
+  c2\)|
+  \mark #4 \ottava #1 c''16^. _\markup{\italic "brillante"} bes^. aes^. g^. f^. ees^. f^. g^.|
+  aes16^. g^. f^. ees^. d^. c^. b^.  c^. \ottava #0|
+  \break
   %rigo up 2.12
+  d'16^. c^. bes^. aes^. g^. f^. ees^. d^.|
+  c8^. r r4|
+  g''^>_\f ees^>|
+  c^> bes8^\( aes|
+  g4 f|
+  ees2\)|
+  ees'16 _\markup{\italic "brillante"} d^. c^. bes^. aes^. g^. aes^. bes^.|
+  \break
+  %rigo up 3.13
 
-   } %Chiude relative Up
+  } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
     \clef treble
@@ -208,8 +217,15 @@
     R1*2/4*2|
     \break
     %rigo down 2.12
-
-
+    R1*2/4*2|
+    \stemDown g''4^> ees^>|
+    c4^> \stemUp bes8_\( aes|
+    g4 f|
+    ees2\)|
+    R1*2/4
+    \break
+    %rigo down 3.13
+    
       } %Chiude relative low
              
 }%Chiude Staff low
