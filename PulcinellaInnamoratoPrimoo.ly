@@ -120,7 +120,15 @@
   ees2\)|
   \break
   %rigo up 2.11
-  
+  \stemDown ees'4^> c^>|
+    aes4^> g8^\(f|
+    ees4 d|
+    c2\)|
+    \mark #4 \ottava #1 c''16^. _\markup{\italic "brillante"} bes^. aes^. g^. f^. ees^. f^. g^.|
+    aes16^. g^. f^. ees^. d^. c^. b^.  c^. \ottava #0|
+    \break
+  %rigo up 2.12
+
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -185,13 +193,18 @@
     \break
     %rigo down 2.9
     R1*2/4*8|
+    \break
+    %rigo down 2.10
     R1*2/4*5|
     r4 \stemUp aes4~|
     aes4 bes4_(|
     g2\)|
     \break
-    %rigo down 2.10
+    %rigo down 2.11
     
+    %rigo down 2.12
+
+
       } %Chiude relative low
              
 }%Chiude Staff low
