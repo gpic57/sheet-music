@@ -101,7 +101,18 @@
   ges,8\) r r4|
   \break
   %rigo up 2.9
-
+  \mark #3 des2 _\markup{\dynamic p \italic "espressivo"}|
+  des2|
+  \acciaccatura {ces16 des} ces8^\([ bes ces des!]|
+  bes2\)|
+  bes2|
+  bes2|
+  \acciaccatura {aes16 bes} aes8[_\( g? aes bes]|
+  g4\) bes^\(_\<|
+  \break
+  %rigo up 2.10
+  c4 d ees2\)|
+  d4\! c
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
