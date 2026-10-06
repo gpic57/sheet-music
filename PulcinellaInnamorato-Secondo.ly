@@ -149,7 +149,7 @@
   r8 <ees bes g>^. r <ees bes g>^.|
   \break
   %rigo up 3.13
-
+  r8 <ees c aes>^. r <ees c aes>^.|
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -262,7 +262,7 @@
     ees,8_. r \stemDown ees'^. r|
     \stemUp g,8_. r g_. r|
     %rigo down 3.13
-
+    f8 r \stemDown f' r|
       } %Chiude relative low
              
 }%Chiude Staff low
