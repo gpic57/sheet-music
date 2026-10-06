@@ -91,8 +91,14 @@
   ces8^! aes^! f^! des^!|
   ges8^! r16. 
   \ottava #1 
-  des''32^>^\(des,8..^>[\) des'32^>]|
-  
+  des''32^>^\(des,8..^>[\) des'32^>]^\(|
+  ees,8..\)[ des'32^>]^\(|
+  f,8..\) des'32^>^\(|
+  g,8..\) \ottava #0 ges32^>\(|
+  bes,8..\) ees32^>\(|
+  aes,8..\) ces32^>\(|
+  f,8..\) des'32^>\(|
+  ges,8\) r r4|
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
