@@ -201,7 +201,12 @@
     g2\)|
     \break
     %rigo down 2.11
-    
+    \stemDown ees'4^> ^\f c^>|
+    \stemUp aes4_> g8_\( f|
+    ees4 d|
+    c2\)|
+    R1*2/4*2|
+    \break
     %rigo down 2.12
 
 
