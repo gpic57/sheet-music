@@ -216,7 +216,15 @@
   r8 <aes, f c>8^\([<des aes f><ees bes g>]\)
   \break
   %rigo up 3.19
-
+  r8 <c aes ees>8^\([ <des aes f><des bes g>\)]|
+  <c ees>4^\( <bes aes>|
+  <c ees,>4 <bes a>\)|
+  <f' b, g>2|
+  <f bes,! g>2|
+  <e c g>2|
+  <ees! des g,>2|
+  <ees des bes g>8^^ _\ff r8 r4|
+  <aes ees c aes>8^^ r8 r4 \bar "|."
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
