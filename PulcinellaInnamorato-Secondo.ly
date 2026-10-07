@@ -206,8 +206,18 @@
   <aes ees>8_. <bes ees, des>_. <aes ees c> \! r|
   \break
   %rigo up 3.18
+  <des aes des,>8^^ r r4|
+  R1*2/4 _\markup {\bold \fontsize #5 "1"}|
+  r4 _\pp <ces f,>8_. r|
+  <bes e,>8_. r <a ees>_. r|
+  <aes d>8 r r4 \clef bass |
+  \stemDown <bes,! ees, c>2^\( _\pp|
+  <c aes ees>8^.\) <c aes ees>^\([<des aes f><ees bes g>]\)|
+  r8 <aes, f c>8^\([<des aes f><ees bes g>]\)
+  \break
+  %rigo up 3.19
 
-    } %Chiude relative Up
+     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
     \clef bass
