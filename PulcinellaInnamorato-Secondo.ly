@@ -308,10 +308,16 @@
     \stemDown <ees g>8^. aes^. <ees g>8^. aes^.|
     <ees g>8^. aes^. <ees g>8^. aes^.|
     <ees g>8^. aes^. <ees g>8^. aes^.|
-    \stemUp ees,8_. ees'_. ees,_. r|
+    \stemUp ees,8^. ees'^. ees,^. r|
     \break
     %rigo down 3.15
-
+    ees8_. ees'_. ees,_. r|
+    \stemDown <ees' aes,>8^. aes^. <ees aes,>8^. aes^.|
+    <ees aes,>8_. aes^. <c, f,>^. f^.|
+    \stemUp bes,,8_. bes'_. bes,_. r|
+    ees8_. ees'_. ees,_. r|
+    ees8_. ees'_. ees,_. r|
+    ees8_. ees'_. ees,_. r|
       } %Chiude relative low
              
 }%Chiude Staff low
