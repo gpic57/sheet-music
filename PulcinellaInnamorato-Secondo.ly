@@ -206,7 +206,7 @@
   <aes ees>8_. <bes ees, des>_. <aes ees c> \! r|
   \break
   %rigo up 3.18
-  <des aes des,>8^^ r r4|
+  <des aes des,>8^^ _\sf r r4|
   R1*2/4 _\markup {\bold \fontsize #5 "1"}|
   r4 _\pp <ces f,>8_. r|
   <bes e,>8_. r <a ees>_. r|
@@ -373,6 +373,16 @@
     R1*2/4*3|
     \break
     %rigo down 3.18
+    \stemUp <f f,>8_^ r8 r4|
+    R1*2/4|
+    r4 \stemDown des'8^. r|
+    c8^. r ces^. r|
+    bes8^. r r4|
+    \stemUp ees,,2_\(|
+    aes8_.\) r r4|
+    aes8_. r r4|
+    \break
+    %rigo down 3.19
     
       } %Chiude relative low
              
