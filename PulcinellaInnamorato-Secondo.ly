@@ -179,7 +179,25 @@
   <c ees,>_.[ <g c,>_.] <c ees,>_.[ <g c,>_. ]|
   \break
   %rigo up 3.16
-  
+  \autoBeamOn <bes des,>8_. _\> <f aes,>_. <g bes,>_. <ees des>_.\!|
+  <aes aes,>8_. <ees aes,>_. <f aes,>_. _\f <des aes>_.|
+  <c aes>_. <c aes>_. <f aes,>_. <g bes,>_.|
+  <aes c,>_. <ees c>_.
+  <<{c8^\( d|
+  ees8 f g f|
+  <ees c>8\) <ees c>
+  }
+  \\
+  {c4|
+  c4 <d b>|
+  s8 \stemUp g,8_.
+  }
+  >>
+  r8 <ees' d g,>_.|
+  r8 <ees c aes>_. r <ees aes,>_.|
+  \break
+  %rigo up 3.17
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -318,6 +336,18 @@
     ees8_. ees'_. ees,_. r|
     ees8_. ees'_. ees,_. r|
     ees8_. ees'_. ees,_. r|
+    \break
+    %rigo down 3.16
+    ees8_. ees'_. ees,_. r8|
+    aes8_. r aes4_>|
+    aes4_> \stemDown aes8^. aes'^.|
+    \stemUp aes,8_. r <f' f,>8_. r|
+    <g g,>8 r g,_. r|
+    c4_\( bes|
+    aes\) c4_\(|
+    \break
+    %rigo down 3.17
+    bes4 ees,\)|
       } %Chiude relative low
              
 }%Chiude Staff low
