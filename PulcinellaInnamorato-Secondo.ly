@@ -197,6 +197,15 @@
   r8 <ees c aes>_. r <ees aes,>_.|
   \break
   %rigo up 3.17
+  r8 <f des aes>_. r <ees des g,>_.|
+  r8 _\< <ees aes>_. r <f d aes>_. \!|
+  r8 <f des! aes>_. r <ees des g,>_.|
+  <aes ees aes,>8^^ _\sf r8 r4|
+  R1*2/4 _\markup {\bold \fontsize #5 "1"}|
+  \stemUp bes8_.[ _\markup{\dynamic pp \italic "cres."}<c aes>_. <bes g>_. <aes f>_.]_\<|
+  <aes ees>8_. <bes ees, des>_. <aes ees c> \! r|
+  \break
+  %rigo up 3.18
 
     } %Chiude relative Up
 }%Chiude New Staff Up
@@ -348,6 +357,13 @@
     \break
     %rigo down 3.17
     bes4 ees,\)|
+    c'4_\( ces|
+    bes4 ees,\)|
+    <c' c,>8_^ r r4|
+    R1*2/4*3|
+    \break
+    %rigo down 3.18
+    
       } %Chiude relative low
              
 }%Chiude Staff low
