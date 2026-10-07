@@ -150,16 +150,26 @@
   \break
   %rigo up 3.13
   r8 <ees c aes>^. r <ees c aes>^.|
-  r8 <f bes, aes> r <d bes aes>|
+  r8 <f bes, aes>^. r <d bes aes>^.|
   e,16^. f^. g^. aes^. bes^. c^. d^. ees^.|
+  <des aes f>2 _\p|
   <des aes f>2|
   <des aes f>2|
-  <des aes f>2|
-  <des aes f>8 r <gis e>4^\(|
+  <des aes f>8^. r <gis e>4^\( _\pp|
   \break
   %rigo up 3.14
   <eis cis>4 <d bes!>|
-  <b g>4\) \clef treble \stemUp <ees! des g,>|
+  <b g>4\) \clef treble \stemUp <ees! des g,>_\(|
+  <f des aes>4 <g des bes> \bar "||"
+  \key aes \major
+  \mark #5
+  <aes c,>8_.\) <c ees,>_. <aes c,>8_. <c ees,>_.|
+  <aes c,>8_. <c ees,>_. <aes c,>8_. <c ees,>_.|
+  <aes c,>8_. <c ees,>_. <aes c,>8_. <c ees,>_.|
+  aes16_. _\markup{\italic "leggiere"} g_. f_. ees_. des_. c_. des_. ees_.
+  \break
+  %rigo up 3.15
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -273,6 +283,25 @@
     \stemUp g,8_. r g_. r|
     %rigo down 3.13
     f8 r \stemDown f' r|
+    \stemUp bes,8_. r bes_. r|
+    ees,8_. ees'_. ees,8_. r|
+    ees8_. ees'_. ees,8_. r|
+    ees8_. ees'_. ees,8_. r|
+    ees8_. ees'_. ees,8_. r|
+    ees'8^. r \stemDown b'4^\(|
+    \break
+    %rigo down 3.14
+    gis4 f!|
+    d!4\) \stemUp <ees bes!>_\(|
+    <ees ees,>\) <ees ees,> \bar "||"
+    \key aes \major
+    \stemDown <ees g>8^. aes^. <ees g>8^. aes^.|
+    <ees g>8^. aes^. <ees g>8^. aes^.|
+    <ees g>8^. aes^. <ees g>8^. aes^.|
+    \stemUp ees,8_. ees'_. ees,_. r|
+    \break
+    %rigo down 3.15
+
       } %Chiude relative low
              
 }%Chiude Staff low
