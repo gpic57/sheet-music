@@ -170,10 +170,12 @@
   \break
   %rigo up 3.15
   f16_. ees_. des_. c_. bes_. aes_. bes_. c_.|
-  aes8_. <c' ees,>_. <aes aes,>_. <c ees,>_.|
+  aes8_. _\< <c' ees,>_. <aes aes,>_. <c ees,>_.|
   <aes aes,>_. <c ees,>_. <aes aes,>_. <c ees,>_.|
   \clef bass
-  
+  \stemDown ees,16^. d^. c^. bes^. aes^. g^. aes^. bes^.|
+  c16^. bes^. aes^. g^. f^. ees^. f^. g^.|
+  \autoBeamOff aes8^. \clef treble \stemUp <aes' des,>_._\pp <des f,>_.[ <aes des,>_.]|
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
