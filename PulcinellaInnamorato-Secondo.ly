@@ -176,6 +176,10 @@
   \stemDown ees,16^. d^. c^. bes^. aes^. g^. aes^. bes^.|
   c16^. bes^. aes^. g^. f^. ees^. f^. g^.|
   \autoBeamOff aes8^. \clef treble \stemUp <aes' des,>_._\pp <des f,>_.[ <aes des,>_.]|
+  <c ees,>_.[ <g c,>_.] <c ees,>_.[ <g c,>_. ]|
+  \break
+  %rigo up 3.16
+  
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
