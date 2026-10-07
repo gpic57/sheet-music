@@ -42,7 +42,7 @@
   <aes c,>8_. <ees c>
   <<{c8^\( d|
   ees f g f| 
-  ees8 \)<ees c g>8|
+  ees8 \)<ees c g>8
   }
   \\
   {c4_>|
@@ -169,7 +169,11 @@
   aes16_. _\markup{\italic "leggiere"} g_. f_. ees_. des_. c_. des_. ees_.
   \break
   %rigo up 3.15
-
+  f16_. ees_. des_. c_. bes_. aes_. bes_. c_.|
+  aes8_. <c' ees,>_. <aes aes,>_. <c ees,>_.|
+  <aes aes,>_. <c ees,>_. <aes aes,>_. <c ees,>_.|
+  \clef bass
+  
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
