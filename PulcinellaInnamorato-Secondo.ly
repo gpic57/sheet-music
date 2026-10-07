@@ -150,6 +150,16 @@
   \break
   %rigo up 3.13
   r8 <ees c aes>^. r <ees c aes>^.|
+  r8 <f bes, aes> r <d bes aes>|
+  e,16^. f^. g^. aes^. bes^. c^. d^. ees^.|
+  <des aes f>2|
+  <des aes f>2|
+  <des aes f>2|
+  <des aes f>8 r <gis e>4^\(|
+  \break
+  %rigo up 3.14
+  <eis cis>4 <d bes!>|
+  <b g>4\) \clef treble \stemUp <ees! des g,>|
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
