@@ -391,7 +391,15 @@
     aes8_. r r4|
     \break
     %rigo down 3.19
-    
+    aes8_. r r4|
+    aes4_\( des|
+    aes4 des\)|
+    \stemDown d2|
+    des2|
+    \stemUp c2|
+    bes2|
+    <ees, des,>8_^ r r4|
+    <aes aes,>8_^ r r4 \bar "|."
       } %Chiude relative low
              
 }%Chiude Staff low
