@@ -172,9 +172,9 @@
   aes'8^. _\f f^.|
   ees16^. g^. ees^. c^. des^. f^. des^. bes^.|
   ees8^. aes,^. aes'^. f^.|
-  ees16^. g^. ees^. c^. b^. d^. b^. g^. 
-  \ottava #0 \ottava #0|
-  c8^> bes!16^\( _\< aes g f g ees\)
+  ees16^. g^. ees^. c^. b^. d^. b^. g^. \ottava #0 | 
+
+  c8^> bes!16^\( _\< aes g f g ees\)|
   aes8^. aes4^> \! aes8^>^~|
   aes16 g^\( f g ees8^.\) ees8^\(|
   \break
@@ -186,7 +186,7 @@
   \autoBeamOn g16^._\markup{\italic "molto cres."} aes^. bes^. c^. des^. ees^. f^. _\< g^.
   \ottava #1
   aes16^. bes^. c^. des^. \f ees^. _\< aes,^\( bes c|
-  \autoBeamOff des8-!\) \! _\markup{\dynamic ppp \italic "subito"} <c g>8^. <bes f>^. <aes ees>^.
+  \autoBeamOff des8-!\) \! _\markup{\dynamic ppp \italic "subito"} <c g>8^. <bes f>^. <aes ees>^.|
   \break
   %rigo up 3.18
   
@@ -312,6 +312,15 @@
     R1*2/4|
     \break
     %rigo down 3.17
+    r4 d^\(|
+    des!4\)^~des16 ees^\( f g|
+    \autoBeamOff aes8^!\) bes^.  aes^. g^.|
+    f8^. ees^. des^. c^.|
+    des8^.[ f^. ees^. des^.]|
+    c8^. r8 r16 aes'^\([ bes c]|
+    des8\)-! ees^. des^. c^.|
+    \break
+    %rigo down 3.18
     
       } %Chiude relative low
              
