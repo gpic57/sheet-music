@@ -200,7 +200,7 @@
   %rigo up 3.19
   \autoBeamOn c16^\( ees des c\)
   \crossStaff { f,8 ees}
-  _\markup {\italic "m. s."}
+  
   } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -341,9 +341,13 @@
     %rigo down 3.19
     s8 s8 
     \stemDown
-    \hide NoteHead
-    \hide LedgerLineSpanner
-    f8[ ees]
+  \hide NoteHead
+  \hide LedgerLineSpanner
+    f8[ _\markup {\italic "m. s."} ees]|
+    \undo \hide NoteHead
+    \undo \hide LedgerLineSpanner
+    \stemNeutral
+    \stemUp aes,16[ _\(c aes ees\) f4_>]
     
       } %Chiude relative low
              
