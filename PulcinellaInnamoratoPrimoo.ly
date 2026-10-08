@@ -155,10 +155,19 @@
   aes8^. r8 r4|
   aes16^. _\markup{\dynamic pp \italic "leggiere"} g^. f^. ees^. des^. c^. des^. ees^.|
   f16^. ees^. des^. c^. bes^. aes^. bes^. c^.|
-  \stemUp bes8_^ r ees,_^ r|
-  \stemDown ees'8^^ r ees'^^ r|
+  \stemUp bes8_! r ees,_! r|
+  \stemDown ees'8-! r ees'-! r|
   \break
   %rigo up 3.15
+  c16^. _\< bes^. aes^. g^. f^. ees^. f^. g^.|
+  f16^. ees^. des^. c^. bes^. aes^. bes^. c^.|
+  bes8-! r f'-! r|
+  ees-! r ees'-! r|
+  aes,16^. \! _\markup{\dynamic pp \italic "subito"} g^. f^. ees^. des^. ees^. f^. aes^.|
+  g8^! r g'^! \ottava #0 r8|
+  des,16^. c^. bes^. aes^. g^. aes^. bes^. c^.|
+  \break
+  %rigo up 3.16
   
   } %Chiude relative Up
 }%Chiude New Staff Up
