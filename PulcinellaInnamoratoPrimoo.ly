@@ -200,7 +200,8 @@
   %rigo up 3.19
   \autoBeamOn c16^\( ees des c\)
   \crossStaff { f,8 ees}
-  
+  R1*2/4*2|
+  r4 r8 g8^.
   } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -348,7 +349,8 @@
     \undo \hide LedgerLineSpanner
     \stemNeutral
     \stemUp aes,16[ _\(c aes ees\) f4_>]
-    
+    \stemUp aes,16[ _\(c aes ees\) f4_>]
+
       } %Chiude relative low
              
 }%Chiude Staff low
