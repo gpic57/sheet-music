@@ -137,7 +137,15 @@
   ees'16 _\markup{\italic "brillante"} d^. c^. bes^. aes^. g^. aes^. bes^.|
   \break
   %rigo up 3.13
-  
+  c16^. bes^. aes^. g^. f^. ees^. d^. ees^.|
+  f16^. ees^. d^. c^. \stemUp bes^. aes^. g^. f^.|
+  ees8_. r r4|
+  \stemDown bes'16^._\p c^. des^. ees^. f8^. aes^.|
+  g8^. r ees'^. r|
+  des,16^. ees^. f^. g^. aes8^. des^.|
+  bes8^. ees^. r _\pp e^.|
+  \break
+  %rigo up 3.14
 
   } %Chiude relative Up
 }%Chiude New Staff Up
@@ -226,7 +234,14 @@
     R1*2/4
     \break
     %rigo down 3.13
-
+    R1*2/4*3|
+    f2_\(|
+    ees16_.\) f_. g_. aes_. \stemDown bes8^. ees^.|
+    \stemUp f,2_\(|
+    ees8_.\) r \stemDown <e'! d>4^\(|
+    \break
+    %rigo down  3.14
+    
       } %Chiude relative low
              
 }%Chiude Staff low
