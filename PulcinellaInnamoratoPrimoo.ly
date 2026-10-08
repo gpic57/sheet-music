@@ -198,6 +198,8 @@
   aes16^.[ c aes f]\) ees8^.[ des^.]|
   \break
   %rigo up 3.19
+  
+
   } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -329,7 +331,14 @@
     des8\)-! ees^. des^. c^.|
     \break
     %rigo down 3.18
-    
+    bes8^. aes^. g^. f^.|
+    <g e>8^. r r f^.|
+    r8 e r ees|
+    d8^.[ bes'^.] r4|
+    R1*2/4*3|
+    \break
+    %rigo down 3.19
+
       } %Chiude relative low
              
 }%Chiude Staff low
