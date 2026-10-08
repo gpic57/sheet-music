@@ -165,10 +165,21 @@
   ees-! r ees'-! r|
   aes,16^. \! _\markup{\dynamic pp \italic "subito"} g^. f^. ees^. des^. ees^. f^. aes^.|
   g8^! r g'^! \ottava #0 r8|
-  des,16^. c^. bes^. aes^. g^. aes^. bes^. c^.|
+  des,16^. _\> c^. bes^. aes^. g^. aes^. bes^. c^.|
   \break
   %rigo up 3.16
-  
+  aes8^.  r \! \ottava #1 
+  aes'8^. _\f f^.|
+  ees16^. g^. ees^. c^. des^. f^. des^. bes^.|
+  ees8^. aes,^. aes'^. f^.|
+  ees16^. g^. ees^. c^. b^. d^. b^. g^. 
+  \ottava #0 \ottava #0|
+  c8^> bes!16^\( _\< aes g f g ees\)
+  aes8^. aes4^> \! aes8^>^~|
+  aes16 g^\( f g ees8^.\) ees8^\(|
+  \break
+  %rigo up 3.17
+
   } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -273,6 +284,15 @@
     r8 <f ees aes,>^. r <g ees des>^.
     \break
     %rigo down 3.15
+    <aes ees c>^. r r4|
+    R1*2/4|
+    r8 <ees bes g>8^. r <d! bes aes>^.|
+    r8 <ees bes g>^. r <g ees bes>^.|
+    f2^\(|
+    ees\)|
+    f4^\( ees8 des|
+    \break
+    %rigo down 3.16
 
       } %Chiude relative low
              
