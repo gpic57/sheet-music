@@ -146,7 +146,20 @@
   bes8^. ees^. r _\pp e^.|
   \break
   %rigo up 3.14
-
+  r8 eis^. r f!^.|
+  r8 \ottava #1 
+  g8^. r g^.|
+  r8 c^. r bes^. \bar "||"
+  \key aes \major
+  \mark #5
+  aes8^. r8 r4|
+  aes16^. _\markup{\dynamic pp \italic "leggiere"} g^. f^. ees^. des^. c^. des^. ees^.|
+  f16^. ees^. des^. c^. bes^. aes^. bes^. c^.|
+  \stemUp bes8_^ r ees,_^ r|
+  \stemDown ees'8^^ r ees'^^ r|
+  \break
+  %rigo up 3.15
+  
   } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -241,7 +254,17 @@
     ees8_.\) r \stemDown <e'! d>4^\(|
     \break
     %rigo down  3.14
-    
+    <cis b>4 \stemUp <bes! aes!>|
+    <gis f!>\) r8 \stemDown g'8^.|
+    r8 c8^. r bes^. \bar "||"
+    \key aes \major
+    aes8^. r r4|
+    R1*2/4*2|
+    r8 <des, bes>^. r <ees des g,>^.|
+    r8 <f ees aes,>^. r <g ees des>^.
+    \break
+    %rigo down 3.15
+
       } %Chiude relative low
              
 }%Chiude Staff low
