@@ -172,8 +172,7 @@
   aes'8^. _\f f^.|
   ees16^. g^. ees^. c^. des^. f^. des^. bes^.|
   ees8^. aes,^. aes'^. f^.|
-  ees16^. g^. ees^. c^. b^. d^. b^. g^. \ottava #0 | 
-
+  ees16^. g^. ees^. c^. b^. d^. b^. g^. \ottava #0 |
   c8^> bes!16^\( _\< aes g f g ees\)|
   aes8^. aes4^> \! aes8^>^~|
   aes16 g^\( f g ees8^.\) ees8^\(|
@@ -189,7 +188,16 @@
   \autoBeamOff des8-!\) \! _\markup{\dynamic ppp \italic "subito"} <c g>8^. <bes f>^. <aes ees>^.|
   \break
   %rigo up 3.18
-  
+  <g des>8^. <f c>^. <ees bes>^. <des aes>^.|
+  c8^.[ c'^.] r8 f,^. |
+  r8 e8^. r ees^.|
+  d8^. bes^.\ottava #0 
+  r8 d, _\markup{\italic "sempre" \dynamic pp}|
+  des16^.[ c^. des^. ees^. ]f^. [g^. aes^. bes^.]|
+  c16^\([ ees c aes\)] f8^.[ ees^.]|
+  aes16^.[ c aes f]\) ees8^.[ des^.]|
+  \break
+  %rigo up 3.19
   } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
