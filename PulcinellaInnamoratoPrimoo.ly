@@ -201,7 +201,12 @@
   \autoBeamOn c16^\( ees des c\)
   \crossStaff { f,8 ees}
   R1*2/4*2|
-  r4 r8 g8^.
+  r4 r8 g'8^.|
+  g'8^. r g,^. r|
+  r4 r8 g^.
+  g'8^. r g,^. r|
+  g16^. _\ff aes^._\< bes^. c^. des^. ees^. f^. g^. \!|
+  <aes ees c>8^^ r8 r4 \bar "|." 
   } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -349,8 +354,13 @@
     \undo \hide LedgerLineSpanner
     \stemNeutral
     \stemUp aes,16[ _\(c aes ees\) f4_>]
-    \stemUp aes,16[ _\(c aes ees\) f4_>]
-
+    aes16[ _\(c aes ees\) f4_>]
+    g16[_\( aes] g4._(|
+    g2\))|
+    g16[_\( aes] g4._(|
+    g2\))|
+    \stemDown g16^.[ aes^. bes^. c^.] des^.[ ees^. f^. g^.]|
+    aes8^^ r8 r4 \bar "|."
       } %Chiude relative low
              
 }%Chiude Staff low
