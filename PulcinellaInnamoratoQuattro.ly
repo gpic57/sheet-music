@@ -1,7 +1,7 @@
 \version "2.26.0"
 
 \header {
-  title = "Pulcinella innamorato Primo"
+  title = "Pulcinella innamorato Quattro"
   composer = "J. Burgmein"
 }
 
