@@ -6,11 +6,12 @@
 }
 
 \score {
-<< % Apre Piano
+ \new StaffGroup << 
+%<< % Apre Piano
   
-   
+ 
  \new PianoStaff  
-      \with { instrumentName = \markup{\italic "ALL." \super "tto"" VIVACE ASSAI" }
+      \with { instrumentName = \markup{\italic "ALL." \super "tto"" VIVACE ASSAI S" }
  }
 <<
   \new Staff="up" { 
@@ -365,9 +366,11 @@
              
 }%Chiude Staff low
 >>%Fine Base Piano
-  
- >> %Chiude Canto e Piano
  
+
+ 
+ %>> %Chiude Canto e Piano
+  >>%Chiude StaffGroup
  \layout {
  \set Score.rehearsalMarkFormatter = #format-mark-box-numbers
     \context {
