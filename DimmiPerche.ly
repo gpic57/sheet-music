@@ -39,7 +39,7 @@
   \time 4/4
   \relative c' {
   %rigo up 1.1
-  <bes' ees, bes>1\arpeggio|
+  <bes' ees, bes>1\arpeggio ^\markup{\italic "Canto"} |
   <ees g, ees>4-_ _( <ees g, ees>4-_ <ees g, ees>4-_ <ees g, ees>4-_ )|
 <ees g, ees>4-_ _( <ees g, ees>4-_ <ees g, ees>4-_ <ees g, ees>4-_ )|
 \break
@@ -51,9 +51,11 @@
     \key ees \major
     \time 4/4
     \relative c{
-    <g' ees bes ees,>1\arpeggio|
+    <g' ees bes ees,>1\arpeggio ^\markup{\italic "Lentamente"} |
     <bes ees,>1^(|
     <bes g>2) c|
+    \break
+
       } %Chiude relative low
              
 }%Chiude Staff low
