@@ -88,6 +88,8 @@
   bes4__ bes__ \! _\> ees__ \stemDown ees \!|
   \stemUp d4__ _\< d__ ees__ ees8__ s8 \!|
   \time 2/4
+  \break
+  %rigo down 2.5
   }
   >>
    } %Chiude relative Up
@@ -116,6 +118,8 @@
     \stemDown d2 <<{f}\\{c}>>
     \stemDown bes2 f'|
     \time 2/4
+    \break
+    %rigo down 2.5
       } %Chiude relative low
              
 }%Chiude Staff low
