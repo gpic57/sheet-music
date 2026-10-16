@@ -112,7 +112,8 @@
     g2 <<{f}\\{c!}>>
     \break
     %rigo down 1.4 
-    <<{g'4 f d4 ees|\stemDown d2 \stemUp <f c>2}\\{s2 bes,2 }>> |
+    <<{g'4 f d4 ees|}\\{bes2 s2 }>>|
+    \stemDown d2 <<{f}\\{c}>>
     \stemDown bes2 f'|
     \time 2/4
       } %Chiude relative low
