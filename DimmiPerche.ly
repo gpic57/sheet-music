@@ -99,8 +99,8 @@
     \key ees \major
     \time 4/4
     \relative c{
-    <g' ees bes ees,>1\arpeggio ^\markup{\italic "Lentamente"} |
-    <bes ees,>1^(|
+    \sustainOn <g' ees bes ees,>1\arpeggio ^\markup{\italic "Lentamente"} |
+    \sustainOff<bes ees,>1^(|
     <bes g>2) c^\(|
     \break
     %rigo down 1.2
