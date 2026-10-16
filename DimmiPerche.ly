@@ -7,7 +7,7 @@
 \score {
  << % Apre Canto e Piano
   \new Staff = "Canto" \with {     
-    instrumentName = "Tenore "
+    instrumentName = ""
     midiInstrument = "voice oohs"  % Suono vocale più dolce
   } 
   \relative c' {
@@ -47,7 +47,7 @@
   } %Chiude new staff canto
    
  \new PianoStaff  
-      \with { instrumentName = \markup{\bold "LENTO" }
+      \with { instrumentName = \markup{\bold "" }
  }
 <<
   \new Staff="up" { 
@@ -64,7 +64,7 @@
   %rigo up 1.2
   <g, ees>4__ _\< <g ees>__ <g c,>__ <f c>__ \!|
   <<{bes4 bes aes8[_( g)] f8[_( ees])|
-  g4^\( f\) <ees' g, ees>4__ _\(<ees g, ees>4__|
+  g4^\( f\) <ees' g, ees>4__ _\(<ees g, ees>4__ \)|
   }
   \\
   {\stemUp <ees, bes>4__ _(<ees bes>)__ ees8 s8 a,8 s8|
@@ -139,7 +139,7 @@
   %\Voice 
   %\remove "Slur_engraver"
     } 
-    indent = 3\cm
+    %indent = 3\cm
     %short-indent = 2\cm
     %ragged-right = ##f
     %ragged-last = ##f
