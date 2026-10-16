@@ -22,7 +22,12 @@
     bes4. \breathe bes8 c c c c|
     \break
     %rigo canto 1.2
-    g4 g8\)
+    g4 g8\) r g4^\( f8. ees16|
+    bes'4. bes8 \breathe aes g f ees|
+    g4 f8\) r ees'4^\( ees8. ees16|
+    \break
+    %rigo canto 1.3
+    bes4. \breathe bes8 c c c c
   }%Chiude relative Canto
  \addlyrics {
   Dim -- mi per -- ché se a la campa -- gna_io
