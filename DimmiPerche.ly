@@ -32,13 +32,19 @@
     bes4. bes8 \breathe ees,8 ees d ees|
     \break
     %rigo canto 1.4
+    g4 f8\) r8 bes4^\( ^\markup{\italic "Poco più mosso"} c8. d16|
+    bes4. \breathe d8 e c bes a|
+    d4 ^\markup{\italic "dim."} d8\)\breathe d c c d c \bar "||"
+    \time 2/4
+    \break
+    %rigo canto 2.5
   }%Chiude relative Canto
  \addlyrics {
   Dim -- mi per -- ché se a la campa -- gna_io
   sen -- to un suono un can -- to tu mi vieni in men -- te? Dim -- mi per-
   -ché se guar -- do il firma -- men -- to in o -- gni stel -- la tu mi sei pre-
-  -sen -- te?
-   }%Chiude new staff canto
+  -sen -- te? Dim -- mi per -- ché da qual -- che dì mi pa -- re che il mondo non sia 
+  } %Chiude new staff canto
    
  \new PianoStaff  
       \with { instrumentName = \markup{\bold "LENTO" }
@@ -73,7 +79,17 @@
   <bes' ees, bes>4__ _\(<bes ees, bes>__ <ees, a,>__ <d a>8__ ees8\)|
   \break
   %rigo up 1.4
-
+  <<{ees4_( d) <bes' f> <a f>|
+  <bes f>4 _\(<bes f> <c a>4 <bes f>8 a\)|
+  <d bes>4 _\( <d bes> <c aes>4 <d aes>8 c\)|
+  }
+  \\{
+  bes,2 \stemUp bes4__ _\< _( c__)|
+  bes4__ bes__ \! _\> ees__ \stemDown ees \!|
+  \stemUp d4__ _\< d__ ees__ ees8__ s8 \!|
+  \time 2/4
+  }
+  >>
    } %Chiude relative Up
 }%Chiude New Staff Down
     \new Staff = "down" { 
@@ -93,7 +109,12 @@
     %rigo down 1.3
     <bes g>2\) c^\(|
     c2\) <ces f,>|
-    g2 <f c!>
+    g2 <<{f}\\{c!}>>
+    \break
+    %rigo down 1.4 
+    <<{g'4 f d4 ees|\stemDown d2 \stemUp <f c>2}\\{s2 bes,2 }>> |
+    \stemDown bes2 f'|
+    \time 2/4
       } %Chiude relative low
              
 }%Chiude Staff low
