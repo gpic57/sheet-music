@@ -12,7 +12,7 @@
   } 
   \relative c' {
   
-    \clef treble_8
+    \clef treble
     \key ees \major 
     \time 4/4
     \tempo 4 = 88
@@ -40,14 +40,21 @@
     %rigo canto 2.5
     b8^\( c d8. ees16|
     \time 4/4
-    f2^>\)
+    f2^>\)^\( -\tweak X-offset #12.5 ^\f g4^>ees8.^> c16|
+    \break
+    %rigo canto 2.6
+    bes4\) bes8^\( ^\markup{\italic "dim:"} c g g f8.^\markup{\italic "ten:"} ees16|
+    ees4^\fermata \) r4  -\tweak X-offset #4.5 ^\f aes ^\markup{\italic "a tempo"} aes8. f16|
+    g4\) r8 c8 ^\markup{\italic "piano"} ees2
+ 
   }%Chiude relative Canto
  \addlyrics {
   Dim -- mi per -- ché se a la campa -- gna_io
   sen -- to un suono un can -- to tu mi vieni in men -- te? Dim -- mi per-
   -ché se guar -- do il firma -- men -- to in o -- gni stel -- la tu mi sei pre-
   -sen -- te? Dim -- mi per -- ché da qual -- che dì mi pa -- re che il mondo non sia 
-  fat -- to che -- di tè?...
+  fat -- to che -- di tè?... Tu ne -- i
+  fior tu nel -- l'ae -- re tu nel mar! Dim -- mi per -- ché Sorri- _ - _ -
   } %Chiude new staff canto
    
  \new PianoStaff  
@@ -91,15 +98,23 @@
   bes,2 \stemUp bes4__ _\< _( c__)|
   bes4__ bes__ \! _\> ees__ \stemDown ees \!|
   \stemUp d4__ _\< d__ ees__ ees8__ s8 \!|
-  \time 2/4
-  \break
-  %rigo up 2.5
-  <b' ees>8__ _\< _( c ) <d d,>8.__ _( ees16) \!|
-  
-  \time 4/4
-
   }
   >>
+  \time 2/4
+  %rigo up 2.5
+  <b' ees>8__ _\< _( c ) <d d,>8.__ _( ees16) \!|
+  \time 4/4  
+  <<{ \arpeggioBracket <f d,>2\arpeggio s2}
+  \\
+  {\once \override NoteColumn.force-hshift = #2.5 
+  f4^(  bes,! <g' ees bes g>^> _\f <ees bes g d>^> _\markup{\italic "meno mosso"})|
+  }
+  >>
+  \break
+  %rigo up 2.6
+  <bes aes d,>4_>_( <aes d, bes>_> <g d bes aes>_> <f d bes aes>4_>)
+  <ees bes g>^\fermata _\sf  <aes ees aes>2. _\p _\>|
+  <g ees bes>4 \! r4 fis2
    } %Chiude relative Up
 }%Chiude New Staff Down
     \new Staff = "down" { 
@@ -124,11 +139,14 @@
     %rigo down 1.4 
     <<{g'4 f d4 ees|}\\{bes2 s2 }>>|
     \stemDown d2 <<{f}\\{c}>>
-    \stemDown bes2 f'|
-    \time 2/4
     \break
     %rigo down 2.5
-    <f aes,>4 <f a,>|
+    \stemDown bes2 f'|
+    \time 2/4
+    <f aes,>4 <f a,>|<aes aes,>2^> \stemUp <ees ees,>2^>|
+    \break
+    %rigo down 2.6
+
       } %Chiude relative low
              
 }%Chiude Staff low
