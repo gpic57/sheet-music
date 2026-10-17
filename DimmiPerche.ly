@@ -28,7 +28,7 @@
     \break
     %rigo canto 1.3
     bes4. \breathe bes8 c c c c|
-    g4 g8\) r a4^\( g8. f16|
+    g4 g8\) r aes4^\( g8. f16|
     bes4. bes8 \breathe ees,8 ees d ees|
     \break
     %rigo canto 1.4
