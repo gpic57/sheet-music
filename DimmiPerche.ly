@@ -53,7 +53,13 @@
   ees4\) r8 ees'8^\( ^\markup{\italic "Meno"} g2
     \break
   %rigo canto 2.8
-
+  g4^( g8)\) r8 f4 ^\markup{\italic "Poco affrettato"} ^\(ees8. c16|
+  bes4. ^\markup{\italic "dim."}
+  <<{\magnifyMusic #0.7 { ^\markup{\italic "opp"} g'8 f4. ees8| ees1}
+  }
+  \\
+  {\stemUp g,8 f4. ees8|ees1}
+  >>
   }%Chiude relative Canto
  \addlyrics {
   Dim -- mi per -- ché se a la campa -- gna_io
@@ -62,7 +68,8 @@
   -sen -- te? Dim -- mi per -- ché da qual -- che dì mi pa -- re che il mondo non sia 
   fat -- to che -- di tè?... Tu ne -- i
   fior tu nel -- l'ae -- re tu nel mar! Dim -- mi per -- ché Sorri- _
-  -di? _ Ah dun -- que tu lo sai per -- ché! Sor -- ri- _
+  -di? _ Ah dun -- que tu lo sai per -- ché! Sor -- ri-
+  -di?...  Ah dun -- que tu lo sai per -- ché!...
   } %Chiude new staff canto
    
  \new PianoStaff  
@@ -122,9 +129,16 @@
   %rigo up 2.6
   <bes aes d,>4_>_( <aes d, bes>_> <g d bes aes>_> <f d bes aes>4_>)
   <ees bes g>^\fermata _\sf  <aes ees aes,>2. _\p _\>|
-  <g ees bes>4 \! r4 fis2
+  <g ees bes>4 \! r4 fis2^(|
   \break
   %rigo up 2.7
+  g2) <ees c fis,>4__ _( <ees c fis,>__)|
+  <ees bes g>__ _(<ees bes g>__ <f d g,>__ <f d g,>__)
+  <<{<ees c>}
+  \\{ \change Staff= "down" \crossStaff{ \stemUp g,}}
+  >> <g' ees c>4 -\tweak X-offset #2.5 _\f \stemDown <g' c, a>2
+  \break
+  %rigo up 2.8 
 
    } %Chiude relative Up
 }%Chiude New Staff Down
@@ -162,6 +176,11 @@
     <bes bes,>4 r4 \stemDown <c' aes f!>^- ^(<c aes f>^-)|
     \break
     %rigo down 2.7
+    <ees bes>^-^( <ees bes>^-) \stemUp a,,2|
+    bes2 b|
+    \stemDown c2 <ees' f,>2|
+    \break
+    %rigo down 2.8
 
       } %Chiude relative low
              
