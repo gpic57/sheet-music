@@ -1,7 +1,7 @@
 \version "2.26.0"
 \header {
   title = "Dimmi perché!"
-  composer = "Alffredo Filipponi"
+  composer = "Alfredo Filipponi"
 }
 
 \score {
@@ -38,12 +38,16 @@
     \time 2/4
     \break
     %rigo canto 2.5
+    b8^\( c d8. ees16|
+    \time 4/4
+    f2^>\)
   }%Chiude relative Canto
  \addlyrics {
   Dim -- mi per -- ché se a la campa -- gna_io
   sen -- to un suono un can -- to tu mi vieni in men -- te? Dim -- mi per-
   -ché se guar -- do il firma -- men -- to in o -- gni stel -- la tu mi sei pre-
   -sen -- te? Dim -- mi per -- ché da qual -- che dì mi pa -- re che il mondo non sia 
+  fat -- to che -- di tè?...
   } %Chiude new staff canto
    
  \new PianoStaff  
@@ -89,7 +93,11 @@
   \stemUp d4__ _\< d__ ees__ ees8__ s8 \!|
   \time 2/4
   \break
-  %rigo down 2.5
+  %rigo up 2.5
+  <b' ees>8__ _\< _( c ) <d d,>8.__ _( ees16) \!|
+  
+  \time 4/4
+
   }
   >>
    } %Chiude relative Up
@@ -99,8 +107,8 @@
     \key ees \major
     \time 4/4
     \relative c{
-    \sustainOn <g' ees bes ees,>1\arpeggio ^\markup{\italic "Lentamente"} |
-    \sustainOff<bes ees,>1^(|
+    <g' ees bes ees,>1\arpeggio \sustainOn ^\markup{\italic "Lentamente"} |
+    <bes ees,>1^( \sustainOff|
     <bes g>2) c^\(|
     \break
     %rigo down 1.2
@@ -120,6 +128,7 @@
     \time 2/4
     \break
     %rigo down 2.5
+    <f aes,>4 <f a,>|
       } %Chiude relative low
              
 }%Chiude Staff low
