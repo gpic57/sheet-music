@@ -55,11 +55,16 @@
   %rigo canto 2.8
   g4^( g8)\) r8 f4 ^\markup{\italic "Poco affrettato"} ^\(ees8. c16|
   bes4. ^\markup{\italic "dim."}
-  <<{\magnifyMusic #0.7 { ^\markup{\italic "opp"} g'8 f4. ees8| ees1}
-  }
-  \\
-  {\stemUp g,8 f4. ees8|ees1}
-  >>
+ <<
+    \voiceOne
+     { 
+     \magnifyMusic #0.7 {g'8 ^\markup{\italic "opp"} f4. ees8| ees1} 
+     }
+    \voiceTwo
+     {
+     \magnifyMusic #1.2 {\stemUp g,8 f4. ees8|ees1}
+     }
+  >> \bar "|."
   }%Chiude relative Canto
  \addlyrics {
   Dim -- mi per -- ché se a la campa -- gna_io
@@ -139,7 +144,23 @@
   >> <g' ees c>4 -\tweak X-offset #2.5 _\f \stemDown <g' c, a>2
   \break
   %rigo up 2.8 
-
+ <<{s2 aes,4^\( a}
+ \\
+ {<g' bes, g>2 ees,|}
+ >>|
+ <<{<bes' ees,>4 <g ees> f4. ees8\)^(}
+ \\
+ {s4. \once \override Stem.X-offset = #1.25
+  \once \override Stem.Y-offset = #0.5
+  \stemDown
+  ees4 \once \override Stem.X-offset = #1.25
+  \once \override Stem.Y-offset = #0.5
+  \stemDown
+  d4.}
+ \\
+ {s2 \stemDown aes!2|}
+ >>|
+ees'1)\bar "|."
    } %Chiude relative Up
 }%Chiude New Staff Down
     \new Staff = "down" { 
@@ -181,7 +202,10 @@
     \stemDown c2 <ees' f,>2|
     \break
     %rigo down 2.8
-
+    <ees bes>2 f,4^\( fis|
+    g4 bes \stemUp bes,2\)|
+    <<{<bes'^( g>4 <aes f> g^\( g\))}\\{s2 \once \override NoteColumn.force-hshift = #1.5 \stemUp ees2}\\{ees,1}>>
+      \bar "|."
       } %Chiude relative low
              
 }%Chiude Staff low
