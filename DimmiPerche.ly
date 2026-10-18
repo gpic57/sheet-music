@@ -201,6 +201,7 @@ ees'1)\bar "|."
     \stemDown c2 <ees' f,>2|
     \break
     %rigo down 2.8
+    \tempo 4 = 48
     <ees bes>2 f,4^\( fis|
     g4 bes \stemUp bes,2\)|
     <<{<bes'^( g>4 <aes f> g^\( g\))}\\{s2 \once \override NoteColumn.force-hshift = #1.5 \stemUp ees2}\\{ees,1}>>
