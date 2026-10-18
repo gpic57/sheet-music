@@ -11,7 +11,6 @@
     midiInstrument = "voice oohs"  % Suono vocale più dolce
   } 
   \relative c' {
-  
     \clef treble
     \key ees \major 
     \time 4/4
