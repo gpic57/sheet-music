@@ -14,7 +14,7 @@
     \clef treble
     \key ees \major 
     \time 4/4
-    \tempo 4 = 88
+    \tempo 4 = 68
     %rigo canto 1.1
     R1*4/4|
     \autoBeamOff r2 ees'4^\( ees8. ees16|
