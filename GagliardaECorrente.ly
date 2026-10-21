@@ -23,7 +23,7 @@
   <d'-5>2 d c}
   \\
   {\set fingeringOrientations = #'(left)
-  <bes-3>2 a g}
+  <bes-3>2 _\markup{\dynamic pp \italic"espressivo"} a g}
   >>
      } %Chiude relative Up
 }%Chiude New Staff Up
@@ -33,9 +33,11 @@
     \time 3/2
     \relative c{
     %rigo down 1.1
-    <<{d'1.^1}
+    <<{\set fingeringOrientations = #'(left)
+    <d'-1>1.}
     \\
-    {<bes^2 g_3>2 f_4 <g ees>_5}
+    {\set fingeringOrientations = #'(left)
+    <bes-2 g-3>2 f_4 <g ees>_5}
     >>
       } %Chiude relative low
              
