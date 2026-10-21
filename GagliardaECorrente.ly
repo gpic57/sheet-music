@@ -19,9 +19,11 @@
   \tempo 4=100
   \relative c' {
   %rigo up 1.1
-  <<{d'2^5 d c}
+  <<{\set fingeringOrientations = #'(left)
+  <d'-5>2 d c}
   \\
-  {bes2_3 a g}
+  {\set fingeringOrientations = #'(left)
+  <bes-3>2 a g}
   >>
      } %Chiude relative Up
 }%Chiude New Staff Up
