@@ -26,6 +26,8 @@
   \break
   %rigo up a1.2
   bes1.\)|
+  \stemDown bes4^3^\( a bes c d \stemUp g,|
+  a4^3\) \stemDown d^\( e! fis g\) s4|
 
   }
   \\
@@ -36,7 +38,8 @@
   \break
   %rigo up b1.2
   g1.|
-
+  s1.|
+  fis,4_2 _\< s2 s2 \stemUp d4 \!|
   }
   >>
      } %Chiude relative Up
@@ -54,7 +57,8 @@
     <g,-1>1 fis2|
     \break
     %rigo down a1.2
-<g d>1.
+    <g d>1. |
+
     }
     \\
     {\set fingeringOrientations = #'(left)
@@ -64,7 +68,9 @@
     <c-2>2 _\(bes a|
     \break
     %rigo down b1.2
-    g1.\)}
+    g1.\)|
+
+    }
     >>
       } %Chiude relative low
              
