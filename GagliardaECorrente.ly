@@ -22,13 +22,21 @@
   <<{\set fingeringOrientations = #'(left)
   <d'-5>2^\( d c|
   d4.^5 b8^4 a4 g^1 fis2\)|
-  ees'2^5 d c
+  ees'2^5^\( d c|
+  \break
+  %rigo up a1.2
+  bes1.\)|
+
   }
   \\
   {\set fingeringOrientations = #'(left)
   <bes-3>2 _\markup{\dynamic pp \italic"espressivo"} a g|
   fis2_2 s1|
   g1. _\p|
+  \break
+  %rigo up b1.2
+  g1.|
+
   }
   >>
      } %Chiude relative Up
@@ -44,14 +52,19 @@
     <d a>1.|
     \set fingeringOrientations = #'(left)
     <g,-1>1 fis2|
+    \break
+    %rigo down a1.2
+<g d>1.
     }
     \\
     {\set fingeringOrientations = #'(left)
     <bes-2 g-3>2_\( f_4 <g ees>_5|
-    d1.|
+    d1.\)|
     \set fingeringOrientations = #'(left)
-    <c-2>2 bes a
-    }
+    <c-2>2 _\(bes a|
+    \break
+    %rigo down b1.2
+    g1.\)}
     >>
       } %Chiude relative low
              
