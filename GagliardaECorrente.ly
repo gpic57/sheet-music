@@ -20,10 +20,16 @@
   \relative c' {
   %rigo up 1.1
   <<{\set fingeringOrientations = #'(left)
-  <d'-5>2 d c}
+  <d'-5>2^\( d c|
+  d4.^5 b8^4 a4 g^1 fis2\)|
+  ees'2^5 d c
+  }
   \\
   {\set fingeringOrientations = #'(left)
-  <bes-3>2 _\markup{\dynamic pp \italic"espressivo"} a g}
+  <bes-3>2 _\markup{\dynamic pp \italic"espressivo"} a g|
+  fis2_2 s1|
+  g1. _\p|
+  }
   >>
      } %Chiude relative Up
 }%Chiude New Staff Up
@@ -34,10 +40,18 @@
     \relative c{
     %rigo down 1.1
     <<{\set fingeringOrientations = #'(left)
-    <d'-1>1.}
+    <d'-1>1.|
+    <d a>1.|
+    \set fingeringOrientations = #'(left)
+    <g,-1>1 fis2|
+    }
     \\
     {\set fingeringOrientations = #'(left)
-    <bes-2 g-3>2 f_4 <g ees>_5}
+    <bes-2 g-3>2_\( f_4 <g ees>_5|
+    d1.|
+    \set fingeringOrientations = #'(left)
+    <c-2>2 bes a
+    }
     >>
       } %Chiude relative low
              
