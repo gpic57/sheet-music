@@ -9,14 +9,16 @@
 << % Apre Piano
  \new PianoStaff  
       \with { instrumentName = \markup{\italic "MOLTO SOSTENUTO"  }
+      
  }
 <<
   \new Staff="up" { 
+  \set Staff.midiInstrument = #"harpsichord"
     \set PianoStaff.connectArpeggios = ##t
   \clef treble  
   \key f \major 
   \time 3/2
-  \tempo 4=100
+  \tempo 4=130
   \relative c' {
   %rigo up 1.1
   <<{\set fingeringOrientations = #'(left)
@@ -45,6 +47,7 @@
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
+    \set Staff.midiInstrument = #"harpsichord"
     \clef bass
     \key f \major
     \time 3/2
