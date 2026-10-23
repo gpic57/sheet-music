@@ -51,6 +51,7 @@
   }%chiude volta
   \break
   %rigo up 1.3
+  \repeat volta 2 { %apre volta
   d'2^3_\< ^\(d^2 e^3\!|
   f2. _\> e4 d2\)\!|
   ees2.^\( d4 c2|
@@ -63,6 +64,10 @@
   fis2.\) _\> d4 ^\( e fis|
   g4^1 a bes c^5 \!<a fis_2>2  ^\markup { \overtie \concat { "3" \hspace #0.2 "5" } }|
   <g d bes>1.^4 \)
+  } %chiude volta
+  \break
+  %rigo up 2.5
+
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -92,7 +97,6 @@
     d1.\)|
     \set fingeringOrientations = #'(left)
     <c-2>2 _\(bes a|
-  
     g1.\)|
     <bes' g>2_3 _\( <a f>_4 <g ees>_5|
     d2\) c_4 _\( b|
@@ -103,6 +107,7 @@
     }%chiude volta
     \break
     %rigo down 1.3
+    \repeat volta 2 { %apre volta
     <<{d''1^\( cis2|
     d2 a^3 b\)
     c1^\( a2^2|
@@ -131,6 +136,7 @@
     g,1.^\p \)
     }
     >>
+    }%chiude volta
       } %Chiude relative low
              
 }%Chiude Staff low
