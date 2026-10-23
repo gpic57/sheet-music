@@ -23,7 +23,7 @@
   %rigo up 1.1
   \repeat volta 2 { %apre volta
   <<{\set fingeringOrientations = #'(left)
-  <d'-5>2^\( d c|
+  <d'-5>2^\( ^\markup{\bold "GAGLIARDA"} d c|
   d4.^5 b8^4 a4 g^1 fis2\)|
   ees'2^5^\( d c|
   \break
