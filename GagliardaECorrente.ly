@@ -61,6 +61,8 @@
     \break
     %rigo down a1.2
     <g d>1. |
+    d'1.|
+    d1 g,2|
 
     }
     \\
@@ -72,7 +74,8 @@
     \break
     %rigo down b1.2
     g1.\)|
-
+    <bes' g>2_3 _\( <a f>_4 <g ees>_5|
+    d2\) c b
     }
     >>
       } %Chiude relative low
