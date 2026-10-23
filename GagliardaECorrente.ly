@@ -21,6 +21,7 @@
   \tempo 4=130
   \relative c' {
   %rigo up 1.1
+  \repeat volta 2 { %apre volta
   <<{\set fingeringOrientations = #'(left)
   <d'-5>2^\( d c|
   d4.^5 b8^4 a4 g^1 fis2\)|
@@ -45,9 +46,10 @@
   fis4_2 _\< s2 s2 \stemUp d4 \!|
   \stemDown e4_2 fis g2_1_\> \stemDown fis2_2|
   <d b>1. _\p
-  \bar ":|."
+  %\bar ":|."
   }
   >>
+  }%chiude volta
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -57,6 +59,7 @@
     \time 3/2
     \relative c{
     %rigo down 1.1
+    \repeat volta 2 {
     <<{\set fingeringOrientations = #'(left)
     <d'-1>1.|
     <d a>1.|
@@ -85,6 +88,7 @@
     g1.
     }
     >>
+    }%chiude volta
       } %Chiude relative low
              
 }%Chiude Staff low
