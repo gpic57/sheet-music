@@ -55,10 +55,14 @@
   f2. _\> e4 d2\)\!|
   ees2.^\( d4 c2|
   d2. ees4 d2\)|
-  c2.^\( _\< bes4 \stemDown a2\)\!|
+  c2.^\( _\< bes4 \stemDown a2\)|
   \break
   %rigo up 1.4
-  
+  bes2.^\(  \stemUp \! a4  g f^2|
+  e2. bes'4^5 a g|
+  fis2.\) _\> d4 ^\( e fis|
+  g4^1 a bes c^5 \!<a fis_2>2  ^\markup { \overtie \concat { "3" \hspace #0.2 "5" } }|
+  <g d bes>1.^4 \)
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -99,24 +103,32 @@
     }%chiude volta
     \break
     %rigo down 1.3
-    <<{d''1^\( dis2|
+    <<{d''1^\( cis2|
     d2 a^3 b\)
     c1^\( a2^2|
     b,2\rest bes2  \stemDown bes'2\)|
     bes,2\rest f'2_3 _\( fis\)
     \break
     %rigo down a1.4
-
+    g1._1|
+    \stemUp g2 e1|
+    a2^1 s1|
+    <g d>1^\markup{\italic "rall............"} s2|
+    <g d>1.
     }
     \\
-    {<bes! g> <a f> <g e!>|
+    {<bes! g>2 <a f> <g e!>|
     d1 g2|
     f2\rest c f-3|
     bes1.|
     a1.-1|
     \break
     %rigo down b1.4
-
+    r2 bes,_4_\( b_5\)|
+    c1_\(_4 cis2|
+    d2\) _3 b_5 _\( a_4|
+    g1 d'2|
+    g,1.^\p \)
     }
     >>
       } %Chiude relative low
