@@ -46,10 +46,19 @@
   fis4_2 _\< s2 s2 \stemUp d4 \!|
   \stemDown e4_2 fis g2_1_\> \stemDown fis2_2|
   <d b>1. _\p
-  %\bar ":|."
   }
   >>
   }%chiude volta
+  \break
+  %rigo up 1.3
+  d'2^3_\< ^\(d^2 e^3\!|
+  f2. _\> e4 d2\)\!|
+  ees2.^\( d4 c2|
+  d2. ees4 d2\)|
+  c2.^\( _\< bes4 \stemDown a2\)\!|
+  \break
+  %rigo up 1.4
+  
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -59,7 +68,7 @@
     \time 3/2
     \relative c{
     %rigo down 1.1
-    \repeat volta 2 {
+    \repeat volta 2 {%apre volta
     <<{\set fingeringOrientations = #'(left)
     <d'-1>1.|
     <d a>1.|
@@ -71,7 +80,7 @@
     d'1.|
     d1 g,2|
     g1 s2|
-    g1.
+    g1.|
     }
     \\
     {\set fingeringOrientations = #'(left)
@@ -79,8 +88,7 @@
     d1.\)|
     \set fingeringOrientations = #'(left)
     <c-2>2 _\(bes a|
-    \break
-    %rigo down b1.2
+  
     g1.\)|
     <bes' g>2_3 _\( <a f>_4 <g ees>_5|
     d2\) c_4 _\( b|
@@ -89,6 +97,28 @@
     }
     >>
     }%chiude volta
+    \break
+    %rigo down 1.3
+    <<{d''1^\( dis2|
+    d2 a^3 b\)
+    c1^\( a2^2|
+    b,2\rest bes2  \stemDown bes'2\)|
+    bes,2\rest f'2_3 _\( fis\)
+    \break
+    %rigo down a1.4
+
+    }
+    \\
+    {<bes! g> <a f> <g e!>|
+    d1 g2|
+    f2\rest c f-3|
+    bes1.|
+    a1.-1|
+    \break
+    %rigo down b1.4
+
+    }
+    >>
       } %Chiude relative low
              
 }%Chiude Staff low
