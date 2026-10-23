@@ -30,7 +30,8 @@
   bes1.\)|
   \stemDown bes4^3^\( a bes c d \stemUp g,|
   a4^3\) \stemDown d^\( e! fis g\) s4|
-
+  \stemUp c,2.^5 bes4 a2 ^\markup { \overtie \concat { "3" \hspace #0.2 "5" } }|
+  g1.
   }
   \\
   {\set fingeringOrientations = #'(left)
@@ -41,7 +42,10 @@
   %rigo up b1.2
   g1.|
   s1.|
-  fis,4_2 _\< s2 s2 \stemUp d4 \!|
+  fis4_2 _\< s2 s2 \stemUp d4 \!|
+  \stemDown e4_2 fis g2_1_\> \stemDown fis2_2|
+  <d b>1. _\p
+  \bar ":|."
   }
   >>
      } %Chiude relative Up
@@ -63,7 +67,8 @@
     <g d>1. |
     d'1.|
     d1 g,2|
-
+    g1 s2|
+    g1.
     }
     \\
     {\set fingeringOrientations = #'(left)
@@ -75,7 +80,9 @@
     %rigo down b1.2
     g1.\)|
     <bes' g>2_3 _\( <a f>_4 <g ees>_5|
-    d2\) c b
+    d2\) c_4 _\( b|
+    c4 d ees \stemUp g,\) d' _\markup { \overtie \concat { "2" \hspace #0.2 "1" } } _\( d,\)|
+    g1.
     }
     >>
       } %Chiude relative low
