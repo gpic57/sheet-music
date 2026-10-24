@@ -74,12 +74,18 @@
   <<{d2^4^\( e4|
   c2^3 d4|
   e2.\)|
-  e2^3 f4|
+  e2^3 ^\( f4|
   g2 f4|
   e4 d c|
   \break
   %rigo up a2.6
-  
+  bes2^3\) cis4^\(|
+  d2.|
+  d4 c bes|
+  a2.^2|
+  bes!2.\)|
+  a2.^5 ^\(|
+  g2^4 \) \bar "||" \stemDown d'4
   }
   \\
   {bes2._2|
@@ -90,7 +96,14 @@
   c4_1 s2|
   \break
   %rigo up b2.6
-
+  g2. _2 _\<|
+  bes4 \! a g
+  fis2.
+  _\markup { \overtie \concat { "2" \hspace #0.2 "1" } }|
+  fis2._1 _\>|
+  g2.\!|
+  g4_4 fis4~ _\markup{\italic "rit:............."} fis8 e16 fis|
+  <d bes>2 \bar "||" s4
   }
   >>
   } %chiude volta  
