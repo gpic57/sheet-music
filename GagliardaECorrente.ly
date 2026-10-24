@@ -18,7 +18,7 @@
   \clef treble  
   \key f \major 
   \time 3/2
-  \tempo 4=130
+  \tempo 4=150
   \relative c' {
   %rigo up 1.1
   \repeat volta 2 { %apre volta
