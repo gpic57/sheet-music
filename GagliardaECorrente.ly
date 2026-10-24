@@ -18,7 +18,7 @@
   \clef treble  
   \key f \major 
   \time 3/2
-  \tempo 4=150
+  \tempo 4=160
   \relative c' {
   %rigo up 1.1
   \repeat volta 2 { %apre volta
@@ -77,14 +77,19 @@
   e2^3 f4|
   g2 f4|
   e4 d c|
+  \break
+  %rigo up a2.6
+  
   }
   \\
   {bes2._2|
-  a2._1|
-  bes4_3 ^\( a g\)|
+  a2._1 _\<|
+  bes4_3 ^\( a \! g\)|
   c2._2|
   r4 d2_2|
   c4_1 s2|
+  \break
+  %rigo up b2.6
 
   }
   >>
@@ -111,6 +116,8 @@
     d1 g,2|
     g1 s2|
     g1.|
+    \break
+    %rigo down a2.6
     }
     \\
     {\set fingeringOrientations = #'(left)
@@ -123,6 +130,8 @@
     d2\) c_4 _\( b|
     c4 d ees \stemUp g,\) d' _\markup { \overtie \concat { "2" \hspace #0.2 "1" } } _\( d,\)|
     g1.
+    \break
+    %rigo down b2.6
     }
     >>
     }%chiude volta
