@@ -129,8 +129,7 @@
     d1 g,2|
     g1 s2|
     g1.|
-    \break
-    %rigo down a2.6
+    
     }
     \\
     {\set fingeringOrientations = #'(left)
@@ -143,8 +142,6 @@
     d2\) c_4 _\( b|
     c4 d ees \stemUp g,\) d' _\markup { \overtie \concat { "2" \hspace #0.2 "1" } } _\( d,\)|
     g1.
-    \break
-    %rigo down b2.6
     }
     >>
     }%chiude volta
@@ -191,6 +188,15 @@
     g2.|
     e2.|
     e2.
+    \break
+    %rigo down a2.6
+    g4^1_\( f^1 e^2|
+    d2.^1\)
+    d2.|
+    s2.|
+    s2.|
+    d2.|
+    g2 \bar "||" r4
     }
     \\
     {r4 g,2|
@@ -198,8 +204,16 @@
     e2.\)|
     e4_2^\( d c|
     bes2.\)|
-    c4_2 bes a|
-    
+    c4_2 ^\( bes a|
+    \break
+    %rigo down b2.6
+    g2.\)|
+    g4_5 ^\(f_3 e_4|
+    d2.\)|
+    r4 d'_1^\( c|
+    \stemUp bes4 a g\)|
+    r4 \stemDown d2|
+    <d g>2 \bar "||" s4
     }
     >>
     }
