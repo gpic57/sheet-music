@@ -60,7 +60,27 @@
   <d bes>2 \bar "||" s4
   }
   >>
-  } %chiude volta  
+  } %chiude volta
+  \break
+  %rigo up 2.7
+  \repeat volta 2 { %apre volta
+  <<{\override PianoStaff.Arpeggio.stencil = #ly:chord-bracket::print 
+  d'2.\arpeggio ^5 ^\(|
+  bes2^3\arpeggio \)\stemDown e4^5 _\< \bar "|"
+  c4.^2 d8 \! e c|
+  \stemUp f2.|
+  }
+    \\
+   {
+    a,4.\arpeggio _2 _\p bes8_\markup{\italic "grazioso"} c d|
+    s2.|
+    s2|
+    s2|
+    r4 c d|
+
+    }
+    >>
+  }
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -105,6 +125,24 @@
     \stemUp bes4 a g\)|
     r4 \stemDown d2|
     <d g>2 \bar "||" s4
+    }
+    >>
+    }%chiude volta
+    \break
+    %rigo down 2.7
+    \repeat volta 2 { %apre volta
+    <<{
+     fis''2.\arpeggio^1|
+     g2.\arpeggio|
+     a,2.|
+     a2.|
+
+     }
+    \\
+    { r4 d,2_5|
+    r4 g2_2|
+    r4 a,2|
+    d4. e8[ f d]|
     }
     >>
     }
