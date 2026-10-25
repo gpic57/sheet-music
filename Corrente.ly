@@ -1,7 +1,7 @@
 \version "2.26.0"
 
 \header {
-  title = "Gagliarda e Corrente"
+  title = "Corrente"
   composer = "Girolamo Frescobaldi"
 }
 
