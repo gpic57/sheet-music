@@ -1,7 +1,7 @@
 \version "2.26.0"
 
 \header {
-  title = "Gagliarda e Corrente"
+  title = "Gagliarda"
   composer = "Girolamo Frescobaldi"
 }
 
@@ -64,49 +64,7 @@
   fis2.\) _\> d4 ^\( e fis|
   g4^1 a bes c^5 \!<a fis_2>2  ^\markup { \overtie \concat { "3" \hspace #0.2 "5" } }|
   <g d bes>1.^4 \)
-  } %chiude volta
-  \break
-  %rigo up 2.5
-  \time 3/4
-  \partial 4
-  \stemDown d'4 _\p ^\markup{\bold "CORRENTE"}
-  \repeat volta 2 { %apre volta
-  <<{d2^4^\( e4|
-  c2^3 d4|
-  e2.\)|
-  e2^3 ^\( f4|
-  g2 f4|
-  e4 d c|
-  \break
-  %rigo up a2.6
-  bes2^3\) cis4^\(|
-  d2.|
-  d4 c bes|
-  a2.^2|
-  bes!2.\)|
-  a2.^5 ^\(|
-  g2^4 \) \bar "||" \stemDown d'4
-  }
-  \\
-  {bes2._2|
-  a2._1 _\<|
-  bes4_3 ^\( a \! g\)|
-  c2._2 _\p|
-  r4 d2_2|
-  c4_1 s2|
-  \break
-  %rigo up b2.6
-  g2. _2 _\<|
-  bes4 \! a g
-  fis2.
-  _\markup { \overtie \concat { "2" \hspace #0.2 "1" } }|
-  fis2._1 _\>|
-  g2.\!|
-  g4_4 fis4~ _\markup{\italic "rit:............."} fis8 e16 fis|
-  <d bes>2 \bar "||" s4
-  }
-  >>
-  } %chiude volta  
+  } %chiude volta 
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -177,47 +135,6 @@
     }
     >>
     }%chiude volta
-    \break
-    %rigo down 2.5
-    \partial 4
-    r4|
-    \repeat volta 2 { %apre volta
-    <<{g''2.|
-    s2.|
-    g,2.|
-    g2.|
-    e2.|
-    e2.
-    \break
-    %rigo down a2.6
-    g4^1_\( f^1 e^2|
-    d2.^1\)
-    d2.|
-    s2.|
-    s2.|
-    d2.|
-    g2 \bar "||" r4
-    }
-    \\
-    {r4 g,2|
-    \stemDown a'4_2 ^\( g f|
-    e2.\)|
-    e4_2^\( d c|
-    bes2.\)|
-    c4_2 ^\( bes a|
-    \break
-    %rigo down b2.6
-    g2.\)|
-    g4_5 ^\(f_3 e_4|
-    d2.\)|
-    r4 d'_1^\( c|
-    \stemUp bes4 a g\)|
-    r4 \stemDown d2|
-    <d g>2 \bar "||" s4
-    }
-    >>
-    }
-
       } %Chiude relative low
              
 }%Chiude Staff low
