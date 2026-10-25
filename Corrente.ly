@@ -74,8 +74,7 @@
    {
     a,4.\arpeggio _2 _\p bes8_\markup{\italic "grazioso"} c d|
     s2.|
-    s2|
-    s2|
+    s2.|
     r4 c d|
 
     }
