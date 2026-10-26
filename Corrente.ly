@@ -74,6 +74,12 @@
   %rigo up a2.8
   c2.|
   d2.|
+  d4.^3^\( e8^4 f^5 g^4|
+  f4^3\) e2^\(|
+  d2^4\) \bar "||"
+  a4
+  \break
+  %rigo up a2.9
   }
     \\
    {
@@ -86,7 +92,12 @@
   \break
   %rigo up b2.8
   a4_2~a8 bes!^\( c a\)|
-  r4 f2
+  r4 f2 \bar "|"|
+  bes2_2 _\markup{\italic "rit:................."} d4_1
+  d4_1 cis4~cis8[ b16 cis ]\bar "|"|
+  <a fis>2 _\p \bar "||" s4
+  \break
+  %rigo up b2.9
     }
     >>
      } %Chiude relative Up
@@ -148,6 +159,11 @@
      g2.|
      g2 e4^2|
     \bar "|"
+    \break
+    %rigo down a2.8
+    f2.|
+    f4.^\( a8[ b g8]|
+    g2.\)
      }
     \\
     { r4 d2_5|
@@ -157,6 +173,15 @@
     r4 g,2|
     c2.
     \bar "|"
+    \break
+    %rigo down b2.8
+    r4 f,2|
+    bes!2._4|
+    r4^\< g d'\!|
+    bes4 f2|
+    <d' bes,>2
+    \bar "||"
+    r4
     }
     >>
       } %Chiude relative low
