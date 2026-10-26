@@ -63,23 +63,25 @@
   } %chiude volta
   \break
   %rigo up 2.7
-  \repeat volta 2 { %apre volta
+  
   <<{\override PianoStaff.Arpeggio.stencil = #ly:chord-bracket::print 
   d'2.\arpeggio ^5 ^\(|
-  bes2^3\arpeggio \)\stemDown e4^5 _\< \bar "|"
+  bes2^3\arpeggio \)\stemDown e4^5 ^\( _\< \bar "|"
   c4.^2 d8 \! e c|
-  \stemUp f2.|
+  \stemUp f2.\)|
+  s2.|
+  r4 c2^5|
   }
     \\
    {
-    a,4.\arpeggio _2 _\p bes8_\markup{\italic "grazioso"} c d|
+    a4.\arpeggio _2 _\p bes8_\markup{\italic "grazioso"} c d|
     s2.|
     s2.|
-    r4 c d|
-
+    r4 _\>a^\( d\!|
+bes4^2\)^~ bes8 bes^3^\( a bes|
+g4\)_~g8[ a_2 g e]|
     }
     >>
-  }
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -123,29 +125,33 @@
     r4 d'_1^\( c|
     \stemUp bes4 a g\)|
     r4 \stemDown d2|
-    <d g>2 \bar "||" s4
+    <d' g,>2 \bar "||" s4
     }
     >>
     }%chiude volta
     \break
     %rigo down 2.7
-    \repeat volta 2 { %apre volta
     <<{
-     fis''2.\arpeggio^1|
+     fis'2.\arpeggio^1|
      g2.\arpeggio|
      a,2.|
      a2.|
-
+     \bar "|"
+     ^\markup { \overtie \concat { "2" \hspace #0.2 "1" } }
+     g2.|
+     g2 e4^2|
+    \bar "|"
      }
     \\
-    { r4 d,2_5|
+    { r4 d2_5|
     r4 g2_2|
     r4 a,2|
-    d4. e8[ f d]|
+    d4._4 ^\( e8[ f d]\)|
+    r4 g,2|
+    c2.
+    \bar "|"
     }
     >>
-    }
-
       } %Chiude relative low
              
 }%Chiude Staff low
