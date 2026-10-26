@@ -63,7 +63,6 @@
   } %chiude volta
   \break
   %rigo up 2.7
-  
   <<{\override PianoStaff.Arpeggio.stencil = #ly:chord-bracket::print 
   d'2.\arpeggio ^5 ^\(|
   bes2^3\arpeggio \)\stemDown e4^5 ^\( _\< \bar "|"
@@ -71,15 +70,23 @@
   \stemUp f2.\)|
   s2.|
   r4 c2^5|
+  \break
+  %rigo up a2.8
+  c2.|
+  d2.|
   }
     \\
    {
-    a4.\arpeggio _2 _\p bes8_\markup{\italic "grazioso"} c d|
-    s2.|
-    s2.|
-    r4 _\>a^\( d\!|
-bes4^2\)^~ bes8 bes^3^\( a bes|
-g4\)_~g8[ a_2 g e]|
+  a4.\arpeggio _2 _\p bes8_\markup{\italic "grazioso"} c d|
+  s2.|
+  s2.|
+  r4 _\>a^\( d\!|
+  bes4^2\)^~ bes8 bes^3^\( a bes|
+  g4\)_~g8[ a_2 g e]|
+  \break
+  %rigo up b2.8
+  a4_2~a8 bes!^\( c a\)|
+  r4 f2
     }
     >>
      } %Chiude relative Up
