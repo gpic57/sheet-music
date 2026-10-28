@@ -103,12 +103,18 @@
   <<{
   a2^\finger \markup \column { "3""2" }^\(g4^1\)
   r4 \stemDown d'4^5^\( c|
-  \stemUp b2.\)
+  \stemUp b2.\)|
+  cis2.^4|
+  r4 d4^5^\( a^3|
+  \stemDown b2.\)|
   }
   \\
   {fis2 _\p r4|
   s2.|
   gis2._2|
+  r4 a_2 e|
+  fis2._2
+  g'4\rest g^5 d^3|
   }
   >>
   } %Chiude volta 
@@ -191,7 +197,7 @@
     bes!2._4|
     r4^\< g d'\!|
     bes4 f2|
-    <d' bes,>2
+    <d' d,>2
     \bar "||"
     r4
     }
