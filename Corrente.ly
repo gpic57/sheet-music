@@ -107,6 +107,13 @@
   cis2.^4|
   r4 d4^5^\( _\markup{\italic "cres."} a^3|
   \stemDown b2.\)|
+  \break
+  %rigo up a2.10
+  f4\rest c'4_2^\(g4_1|
+  \stemDown a2.\)
+  e4\rest f4_1 _\(bes_3|
+  e,4_1 fis_2 g_1\)|
+  \stemUp a2.
   }
   \\
   {fis2 _\p r4|
@@ -114,7 +121,14 @@
   gis2._2|
   r4 a_2 e|
   fis2._2
-  g'4\rest g^5 d^3|
+  g4\rest g^5^\( d^3|
+  \break
+  %rigo up b2.10
+  \stemUp e'2.\)|
+  f4 \rest f^5^\( c^3|
+  d2.^5\)|
+  c2^4^\( bes4^3\)|
+  \stemDown g4 fis~fis8 e16 f
   }
   >>
   } %Chiude volta 
@@ -210,12 +224,18 @@
  r4 c^\( e,\)|
  <<{a2.|
  a2^\( fis4|
- g2.\)
+ g2.\)|
+ \break
+ %rigo down a2.10
+
  }
  \\
  {r4 a,2|
  d2._4|
  r4 g,2|
+\break
+ %rigo down b2.10
+
  }
  >>
   }%Chiude volta
