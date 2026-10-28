@@ -105,7 +105,7 @@
   r4 \stemDown d'4^5^\( c|
   \stemUp b2.\)|
   cis2.^4|
-  r4 d4^5^\( a^3|
+  r4 d4^5^\( _\markup{\italic "cres."} a^3|
   \stemDown b2.\)|
   }
   \\
@@ -205,6 +205,19 @@
  \break
  %rigo down 2.9
  \repeat volta 2 { %apre volta
+ r4 d'_2 e_1|
+ <<{fis2.^2}\\{d2._4}>>
+ r4 c^\( e,\)|
+ <<{a2.|
+ a2^\( fis4|
+ g2.\)
+ }
+ \\
+ {r4 a,2|
+ d2._4|
+ r4 g,2|
+ }
+ >>
   }%Chiude volta
       } %Chiude relative low
              
