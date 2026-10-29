@@ -140,12 +140,12 @@
     } % 1. Prima volta (Primo finale)
     { <<{\stemUp g2.^\fermata| }
     \\
-    {<d, b!>2.}
+    {<d b!>2.}
     >>
-    
     } % 2. Seconda volta (Secondo finale)
   }%chiude alternative
-  } %Chiude volta 
+  } %Chiude volta
+  \bar "|."
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -263,10 +263,11 @@ c2_3_\( g4\)|
  }
  >>
  \alternative {
-    { c2. | } % 1. Prima volta (Primo finale)
-    { c2.| } % 2. Seconda volta (Secondo finale)
+    { <<{g2 \bar "||" s4}\\{<d g,>2 d4\rest}>> } % 1. Prima volta (Primo finale)
+    { <<{g2.}\\{<d g,>2. _\fermata}>> } % 2. Seconda volta (Secondo finale)
   }%Chiude alternative
   }%Chiude volta
+  \bar "|."
       } %Chiude relative low
              
 }%Chiude Staff low
