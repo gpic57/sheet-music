@@ -227,7 +227,12 @@
  g2.\)|
  \break
  %rigo down a2.10
-
+g4^2^\( c2\)|
+c4^\( a2|
+bes2.\)|
+g2.^1 ^\markup{\italic "dim. e rit."}
+\set fingeringOrientations = #'(left)
+<a -1>2.
  }
  \\
  {r4 a,2|
@@ -235,7 +240,12 @@
  r4 g,2|
 \break
  %rigo down b2.10
-
+ c2.|
+ f2.|
+ r4 bes,!2|
+c2_3_\( g4\)|
+\set fingeringOrientations = #'(left)
+<d' -2>2.
  }
  >>
   }%Chiude volta
