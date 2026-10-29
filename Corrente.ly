@@ -131,6 +131,20 @@
   \stemDown g4 fis~fis8 e16 f
   }
   >>
+  \alternative {
+    { << {\stemUp g2 \bar "||" \stemDown d'4|
+    }
+    \\{ <d, b!>2 s4|
+    }
+    >>
+    } % 1. Prima volta (Primo finale)
+    { <<{\stemUp g2.^\fermata| }
+    \\
+    {<d, b!>2.}
+    >>
+    
+    } % 2. Seconda volta (Secondo finale)
+  }%chiude alternative
   } %Chiude volta 
      } %Chiude relative Up
 }%Chiude New Staff Up
@@ -248,6 +262,10 @@ c2_3_\( g4\)|
 <d' -2>2.
  }
  >>
+ \alternative {
+    { c2. | } % 1. Prima volta (Primo finale)
+    { c2.| } % 2. Seconda volta (Secondo finale)
+  }%Chiude alternative
   }%Chiude volta
       } %Chiude relative low
              
