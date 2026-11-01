@@ -56,6 +56,13 @@
   r8 <f des aes>[ <f des aes> <f des aes>]|
   \break
   %rigo up 1.2
+  r8 <ges ees bes>[<ges ees bes><ges ees bes>]|
+  r8 _\mf <ges ees bes>[<ges ees bes><ges ees bes>]|
+  r8 <ges ees aes,>[<ges ees aes,><ges ees aes,>]|
+  r8 _\markup{\dynamic p \italic "subito"}<aes c, aes>_.[ <ges c, aes>_. <ees c aes>_.]|
+  r8 <f des aes>[<f des aes><f des aes>]|
+  \break
+  %rigo up 1.3
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -63,10 +70,20 @@
     \key bes \minor
     \time 2/4
     \relative c{
+    %rigo down 1.1
     <des des,>8_. r r4|
     <des des,>8_. r r4|
     <des des,>8_. r r4|
     <des des,>8_. r r4|
+    \break
+    %rigo down 1.2
+    <ges ges,>8_. r r4|
+    <ees ees,>8_. r r4|
+    <c c,>8_. r r4|
+    f8_. r r4|
+    <des des,>8_. r8 r4|
+    \break
+    %rigo down 1.3
       } %Chiude relative low
              
 }%Chiude Staff low
