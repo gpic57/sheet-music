@@ -137,6 +137,14 @@
     <ees ees,>8_. r r4|
     \break
     %rigo down 2.4
+    aes,8 r r4|
+    aes8 r r4|
+    <des des,>8 r r4|
+    <ees ees,>8_. ees8[^(  <des'g,>8 ees,)]|
+    aes,8_. \stemDown ees'[^\( <c' aes> ees,\)]
+    \break
+    %rigo down 2.5
+    
       } %Chiude relative low
              
 }%Chiude Staff low
