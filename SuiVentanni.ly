@@ -14,14 +14,14 @@
   \relative c' {
   
     \clef treble
-    \key aes \major 
+    \key bes \minor 
     \time 2/4
     \tempo 4 = 66
     %rigo canto 1.1
     r4 ^\markup{\bold "LA FIGLIA"} ^\markup{\italic "ALL."\super"tto" "MOSSO"} r8 aes'_.|
     \autoBeamOff \stemUp g!8_. aes_. bes_. aes_.|
     e16 f f8 r f|
-    e8_. f_. g_. f_.|
+    e8_. f_. ges_. f_.|
     \break
     %rigo canto 1.2
 
@@ -38,7 +38,7 @@
   \new Staff="up" { 
     \set PianoStaff.connectArpeggios = ##t
   \clef treble  
-  \key aes \major 
+  \key bes \minor 
   \time 2/4
   \relative c' {
   %rigo up 1.1
@@ -52,7 +52,7 @@
 }%Chiude New Staff Up
     \new Staff = "down" { 
     \clef bass
-    \key aes \major
+    \key bes \minor
     \time 2/4
     \relative c{
     <des des,>8_. r r4|
