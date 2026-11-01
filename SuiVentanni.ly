@@ -96,6 +96,14 @@
   r8 _\mf <ges ees bes>[ <ges ees bes> <ges ees bes>]|
    \break
   %rigo up 2.4
+  r8 <ges c, aes>[<ges c, aes><ges c, aes>]|
+  r8 _\p <aes c, aes>_.[<ges c, aes>_.<ees c aes>_.]|
+  r8 <f des aes><f des aes>ees8_.|
+  \stemUp <des' f,>8.[_\( <c ees,>16 <ees g,>8_.\) <des f,>8_.]|
+  <b d,>8_. <c ees,>4_> <c ees,>8_.|
+   \break
+  %rigo up 2.5
+
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" \with{
