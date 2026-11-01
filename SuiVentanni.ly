@@ -8,7 +8,7 @@
 \score {
 << % Apre Canto e Piano
   \new Staff = "Canto" \with {     
-    instrumentName = "Tenore "
+    instrumentName = "CANTO"
     midiInstrument = "voice oohs"  % Suono vocale più dolce
   } 
   \relative c' {
@@ -32,7 +32,7 @@
    }%Chiude new staff canto
    
  \new PianoStaff  
-      \with { instrumentName = \markup{\bold "LENTO" }
+      \with { instrumentName = \markup{\italic "ALL."\super"tto""MOSSO" }
  }
 <<
   \new Staff="up" { 
