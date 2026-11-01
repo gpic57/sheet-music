@@ -41,13 +41,22 @@
     bes'8 ^\f a16 bes c8 bes|
     \break
     %rigo canto 2.4
-
+    aes16_\( bes\) aes8 r^\p aes8|
+    g8 aes ges ees|
+    des4 r8 _\mf ees8^\(|
+    \stemDown des'8. c16 ees8 des|
+    d16 d c8\) r8 c^.^\(|
+    \break
+    %rigo canto 2.5
+    c8 bes des8. c16|
+    \stemUp aes8 ees\) r ees|
   }%Chiude relative Canto
  \addlyrics {
  Io son mo -- de -- sta_e _ sa -- via, Non so di dar af-
  -fan -- ni, Ma so -- no sui ven -- t'an -- ni,... Pes -- sa -- te -- ci, pa -- pà! Ho i
   gior -- ni ma -- lin -- co -- ni -- ci, E nien -- te mi con -- so -- la... L'i -- dea di re -- star
-
+ so -- la Più tri -- ste an -- cor mi fa! Con -- so -- la -- ti, con -- so -- la -- ti! E' a-
+ mor che ti con -- si -- glia,
    }%Chiude new staff canto
    
  \new PianoStaff  
