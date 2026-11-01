@@ -24,11 +24,19 @@
     e8_. f_. ges_. f_.|
     \break
     %rigo canto 1.2
-
+    ees8 bes r ^\f bes'|
+    a8 bes c bes|
+    aes!16_\( bes\) aes8 r ^\p aes|
+    g8 aes ges ees|
+    des4 r8 aes'|
+    \break
+    %rigo canto 1.3
+     
   }%Chiude relative Canto
  \addlyrics {
  Io son mo -- de -- sta_e _ sa -- via, Non so di dar af-
-
+ -fan -- ni, Ma so -- no sui ven -- t'an -- ni,... Pes -- sa -- te -- ci, pa -- pà! Ho i
+  
    }%Chiude new staff canto
    
  \new PianoStaff  
