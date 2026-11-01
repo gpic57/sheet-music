@@ -52,6 +52,9 @@
    
  \new PianoStaff  
       \with { instrumentName = \markup{\italic "ALL."\super"tto""MOSSO" }
+      midiInstrument = #"acoustic grand"
+        midiMinimumVolume = #0.3  % Abbassa il limite minimo
+        midiMaximumVolume = #0.5  % Abbassa il limite massimo
  }
 <<
   \new Staff="up" { 
