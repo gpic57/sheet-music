@@ -18,14 +18,17 @@
     \time 2/4
     \tempo 4 = 66
     %rigo canto 1.1
-    r4 r8 aes'_.|
+    r4 ^\markup{\bold "LA FIGLIA"} ^\markup{\italic "ALL."\super"tto" "MOSSO"} r8 aes'_.|
     \autoBeamOff \stemUp g!8_. aes_. bes_. aes_.|
-    e16 f f8 r f
+    e16 f f8 r f|
+    e8_. f_. g_. f_.|
     \break
-    
+    %rigo canto 1.2
+
   }%Chiude relative Canto
  \addlyrics {
- Io son mo -- de -- sta_e _ sa -- via, Non
+ Io son mo -- de -- sta_e _ sa -- via, Non so di dar af-
+
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -38,8 +41,13 @@
   \key aes \major 
   \time 2/4
   \relative c' {
-  %rigo up 1.1a
-  c4
+  %rigo up 1.1
+  r8 _\markup{\dynamic p \italic "e staccato"}<f des aes>_.[ <f des aes>_. <f des aes>_.]|
+  r8 <f des aes>[ <f des aes> <f des aes>]|
+  r8 <f des aes>[ <f des aes> <f des aes>]|
+  r8 <f des aes>[ <f des aes> <f des aes>]|
+  \break
+  %rigo up 1.2
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -47,7 +55,10 @@
     \key aes \major
     \time 2/4
     \relative c{
-    c4
+    <des des,>8_. r r4|
+    <des des,>8_. r r4|
+    <des des,>8_. r r4|
+    <des des,>8_. r r4|
       } %Chiude relative low
              
 }%Chiude Staff low
