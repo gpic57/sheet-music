@@ -31,12 +31,20 @@
     des4 r8 aes'|
     \break
     %rigo canto 1.3
-     
+    g8 aes bes aes|
+    e16 f  f8 r f|
+    e8 f ges f|
+    ees8 bes r4|
+    bes'8 ^\f a16 bes c8 bes|
+    \break
+    %rigo canto 2.4
+
   }%Chiude relative Canto
  \addlyrics {
  Io son mo -- de -- sta_e _ sa -- via, Non so di dar af-
  -fan -- ni, Ma so -- no sui ven -- t'an -- ni,... Pes -- sa -- te -- ci, pa -- pà! Ho i
-  
+  gior -- ni ma -- lin -- co -- ni -- ci, E nien -- te mi con -- so -- la... L'i -- dea di re -- star
+
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -63,7 +71,14 @@
   r8 <f des aes>[<f des aes><f des aes>]|
   \break
   %rigo up 1.3
-    } %Chiude relative Up
+  r8 <f des aes>[ <f des aes> <f des aes>]|
+  r8 <f des aes>[ <f des aes> <f des aes>]|
+  r8 <f des aes>[ <f des aes> <f des aes>]|
+  r8 <ges ees bes>[ <ges ees bes> <ges ees bes>]|
+  r8 _\mf <ges ees bes>[ <ges ees bes> <ges ees bes>]|
+   \break
+  %rigo up 2.4
+   } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
     \clef bass
@@ -84,6 +99,13 @@
     <des des,>8_. r8 r4|
     \break
     %rigo down 1.3
+    <des des,>8_. r r4|
+    <des des,>8_. r r4|
+    <des des,>8_. r r4|
+    <ges ges,>8_. r r4|
+    <ees ees,>8_. r r4|
+    \break
+    %rigo down 2.4
       } %Chiude relative low
              
 }%Chiude Staff low
