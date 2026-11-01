@@ -52,12 +52,15 @@
    
  \new PianoStaff  
       \with { instrumentName = \markup{\italic "ALL."\super"tto""MOSSO" }
-      midiInstrument = #"acoustic grand"
-        midiMinimumVolume = #0.3  % Abbassa il limite minimo
-        midiMaximumVolume = #0.5  % Abbassa il limite massimo
  }
 <<
-  \new Staff="up" { 
+  \new Staff="up" \with{
+  midiInstrument = #"acoustic grand"
+        midiMinimumVolume = #0.1  % Abbassa il limite minimo
+        midiMaximumVolume = #0.3  % Abbassa il limite massimo
+        }
+  {
+
     \set PianoStaff.connectArpeggios = ##t
   \clef treble  
   \key bes \minor 
@@ -86,7 +89,12 @@
   %rigo up 2.4
    } %Chiude relative Up
 }%Chiude New Staff Up
-    \new Staff = "down" { 
+    \new Staff = "down" \with{
+  midiInstrument = #"acoustic grand"
+        midiMinimumVolume = #0.1  % Abbassa il limite minimo
+        midiMaximumVolume = #0.3  % Abbassa il limite massimo
+        }
+    { 
     \clef bass
     \key bes \minor
     \time 2/4
