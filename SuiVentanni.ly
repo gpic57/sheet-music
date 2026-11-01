@@ -10,6 +10,9 @@
   \new Staff = "Canto" \with {     
     instrumentName = "CANTO"
     midiInstrument = "voice oohs"  % Suono vocale più dolce
+  % Imposta il volume massimo del Tenore molto alto
+      midiMaximumVolume = #0.9
+      midiMinimumVolume = #0.8
   } 
   \relative c' {
   
