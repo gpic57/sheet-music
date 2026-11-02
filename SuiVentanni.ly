@@ -61,12 +61,13 @@
     \break
     %rigo canto 2.7
     \stemUp f8 ges \stemDown c bes|
-    \stemUp g8 ^\< aes r aes|
+    \stemUp g8  aes r aes^\<|
     \stemDown c8 bes f'8. \! ^\markup{\italic "ten."} ees16|
     ees8 des r \stemDown c16^([ bes)]|
     \stemUp g8 aes ges c,|
     \break
     %rigo canto 2.8
+
   }%Chiude relative Canto
  \addlyrics {
  Io son mo -- de -- sta_e _ sa -- via, Non so di dar af-
@@ -132,7 +133,14 @@
   <aes c,>4\) r4|
   r8 <bes ees, bes> r <ees, c aes>|
   r8 <aes des, aes> r8|
-  <<{c16 bes}\\{<f des>8}>>
+  <<{c16^\( bes
+  \break
+  %rigo up 2.7
+  <f d>8_.[\) <ges ees>_. <c ges ees>_. <bes ges ees>_.]}\\{<f des>8|
+  \break
+  s2}>>
+  <g e>8_. <aes f>4_> _\markup{\italic "cres."} <aes f>8_.|
+  
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" \with{
