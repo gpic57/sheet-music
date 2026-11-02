@@ -196,7 +196,16 @@
     \stemUp ges,4^( \stemDown ges')|
     f,4^\( f'\)|
     \break
-    %rigo down 2.6
+    %rigo down 2.7
+    \stemUp aes,8_. r \stemDown aes'^. r|
+    des,8^. r <des! aes f> r|
+    g8 r <bes g>\arpeggio r|
+    \stemUp aes,,8 r aes' r|
+    aes,8 r aes' r|
+    \break
+    %rigo down 2.8
+    
+
       } %Chiude relative low
              
 }%Chiude Staff low
