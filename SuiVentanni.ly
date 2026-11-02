@@ -139,8 +139,12 @@
   <f d>8_.[\) <ges ees>_. <c ges ees>_. <bes ges ees>_.]}\\{<f des>8|
   \break
   s2}>>
-  <g e>8_. <aes f>4_> _\markup{\italic "cres."} <aes f>8_.|
-  
+  <g e>8_. <aes f>4_> _\markup{\italic "cres."} <aes f>8_. _\<|
+  r8 <bes ges! ees!>_. \! \stemDown <f' bes, ges>^.\arpeggio _\markup{\italic "col canto"} r8
+  r8 _\p \stemUp <f, des aes> r8 <f des aes>|
+  r8 <aes c, aes>_. <ges c, aes>_. <c, aes>_.|
+  \break 
+  %rigo up 2.8
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" \with{
