@@ -150,6 +150,14 @@
   r8 <aes c, aes>_. <ges c, aes>_. <c, aes>_.|
   \break 
   %rigo up 2.8
+  <<{r8 des8 r _\markup{\italic "cres."} <f des aes>}
+  \\
+  {s8 \change Staff= "down" \crossStaff{\stemUp <aes f>} s4}
+  >>|
+  r8 <bes ges ees>\stemDown <ges' bes, ges>\arpeggio r|
+  r8 _\p \stemUp <f, des aes> r <f des aes>|
+  r8 <aes c, aes>_.[ <ges c, aes>_. <ees c aes>_.]|
+  r8 des <des' aes f des>_> r8 \bar "|." 
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" \with{
@@ -209,7 +217,10 @@
     aes,8 r aes' r|
     \break
     %rigo down 2.8
-    
+    <<{s2}
+    \\
+    {\stemDown des,8 r des' r8}
+    >>
 
       } %Chiude relative low
              
