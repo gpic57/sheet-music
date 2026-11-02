@@ -67,7 +67,11 @@
     \stemUp g8 aes ges c,|
     \break
     %rigo canto 2.8
-
+    des4 r8 aes'|
+    a8^\< \stemDown bes ^\f ges'^\fermata \! f16([ ees)]|
+    ees8 des r c16([ bes)]|
+    \stemUp g8 aes ges ees|
+    des4 r \bar "|."
   }%Chiude relative Canto
  \addlyrics {
  Io son mo -- de -- sta_e _ sa -- via, Non so di dar af-
@@ -76,7 +80,8 @@
  so -- la Più tri -- ste an -- cor mi fa! Con -- so -- la -- ti, con -- so -- la -- ti! E'_a-
  mor che ti con -- si -- glia, Per far u -- na fa -- mi -- glia Ti
  re -- sta tem -- po_an -- cor! Ma_il dì del -- le tue gio -- ie Per
- me sa -- rà di lut -- to; O ca -- ra,_io per -- do tut -- to, Se man -- chi_a que -- sto
+ me sa -- rà di lut -- to; O ca -- ra,_io per -- do tutto, Se man -- chi_a que -- sto _
+ cor! O cara io per -- do tut -- to, Se manchi a que -- sto cor.
    }%Chiude new staff canto
    
  \new PianoStaff  
