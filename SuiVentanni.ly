@@ -60,7 +60,13 @@
     c16^([des)] des8 r c16^([ bes)]
     \break
     %rigo canto 2.7
-
+    \stemUp f8 ges \stemDown c bes|
+    \stemUp g8 ^\< aes r aes|
+    \stemDown c8 bes f'8. \! ^\markup{\italic "ten."} ees16|
+    ees8 des r \stemDown c16^([ bes)]|
+    \stemUp g8 aes ges c,|
+    \break
+    %rigo canto 2.8
   }%Chiude relative Canto
  \addlyrics {
  Io son mo -- de -- sta_e _ sa -- via, Non so di dar af-
@@ -69,7 +75,7 @@
  so -- la Più tri -- ste an -- cor mi fa! Con -- so -- la -- ti, con -- so -- la -- ti! E'_a-
  mor che ti con -- si -- glia, Per far u -- na fa -- mi -- glia Ti
  re -- sta tem -- po_an -- cor! Ma_il dì del -- le tue gio -- ie Per
-
+ me sa -- rà di lut -- to; O ca -- ra,_io per -- do tut -- to, Se man -- chi_a que -- sto
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -119,11 +125,14 @@
   <c ees,>8^\( [<bes! des,!><des f,>8._> <c ees,>16]
   <aes c,>8 <ees c>_.\) r8 ees_.^\(|
   <des' f,>8.[ <c ees,>16 <ees g,>8._> <des f,>16]|
-  <b d,>8_. <c ees,>4_>\) <c ees,>8_.|
+  <b d,>8_. <c ees,>4_>\) <c ees,>8_.^\(|
   \break
   %rigo up 2.6
-  <c ees,>8^\( [<bes! des,!><des f,>8._> <c ees,>16]|
-  
+  <c ees,>8 [<bes! des,!><des f,>8._\markup{\italic "col canto"} <g, des>16]|
+  <aes c,>4\) r4|
+  r8 <bes ees, bes> r <ees, c aes>|
+  r8 <aes des, aes> r8|
+  <<{c16 bes}\\{<f des>8}>>
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" \with{
@@ -170,7 +179,12 @@
     \stemUp aes,8_. \stemDown ees'[^\( <c' aes> ees,\)]|
     \break
     %rigo down 2.6
-    
+    \stemUp <ees ees,>8_. \stemDown ees[^\( <des' g,> ees,\)]|
+    a,8_.[ ees'^\( <c' aes>^.\)] r8|
+    \stemUp ges,4^( \stemDown ges')|
+    f,4^\( f'\)|
+    \break
+    %rigo down 2.6
       } %Chiude relative low
              
 }%Chiude Staff low
