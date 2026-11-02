@@ -152,12 +152,17 @@
   %rigo up 2.8
   <<{r8 des8 r _\markup{\italic "cres."} <f des aes>}
   \\
-  {s8 \change Staff= "down" \crossStaff{\stemUp <aes f>} s4}
+  {s8 \change Staff= "down" \crossStaff{\stemUp <aes, f>} s4}
   >>|
-  r8 <bes ges ees>\stemDown <ges' bes, ges>\arpeggio r|
+  r8_\<  <bes' ges ees>\stemDown <ges' bes, ges>\arpeggio \! _\markup{\italic "col canto"} r|
   r8 _\p \stemUp <f, des aes> r <f des aes>|
   r8 <aes c, aes>_.[ <ges c, aes>_. <ees c aes>_.]|
-  r8 des <des' aes f des>_> r8 \bar "|." 
+  <<{r8 des <des' aes f des>_> r8 }
+  \\
+  {s8 \change Staff = "down" \crossStaff{\stemUp <aes,f>8} s4}
+  >>
+  
+  \bar "|." 
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" \with{
@@ -220,8 +225,14 @@
     <<{s2}
     \\
     {\stemDown des,8 r des' r8}
-    >>
-
+    >>|
+    ges,8 r \stemDown <ees'' bes ges>\arpeggio r
+    \stemUp aes,,,8 r aes' r|
+    aes,8 r aes' r|
+    <<{}
+    \\
+    {des,8 r <des' des,>^>^\f r8}
+    >>\bar "|."
       } %Chiude relative low
              
 }%Chiude Staff low
