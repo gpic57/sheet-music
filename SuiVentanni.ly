@@ -45,13 +45,20 @@
     g8 aes ges ees|
     des4 r8 _\mf ees8^\(|
     \stemDown des'8. c16 ees8 des|
-    d16 d c8\) r8 c^.^\(|
+    b16 b c8\) r8 c^.^\(|
     \break
     %rigo canto 2.5
-    c8 bes des8. c16|
+    c8 bes! des8. c16|
     \stemUp aes8 ees\) r ees|
-    des'8.^\( c16 ees8. d16|
-    b8 c\) r c|
+    \stemDown des'8.^\( c16 ees8. d16|
+    b8 c\) r c^\(|
+    \break
+    %rigo canto 2.6
+    c8 bes des8.^\fermata g,16|
+    \stemUp aes4\) r8 aes|
+    a8 \stemDown bes f' ees|
+    c16^([des)] des8 r c16^([ bes)]
+
 
   }%Chiude relative Canto
  \addlyrics {
@@ -60,7 +67,7 @@
   gior -- ni ma -- lin -- co -- ni -- ci, E nien -- te mi con -- so -- la... L'i -- dea di re -- star
  so -- la Più tri -- ste an -- cor mi fa! Con -- so -- la -- ti, con -- so -- la -- ti! E'_a-
  mor che ti con -- si -- glia, Per far u -- na fa -- mi -- glia Ti
-
+ re -- sta tem -- po_an -- cor! Ma_il dì del -- le tue gio -- ie Per
 
    }%Chiude new staff canto
    
