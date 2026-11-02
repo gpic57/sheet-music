@@ -50,13 +50,18 @@
     %rigo canto 2.5
     c8 bes des8. c16|
     \stemUp aes8 ees\) r ees|
+    des'8.^\( c16 ees8. d16|
+    b8 c\) r c|
+
   }%Chiude relative Canto
  \addlyrics {
  Io son mo -- de -- sta_e _ sa -- via, Non so di dar af-
  -fan -- ni, Ma so -- no sui ven -- t'an -- ni,... Pes -- sa -- te -- ci, pa -- pà! Ho i
   gior -- ni ma -- lin -- co -- ni -- ci, E nien -- te mi con -- so -- la... L'i -- dea di re -- star
- so -- la Più tri -- ste an -- cor mi fa! Con -- so -- la -- ti, con -- so -- la -- ti! E' a-
- mor che ti con -- si -- glia,
+ so -- la Più tri -- ste an -- cor mi fa! Con -- so -- la -- ti, con -- so -- la -- ti! E'_a-
+ mor che ti con -- si -- glia, Per far u -- na fa -- mi -- glia Ti
+
+
    }%Chiude new staff canto
    
  \new PianoStaff  
@@ -103,8 +108,14 @@
   <b d,>8_. <c ees,>4_> <c ees,>8_.|
    \break
   %rigo up 2.5
+  <c ees,>8^\( [<bes! des,!><des f,>8._> <c ees,>16]
+  <aes c,>8 <ees c>_.\) r8 ees_.^\(|
+  <des' f,>8.[ <c ees,>16 <ees g,>8._> <des f,>16]|
+  <b d,>8_. <c ees,>4_>\) <c ees,>8_.|
+  \break
+%rigo up 2.6
 
-   } %Chiude relative Up
+    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" \with{
   midiInstrument = #"acoustic grand"
@@ -144,6 +155,12 @@
     aes,8_. \stemDown ees'[^\( <c' aes> ees,\)]
     \break
     %rigo down 2.5
+    \stemUp <ees ees,>8 \stemDown ees[^\( <des' g,> ees,\)]|
+    \stemUp aes,8 \stemDown ees'[^\( <c' aes> ees,\)]|
+    \stemUp <ees ees,>8_. \stemDown ees[^\( <des' g,> ees,\)]|
+    \stemUp aes,8_. \stemDown ees'[^\( <c' aes> ees,\)]|
+    \break
+    %rigo down 2.6
     
       } %Chiude relative low
              
