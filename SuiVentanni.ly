@@ -58,7 +58,8 @@
     \stemUp aes4\) r8 aes|
     a8 \stemDown bes f' ees|
     c16^([des)] des8 r c16^([ bes)]
-
+    \break
+    %rigo canto 2.7
 
   }%Chiude relative Canto
  \addlyrics {
@@ -120,8 +121,9 @@
   <des' f,>8.[ <c ees,>16 <ees g,>8._> <des f,>16]|
   <b d,>8_. <c ees,>4_>\) <c ees,>8_.|
   \break
-%rigo up 2.6
-
+  %rigo up 2.6
+  <c ees,>8^\( [<bes! des,!><des f,>8._> <c ees,>16]|
+  
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" \with{
