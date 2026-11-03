@@ -10,7 +10,7 @@
   
    
  \new PianoStaff  
-      \with { instrumentName = \markup{\bold "Amorosamente" }
+      \with { instrumentName = \markup{\italic "AMOROSAMENTE" }
  }
 <<
   \new Staff="up" { 
@@ -18,6 +18,7 @@
   \clef treble  
   \key a \major 
   \time 2/4
+  \tempo 4.=54
   \relative c' {
   %rigo up 1.1
   c4
