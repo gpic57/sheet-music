@@ -17,7 +17,7 @@
     \set PianoStaff.connectArpeggios = ##t
   \clef treble  
   \key a \major 
-  \time 2/4
+  \time 6/8
   \tempo 4.=54
   \relative c' {
   %rigo up 1.1
@@ -27,7 +27,7 @@
     \new Staff = "down" { 
     \clef bass
     \key a \major
-    \time 2/4
+    \time 6/8
     \relative c{
     %rigo down 1.1
     c4
