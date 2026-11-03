@@ -49,6 +49,14 @@
     \time 9/8
     cis16 r e4 a,16 r e'4 e,16 r e'4 \bar "||"
     \time 6/8
+    \break
+    %rigo down 1.2
+    b16 r e4 ais,16 r e'4|
+    b16 r e4 e,16 r e'4|
+    a,16 r e'4 e,16 r e'4|
+    a,16 r e'4 dis16 r fis4|
+    \break
+    %rigo down 1.3
       } %Chiude relative low
              
 }%Chiude Staff low
