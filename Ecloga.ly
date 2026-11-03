@@ -27,7 +27,12 @@
   <fis e a,>8_.[ r <a fis cis>_.] <cis fis, e>_.[ r <e cis fis,>]_. <fis cis a>8^.[ r16 <e cis fis,>^. <cis fis, e>8^.]|
   \bar "||"
   \time 6/8
-
+  \break
+  %rigo up 1.2
+  \stemDown <e g, e>8^. r8 \stemUp <b gis d>_\([<e cis fisis,>\)] r8 \stemDown <cis fisis, e>^\([|
+  <e d gis,>8\)]
+  %rigo up 1.3
+  %\stemUp <gis' e gis,>[_\f r16 <fis dis gis,>16_. <e cis gis>8_.] <e cis fis,>8_.[ r16 <dis a fis>_.<d a fis>8]
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
