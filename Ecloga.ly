@@ -39,7 +39,7 @@
     a16 ^\pp r e'4 fis,!16 r16 e'4|
     b16 r e4 bis16 r e4 \bar "||"
     \time 9/8
-    cis16 r e4 a,16 r e'4 e16 r e4 \bar "||"
+    cis16 r e4 a,16 r e'4 e,16 r e'4 \bar "||"
     \time 6/8
       } %Chiude relative low
              
