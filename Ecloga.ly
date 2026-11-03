@@ -24,6 +24,9 @@
   R1*6/8|
   r4 r8 r4 e8_. _\pp \bar "||"
   \time 9/8
+  <fis e a,>8_.[ r <a fis cis>_.] <cis fis, e>_.[ r <e cis fis,>]_. <fis cis a>8^.[ r16 <e cis fis,>^. <cis fis, e>8^.]|
+  \bar "||"
+  \time 6/8
 
     } %Chiude relative Up
 }%Chiude New Staff Up
@@ -36,7 +39,8 @@
     a16 ^\pp r e'4 fis,!16 r16 e'4|
     b16 r e4 bis16 r e4 \bar "||"
     \time 9/8
-    
+    cis16 r e4 a,16 r e'4 e16 r e4 \bar "||"
+    \time 6/8
       } %Chiude relative low
              
 }%Chiude Staff low
