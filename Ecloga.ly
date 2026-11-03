@@ -21,7 +21,10 @@
   \tempo 4.=54
   \relative c' {
   %rigo up 1.1
-  c4
+  R1*6/8|
+  r4 r8 r4 e8_. _\pp \bar "||"
+  \time 9/8
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -30,7 +33,10 @@
     \time 6/8
     \relative c{
     %rigo down 1.1
-    c4
+    a16 ^\pp r e'4 fis,!16 r16 e'4|
+    b16 r e4 bis16 r e4 \bar "||"
+    \time 9/8
+    
       } %Chiude relative low
              
 }%Chiude Staff low
