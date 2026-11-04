@@ -42,7 +42,21 @@
   r8 \stemDown <fis, gis bis> _\markup{\italic "dim:..........................................."} r r |
   <cis' gis>^> r r <fis, gis bis> r r|
   \break
-  %rigo down 2.4
+  %rigo up 2.4
+  \clef treble
+  <<{b''4^\( gis8 fis gis a|
+  b8 a gis fis4.|
+  b4 gis8 fis gis a|
+  b8 a gis fis4.\)|
+  }
+    \\
+    {<e b>4. _\markup{\dynamic p \italic "con espress."} <dis cis>4.|
+    <e b>4. <dis cis>|
+    <e b>4. <dis cis>|
+    }
+  >>
+  \break
+  %rigo 2.5
 
     } %Chiude relative Up
 }%Chiude New Staff Up
@@ -71,7 +85,17 @@
     \stemDown e'8^>[ r16 dis^( cis8)] \stemUp dis_. bis_. gis_.|
     \break
     %rigo down 2.4
-
+    <<{b4.^\( \sustainOn cis \sustainOff \sustainOn|
+    b4. \sustainOff \sustainOn cis8 \sustainOff \sustainOn b \sustainOff a|
+    b4.\sustainOn cis|
+    b4. \sustainOff \sustainOn d8 \sustainOff cis a\)
+    }
+    \\
+    {d,2.~|
+    d2.~|
+    d2.~|
+    d2~}
+    >>
       } %Chiude relative low
              
 }%Chiude Staff low
