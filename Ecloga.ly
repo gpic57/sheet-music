@@ -35,7 +35,15 @@
   \stemDown <e cis a>8^.[ r <fis e cis>^.]\stemUp <a cis, a>8.^>[^\( <gis e>16 <fis dis>8]|
   \break
   %rigo up 1.3
-  \stemUp <gis e gis,>\)[_\f r16 <fis dis gis,>16_. <e cis gis>8_.] <e cis fis,>8_.[ r16 <dis a fis>_.<d a fis>8]
+  \stemUp <gis e gis,>\)[_\f _\> r16 <fis dis gis,>16_. <e cis gis>8_.] <e cis fis,>8_.[ r16 <dis a fis>_.<d a fis>8]^\(|
+  <cis gis>8\)  <b fis>_. \! \p <a e>_. <gis dis>_. <fis bis,>_. <dis a>_.|
+  <cis gis>8_> r
+  \clef bass
+  r8 \stemDown <fis, gis bis> _\markup{\italic "dim:..........................................."} r r |
+  <cis' gis>^> r r <fis, gis bis> r r|
+  \break
+  %rigo down 2.4
+
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -57,6 +65,13 @@
     a,16 r e'4 dis16 r fis4|
     \break
     %rigo down 1.3
+    e16 r cis4 fis16 r a4^\(|
+    <e' gis,>8\)[ dis^. a^.] bis^. a^. fis^.|
+    \stemDown e^>[ r16 dis16^( c8]) \stemUp b_.[ bis_. gis_.]|
+    \stemDown e'8^>[ r16 dis^( cis8)] \stemUp dis_. bis_. gis_.|
+    \break
+    %rigo down 2.4
+
       } %Chiude relative low
              
 }%Chiude Staff low
