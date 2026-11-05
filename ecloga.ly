@@ -84,6 +84,22 @@
     d2.
    }
    >>
+  \break
+   %rigo up 2.8
+   <<{<d' a>4~^\(<cis a>8 \tupletUp \tuplet 3/2{b16 cis b} a8 gis|
+   \stemDown fis4. d\)^\(|
+   d2.\)|
+   \stemUp fis,4.^\( e|
+   dis8\) ^\sf r d8 _\>\tupletUp \tuplet3/2{b16[_\( cis b]} gis8\) fis_.\!|
+   }
+   \\
+   {<fis'' d>2. _\f|
+   a,4. s4.|
+   <b gis>2.|
+   gis,2. _\(_\p|
+   gis8\) r r s4.|
+   }
+   >>|
 
    } %Chiude relative Up
 }%Chiude New Staff Up
@@ -149,11 +165,19 @@
     %rigo down 2.7
     e,,8[_\sustainOn ^\( a d! e a d! \sustainOff]|
     fis4 \sustainOn d8 \tupletUp \tuplet 3/2{cis16[ d cis]} b4\sustainOff \)|
-    e,,8 \sustainOn a d fis a d \sustainOff|
-    a'4 \sustainOn fis8 \tupletUp \tuplet 3/2{e16[ fis e]} d4 \sustainOff|
-    
-
-    
+    e,,8 [\sustainOn ^\( a d fis a d] \sustainOff|
+    a'4 \sustainOn fis8 \tupletUp \tuplet 3/2{e16[ fis e]} d4 \sustainOff \)|
+    \break
+    %rigo down 2.8
+    e,,8[^\( \sustainOn a d e a d]\sustainOff 
+    \clef treble|
+    <<{\stemUp d'4 cis8 \tupletUp \tuplet 3/2{b16[ cis b} a8 gis]}
+    \\
+    {e2.}
+    >>|
+    \stemUp ^\>fis4. e\)\!
+    \clef bass|
+    \stemDown <b, e>2.~<b e>8 r r r4 r8|
     } %Chiude relative low
              
 }%Chiude Staff low
