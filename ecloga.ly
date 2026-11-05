@@ -177,7 +177,7 @@
     >>|
     \stemUp ^\>fis4. e\)\!
     \clef bass|
-    \stemDown <b, e>2.~<b e>8 r r r4 r8|
+    \stemDown <b e,>2.~<b e,>8 r r r4 r8|
     } %Chiude relative low
              
 }%Chiude Staff low
