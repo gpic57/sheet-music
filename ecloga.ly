@@ -103,8 +103,8 @@
     %rigo down 2.5
     <<{gis4.^\(^\< \sustainOn a \! ^\> \sustainOff \sustainOn|
     gis4. \sustainOff \sustainOn a8 \! \sustainOff \sustainOn gis \sustainOff fis|
-    gis4.\sustainOn a|
-    gis4. \sustainOff \sustainOn b8 \sustainOff a fis\)
+    gis4. ^\< \sustainOn a \! ^\>|
+    gis4. \sustainOff \sustainOn b8 \sustainOff a fis \!\)
     }
     \\
     {b,2.~|
