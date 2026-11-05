@@ -70,6 +70,21 @@
    b4^( _\> gis8) fis16~( e dis cis b) r\!|
    <e' gis, e>4^( _\p dis8) \omit TupletBracket \tupletUp \tuplet 3/2{cis32[^\( dis cis} b16 a gis fis] \)r|
    b4 gis8 \tupletUp \tuplet 3/2{fis32[^\( gis fis} e16 dis cis b] r \)|
+   \break
+   %rigo up 2.7
+   <<{\stemUp fis'4\arpeggio^\( _\<d!8 \tuplet 3/2{cis16[ d cis]} b4|
+   d4._~ <fis d>\)|
+   <a d,>4~\arpeggio^\( <fis d>8 \tuplet 3/2{cis16[ d cis]} b4|
+   fis'4._~<a fis>\)\!|
+   }
+   \\
+   {<a, fis>2.\arpeggio _\p|
+    a2.|
+    a2.|
+    d2.
+   }
+   >>
+
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -130,7 +145,16 @@
     e2. \clef bass|
     }
     >>
-      } %Chiude relative low
+    \break
+    %rigo down 2.7
+    e,,8[_\sustainOn ^\( a d! e a d! \sustainOff]|
+    fis4 \sustainOn d8 \tupletUp \tuplet 3/2{cis16[ d cis]} b4\sustainOff \)|
+    e,,8 \sustainOn a d fis a d \sustainOff|
+    a'4 \sustainOn fis8 \tupletUp \tuplet 3/2{e16[ fis e]} d4 \sustainOff|
+    
+
+    
+    } %Chiude relative low
              
 }%Chiude Staff low
 >>%Fine Base Piano
