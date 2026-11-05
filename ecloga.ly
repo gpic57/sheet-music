@@ -88,7 +88,18 @@
     e'_.[ gis_.] \stemDown cis^. r r|
     \break
     %rigo down 2.5
-
+    <<{b'4^\( gis8 fis gis a| 
+    b8 a gis fis4.|
+    b4 gis8 fis gis a|
+    b8 a gis fis4.\)|
+    }
+    \\
+    {<e b>4. _\markup{\dynamic p \italic "con espress."} <dis cis>4.|
+    <e b>4. <dis cis>|
+    <e b>4. <dis cis>|
+    <e b>4. dis|
+    }
+    >>
     
       } %Chiude relative low
              
