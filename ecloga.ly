@@ -66,7 +66,11 @@
     >>
    \break
    %rigo up 2.6 
-  } %Chiude relative Up
+   <e' gis, e>4^(_\f dis8) cis16^( b a gis fis) r|
+   b4^( _\> gis8) fis16~( e dis cis b) r\!|
+   <e' gis, e>4^( _\p dis8) \omit TupletBracket \tupletUp \tuplet 3/2{cis32[^\( dis cis} b16 a gis fis] \)r|
+   b4 gis8 \tupletUp \tuplet 3/2{fis32[^\( gis fis} e16 dis cis b] r \)|
+   } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
     \clef bass
@@ -114,7 +118,18 @@
     >>
     \break
     %rigo down 2.6
-
+    <<{b'4. <dis a>|
+    <e gis,>4. <a, fis>|
+    gis2.|
+    gis2.|
+    }
+    \\
+    {e2.~|
+    e2.~|
+    e2.~|
+    e2. \clef bass|
+    }
+    >>
       } %Chiude relative low
              
 }%Chiude Staff low
