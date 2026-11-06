@@ -104,8 +104,9 @@
   %rigo up 2.9
   R1*6/8|
   r4 \stemUp <e' cis>8_. _\pp|
-  <fis e cis>8_.[ r <a fis e>]|
-  <cis a e>8 [r <e cis a>] <fis cis a>8_.[ r16 <e a, fis>_. <cis a fis>8_.]
+  <fis e cis>8_.[ r <a fis e>]_.|
+  <cis a e>8_. [r <e cis a>_.] <fis cis a>8_.[ r16 <e a, fis>_. <cis a fis>8_.]
+  <e gis, e>8_. r <b gis d>_([<e cis fisis,>]) _\< r \stemDown <cis fisis, e>8\!^\(|
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
