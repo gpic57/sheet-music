@@ -106,7 +106,15 @@
   r4 \stemUp <e' cis>8_. _\pp|
   <fis e cis>8_.[ r <a fis e>]_.|
   <cis a e>8_. [r <e cis a>_.] <fis cis a>8_.[ r16 <e a, fis>_. <cis a fis>8_.]
-  <e gis, e>8_. r <b gis d>_([<e cis fisis,>]) _\< r \stemDown <cis fisis, e>8\!^\(|
+  <e gis, e>8_. r <b gis d>_([<e cis fisis,>]) _\< r \stemDown <cis fisis, e>8\![^\(|
+  \break
+  %rigo up 2.10
+  <e d gis,>8 \)] r \stemUp <b gis e>8_([ <e bis gis>)] r <b gis d>[_(|
+  <e cis a>8]) r <e cis a e> \stemDown <fis cis a fis>\arpeggio [ r <a fis cis a>]|
+  <cis fis, e cis>\arpeggio [r <e cis a e>] <fis cis a fis>\arpeggio [ r16 <e fis, e> <cis fis, cis>8]|
+  <e b gis d>8\arpeggio _\f r <e, e,>[ <e' bes g cis,>\arpeggio ] r8 <e, e,>[^\(|
+  \break
+  %rigo up 2.11
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
