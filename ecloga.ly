@@ -184,6 +184,12 @@
     \stemUp ^\>fis4. e\)\!
     \clef bass|
     \stemDown <b e,>2.~<b e,>8 r r r4 r8|
+    \break
+    %rigo down 2.9
+    e,8^. ^\p r d^.^\( \omit TupletBracket \tupletUp \tuplet 3/2 {d16 ees d} cis8 \) b^.|
+    a16^( cis e4)^> e,16^( cis' e4)^>|
+    a,16^\( e' fis4^>\) e,16^( e' a4)^>|
+    b,16^([ e] b4'^>) ais,16^( e' cis'4^>)
     } %Chiude relative low
              
 }%Chiude Staff low
