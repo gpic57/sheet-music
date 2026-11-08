@@ -115,7 +115,13 @@
   <e b gis d>8\arpeggio _\f r <e, e,>[ <e' bes g cis,>\arpeggio ] r8 <e, e,>8 [^\(|
   \break
   %rigo up 2.11
-  <d' a fis d>8]\) r <e, e,>
+  <d' a fis d>8]\)\arpeggio _\<  r <e, e,>^( <b'! e, d b!>) r <e, e,>\! ^\([|
+  <a e cis a>8\)] r _\ff <e e,> <fis cis a fis>4^^ <a fis cis a>8|
+  <fis cis a fis>8^^ \autoBeamOff <e e,> <fis cis a fis>4^^<a fis cis a>|
+  <fis d a fis>4^^ <e e,>8 <g e c g>4^^ <e e,>8|
+  \break
+  %rigo up 2.12
+
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -198,7 +204,7 @@
     e,8^. ^\p r d^.^\( \omit TupletBracket \tupletUp \tuplet 3/2 {d16 ees d} cis8 \) b^.|
     a16^( cis e4)^> e,16^( cis' e4)^>|
     a,16^\( e' fis4^>\) e,16^( e' a4)^>|
-    b,16^([ e] b4'^>) ais,16^( e' cis'4^>)
+    b,16^([ e] b'4^>) ais,16^( e' cis'4^>)
     \break
     %rigo down 2.10
     b,16[ ^\(e] b'4^>\) e,,16[^\( e'] e'4^>\)
