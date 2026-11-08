@@ -129,7 +129,7 @@
   \\
   {cis'8_^\arpeggio a e_^_~ <e cis>4._\(_\p|
   <e cis>4.\) <e cis>~|
-  <e d>4. b|
+  <e d>4. gis,|
   }
   >>
    } %Chiude relative Up
