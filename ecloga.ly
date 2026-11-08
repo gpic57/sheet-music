@@ -121,7 +121,17 @@
   <fis d a fis>4^^ <e e,>8 <g e c g>4^^ <e e,>8|
   \break
   %rigo up 2.12
-
+  <gis! e b gis!>4^^ <e e,>8 <e' e,>4.^^|
+  <<{<e e,>4 e,,8 fis4 a8|
+  fis4^\( e8 fis4 a8|
+  fis4 e8 f4 e8\)|
+  }
+  \\
+  {cis'8_^\arpeggio a e_^_~ <e cis>4._\(_\p|
+  <e cis>4.\) <e cis>~|
+  <e d>4. b|
+  }
+  >>
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -218,6 +228,9 @@
     <cis e, a,>8\arpeggio \sustainOff \sustainOn r r <cis a fis>\sustainOff \stemUp <e, e,>4_^ \sustainOn|
     \stemDown<cis' a fis>8 \stemUp<e, e,>4_^\sustainOff \sustainOn \stemDown<cis' a fis>8 \stemUp<e, e,>4_^\sustainOff \sustainOn|
     \stemDown<d' a fis>8 \sustainOff \stemUp <e, e,>4_^ \sustainOn \stemDown <e' c g>8\sustainOff \stemUp <e, e,>4_^ \sustainOn
+    \break
+    %rigo down 2.12
+
     } %Chiude relative low
              
 }%Chiude Staff low
