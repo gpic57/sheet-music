@@ -211,7 +211,13 @@
     a,,16[^\( \sustainOn e'] <cis' a>4\) e,,16[^\( e'] <cis' a>4\)|
     a,16[^\( e'] <cis' a>4\) e,,16[^\( e'] <cis' a>4\) \sustainOff|
     b,16[^\(\sustainOn e] <d' gis,>4\)\sustainOff e,,16[^\( \sustainOn e'] <bes' cis>4\)\sustainOff|
-    
+    \break
+    %rigo down 2.11
+    b,16[^( \sustainOn e] <d' a>4)|
+    e,,16[^( \sustainOff \sustainOn e'] <d' gis,>4)|
+    <cis e, a,>8\arpeggio \sustainOff \sustainOn r r <cis a fis>\sustainOff \stemUp <e, e,>4_^ \sustainOn|
+    \stemDown<cis' a fis>8 \stemUp<e, e,>4_^\sustainOff \sustainOn \stemDown<cis' a fis>8 \stemUp<e, e,>4_^\sustainOff \sustainOn|
+    \stemDown<d' a fis>8 \sustainOff \stemUp <e, e,>4_^ \sustainOn \stemDown <e' c g>8\sustainOff \stemUp <e, e,>4_^ \sustainOn
     } %Chiude relative low
              
 }%Chiude Staff low
