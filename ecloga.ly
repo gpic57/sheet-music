@@ -230,7 +230,20 @@
     \stemDown<d' a fis>8 \sustainOff \stemUp <e, e,>4_^ \sustainOn \stemDown <e' c g>8\sustainOff \stemUp <e, e,>4_^ \sustainOn
     \break
     %rigo down 2.12
-
+    \stemDown <e' b gis!>8 \sustainOff \stemUp<e, e,>4_^ \sustainOn \stemDown<gis' b, e,>8\arpeggio^^ \sustainOff fis e
+    <e a,>4\arpeggio \sustainOn \stemUp e,,8 \sustainOff
+    \clef treble
+    \stemDown e'''4^> s8 \sustainOn
+    \clef bass
+    \stemUp a,,,8
+    \clef treble
+    \stemDown e'''4
+    \clef bass
+    \stemUp e,,,8
+    \clef treble
+    \stemDown e'''4 \sustainOff
+    \clef bass|
+    
     } %Chiude relative low
              
 }%Chiude Staff low
