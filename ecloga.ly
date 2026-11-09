@@ -296,8 +296,8 @@
     a,8^. cis^. e^. a^. r r
     \clef treble |
     r8 cis'^. e^. a^. r r |
-    <<{cis,4.^\< d\! \>|
-    cis4.\! d8 cis b}
+    <<{cis,4.^\< \sustainOn d\!\sustainOff \sustainOn \>|
+    cis4.\!\sustainOff  \sustainOn d8 cis\sustainOff b}
     \\
     {e,2.~ e}
     >>
