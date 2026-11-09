@@ -67,7 +67,7 @@
    \break
    %rigo up 2.6 
    <e' gis, e>4^(_\f dis8) cis16^( b a gis fis) r|
-   b4^( _\> gis8) fis16~( e dis cis b) r\!|
+   b4^( _\> gis8) fis16( e dis cis b) r\!|
    <e' gis, e>4^( _\p dis8) \omit TupletBracket \tupletUp \tuplet 3/2{cis32[^\( dis cis} b16 a gis fis] \)r|
    b4 gis8 \tupletUp \tuplet 3/2{fis32[^\( gis fis} e16 dis cis b] r \)|
    \break
@@ -146,16 +146,20 @@
   <a e cis>8 r r <f b, gis> r r|
   <e cis a>8 r r r cis^.[ e]|
   a8_. r r r 
-  <<{\stemDown cis'8[^. e^~]^>|
+  <<{\stemDown cis'8[^. e^~]^>^\(|
   e4 cis8 \stemUp b cis d|
   e[ d cis] b4.|
   \break
   %rigo up 4.15a
+  e4 cis8 b cis d|
+  e8 d cis b4.\)|
   }
   \\
   {s4| <a, e>4._\markup {\dynamic p \italic "con espress."} <gis' fis>4.|
   <a e>4. <gis fis>|
   %rigo up 4.15b
+  <a e>4._\< <gis f>\! \>|
+  <a e>4. gis\!|
   }
   >>
    } %Chiude relative Up
@@ -292,7 +296,11 @@
     a,8^. cis^. e^. a^. r r
     \clef treble |
     r8 cis'^. e^. a^. r r |
-    
+    <<{cis,4.^\< d\! \>|
+    cis4.\! d8 cis b}
+    \\
+    {e,2.~ e}
+    >>
     } %Chiude relative low
              
 }%Chiude Staff low
