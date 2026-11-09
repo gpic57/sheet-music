@@ -131,11 +131,11 @@
   <a e>8]^>\) c8\rest c8\rest gis  c8\rest c8\rest
   }
   \\
-  {cis'8_^\arpeggio a e_^_~ <e cis>4._\(_\p|
+  {cis8_^\arpeggio a e_^_~ <e cis>4._\(_\p|
   <e cis>4.\) <e cis>~|
   <e d>4. gis,|
   %rigo up 3.13b
-  a,4. d4.|
+  a4. d4.|
   s4. \stemUp<e d>8_\markup{\italic "rall."} s4|
   }
   >>
