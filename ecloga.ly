@@ -141,7 +141,8 @@
   >>
   \stemUp<a e>8_> r r <gis e d>8 r r|
   <a e cis>8 _\pp r r <gis d b> r r|
-
+  \break
+  %rigo up 4.14
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -263,8 +264,15 @@
     \clef bass |
     \break
     %rigo down 3.13
-
-    
+    \stemUp b,,8 \sustainOn \clef treble
+    \stemDown f'''4^> \clef bass
+    \sustainOff \sustainOn \stemUp e,,,8
+    \clef treble  \stemDown b'''4^> \clef bass \sustainOff|
+    cis,8^> [r16 b16^( a8)] b^. gis^. e^.|
+    cis'8^> [r16 b16^( a8)] b^. gis^. e^.|
+    a8,^. e'^. a^. f^. e^. d^.|
+    \break
+    %rigo down 4.14
     } %Chiude relative low
              
 }%Chiude Staff low
