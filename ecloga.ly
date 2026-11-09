@@ -143,6 +143,21 @@
   <a e cis>8 _\pp r r <gis d b> r r|
   \break
   %rigo up 4.14
+  <a e cis>8 r r <f b, gis> r r|
+  <e cis a>8 r r r cis^.[ e]|
+  a8_. r r r 
+  <<{\stemDown cis'8[^. e^~]^>|
+  e4 cis8 \stemUp b cis d|
+  e[ d cis] b4.|
+  \break
+  %rigo up 4.15a
+  }
+  \\
+  {s4| <a, e>4._\markup {\dynamic p \italic "con espress."} <gis' fis>4.|
+  <a e>4. <gis fis>|
+  %rigo up 4.15b
+  }
+  >>
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -254,7 +269,7 @@
     \clef treble
     \stemDown e'''4 
     \clef bass|
-    \sustainOff \sustainOn b8,,
+    \sustainOff \sustainOn b,,8
     \clef treble
     e''4^>
     \clef bass
@@ -270,9 +285,14 @@
     \clef treble  \stemDown b'''4^> \clef bass \sustainOff|
     cis,8^> [r16 b16^( a8)] b^. gis^. e^.|
     cis'8^> [r16 b16^( a8)] b^. gis^. e^.|
-    a8,^. e'^. a^. f^. e^. d^.|
+    a,8^. e'^. a^. f^. e^. d^.|
     \break
     %rigo down 4.14
+    a8^. cis^. e^. d^. cis^. e^.|
+    a,8^. cis^. e^. a^. r r
+    \clef treble |
+    r8 cis'^. e^. a^. r r |
+    
     } %Chiude relative low
              
 }%Chiude Staff low
