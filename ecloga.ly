@@ -185,7 +185,11 @@
   <a fis>^.[ r8 <cis a>^.] \stemDown <e cis>^.[ r16 <cis a>^. <a fis>8^.]|  
   \break
   %rigo up 4.18
-
+  <cis a>^. r r r4 r8|
+  \stemUp <b, gis d>8_. r r r4 r8|
+  <a cis,>8_. r8 r r4 r8|
+  R1*3/4|
+  \stemDown <a'' a,>8\staccatissimo _\p r r r4 r8 \bar "|."
   } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -347,6 +351,8 @@
     \clef bass
     \stemUp <e^~ a,_~>2.|
     <e^~ a,_~>2.|
+    }
+    >>
     \break
     %rigo down 4.17
     <e a,>8 \stemDown e4.^> a4^>^~|
@@ -355,11 +361,17 @@
     \clef treble
     \stemUp a4_>~|
     a8 \stemDown cis4.^> e4^>^\(|
-
-
-    }
+    \break
+    %rigo 4.18
+    e2.\)^~|
+    e8 \stemUp e,4_>_~e4.~|
+    e8 a,4_>~a4.~|
+    <<{s2.|
+    cis'8\staccatissimo r r r4 r8}
+    \\
+    {\stemUp a,2.\(|\stemDown a8\) r r r4 r8}
     >>
-    
+    \bar "|."
 
     } %Chiude relative low
              
