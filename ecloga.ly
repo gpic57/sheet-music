@@ -166,8 +166,27 @@
   e4^( _\> cis8) b16^( [a gis fis e])\! r|
   \break
   %rigo up 4.16
-  <a cis>4( gis8) \tupletUp \tuplet 3/2{fis32^\([ gis fis} e16 d cis b]\) r16|
-   } %Chiude relative Up
+  <a cis,>4( _\p gis8) \tupletUp \tuplet 3/2{fis32^\([ gis fis} e16 d cis b]\) r16|
+  gis4^( cis8) \tupletUp \tuplet 3/2{b32^\([ cis b} a16 gis f e\)] r16|
+  <<{a4 gis8 \tupletUp \tuplet 3/2{fis16 gis fis} e4|
+  a4^\( gis8 \tupletUp \tuplet 3/2{fis16 gis fis} e4|
+  a8\)
+    }
+  \\
+  {cis,4. d|
+  cis4. d|
+  \stemUp cis8
+  }
+  >>
+  %rigo up 4.17
+  r8 \stemUp <e cis>8_. _\ppp <fis e>_.[ r <a fis>_.]|
+  \stemDown <cis a>^.[ r <cis e>^.] <fis e>^. [r16 <e cis>^. <cis a>8^.]|
+  <e cis>8^.[ r <cis a>^.] <e cis>^.[ r <fis e>^.]
+  <a fis>^.[ r8 <cis a>^.] \stemDown <e cis>^.[ r16 <cis a>^. <a fis>8^.]|  
+  \break
+  %rigo up 4.18
+
+  } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
     \clef bass
@@ -309,19 +328,38 @@
     cis4. \sustainOff \sustainOn e8 d \sustainOff b\)|
     e4.^\( <gis d>|
     <a cis,>4. <d, b>\)
+    \break
+    %rigo down 4.16a
+    e,4.^\( <gis d>|
+    <a cis,>4. <d, b>\)|
     }
     \\
-    {e,2.~|
+    {e2.~|
     e2.|
     %rigo down 4.15
     e2.|
     e2.|
     a2.~|
-    a2.
+    a2.|
+    %rigo down 4.16b
+    a,2._\(|
+    a2.\)
+    \clef bass
+    \stemUp <e^~ a,_~>2.|
+    <e^~ a,_~>2.|
+    \break
+    %rigo down 4.17
+    <e a,>8 \stemDown e4.^> a4^>^~|
+    a8 e'4.^> e4^>^~|
+    e8 fis4.^>
+    \clef treble
+    \stemUp a4_>~|
+    a8 \stemDown cis4.^> e4^>^\(|
+
+
     }
     >>
-    \break
-    %rigo down 4.16
+    
 
     } %Chiude relative low
              
