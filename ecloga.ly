@@ -101,37 +101,47 @@
    }
    >>|
   \break
-  %rigo up 2.9
+  %rigo up 3.9
   R1*6/8|
   r4 \stemUp <e' cis>8_. _\pp|
   <fis e cis>8_.[ r <a fis e>]_.|
   <cis a e>8_. [r <e cis a>_.] <fis cis a>8_.[ r16 <e a, fis>_. <cis a fis>8_.]
   <e gis, e>8_. r <b gis d>_([<e cis fisis,>]) _\< r \stemDown <cis fisis, e>8[^\(|
   \break
-  %rigo up 2.10
+  %rigo up 3.10
   <e d gis,>8 \)] r \stemUp <b gis e>8_([ <e bis gis>)] r <b gis d>[_( \!|
   <e cis a>8]) _\markup{\italic "più sensibile"} r <e cis a e> \stemDown <fis cis a fis>\arpeggio [ r <a fis cis a>]|
   <cis fis, e cis>\arpeggio [r <e cis a e>] _\markup{\italic "cres."}<fis cis a fis>\arpeggio [ r16 <e fis, e> <cis fis, cis>8]|
   <e b gis d>8\arpeggio _\f r <e, e,>[ <e' bes g cis,>\arpeggio ] r8 <e, e,>8 [^\(|
   \break
-  %rigo up 2.11
+  %rigo up 3.11
   <d' a fis d>8]\)\arpeggio _\<  r <e, e,>^( <b'! e, d b!>) r <e, e,>\! ^\([|
   <a e cis a>8\)] r _\ff <e e,> <fis cis a fis>4^^ <a fis cis a>8|
   <fis cis a fis>8^^ \autoBeamOff <e e,> <fis cis a fis>4^^<a fis cis a>|
   <fis d a fis>4^^ <e e,>8 <g e c g>4^^ <e e,>8|
   \break
-  %rigo up 2.12
+  %rigo up 3.12
   <gis! e b gis!>4^^ <e e,>8 <e' e,>4.^^|
   <<{<e e,>4 e,,8 fis4 a8|
   fis4^\( e8 fis4 a8|
-  fis4 e8 f4 e8\)|
+  fis4 e8 f4 e8|
+  \break
+  %rigo up 3.13a
+  fis!4 e8 gis4 e8_~[
+  <a e>8]^>\) c8\rest c8\rest gis  c8\rest c8\rest
   }
   \\
   {cis'8_^\arpeggio a e_^_~ <e cis>4._\(_\p|
   <e cis>4.\) <e cis>~|
   <e d>4. gis,|
+  %rigo up 3.13b
+  a,4. d4.|
+  s4. \stemUp<e d>8_\markup{\italic "rall."} s4|
   }
   >>
+  \stemUp<a e>8_> r r <gis e d>8 r r|
+  <a e cis>8 _\pp r r <gis d b> r r|
+
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -210,26 +220,26 @@
     \clef bass|
     \stemDown <b e,>2.~<b e,>8 r r r4 r8|
     \break
-    %rigo down 2.9
+    %rigo down 3.9
     e,8^. ^\p r d^.^\( \omit TupletBracket \tupletUp \tuplet 3/2 {d16 ees d} cis8 \) b^.|
     a16^( cis e4)^> e,16^( cis' e4)^>|
     a,16^\( e' fis4^>\) e,16^( e' a4)^>|
     b,16^([ e] b'4^>) ais,16^( e' cis'4^>)
     \break
-    %rigo down 2.10
+    %rigo down 3.10
     b,16[ ^\(e] b'4^>\) e,,16[^\( e'] e'4^>\)
     a,,16[^\( \sustainOn e'] <cis' a>4\) e,,16[^\( e'] <cis' a>4\)|
     a,16[^\( e'] <cis' a>4\) e,,16[^\( e'] <cis' a>4\) \sustainOff|
     b,16[^\(\sustainOn e] <d' gis,>4\)\sustainOff e,,16[^\( \sustainOn e'] <bes' cis>4\)\sustainOff|
     \break
-    %rigo down 2.11
+    %rigo down 3.11
     b,16[^( \sustainOn e] <d' a>4)|
     e,,16[^( \sustainOff \sustainOn e'] <d' gis,>4)|
     <cis e, a,>8\arpeggio \sustainOff \sustainOn r r <cis a fis>\sustainOff \stemUp <e, e,>4_^ \sustainOn|
     \stemDown<cis' a fis>8 \stemUp<e, e,>4_^\sustainOff \sustainOn \stemDown<cis' a fis>8 \stemUp<e, e,>4_^\sustainOff \sustainOn|
     \stemDown<d' a fis>8 \sustainOff \stemUp <e, e,>4_^ \sustainOn \stemDown <e' c g>8\sustainOff \stemUp <e, e,>4_^ \sustainOn
     \break
-    %rigo down 2.12
+    %rigo down 3.12
     \stemDown <e' b gis!>8 \sustainOff \stemUp<e, e,>4_^ \sustainOn \stemDown<gis' b, e,>8\arpeggio^^ \sustainOff fis e
     <e a,>4\arpeggio \sustainOn \stemUp e,,8 \sustainOff
     \clef treble
@@ -241,8 +251,19 @@
     \clef bass
     \stemUp e,,,8
     \clef treble
-    \stemDown e'''4 \sustainOff
+    \stemDown e'''4 
     \clef bass|
+    \sustainOff \sustainOn b8,,
+    \clef treble
+    e''4^>
+    \clef bass
+    \sustainOff \sustainOn  \stemUp e,,,8
+    \clef treble
+    \stemDown d'''4^>\sustainOff
+    \clef bass |
+    \break
+    %rigo down 3.13
+
     
     } %Chiude relative low
              
