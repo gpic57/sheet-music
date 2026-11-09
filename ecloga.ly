@@ -162,6 +162,11 @@
   <a e>4. gis\!|
   }
   >>
+  \stemDown <a' cis, a>4^( _\f gis8) fis16^([ e d cis b)] r|
+  e4^( _\> cis8) b16^( [a gis fis e])\! r|
+  \break
+  %rigo up 4.16
+  <a cis>4( gis8) \tupletUp \tuplet 3/2{fis32^\([ gis fis} e16 d cis b]\) r16|
    } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -296,11 +301,28 @@
     a,8^. cis^. e^. a^. r r
     \clef treble |
     r8 cis'^. e^. a^. r r |
-    <<{cis,4.^\< \sustainOn d\!\sustainOff \sustainOn \>|
-    cis4.\!\sustainOff  \sustainOn d8 cis\sustainOff b}
+    <<{cis,4.^\< ^\( \sustainOn d\!\sustainOff \sustainOn \>|
+    cis4.\!\sustainOff  \sustainOn d8 cis\sustainOff b
+    \break
+    %rigo down 4.15a
+    cis4. \sustainOn d\sustainOff \sustainOn|
+    cis4. \sustainOff \sustainOn e8 d \sustainOff b\)|
+    e4.^\( <gis d>|
+    <a cis,>4. <d, b>\)
+    }
     \\
-    {e,2.~ e}
+    {e,2.~|
+    e2.|
+    %rigo down 4.15
+    e2.|
+    e2.|
+    a2.~|
+    a2.
+    }
     >>
+    \break
+    %rigo down 4.16
+
     } %Chiude relative low
              
 }%Chiude Staff low
