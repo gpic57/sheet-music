@@ -57,12 +57,17 @@
   \time 43/4
   \relative c' {
   %rigo up 1.1
-  \partial 4 d4_\pp|
-  <<{g2 a4|
+  \partial 4 d4^(_\pp|
+  <<{g2\)^\( a4|
   bes2 fis4|
   g2 a4|
   bes2 c4|
-  d2 ees4
+  d2 ees4|
+  \break
+  %rigo up 1.2a
+  f2 ees4|
+  d2 c4|
+  bes2 a4\)|
   }
   \\
   {r4 _\markup{\italic "doce e sentito"}d,2_-~|
@@ -70,8 +75,10 @@
   d4 _\< _\markup{\italic "cres."} d2_-~|
   d4 d2_-~|
   d4 g2_-~\!|
-  \break
-  %rigo up 1.2
+  g4) _\markup{\dynamic mf \italic "dim. subito"}g2_~|
+  g4 d2_-_~|
+  d4 d2_-|
+  %rigo up 1.2b
   }
   >>
    } %Chiude relative Up
