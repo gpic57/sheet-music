@@ -11,7 +11,7 @@
   
  
  \new PianoStaff  
-      \with { instrumentName = \markup{\italic "ALL." \super "tto"" VIVACE ASSAI S" }
+      \with { instrumentName = \markup{\italic "ALL." \super "tto"" VIVACE ASSAI" }
  }
 <<
   \new Staff="up" { 
