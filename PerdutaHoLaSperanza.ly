@@ -54,8 +54,10 @@
     \set PianoStaff.connectArpeggios = ##t
   \clef treble  
   \key bes \major 
-  \time 43/4
+  \time 3/4
   \relative c' {
+  % Attiva lo stile a parentesi quadra
+  \arpeggioBracket
   %rigo up 1.1
   \partial 4 d4^(_\pp|
   <<{g2\)^\( a4|
@@ -65,9 +67,9 @@
   d2 ees4|
   \break
   %rigo up 1.2a
-  f2 ees4|
+  f2 _\>ees4|
   d2 c4|
-  bes2 a4\)|
+  bes2 a4\)\!|
   }
   \\
   {r4 _\markup{\italic "doce e sentito"}d,2_-~|
