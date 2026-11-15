@@ -14,12 +14,20 @@
     \clef treble
     \key bes \major 
     \time 3/4
-    \tempo 4 = 68
+    \tempo 4 = 110
     %rigo canto 1.1
-    c4
+    \partial 4 d4 ^\(^\markup{\italic "ANDANTINO"}^\pp|
+    g2 a4 ^\markup{\italic "con sentimento"}|
+    bes2 fis4|
+    g2_\( ^\markup{\italic "cres."} ^\<a4|
+    bes2 c4|
+    d2 ees4\)\!|
+    \break
+    \
   }%Chiude relative Canto
  \addlyrics {
-  hghghg
+  Per -- du -- ta_ho la spe -- ran -- _ za in voi mi-
+
   } %Chiude new staff canto
    
  \new PianoStaff  
@@ -33,7 +41,15 @@
   \time 43/4
   \relative c' {
   %rigo up 1.1
-  c4
+  \partial 4 d4_\pp|
+  <<{g2 a4|
+  bes2 fis4|
+  }
+  \\
+  {r4 d,2_-~|
+  d4 d2
+  }
+  >>
    } %Chiude relative Up
 }%Chiude New Staff Down
     \new Staff = "down" { 
