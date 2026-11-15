@@ -7,7 +7,7 @@
 \score {
  << % Apre Canto e Piano
   \new Staff = "Canto" \with {     
-    instrumentName = ""
+    instrumentName = "CANTO"
     midiInstrument = "voice oohs"  % Suono vocale più dolce
   % Imposta il volume massimo del Tenore molto alto
       midiMaximumVolume = #0.9
@@ -49,7 +49,7 @@
  \new PianoStaff  
       \with { 
       instrumentName = \markup{\italic  "ANDANTINO" }
- connectArpeggios = ##t
+      connectArpeggios = ##t
   
    }
 
@@ -113,9 +113,17 @@
     d2 c4|
     bes2 a4|
     g2 f4)|
-    <<{r4\arpeggio g2^-}
+    <<{r4\arpeggio g2^-^~|
+    g4 g2^-^~|
+    g4 g2^-~|
+    g4 g2^-
+    }
     \\
-    {ees2 \arpeggio d4}
+    {ees2\arpeggio _\( d4|
+    c2 d4\)|
+    ees2_\( d4|
+    c2 d4\)|
+    }
     >>
       } %Chiude relative low
              
