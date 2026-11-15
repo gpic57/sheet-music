@@ -25,9 +25,19 @@
     bes2 fis4|
     g2_\( ^\markup{\italic "cres."} ^\<a4|
     bes2 c4|
-    d2 ees4\)\!|
+    d2 ees4\!|
     \break
-    \
+    %rigo canto 1.2
+    f2^(^\mf ^\markup{\column {\italic "dim. subito" \italic "smorzando"}} ^\>\acciaccatura {ees16 f} ees4)|
+    d2.~|
+    d2.\)\!|
+    c4^\(^\f ^\markup{\column {\italic "largamente" \italic "con anima"}}d f|
+    ees2 d4|
+    d2.^\>|
+    c2.\)|
+    \break
+    %rigo canto 1.3
+    c4^-\!^\p ^\markup{ \italic "rall:.................."} bes^- a_-|
   }%Chiude relative Canto
  \addlyrics {
   Per -- du -- ta_ho la spe -- ran -- _ za in voi mi-
