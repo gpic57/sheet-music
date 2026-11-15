@@ -38,10 +38,12 @@
     \break
     %rigo canto 1.3
     c4^-\!^\p ^\markup{ \italic "rall:.................."} bes^- a_-|
+    g4_- a_-
   }%Chiude relative Canto
  \addlyrics {
   Per -- du -- ta_ho la spe -- ran -- _ za in voi mi-
-
+  ra -- re................. e di spe -- ran -- za so -- la
+  nu -- trivo il co -- re 
   } %Chiude new staff canto
    
  \new PianoStaff  
