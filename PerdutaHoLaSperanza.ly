@@ -44,10 +44,18 @@
   \partial 4 d4_\pp|
   <<{g2 a4|
   bes2 fis4|
+  g2 a4|
+  bes2 c4|
+  d2 ees4
   }
   \\
-  {r4 d2_-~|
-  d4 d2
+  {r4 _\markup{\italic "doce e sentito"}d,2_-~|
+  d4 d2_-~|
+  d4 _\< _\markup{\italic "cres."} d2_-~|
+  d4 d2_-~|
+  d4 g2_-~\!|
+  \break
+  %rigo up 1.2
   }
   >>
    } %Chiude relative Up
@@ -58,7 +66,14 @@
     \time 3/4
     \relative c{
     %rigo down 1.1
-    c4
+    \partial 4 r4|
+    r4 r d^(|
+    g2 a4|
+    bes2 fis4|
+    bes2 a4|
+    bes2 c4|
+    \break
+    %rigo down 1.2
       } %Chiude relative low
              
 }%Chiude Staff low
