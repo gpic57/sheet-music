@@ -47,11 +47,14 @@
   } %Chiude new staff canto
    
  \new PianoStaff  
-      \with { instrumentName = \markup{\bold "" }
- }
+      \with { 
+      instrumentName = \markup{\italic  "ANDANTINO" }
+ connectArpeggios = ##t
+  
+   }
+
 <<
   \new Staff="up" { 
-    \set PianoStaff.connectArpeggios = ##t
   \clef treble  
   \key bes \major 
   \time 3/4
@@ -60,7 +63,7 @@
   \arpeggioBracket
   %rigo up 1.1
   \partial 4 d4^(_\pp|
-  <<{g2\)^\( a4|
+  <<{g2)^\( a4|
   bes2 fis4|
   g2 a4|
   bes2 c4|
@@ -69,18 +72,26 @@
   %rigo up 1.2a
   f2 _\>ees4|
   d2 c4|
-  bes2 a4\)\!|
+  bes2 a4\)_\f\!|
+  g2.\arpeggio^~|
+  g2.|
+  g2.^~|
+  g2.|
   }
   \\
-  {r4 _\markup{\italic "doce e sentito"}d,2_-~|
+  {r4 _\markup{\italic "doce e sentito"}d2_-~|
   d4 d2_-~|
   d4 _\< _\markup{\italic "cres."} d2_-~|
   d4 d2_-~|
   d4 g2_-~\!|
   g4) _\markup{\dynamic mf \italic "dim. subito"}g2_~|
   g4 d2_-_~|
-  d4 d2_-|
+  d4 d2_- |
+  c2\arpeggio _\( _\markup{\italic "espress."} d4
   %rigo up 1.2b
+  ees2 d4\)|
+  c2_\( _\> d4|
+  ees2 d4\)\!|
   }
   >>
    } %Chiude relative Up
@@ -99,6 +110,13 @@
     bes2 c4|
     \break
     %rigo down 1.2
+    d2 c4|
+    bes2 a4|
+    g2 f4)|
+    <<{r4\arpeggio g2^-}
+    \\
+    {ees2 \arpeggio d4}
+    >>
       } %Chiude relative low
              
 }%Chiude Staff low
@@ -123,7 +141,7 @@
   %\Voice 
   %\remove "Slur_engraver"
     } 
-    %indent = 3\cm
+    indent = 3\cm
     %short-indent = 2\cm
     %ragged-right = ##f
     %ragged-last = ##f
