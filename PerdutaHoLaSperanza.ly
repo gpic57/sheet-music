@@ -38,29 +38,34 @@
     \break
     %rigo canto 1.3
     c4^-\!^\p ^\markup{ \italic "rall:.................."} bes^- a_-|
-    g4_- a_-
+    g4_- a_- \tupletUp \tuplet 3/2{fis8_- ^(g_- a_-)}|
+    g2._~|
+    g4 r g^\(^\markup{\dynamic pp \italic "dolce"}^\markup{\italic "POCO PIU' DOLCE"}|
+    f'2\) d4^\(|
+    ees2\) c4|
+    d4 c b|
   }%Chiude relative Canto
  \addlyrics {
   Per -- du -- ta_ho la spe -- ran -- _ za in voi mi-
   ra -- re................. e di spe -- ran -- za so -- la
-  nu -- trivo il co -- re 
+  nu -- trivo il co -- _ _ re!......... Ahi -- mè! Ahi -- mè! Ah! co -- me fa- 
   } %Chiude new staff canto
    
  \new PianoStaff  
       \with { 
       instrumentName = \markup{\italic  "ANDANTINO" }
       connectArpeggios = ##t
-  
    }
 
 <<
-  \new Staff="up" { 
+  \new Staff="up" \with {
+    % 1. Permette di collegare gli arpeggi tra voci diverse dello STESSO rigo
+    \consists "Span_arpeggio_engraver"
+  }{ 
   \clef treble  
   \key bes \major 
   \time 3/4
   \relative c' {
-  % Attiva lo stile a parentesi quadra
-  \arpeggioBracket
   %rigo up 1.1
   \partial 4 d4^(_\pp|
   <<{g2)^\( a4|
@@ -73,6 +78,7 @@
   f2 _\>ees4|
   d2 c4|
   bes2 a4\)_\f\!|
+   
   g2.\arpeggio^~|
   g2.|
   g2.^~|
@@ -96,7 +102,7 @@
   >>
    } %Chiude relative Up
 }%Chiude New Staff Down
-    \new Staff = "down" { 
+    \new Staff = "down" {
     \clef bass
     \key bes \major
     \time 3/4
