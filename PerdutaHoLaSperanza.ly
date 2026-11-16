@@ -44,6 +44,7 @@
     f'2\) d4^\(|
     ees2\) c4|
     d4 c b|
+    %rigo canto 2.4
   }%Chiude relative Canto
  \addlyrics {
   Per -- du -- ta_ho la spe -- ran -- _ za in voi mi-
@@ -118,6 +119,11 @@
   }
   }
   >>
+  r4 _\markup{\dynamic pp \italic "dolce"}r <fis''^- b, g>|
+  r4 r <ees c g>^-|
+  r4 r <d b f>_-|
+  \break
+  %rigo up 2.4
    } %Chiude relative Up
 }%Chiude New Staff Down
     \new Staff = "down" {
@@ -153,6 +159,11 @@
     bes_- c_- d_-|
     <d g,>2._~|
     <d g,>4 \)r r|
+    \stemUp g,4^( \stemDown g'2)|
+    \stemUp g,4^( \stemDown g'2)|
+    \stemUp g,4^( \stemDown g'2)|
+    \break
+    %rigo down 2.4
       } %Chiude relative low
              
 }%Chiude Staff low
