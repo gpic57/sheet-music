@@ -100,16 +100,22 @@
   ees2 d4\)\!|
   }
   >>
- <<{<fis c>4^- _\markup{\dynamic p \italic "dim e rall:......"} <g d>^-<a ees>^-|
- <g d>4^. <g ees>^- <fis c>^-|
- g2.^~|
- g4 r r|
+ <<{<fis c>4^-^\( _\markup{\dynamic p \italic "dim e rall:......"} <g d>^-<a ees>^-|
+ <g d>4^. <g ees>^- <fis c>^-\glissando
+ % Sposta temporaneamente la voce sul rigo basso per far arrivare la linea
+    <<{\change Staff = "down"
+     \crossStaff{bes,2.^~ |bes4 s2|}}
+     \\
+     {
+  \stemUp g'2.^~ _\markup{\dynamic pp \italic "a tempo"}|g4 \)r r|}
+  >>
+ 
  }
   \\
   {\change Staff = "down" \stemUp \crossStaff{a,4 bes c|
   \parenthesize d4 a a|
-  bes2.^~|
-  bes4 s2|}
+  
+  }
   }
   >>
    } %Chiude relative Up
@@ -143,10 +149,10 @@
     c2 d4\)|
     }
     >>
-    ees4_- d_- \stemDown c_-|
+    ees4_-_\( d_- \stemDown c_-|
     bes_- c_- d_-|
     <d g,>2._~|
-    <d g,>4 r r|
+    <d g,>4 \)r r|
       } %Chiude relative low
              
 }%Chiude Staff low
