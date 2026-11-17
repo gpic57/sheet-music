@@ -59,7 +59,7 @@
     c2 bes4|
     bes2.|
     a2\)  d,4 ^\pp|
-    g2 ^\markup{\column{\italic "I° TEMPO" \italic "con sentimento"}}a4|
+    g2 ^\markup{\column{\italic "I.° TEMPO" \italic "con sentimento"}}a4|
     \break
     %rigo canto 2.6
   }%Chiude relative Canto
