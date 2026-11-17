@@ -54,14 +54,21 @@
     \break
     %rigo canto 2.5
     d4.^( ees8 f ees)|
-    c2\)
+    c2\) d4 ^\markup{\italic "più" \dynamic p} |
+    d2^\( ^\markup{\italic "calando sempre e rall:......................."} ees4|
+    c2 bes4|
+    bes2.|
+    a2\)  d,4 ^\pp|
+    g2 ^\markup{\column{\italic "I° TEMPO" \italic "con sentimento"}}a4|
+    \break
+    %rigo canto 2.6
   }%Chiude relative Canto
  \addlyrics {
   Per -- du -- ta_ho la spe -- ran -- _ za in voi mi-
   ra -- re................. e di spe -- ran -- za so -- la
   nu -- trivo il co -- _ _ re!......... Ahi -- mè! Ahi -- mè! Ah! co -- me fa- 
   -rò, se per a -- ma -- re,........... la fe -- de_ho già smar-
-  -ri -- ta, la fe -- de nel -- l'a -- mo --re? Per -- du -- ta_ho
+  -ri -- ta, la fe -- de nel -- l'a -- mo -- re? Per -- du -- ta_ho
   } %Chiude new staff canto
    
  \new PianoStaff  
@@ -195,6 +202,13 @@
     %rigo down 2.4
     aes,4^( aes'^\< g)|
     f2^( ^\mf aes4)|
+    g2^( bes!4)|
+    aes2^( c4|
+    f2) ees4^(|
+    d2 c4|
+    b2 g4|
+    \break
+    %rigo down 2.5
 
       } %Chiude relative low
              
