@@ -13,7 +13,6 @@
       midiMaximumVolume = #0.9
       midiMinimumVolume = #0.8
   } 
-  
   \relative c' {
     \clef treble
     \key bes \major 
@@ -42,14 +41,27 @@
     g2._~|
     g4 r g^\(^\markup{\dynamic pp \italic "dolce"}^\markup{\italic "POCO PIU' DOLCE"}|
     f'2\) d4^\(|
-    ees2\) c4|
+    ees2\) c4^\(|
     d4 c b|
     %rigo canto 2.4
+    c2\)^\markup{\italic "cres."}^\< c4|
+    aes'2\mf f4|
+    ees4^( ^\markup{\column{ \italic "allarg. un poco...." \italic "con espansione"}} f g)|
+    f2.~ ^\markup{\italic "a tempo"}| 
+    f4^\>r4 f^\( \!^\markup{\dynamic p \italic "dolce calando"}|
+    f2 g4 |
+    ees2 d4|
+    \break
+    %rigo canto 2.5
+    d4.^( ees8 f ees)|
+    c2\)
   }%Chiude relative Canto
  \addlyrics {
   Per -- du -- ta_ho la spe -- ran -- _ za in voi mi-
   ra -- re................. e di spe -- ran -- za so -- la
   nu -- trivo il co -- _ _ re!......... Ahi -- mè! Ahi -- mè! Ah! co -- me fa- 
+  -rò, se per a -- ma -- re,........... la fe -- de_ho già smar-
+  -ri -- to
   } %Chiude new staff canto
    
  \new PianoStaff  
