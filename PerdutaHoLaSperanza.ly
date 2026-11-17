@@ -143,6 +143,16 @@
   >>
   r4 _\< <aes' c,>4_\( _\markup{\italic "cres:.............."}<c f,>\) \!)|
   r4 \stemUp <bes e,>_\<_\( <des g,>\)\!|
+  r4  <c f,>_(_\< \stemDown <f aes,>\!)|
+  <<{aes4^( _\>g) f^~\! _\markup{\dynamic p \italic "dolce  calando"} |
+  f2 g4|
+  ees2 d4|}
+  \\
+  {c2 aes4~|
+  aes4 aes2~|
+  aes4 g2_-|
+  }
+  >>
    } %Chiude relative Up
 }%Chiude New Staff Down
     \new Staff = "down" {
