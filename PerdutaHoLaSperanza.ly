@@ -23,7 +23,7 @@
     \partial 4 d4 ^\(^\markup{\italic "ANDANTINO"}^\pp|
     g2 a4 ^\markup{\italic "con sentimento"}|
     bes2 fis4|
-    g2_\( ^\markup{\italic "cres."} ^\<a4|
+    g2 ^\markup{\italic "cres."} ^\<a4|
     bes2 c4|
     d2 ees4\!|
     \break
@@ -56,6 +56,7 @@
       \with { 
       instrumentName = \markup{\italic  "ANDANTINO" }
       connectArpeggios = ##t
+      connectChordBrackets = ##t
    }
 
 <<
@@ -79,8 +80,8 @@
   f2 _\>ees4|
   d2 c4|
   bes2 a4\)_\f\!|
-   
-  g2.\arpeggio^~|
+  \arpeggioBracket
+  g2.\nonArpeggiato^~|
   g2.|
   g2.^~|
   g2.|
@@ -91,10 +92,10 @@
   d4 _\< _\markup{\italic "cres."} d2_-~|
   d4 d2_-~|
   d4 g2_-~\!|
-  g4) _\markup{\dynamic mf \italic "dim. subito"}g2_~|
+  g4 _\markup{\dynamic mf \italic "dim. subito"}g2_~|
   g4 d2_-_~|
   d4 d2_- |
-  c2\arpeggio _\( _\markup{\italic "espress."} d4
+  \arpeggioBracket c2\nonArpeggiato _\( _\markup{\italic "espress."} d4
   %rigo up 1.2b
   ees2 d4\)|
   c2_\( _\> d4|
@@ -143,13 +144,13 @@
     d2 c4|
     bes2 a4|
     g2 f4)|
-    <<{r4\arpeggio g2^-^~|
+    <<{r4 g2^-^~|
     g4 g2^-^~|
     g4 g2^-~|
     g4 g2^-
     }
     \\
-    {ees2\arpeggio _\( d4|
+    {ees2\nonArpeggiato _\( d4|
     c2 d4\)|
     ees2_\( d4|
     c2 d4\)|
