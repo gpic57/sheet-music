@@ -61,7 +61,7 @@
   ra -- re................. e di spe -- ran -- za so -- la
   nu -- trivo il co -- _ _ re!......... Ahi -- mè! Ahi -- mè! Ah! co -- me fa- 
   -rò, se per a -- ma -- re,........... la fe -- de_ho già smar-
-  -ri -- to
+  -ri -- ta, la fe -- de nel -- l'a -- mo --re? Per -- du -- ta_ho
   } %Chiude new staff canto
    
  \new PianoStaff  
@@ -123,12 +123,10 @@
      {
   \stemUp g'2.^~ _\markup{\dynamic pp \italic "a tempo"}|g4 \)r r|}
   >>
- 
  }
   \\
   {\change Staff = "down" \stemUp \crossStaff{a,4 bes c|
   \parenthesize d4 a a|
-  
   }
   }
   >>
@@ -137,6 +135,14 @@
   r4 r <d b f>_-|
   \break
   %rigo up 2.4
+  <<{r4 <c ees,>4^( ^\( <bes! e,>)\)|
+  }
+  \\
+   {s4_\markup{\italic "cres."} c,2|
+   }
+  >>
+  r4 _\< <aes' c,>4_\( _\markup{\italic "cres:.............."}<c f,>\) \!)|
+  r4 \stemUp <bes e,>_\<_\( <des g,>\)\!|
    } %Chiude relative Up
 }%Chiude New Staff Down
     \new Staff = "down" {
@@ -177,6 +183,9 @@
     \stemUp g,4^( \stemDown g'2)|
     \break
     %rigo down 2.4
+    aes,4^( aes'^\< g)|
+    f2^( ^\mf aes4)|
+
       } %Chiude relative low
              
 }%Chiude Staff low
