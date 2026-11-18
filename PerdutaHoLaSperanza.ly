@@ -161,7 +161,8 @@
   d2\) ees4|
   c2 bes4^\(|
   bes2.^\markup{\italic "espress."}|
-  a2)
+  a2)s4|
+  g2\nonArpeggiato ^\markup{\italic "I.° TEMPO"}a4
   }
   \\
   {c2 aes4~|
@@ -173,8 +174,9 @@
   g4 g2_-~ _\markup{\italic "più"}|
   g4 \p g2_-~ _\markup{\italic "calando sempre e rall."}|
   g4 ees2~_-|
-  ees4 d4_(_\< e\!|
-  fis2)
+  ees4 d4\nonArpeggiato _(_\< e\!|
+  fis2) \stemUp d4_\pp|
+  s4 s2|
   }
   >>
    } %Chiude relative Up
@@ -228,6 +230,18 @@
     %rigo down 2.5
     \stemUp c,2^\< \stemDown g'4\!|
     ees'2^\> d4\!|
+    c2 bes4|
+    a2 g4|
+    <<{r4 c2\nonArpeggiato^-^~|
+    c4^\> c2^\(\!|
+    \nonArpeggiato bes4\glissando \) ^\markup{\italic "dolce e"} \change Staff = "up" \crossStaff{\stemDown d2} |
+    }
+    \\
+    {fis,2 e4|
+    d2 d,4|
+    g2  d'4 
+    }
+    >>
       } %Chiude relative low
              
 }%Chiude Staff low
