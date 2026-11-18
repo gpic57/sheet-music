@@ -163,6 +163,8 @@
   bes2.^\markup{\italic "espress."}|
   a2)s4|
   g2\nonArpeggiato ^\markup{\italic "I.° TEMPO"}a4
+  \break
+  %rigo up 2.6a
   }
   \\
   {c2 aes4~|
@@ -177,6 +179,7 @@
   ees4 d4\nonArpeggiato _(_\< e\!|
   fis2) \stemUp d4_\pp|
   s4 s2|
+  %rigo up 2.6b
   }
   >>
    } %Chiude relative Up
@@ -246,6 +249,8 @@
     g2) d'4|
     }
     >>
+    \break
+    %rigo down 2.6
       } %Chiude relative low
              
 }%Chiude Staff low
