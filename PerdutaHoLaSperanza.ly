@@ -151,13 +151,30 @@
   r4 _\< <aes' c,>4_\( _\markup{\italic "cres:.............."}<c f,>\) \!)|
   r4 \stemUp <bes e,>_\<_\( <des g,>\)\!|
   r4  <c f,>_(_\< \stemDown <f aes,>\!)|
-  <<{aes4^( _\>g) f^~\! _\markup{\dynamic p \italic "dolce  calando"} |
+  <<{aes4^( _\>g) f^~^\(\! _\markup{\dynamic p \italic "dolce  calando"} |
   f2 g4|
-  ees2 d4|}
+  ees2 d4^(|
+  \break
+  %rigo up 2.5a
+  d4.) ees8 f ees|
+  c2\) d4^\(^(|
+  d2\) ees4|
+  c2 bes4^\(|
+  bes2.^\markup{\italic "espress."}|
+  a2)
+  }
   \\
   {c2 aes4~|
   aes4 aes2~|
-  aes4 g2_-|
+  aes4 g2_-_\(|
+  \break
+  %rigo up 2.5b
+  g4\) g2_-~ |
+  g4 g2_-~ _\markup{\italic "più"}|
+  g4 \p g2_-~ _\markup{\italic "calando sempre e rall."}|
+  g4 ees2~_-|
+  ees4 d4_(_\< e\!|
+  fis2)
   }
   >>
    } %Chiude relative Up
@@ -209,7 +226,8 @@
     b2 g4|
     \break
     %rigo down 2.5
-
+    \stemUp c,2^\< \stemDown g'4\!|
+    ees'2^\> d4\!|
       } %Chiude relative low
              
 }%Chiude Staff low
