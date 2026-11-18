@@ -242,8 +242,8 @@
     s2.|
     s2.|
     fis,2 e4|
-    d2 d,4)|
-    g2 d'4|
+    d2 d,4|
+    g2) d'4|
     }
     >>
       } %Chiude relative low
