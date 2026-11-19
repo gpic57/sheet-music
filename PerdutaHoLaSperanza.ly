@@ -285,7 +285,7 @@
     \stemUp c,2^\< \stemDown g'4\!|
     ees'2^\>) 
     <<{d4\!_(|
-    c2 bes4|
+    \stemDown c2 bes4|
     a2 g4|
     r4 c2\nonArpeggiato^-^~|
     c4^\> c2^\(\!|
@@ -305,7 +305,7 @@
     {s4|
     s2.|
     s2.|
-    fis,2 e4|
+    fis2 e4|
     d2 d,4|
     g2) d'4^\(|
     \break
@@ -318,7 +318,7 @@
     bes2 a4|
     g2 f4\)|
     %rigo down 2.7b
-    ees'2\nonArpeggiato _\( d4|
+    ees2\nonArpeggiato _\( d4|
     c2 d4\)|
     ees2_\( d4|
     c2 d4\)|
