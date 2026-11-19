@@ -62,13 +62,15 @@
     g2 ^\markup{\column{\italic "I.° TEMPO" \italic "con sentimento"}}a4|
     \break
     %rigo canto 2.6
-    bes2 fis4|
+    \stemUp bes2 fis4|
     g2_(^\markup{\italic "cres."} ^\< a4) |
     bes2 c4|
     d2 ees4|
     f2 ^\markup{\dynamic mf \italic "dim. subito"} _\markup{\italic "smorz."} ^( \acciaccatura {ees16 f} ees4)|
     d2.~ ^\>|
     d2.\) \!|
+    \break
+    %rigo canto 2.7
   }%Chiude relative Canto
  \addlyrics {
   Per -- du -- ta_ho la spe -- ran -- _ za in voi mi-
@@ -165,14 +167,21 @@
   \break
   %rigo up 2.5a
   d4.) ees8 f ees|
-  c2\) d4^\(^(|
-  d2\) ees4|
-  c2 bes4^\(|
+  c2\) d4~^\(|
+  d2 ees4|
+  c2 bes4|
   bes2.^\markup{\italic "espress."}|
   a2)s4|
   g2\nonArpeggiato ^\markup{\italic "I.° TEMPO"}a4
   \break
   %rigo up 2.6a
+  bes2 fis4| 
+  g2 a4|
+  bes2 c4|
+  d2 ees4|
+  fis2 ees4
+  d2 c4|
+  bes2 a4\)
   }
   \\
   {c2 aes4~|
@@ -185,9 +194,16 @@
   g4 \p g2_-~ _\markup{\italic "calando sempre e rall."}|
   g4 ees2~_-|
   ees4 d4\nonArpeggiato _(_\< e\!|
-  fis2) \stemUp d4_\pp|
+  fis2) \stemUp d4 ^\( _\pp|
   s4 s2|
   %rigo up 2.6b
+  \stemDown d4\) _\markup{\italic "sentito"} d2_-~|
+  d4 d2_-~|
+  d4 d2_-~|
+  d4 g2_-~|
+  g4 g2_-~
+  g4 d2_-~|
+  d4 d2_-
   }
   >>
    } %Chiude relative Up
