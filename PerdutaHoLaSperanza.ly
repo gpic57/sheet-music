@@ -176,12 +176,14 @@
   \break
   %rigo up 2.6a
   bes2 fis4| 
-  g2 a4|
+  g2 _\< a4|
   bes2 c4|
   d2 ees4|
-  fis2 ees4
+  f2 \! _\markup{\dynamic mf \italic "dim. subito" }ees4 _\>|
   d2 c4|
-  bes2 a4\)
+  bes2 a4\) \!|
+  \break
+  %rigo up 2.7a
   }
   \\
   {c2 aes4~|
@@ -198,12 +200,13 @@
   s4 s2|
   %rigo up 2.6b
   \stemDown d4\) _\markup{\italic "sentito"} d2_-~|
-  d4 d2_-~|
+  d4 _\markup{\italic "cres."}d2_-~|
   d4 d2_-~|
   d4 g2_-~|
   g4 g2_-~
   g4 d2_-~|
-  d4 d2_-
+  d4 d2_-|
+  %rigo up 2.7
   }
   >>
    } %Chiude relative Up
@@ -263,6 +266,9 @@
     r4 c2\nonArpeggiato^-^~|
     c4^\> c2^\(\!|
     \nonArpeggiato bes4\glissando \) ^\markup{\italic "dolce e"} \change Staff = "up" \crossStaff{\stemDown d2} |
+    s2.|s2.|s2.|s2.|s2.|s2.|s2.|
+    \break
+    %rigo down 2.7a
     }
     \\
     {s4|
@@ -270,11 +276,21 @@
     s2.|
     fis,2 e4|
     d2 d,4|
-    g2) d'4|
-    }
-    >>
+    g2) d'4^\(|
     \break
     %rigo down 2.6
+    g2 a4 |
+    bes2 fis4|
+    g2 a4|
+    bes2 c4|
+    d2 c4|
+    bes2 a4|
+    g2 f4\)|
+    %rigo down 2.7b
+    }
+    >>
+    
+    
       } %Chiude relative low
              
 }%Chiude Staff low
