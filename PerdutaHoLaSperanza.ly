@@ -58,10 +58,17 @@
     d2^\( ^\markup{\italic "calando sempre e rall:......................."} ees4|
     c2 bes4|
     bes2.|
-    a2\)  d,4 ^\pp|
+    a2\)  d,4^\( ^\pp|
     g2 ^\markup{\column{\italic "I.° TEMPO" \italic "con sentimento"}}a4|
     \break
     %rigo canto 2.6
+    bes2 fis4|
+    g2_(^\markup{\italic "cres."} ^\< a4) |
+    bes2 c4|
+    d2 ees4|
+    f2 ^\markup{\dynamic mf \italic "dim. subito"} _\markup{\italic "smorz."} ^( \acciaccatura {ees16 f} ees4)|
+    d2.~ ^\>|
+    d2.\) \!|
   }%Chiude relative Canto
  \addlyrics {
   Per -- du -- ta_ho la spe -- ran -- _ za in voi mi-
