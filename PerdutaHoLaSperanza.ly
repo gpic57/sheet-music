@@ -71,6 +71,14 @@
     d2.\) \!|
     \break
     %rigo canto 2.7
+    \stemDown c4 ^\(^\markup{\dynamic f \column {\italic "largamente" \italic "con anima"}} d ees|
+    ees2 d4|
+    d2.|
+    c2.\)|
+    c4^\ff ^\markup{\column{\italic "doloroso" \italic "sostenendo........"}} bes'4.^> a8^\>|
+    g4 d \stemUp g, ^\( ^\p ^\markup{\italic "rall. assai....... morendo"}|
+    \stemDown bes4~_\> bes4.^> ^\markup{\italic "ten."} \stemUp a8_-  ^\pp \!|
+    g2.^\fermata \) \bar "|."
   }%Chiude relative Canto
  \addlyrics {
   Per -- du -- ta_ho la spe -- ran -- _ za in voi mi-
@@ -79,6 +87,7 @@
   -rò, se per a -- ma -- re,........... la fe -- de_ho già smar-
   -ri -- ta, la fe -- de nel -- l'a -- mo -- re? Per -- du -- ta_ho
   la spe -- ran -- za in voi mi -- ra -- re..........
+  e di spe -- ran -- za so -- la, e di spe -- ran -- za nu -- tri -- vo_il cor!
   } %Chiude new staff canto
    
  \new PianoStaff  
