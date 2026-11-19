@@ -76,6 +76,7 @@
   nu -- trivo il co -- _ _ re!......... Ahi -- mè! Ahi -- mè! Ah! co -- me fa- 
   -rò, se per a -- ma -- re,........... la fe -- de_ho già smar-
   -ri -- ta, la fe -- de nel -- l'a -- mo -- re? Per -- du -- ta_ho
+  la spe -- ran -- za in voi mi -- ra -- re..........
   } %Chiude new staff canto
    
  \new PianoStaff  
