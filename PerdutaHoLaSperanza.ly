@@ -193,13 +193,13 @@
   bes2 a4\) \!|
   \break
   %rigo up 2.7a
-  g2.~ ^\markup{\italic "largamente"}|
+  g2.\nonArpeggiato~ ^\markup{\italic "largamente"}|
   g2.|
   g2.~|
   g2.
   }
   \\
-  {c2 aes4~|
+  {c2\nonArpeggiato aes4~|
   aes4 aes2~|
   aes4 g2_-_\(|
   \break
@@ -286,6 +286,10 @@
     s2.|s2.|s2.|s2.|s2.|s2.|s2.|
     \break
     %rigo down 2.7a
+    \change Staff = "down" bes4\rest \stemUp g2^-~|
+    g4 g2^-~|
+    g4 g2^.~|
+    g4 g2^-
     }
     \\
     {s4|
@@ -304,6 +308,10 @@
     bes2 a4|
     g2 f4\)|
     %rigo down 2.7b
+    ees'2\nonArpeggiato _\( d4|
+    c2 d4\)|
+    ees2_\( d4|
+    c2 d4\)|
     }
     >>
     
