@@ -196,7 +196,11 @@
   g2.\nonArpeggiato~ ^\markup{\italic "largamente"}|
   g2.|
   g2.~|
-  g2.
+  g2.|
+  <fis c>4^- _\ff ^\markup{\italic "sostenendo.........."}<g d>^-<a ees>^-|
+  g2.~|
+  g4 fis2^\(|
+  g2.^\fermata \)\bar "|."
   }
   \\
   {c2\nonArpeggiato aes4~|
@@ -224,6 +228,9 @@
   ees2 d4\)|
   c2_\( _\markup{\italic "cres.........................."} d4|
   ees2 d4\)|
+  \change Staff ="down" \crossStaff{ \stemUp a4 bes c\glissando} _\> \change Staff = "up" \stemDown d2 _\(ees4 _\p|
+  \stemUp e4\) _\> c?2_-_\(|
+   bes2. \) _\markup{\italic "morendo"} \bar "|."
   }
   >>
    } %Chiude relative Up
@@ -289,7 +296,10 @@
     \change Staff = "down" bes4\rest \stemUp g2^-~|
     g4 g2^-~|
     g4 g2^.~|
-    g4 g2^-
+    g4 g2^-|
+    s2.|s2.|
+    r4 d2^-~|
+    d2.^\fermata ^\pp
     }
     \\
     {s4|
@@ -312,6 +322,10 @@
     c2 d4\)|
     ees2_\( d4|
     c2 d4\)|
+    ees4_- d_- c_-|
+    bes2_\( c4|
+    cis4\) d4_-_\( d,_-|
+    g2.\) \bar "|."
     }
     >>
     
