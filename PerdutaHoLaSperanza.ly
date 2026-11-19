@@ -193,6 +193,10 @@
   bes2 a4\) \!|
   \break
   %rigo up 2.7a
+  g2.~ ^\markup{\italic "largamente"}|
+  g2.|
+  g2.~|
+  g2.
   }
   \\
   {c2 aes4~|
@@ -215,7 +219,11 @@
   g4 g2_-~
   g4 d2_-~|
   d4 d2_-|
-  %rigo up 2.7
+  %rigo up 2.7b
+  c2_\( _\markup{\dynamic f \italic "espress."} d4|
+  ees2 d4\)|
+  c2_\( _\markup{\italic "cres.........................."} d4|
+  ees2 d4\)|
   }
   >>
    } %Chiude relative Up
