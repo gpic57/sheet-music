@@ -20,12 +20,20 @@
   b4. a8 fis4 r|
   a4 b8. a16 fis4 g|
   a4. b8 a4 r8. a16|
-  cis4 ^\f b8.^\> a16\noBeam gis4 \! b8._\> a16\!|
+  \stemDown cis4 ^\f b8.^\> a16\noBeam gis4 \! \stemUp b8._\> a16\!|
+  \break
+  %rigo canto 1.3
+  fis2...^\> fis16\!|
+  a4 ^\p g8. g16\noBeam e4 fis8. e16\noBeam|
+  d2 r|
+  \stemDown b'4 ^\f b8. b16\noBeam c4. b8|
+  \break
+  %rigo canto 1.4
   }
 \addlyrics{
 Pro -- stra -- ta _ nel -- la pol -- ve -- re schia -- va ai _ tiranni
 tuo -- i ma -- dre d'in -- vit -- ti E -- ro -- _ i vi -- ve -- vi in _ pian -- to?
-
+di vi -- ve -- vi in pian -- to i di ma su nel ciel più
 }
   \layout {
   ragged-last = ##t
