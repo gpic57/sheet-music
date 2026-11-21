@@ -29,11 +29,19 @@
   \stemDown b'4 ^\f b8. b16\noBeam c4. b8|
   \break
   %rigo canto 1.4
+  b4. g8 b4 r|
+  \stemUp a4 a8. a16\noBeam a4 gis4|
+  \stemDown b4. \stemUp a8 fis4 r8. a16|
+  \stemUp a4 \stemDown b8. a16\noBeam fis4 g|
+  \break
+  %rigo canto 1.5
+
   }
 \addlyrics{
 Pro -- stra -- ta _ nel -- la pol -- ve -- re schia -- va ai _ tiranni
 tuo -- i ma -- dre d'in -- vit -- ti E -- ro -- _ i vi -- ve -- vi in _ pian -- to?
 di vi -- ve -- vi in pian -- to i di ma su nel ciel più
+vi -- vi -- da tor -- na a bril -- lar tua stel -- la ri -- sor -- gi I -- ta -- lia
 }
   \layout {
   ragged-last = ##t
