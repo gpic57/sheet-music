@@ -11,7 +11,7 @@
   \tempo 4=120
   \key d \major
   %rigo canto 1.1
-  \partial 16 a'16|
+  \partial 16 a'16 ^\markup{\bold "Tempo di marcia"}|
   a4 b8. a16 fis4 g|
   a4. \stemUp b8 a4 r|
   e4 e8. fis16\noBeam g4 \stemUp b|
