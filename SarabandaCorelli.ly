@@ -37,7 +37,21 @@
   c8 [b] c d c[ bes]|
   \break
   %rigo up 1.3
-  
+  a8 [g] a f g[ a]|
+  bes8 a bes2|
+  ees,8 _\< [d] c d ees[ c]\!|
+  <a' fis>2 <g d>4|
+  <g ees>4 _\> <fis d>8 c d4|
+  \break
+  %rigo up 1.4
+  g8  [fis]\! g aes g[ f]|
+  ees8 [d] ees c d[ ees]|
+  f8 [e] f g f[ ees]|
+  d8 [c] d bes c[ d]|
+  ees8 [d] ees f g[ ees]|
+  \break
+  %rigo up 1.5
+
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -63,6 +77,18 @@
     c,4 g' c|
     \break
     %rigo down 1.3
+    f,,4 c' f|
+    bes4 f8[ bes, ] d bes|
+    c4 ees g|
+    d8 [ees] d c bes[ g]|
+    c4^( d~ d8 d,|
+    \break
+    %rigo down 1.4
+    g4. f'!8 ees[ d]|
+    c4 g c,|
+    f4 c' f|
+    bes, f' bes,|
+    ees, c' ees
       } %Chiude relative low
              
 }%Chiude Staff low
