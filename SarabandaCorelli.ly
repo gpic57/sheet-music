@@ -8,7 +8,7 @@
 \score {
 << % Apre Piano
  \new PianoStaff  
-      \with { instrumentName = \markup{\italic "MOLTO SOSTENUTO"  }
+      \with { instrumentName = \markup{\italic "Clavio"  }
       
  }
 <<
@@ -18,9 +18,10 @@
   \clef treble  
   \key ees \major 
   \time 3/4
-  \tempo 4=160
+  \tempo 4=55
   \relative c' {
   %rigo up 1.1
+  \repeat volta 2{%Apre volta
   <g' ees>_( \mf <g c,>4. aes8|
   d,2) g4_(|
   c,4) c4._( d8|
@@ -28,7 +29,15 @@
   c4_( <aes' f>2)
   \break
   %rigo up 1.2
-
+  <aes f>4_( <g ees>) <g d>|
+  <f c>4 c8[_( ees] d c|
+   b2.)|
+}%Chiude volta
+  b'8 [a] b g a[ b]|
+  c8 [b] c d c[ bes]|
+  \break
+  %rigo up 1.3
+  
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -38,6 +47,7 @@
     \time 3/4
     \relative c{
     %rigo down 1.1
+    \repeat volta 2{ %Apre volta
     aes8 [bes] c aes c[ d]|
     g8 [aes] g f ees[ c]|
     f8 [g] f ees d[ bes]|
@@ -45,7 +55,14 @@
     aes8 [g] f ees d[ c]|
     \break
     %rigo down 1.2
-    
+    b8 [g] c ees bes[ c]|
+    aes8 g f2|
+    g8^( d' g2)|
+    }% Chiude volta
+    g,4 ees' g|
+    c,4 g' c|
+    \break
+    %rigo down 1.3
       } %Chiude relative low
              
 }%Chiude Staff low
@@ -71,7 +88,7 @@
   %\Voice 
   %\remove "Slur_engraver"
     } 
-    indent = 4\cm
+    indent = 2\cm
     %short-indent = 2\cm
     %ragged-right = ##f
     %ragged-last = ##f
