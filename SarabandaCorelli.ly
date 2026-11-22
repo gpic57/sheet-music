@@ -33,6 +33,7 @@
   <f c>4 c8[_( ees] d c|
    b2.)|
 }%Chiude volta
+\repeat volta 2{%Apre volta2
   b'8 [a] b g a[ b]|
   c8 [b] c d c[ bes]|
   \break
@@ -51,7 +52,11 @@
   ees8 [d] ees f g[ ees]|
   \break
   %rigo up 1.5
-
+  c4 _\< c2\!|
+  d8 [f] ees d c[ ees]|
+  aes8 [c,] c4 b4|
+  c2.
+  }%Chiude volta2
      } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -73,6 +78,7 @@
     aes8 g f2|
     g8^( d' g2)|
     }% Chiude volta
+    \repeat volta 2{%Apre volta2b
     g,4 ees' g|
     c,4 g' c|
     \break
@@ -81,14 +87,21 @@
     bes4 f8[ bes, ] d bes|
     c4 ees g|
     d8 [ees] d c bes[ g]|
-    c4^( d~ d8 d,|
+    c4 d~ d8 d,|
     \break
     %rigo down 1.4
     g4. f'!8 ees[ d]|
     c4 g c,|
     f4 c' f|
     bes, f' bes,|
-    ees, c' ees
+    ees, c' ees|
+    \break
+    %rigo down 1.5
+    aes8 [b] aes g f[ aes]|
+    g8 [aes] g f ees[ c]|
+    f4 ^\>g^( g,)|
+    <g' ees c>2^( c,,4)\!
+    }%Chiude volta2
       } %Chiude relative low
              
 }%Chiude Staff low
