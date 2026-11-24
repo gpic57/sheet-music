@@ -18,14 +18,14 @@
     \time 4/4
     \tempo 4 = 88
     %rigo canto 1.1
-    R1|
+    R1 ^\markup{\bold "Adagio."}|
     r2 \tupletUp \tuplet 3/2{fis8.\noBeam fis16 fis8\noBeam} fis\noBeam fis|
 
     
   }%Chiude relative Canto
   \addlyrics {
   _ L'albero a cui ten-
-  devi 
+  de -- vi la par -- go -- let -- ta ma -- no, il ver -- de me -- lo gra -- no da' bei ver -- mi -- gli
   
    }%Chiude lyrics
    
@@ -45,6 +45,7 @@
   }
   \\
   {<cis a>8  <d bes>4 <e cis>8 \stemDown a,2|
+  
   }
   >>
     } %Chiude relative Up
@@ -55,7 +56,13 @@
     \time 4/4
     \relative c{
   %rigo down 1.1
-  c4  
+  <a f>2 a4 \stemUp d|
+  <<{\stemDown f!4 s4\breathe \stemUp fis2 }
+  \\
+  {s4 a,4 a4 a4}
+  \\
+  {\stemDown s2 d,_\markup{\dynamic p \italic "rall."}}
+  >>
       } %Chiude relative low
              
 }%Chiude Staff low
