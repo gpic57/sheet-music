@@ -48,17 +48,19 @@
   \relative c' {
   %rigo up 1.1
   <fis d fis,>4^( _\mf <a fis a,>4. <cis a cis,>4 <d bes d,>8
-  <<{a2)\breathe <a d,>8[ d,] e fis|
+  <<{a2)\breathe <a d,>8[^( d,] e fis|
   \break
   %rigo up 1.2a
   s2 b2|
   a2 s2|
-
+  <b dis,>8_\< <cis e,> <dis fis,> <e g,> e8\! b4 g8|
   }
   \\
   {<cis, a>8  <d bes>4 <e cis>8 \stemDown a,2|
   %rigo up 1.2b
-  \stemUp <g' b,>8^- b, d4 \stemDown dis8[ e] fis g|
+  \stemUp <g' b,>8^- b, d4) \stemDown dis8[^( e] fis g|
+  \stemDown fis a,8 d4) \stemUp <d' d,>8[ <fis, d>] <g e> <a fis>|
+  s2 \stemDown g2|
   }
   >>
     } %Chiude relative Up
