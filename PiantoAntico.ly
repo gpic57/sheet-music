@@ -72,11 +72,27 @@
     \relative c{
   %rigo down 1.1
   <a f>2 a4 \stemUp d|
-  <<{\stemDown f!4 s4\breathe \stemUp fis2 }
+  <<{\stemDown f!4 s4\breathe \stemUp fis2| 
+  e2 bis8[ cis] d! e  
+  }
   \\
-  {s4 a,4 a4 a4}
+  {s4 a,4_~ a4 a4_\(
+  a4\) a2.|
+  }
   \\
-  {\stemDown s2 d,_\markup{\dynamic p \italic "rall."}}
+  {\stemDown s2 d,_\markup{\dynamic p \italic "rall."}
+  d2 d
+  }
+  >>
+  <<{fis'2 d4 b'|
+  fis4 e b' dis,8 e|
+
+  }
+  \\
+  {d8 cis c4 b2|
+  a2 g|
+  
+  }
   >>
       } %Chiude relative low
              
