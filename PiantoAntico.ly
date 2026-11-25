@@ -27,12 +27,14 @@
     b4 b8\noBeam b b\noBeam b \tuplet 3/2{b4 cis?8}
     \break
     %rigo canto 1.3
-
+    cis4 r8 cis8 \tuplet 3/2{d4 d8} \tuplet 3/2{d8 d8.\noBeam d16}|
+    d4 cis4 \breathe \tuplet 3/2 {cis8 cis\noBeam cis} \tuplet 3/2{a4 cis8}
+    cis4 b8 \breathe b b b \tuplet 3/2 {g4 fis8} 
   }%Chiude relative Canto
   \addlyrics {
   _ L'albero a cui ten-
   de -- vi la par -- go -- let -- ta ma -- no, il ver -- de me -- lo gra -- no da' bei ver -- mi -- gli
-  fior, nel mu -- to or --to so -- lin -- go rin -- ver -- dì tut -- to or o -- ra e giu -- gno lo ri-
+  fior, nel mu -- to or --to so -- lin -- go rin -- ver -- dì tut -- to_or o -- ra e giu -- gno lo ri-
    
    }%Chiude lyrics
    
