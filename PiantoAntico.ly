@@ -49,10 +49,16 @@
   %rigo up 1.1
   <fis d fis,>4^( _\mf <a fis a,>4. <cis a cis,>4 <d bes d,>8
   <<{a2)\breathe <a d,>8[ d,] e fis|
+  \break
+  %rigo up 1.2a
+  s2 b2|
+  a2 s2|
+
   }
   \\
-  {<cis a>8  <d bes>4 <e cis>8 \stemDown a,2|
-  
+  {<cis, a>8  <d bes>4 <e cis>8 \stemDown a,2|
+  %rigo up 1.2b
+  \stemUp <g' b,>8^- b, d4 \stemDown dis8[ e] fis g|
   }
   >>
     } %Chiude relative Up
