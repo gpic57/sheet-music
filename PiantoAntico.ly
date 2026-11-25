@@ -20,13 +20,20 @@
     %rigo canto 1.1
     R1 ^\markup{\bold "Adagio."}|
     r2 \tupletUp \tuplet 3/2{fis8.\noBeam fis16 fis8\noBeam} fis\noBeam fis|
+    \break
+    %rigo canto 1.2
+    e8 e r16 e\noBeam e e \noBeam b'4. b8|
+    \tuplet 3/2 {a4 a8} r8 a \tuplet 3/2{d4 d d8 d\noBeam}|
+    b4 b8\noBeam b b\noBeam b \tuplet 3/2{b4 cis?8}
+    \break
+    %rigo canto 1.3
 
-    
   }%Chiude relative Canto
   \addlyrics {
   _ L'albero a cui ten-
   de -- vi la par -- go -- let -- ta ma -- no, il ver -- de me -- lo gra -- no da' bei ver -- mi -- gli
-  
+  fior, nel mu -- to or --to so -- lin -- go rin -- ver -- dì tut -- to or o -- ra e giu -- gno lo ri-
+   
    }%Chiude lyrics
    
  \new PianoStaff  
