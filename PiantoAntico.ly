@@ -30,12 +30,19 @@
     cis4 r8 cis8 \tuplet 3/2{d4 d8} \tuplet 3/2{d8 d8.\noBeam d16}|
     d4 cis4 \breathe \tuplet 3/2 {cis8 cis\noBeam cis} \tuplet 3/2{a4 cis8}
     cis4 b8 \breathe b b b \tuplet 3/2 {g4 fis8} 
+    \break
+    %rigo canto 2.4
+    fis4 \tuplet 3/2{e8 r e}  \tuplet 3/2{d4 d8} e8 e16|
+    fis4_\( fis8\) r8 r2|
+    r8 a4 r8 a4 \tuplet3/2{a8 a a}|
   }%Chiude relative Canto
   \addlyrics {
   _ L'albero a cui ten-
   de -- vi la par -- go -- let -- ta ma -- no, il ver -- de me -- lo gra -- no da' bei ver -- mi -- gli
   fior, nel mu -- to or --to so -- lin -- go rin -- ver -- dì tut -- to_or o -- ra e giu -- gno lo ri-
-   
+  -sto -- ra di lu -- ce e di ca -- lor..... Tu fior de la mia
+  pian -- ta per -- cos -- sa i -- na -- ri -- di -- ta, tu de l'i -- nu -- til
+  
    }%Chiude lyrics
    
  \new PianoStaff  
@@ -75,6 +82,18 @@
   cis,4 b g2|
   }
   >>
+  <<{<fis' b,>4^-^( <e cis>4 _\< d4.^- e8)\!|
+  <fis d>4^( <a fis>4. <cis a>4 <d bes>8|
+  a2 \breathe <a a,>2)|
+  \break
+  %rigo up 2.4a
+  }
+  \\
+  {g,2 <cis a>4 b8 cis
+  \stemUp fis,4 a4. cis4 d8|
+  \stemDown cis8^~ <cis a>4 _\> cis8 \! f8[_\< d] e f\!|
+  }
+  >>
     } %Chiude relative Up
 }%Chiude New Staff Up
     \new Staff = "down" { 
@@ -101,6 +120,11 @@
   e8[ e] cis4 \breathe e2|
   e2 d|
   d2 e4. d8|
+  \break
+  %rigo down 2.4a
+  d4 e fis g|
+  a,2 a4 d|
+  s2 <f d,>2
   }
   \\
   {d8 cis c4 b2|
@@ -108,6 +132,11 @@
   fis2 e4 fis8 g|
   a2 d,4 e8 fis|
   g4. fis8 e4 fis8 g|
+  \break
+  %rigo down 2.4b
+  a1|
+  d,2 s2|
+  f'4~ _\sfz <f a,>~ a, a4|
   }
   >>
       } %Chiude relative low
