@@ -59,7 +59,8 @@
   \break
   %rigo up 1.2b
   <b g e b>4^- <ais fis e ais,>4) \breathe b4._\< e,8\!|
-
+  <e g,>4 <fis a,>8 <g b,> a8^(_\< a4 d,8\!|
+  <d fis,>4 <e g,>8 <fis a,>)<d b g>4. <fis b,>8
   }
   \\
   {<cis a>8  <d bes>4 <e cis>8 \stemDown a,2|
@@ -69,7 +70,9 @@
   s2 \stemDown g2|
   \break
   %rigo up 1.3b
-  s2 <b g d b>2
+  s2 <b g d b>2^(|
+  \stemDown d,4 cis <a' fis cis a>2)|
+  cis,4 b g2|
   }
   >>
     } %Chiude relative Up
