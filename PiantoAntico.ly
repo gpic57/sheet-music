@@ -56,13 +56,20 @@
   s2 b2|
   a2 s2|
   <b dis,>8_\< <cis e,> <dis fis,> <e g,> e8\! b4 g8|
+  \break
+  %rigo up 1.2b
+  <b g e b>4^- <ais fis e ais,>4) \breathe b4._\< e,8\!|
+
   }
   \\
-  {<cis, a>8  <d bes>4 <e cis>8 \stemDown a,2|
-  %rigo up 1.2b
+  {<cis a>8  <d bes>4 <e cis>8 \stemDown a,2|
+  %rigo up 1.3a
   \stemUp <g' b,>8^- b, d4) \stemDown dis8[^( e] fis g|
-  \stemDown fis a,8 d4) \stemUp <d' d,>8[ <fis, d>] <g e> <a fis>|
+  \stemDown fis a,8 d4) \stemUp <d' d,>8[^( <fis, d>] <g e> <a fis>|
   s2 \stemDown g2|
+  \break
+  %rigo up 1.3b
+  s2 <b g d b>2
   }
   >>
     } %Chiude relative Up
