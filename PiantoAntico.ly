@@ -81,15 +81,17 @@
   \stemDown d,4 cis <a' fis cis a>2)|
   cis,4 b g2|
   }
-  >>
+  >> 
+  \break
+  %rigo up 2.4a
   <<{<fis' b,>4^-^( <e cis>4 _\< d4.^- e8)\!|
   <fis d>4^( <a fis>4. <cis a>4 <d bes>8|
   a2 \breathe <a a,>2)|
-  \break
-  %rigo up 2.4a
   }
   \\
-  {g,2 <cis a>4 b8 cis
+  {
+  %rigo up 2.4b
+  g,2 <cis a>4 b8 cis
   \stemUp fis,4 a4. cis4 d8|
   \stemDown cis8^~ <cis a>4 _\> cis8 \! f8[_\< d] e f\!|
   }
