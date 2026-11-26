@@ -16,7 +16,7 @@
     \clef treble
     \key d \major 
     \time 4/4
-    \tempo 4 = 88
+    \tempo 4 = 58
     %rigo canto 1.1
     R1 ^\markup{\bold "Adagio."}|
     r2 \tupletUp \tuplet 3/2{fis8.\noBeam fis16 fis8\noBeam} fis\noBeam fis|
