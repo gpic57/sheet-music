@@ -97,13 +97,17 @@
   }
   >>
   <<{fis'2 d4 b'|
-  fis4 e b' dis,8 e|
-
+  fis4 e b' dis,8 e~|
+  e8[ e] cis4 \breathe e2|
+  e2 d|
+  d2 e4. d8|
   }
   \\
   {d8 cis c4 b2|
   a2 g|
-  
+  fis2 e4 fis8 g|
+  a2 d,4 e8 fis|
+  g4. fis8 e4 fis8 g|
   }
   >>
       } %Chiude relative low
