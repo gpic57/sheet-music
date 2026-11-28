@@ -39,6 +39,10 @@
     %rigo canto 2.5
     g4 \tuplet 3/2{g8 r d} \tuplet 3/2{a'4 a8} r16 a a\noBeam a|
     g4 g8 r bes8 bes16\noBeam bes \tuplet 3/2{bes4 bes8|}
+    \break
+    %rigo canto 2.6
+    a4 a8\noBeam g16_( a) bes8 bes\noBeam \tuplet 3/2{e8 e8.\noBeam e16}
+  d4^\( cis?4) \breathe d8 d16\noBeam d16 \tuplet 3/2{d4 a8}
   }%Chiude relative Canto
   \addlyrics {
   _ L'albero a cui ten-
@@ -46,7 +50,7 @@
   fior, nel mu -- to or --to so -- lin -- go rin -- ver -- dì tut -- to_or o -- ra e giu -- gno lo ri-
   -sto -- ra di lu -- ce e di ca -- lor..... Tu fior de la mia
   pian -- ta per -- cos -- sa i -- na -- ri -- di -- ta, tu de l'i -- nu -- til
-  vi -- ta es -- tre -- mo ul -- ti -- mo fior...... sei ne la ter -- ra
+  vi -- ta es -- tre -- mo ul -- ti -- mo fior...... _ sei ne la ter -- ra
 
    }%Chiude lyrics
    
@@ -96,7 +100,6 @@
   %rigo 2.5a
   \stemDown bes,8[ bes]~ _\><des bes>8\!) f8 d d_~ \tupletUp \tuplet 3/2{d[ e f]}
   bes,8 bes4~ <d bes>8 e8[ e] f g|
-  
   \break
   %rigo 2.6a
   }
@@ -132,28 +135,45 @@
   d2 d
   }
   >>
-  <<{fis'2 d4 b'|
+  <<{
+  %rigo down 2.4a
+  fis'2 d4 b'|
   fis4 e b' dis,8 e~|
   e8[ e] cis4 \breathe e2|
   e2 d|
   d2 e4. d8|
   \break
-  %rigo down 2.4a
+  %rigo down 2.5a
   d4 e fis g|
   a,2 a4 d|
-  s2 <f d,>2
+  s2<f d,>2
+  \break
+  %rigo down 2.6a
+  <g d,>2 <d d,>|
+  <g d,>2 ges4._\< fis8\!|
+   \break
+  %rigo down 2.7a
   }
   \\
-  {d8 cis c4 b2|
+  {
+  %rigo down 2.4b
+  d8 cis c4 b2|
   a2 g|
+  %rigo down 2.5b
   fis2 e4 fis8 g|
   a2 d,4 e8 fis|
   g4. fis8 e4 fis8 g|
   \break
-  %rigo down 2.4b
+  %rigo down 2.5b
+  fis4
   a1|
   d,2 s2|
-  f'4~ _\sfz <f a,>~ a, a4|
+  f'4~ _\sfz <f a,> a,4^~|
+  %rigo down 2.6b
+  a4 a2 a4~|
+  a4 a4 g2|
+   \break
+  %rigo down 2.7b
   }
   >>
       } %Chiude relative low
