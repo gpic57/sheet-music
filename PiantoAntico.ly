@@ -32,9 +32,13 @@
     cis4 b8 \breathe b b b \tuplet 3/2 {g4 fis8} 
     \break
     %rigo canto 2.4
-    fis4 \tuplet 3/2{e8 r e}  \tuplet 3/2{d4 d8} e8 e16|
+    fis4 \tuplet 3/2{e8 r e}  \tuplet 3/2{d4 d8} e8. e16\noBeam|
     fis4_\( fis8\) r8 r2|
-    r8 a4 r8 a4 \tuplet3/2{a8 a a}|
+    r8 a4 r8 a4 \tuplet3/2{a8 a\noBeam a}|
+    \break
+    %rigo canto 2.5
+    g4 \tuplet 3/2{g8 r d} \tuplet 3/2{a'4 a8} r16 a a\noBeam a|
+    g4 g8 r bes8 bes16\noBeam bes \tuplet 3/2{bes4 bes8|}
   }%Chiude relative Canto
   \addlyrics {
   _ L'albero a cui ten-
