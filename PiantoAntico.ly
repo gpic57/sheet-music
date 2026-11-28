@@ -46,7 +46,8 @@
   fior, nel mu -- to or --to so -- lin -- go rin -- ver -- dì tut -- to_or o -- ra e giu -- gno lo ri-
   -sto -- ra di lu -- ce e di ca -- lor..... Tu fior de la mia
   pian -- ta per -- cos -- sa i -- na -- ri -- di -- ta, tu de l'i -- nu -- til
-  
+  vi -- ta es -- tre -- mo ul -- ti -- mo fior...... sei ne la ter -- ra
+
    }%Chiude lyrics
    
  \new PianoStaff  
@@ -90,7 +91,14 @@
   %rigo up 2.4a
   <<{<fis' b,>4^-^( <e cis>4 _\< d4.^- e8)\!|
   <fis d>4^( <a fis>4. <cis a>4 <d bes>8|
-  a2 \breathe <a a,>2)|
+  a2 \breathe <a a,>2)^(|
+  \break
+  %rigo 2.5a
+  \stemDown bes,8[ bes]~ _\><des bes>8\!) f8 d d_~ \tupletUp \tuplet 3/2{d[ e f]}
+  bes,8 bes4~ <d bes>8 e8[ e] f g|
+  
+  \break
+  %rigo 2.6a
   }
   \\
   {
@@ -98,6 +106,9 @@
   g,2 <cis a>4 b8 cis
   \stemUp fis,4 a4. cis4 d8|
   \stemDown cis8^~ <cis a>4 _\> cis8 \! f8[_\< d] e f\!|
+  %rigo 2.5b
+  \stemUp g2 <a a,>^(|
+  g2 <bes bes,!>)|
   }
   >>
     } %Chiude relative Up
